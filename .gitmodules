@@ -1,0 +1,3 @@
+[submodule "em-dosbox"]
+	path = em-dosbox
+	url = https://github.com/dreamlayers/em-dosbox.git
