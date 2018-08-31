@@ -79,6 +79,32 @@
       "hasCover": true,
       "coverFilename": "cover.png"
     },
+    "SC2000": {
+      "identifier": "SC2000",
+      "name": {
+        "zh-Hans": "模拟城市 2000",
+        "zh-Hant": "模擬城市 2000",
+        "en": "SimCity 2000"
+      },
+      "releaseYear": 1993,
+      "gameFolder": "SimCity2000",
+      "executable": "'./SC2000.EXE'",
+      "cheats": {
+        "cass": "得到金钱250元（15%的概率是灾难）",
+        "vers": "显示版本",
+        "memy": "内存检查",
+        "test": "内存测试",
+        "joke": "海盗鱿鱼俱乐部图片",
+        "damn, darn,or heck": "住宅区的土地改划为教会",
+        "porn": "损失 $3,000"
+      },
+      "links": {
+        "模擬城市2000 - Wikipedia": "https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%93%AC%E5%9F%8E%E5%B8%822000",
+        "SimCity 2000 Cheats for DOS": "http://patcoston.com/co/cheatdos.aspx"
+      },
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
+    },
     "PrincessMaker2": {
       "identifier": "PrincessMaker2",
       "name": {
