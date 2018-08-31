@@ -14,7 +14,7 @@ def index():
 
 @app.route('/about')
 def about():
-    return "this is aboud"
+    return render_template('about.html', games=game_infos['games'])
 
 
 @app.route('/games/<identifier>/')
