@@ -136,6 +136,22 @@
       },
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "大富翁3": {
+      "identifier": "大富翁3",
+      "name": {
+        "zh-Hans": "大富翁3",
+        "zh-Hant": "大富翁3",
+        "en": "Rich Man 3"
+      },
+      "releaseYear": 1996,
+      "gameFolder": "RICH3",
+      "executable": "'./PLAY.BAT'",
+      "links": {
+        "大富翁3 - Wikipedia": "https://zh.wikipedia.org/wiki/大富翁3"
+      },
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
