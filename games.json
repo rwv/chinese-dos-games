@@ -1,6 +1,7 @@
 {
   "games": {
     "仙剑奇侠传": {
+      "identifier": "仙剑奇侠传",
       "name": {
         "zh-Hans": "仙剑奇侠传",
         "zh-Hant": "仙劍奇俠傳",
@@ -8,11 +9,11 @@
       },
       "releaseYear": 1995,
       "gameFolder": "XianJianQiXiaZhuan",
-      "executeFile": "'./PAL!.EXE'",
+      "executable": "'./PAL!.EXE'",
       "sampleSaves": {
-        "saveCount": 51,
-        "saveFolder": "SAVES",
-        "saveDescription": [
+        "count": 51,
+        "folder": "SAVES",
+        "descriptions": [
           "遊戲開始",
           "仙靈島初遇靈兒",
           "靈兒與逍遙第一夜前留下眼淚",
@@ -65,7 +66,15 @@
           "遇見假巫王",
           "最終章, 決戰拜月教主"
         ],
-        "saveExecute": "'-c', 'mount c .', '-c', 'c:', '-c', 'cd saves', '-c', 'saveplay.bat {}'"
+        "executable": "'-c', 'mount c .', '-c', 'c:', '-c', 'cd saves', '-c', 'saveplay.bat {}'"
+      },
+      "keymaps": {
+        "←→↑↓": "移动",
+        "Alt": "显示菜单、取消操作",
+        "Enter/Ctrl/Space": "对话、调查、菜单选择"
+      },
+      "links": {
+        "仙劍奇俠傳攻略": "https://chiuinan.github.io/game/game/intro/ch/c11/pal/"
       }
     }
   }
