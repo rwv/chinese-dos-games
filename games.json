@@ -152,6 +152,22 @@
       },
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "明星志愿1": {
+      "identifier": "明星志愿1",
+      "name": {
+        "zh-Hans": "明星志愿1",
+        "zh-Hant": "明星志願1",
+        "en": "Stardom"
+      },
+      "releaseYear": 1995,
+      "gameFolder": "STAR",
+      "executable": "'./PLAY.BAT'",
+      "links": {
+        "《明星志愿》 - 互动百科": "http://www.baike.com/wiki/《明星志愿》"
+      },
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
