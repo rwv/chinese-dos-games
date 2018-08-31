@@ -168,6 +168,22 @@
       },
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "三国志4": {
+      "identifier": "三国志4",
+      "name": {
+        "zh-Hans": "三国志IV",
+        "zh-Hant": "三國志IV",
+        "en": "Romance of the Three Kingdoms IV: Wall of Fire"
+      },
+      "releaseYear": 1995,
+      "gameFolder": "SAN4",
+      "executable": "'./SAN486.COM'",
+      "links": {
+        "三国志IV - Wikipedia": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97IV"
+      },
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
