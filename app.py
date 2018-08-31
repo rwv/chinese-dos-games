@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Hello World"
+    return render_template('index.html', games=game_infos['games'])
 
 
 @app.route('/about')
@@ -23,6 +23,12 @@ def game(identifier):
     return render_template('game.html',
                            script_content=generate_script(game_info["executable"], game_info["script"]),
                            game_info=game_info)
+
+
+@app.route('/games/<identifier>/image')
+def game_image(identifier):
+    cover_filename = game_infos["games"][identifier]['coverFilename']
+    return redirect(url_for('static', filename='img/games/{}/{}'.format(identifier, cover_filename), code=301))
 
 
 @app.route('/games/<identifier>/game.data')
