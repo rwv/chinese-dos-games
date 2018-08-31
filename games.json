@@ -1,6 +1,6 @@
 {
-  "games": [
-    {
+  "games": {
+    "仙剑奇侠传": {
       "name": {
         "zh-Hans": "仙剑奇侠传",
         "zh-Hant": "仙劍奇俠傳",
@@ -8,7 +8,7 @@
       },
       "releaseYear": 1995,
       "gameFolder": "XianJianQiXiaZhuan",
-      "executeFile": "PAL!.EXE",
+      "executeFile": "'./PAL!.EXE'",
       "sampleSaves": {
         "saveCount": 51,
         "saveFolder": "SAVES",
@@ -65,8 +65,8 @@
           "遇見假巫王",
           "最終章, 決戰拜月教主"
         ],
-        "saveExecute": "SAVEPLAY.BAT"
+        "saveExecute": "'-c', 'mount c .', '-c', 'c:', '-c', 'cd saves', '-c', 'saveplay.bat {}'"
       }
     }
-  ]
+  }
 }
