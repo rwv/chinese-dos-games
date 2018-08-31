@@ -75,7 +75,25 @@
       },
       "links": {
         "仙劍奇俠傳攻略": "https://chiuinan.github.io/game/game/intro/ch/c11/pal/"
-      }
+      },
+      "hasCover": true,
+      "coverFilename": "cover.png"
+    },
+    "NANPA2": {
+      "identifier": "NANPA2",
+      "name": {
+        "zh-Hans": "同级生 2",
+        "zh-Hant": "同級生 2",
+        "en": "Dōkyūsei 2"
+      },
+      "releaseYear": 1995,
+      "gameFolder": "NANPA2",
+      "executable": "'./START.BAT'",
+      "links": {
+        "同级生2 - Wikipedia": "https://zh.wikipedia.org/wiki/同級生2"
+      },
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
