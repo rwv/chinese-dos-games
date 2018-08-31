@@ -1,0 +1,4 @@
+virtualsize=8192
+deleteswap
+swapname=temp.swp
+

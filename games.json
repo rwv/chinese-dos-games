@@ -184,6 +184,22 @@
       },
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "金庸群侠传": {
+      "identifier": "金庸群侠传",
+      "name": {
+        "zh-Hans": "金庸群侠传",
+        "zh-Hant": "金庸群俠傳",
+        "en": "Jin Yong Qun Xia Zhuan"
+      },
+      "releaseYear": 1996,
+      "gameFolder": "JinYongQunXiaZhuan",
+      "executable": "'./PLAY.BAT'",
+      "links": {
+        "金庸群侠传 - Wikipedia": "https://zh.wikipedia.org/wiki/%E9%87%91%E5%BA%B8%E7%BE%A4%E4%BF%A0%E5%82%B3"
+      },
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
