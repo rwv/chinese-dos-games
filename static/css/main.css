@@ -106,3 +106,20 @@ canvas.emscripten {
 .game-title {
     display: inline-block;
 }
+
+.index-card-title-left {
+    display: inline-block;
+}
+
+.index-card-title-right {
+    display: inline-block;
+    float: right;
+}
+
+.grid-item {
+    width: 250px;
+}
+
+.grid-item--width2 {
+    width: 500px;
+}

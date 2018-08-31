@@ -1,19 +1,41 @@
 {% extends 'base.html' %}
 
 
-{% block title %}{{ game_info["name"]["zh-Hans"] }} Saves{% endblock %}
+{% block title %} 首页 {% endblock %}
 {% block main %}
-    <div class="container mt-3">
-        <h1>{{ game_info["name"]["zh-Hans"] }}经典存档合集</h1>
-        {% if game_info.sampleSaves %}
-            <ul>
-                {% for desription in game_info.sampleSaves.descriptions %}
-                    <li>
-                        <a href="{{ url_for('game_save', identifier=game_info['identifier'], save_number=loop.index-1) }}">{{ desription }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
+    <div class="container mt-3 grid">
+        {% if games %}
+            {% for key, game_info in games.items() %}
+                <div class="card grid-item mb-3 mr-3">
+                    <a href="{{ url_for('game', identifier=game_info.identifier) }}">
+                        <img class="card-img-top" src="{{ url_for('game_image', identifier=game_info.identifier) }}"
+                             alt="{{ game_info['name']['zh-Hans'] }}">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title index-card-title-left">{{ game_info['name']['zh-Hans'] }}</h5>
+                        <h5 class="card-title index-card-title-right">{% if game_info.sampleSaves %}💾{% endif %}</h5>
+                    </div>
+                </div>
+            {% endfor %}
         {% endif %}
+        <div class="grid">
+        </div>
     </div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script>
+        var elem = document.querySelector('.grid');
+        var msnry = new Masonry(elem, {
+            // options
+            itemSelector: '.grid-item',
+            columnWidth: 200
+        });
+
+        // element argument can be a selector string
+        //   for an individual element
+        var msnry = new Masonry('.grid', {
+            // options
+        });
+    </script>
 {% endblock %}
+
 
