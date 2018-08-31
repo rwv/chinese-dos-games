@@ -79,6 +79,22 @@
       "hasCover": true,
       "coverFilename": "cover.png"
     },
+    "PrincessMaker2": {
+      "identifier": "PrincessMaker2",
+      "name": {
+        "zh-Hans": "美少女梦工厂",
+        "zh-Hant": "美少女夢工廠",
+        "en": "Princess Maker 2"
+      },
+      "releaseYear": 1988,
+      "gameFolder": "PrincessMaker2",
+      "executable": "'./PM2.COM'",
+      "links": {
+        "Princess Maker 2 - Wikipedia": "https://en.wikipedia.org/wiki/Princess_Maker_2"
+      },
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
+    },
     "NANPA2": {
       "identifier": "NANPA2",
       "name": {
