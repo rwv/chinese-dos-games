@@ -343,6 +343,19 @@
       "executable": "'./SAN5.COM'",
       "hasCover": true,
       "coverFilename": "cover.png"
+    },
+    "三国志5X": {
+      "identifier": "三国志5X",
+      "name": {
+        "zh-Hans": "三国志V 威力加强版",
+        "zh-Hant": "三國志V 威力加強版",
+        "en": "Romance of the Three Kingdoms V X"
+      },
+      "releaseYear": 1997,
+      "gameFolder": "SAN5X",
+      "executable": "'./PLAY.BAT'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
