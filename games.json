@@ -213,6 +213,19 @@
       "executable": "'./PLAY.BAT'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "轩辕剑2": {
+      "identifier": "轩辕剑2",
+      "name": {
+        "zh-Hans": "轩辕剑2",
+        "zh-Hant": "軒轅劍2",
+        "en": "Xuan-Yuan Sword 2"
+      },
+      "releaseYear": 1994,
+      "gameFolder": "XuanYuanJian2",
+      "executable": "'./SWD2.EXE'",
+      "hasCover": true,
+      "coverFilename": "cover.png"
     }
   }
 }
