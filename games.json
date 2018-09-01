@@ -356,6 +356,19 @@
       "executable": "'./PLAY.BAT'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "三国志英杰传": {
+      "identifier": "三国志英杰传",
+      "name": {
+        "zh-Hans": "三国志英杰传",
+        "zh-Hant": "三國志英傑傳",
+        "en": "Romance of the Three Kingdoms Heroic Legend"
+      },
+      "releaseYear": 1995,
+      "gameFolder": "REKO3",
+      "executable": "'./REKO3.COM'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
