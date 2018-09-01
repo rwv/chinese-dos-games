@@ -434,6 +434,19 @@
       "executable": "'./FD2.EXE'",
       "hasCover": true,
       "coverFilename": "cover.png"
+    },
+    "倚天屠龙记": {
+      "identifier": "倚天屠龙记",
+      "name": {
+        "zh-Hans": "倚天屠龙记",
+        "zh-Hant": "倚天屠龍記",
+        "en": "Heavenly Sword Dragon Slaying Sabe"
+      },
+      "releaseYear": 1994,
+      "gameFolder": "ETIN",
+      "executable": "'./PLAY.BAT'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
