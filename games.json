@@ -265,6 +265,19 @@
       "executable": "'./PLAY.BAT'",
       "hasCover": true,
       "coverFilename": "cover.png"
+    },
+    "大航海时代": {
+      "identifier": "大航海时代",
+      "name": {
+        "zh-Hans": "大航海时代",
+        "zh-Hant": "大航海時代",
+        "en": "Uncharted Waters"
+      },
+      "releaseYear": 1991,
+      "gameFolder": "UnchartedWaters",
+      "executable": "'./KOEI.COM'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
