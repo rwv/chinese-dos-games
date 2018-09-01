@@ -408,6 +408,19 @@
       "executable": "'./3K_CRK.COM'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "殖民计划": {
+      "identifier": "殖民计划",
+      "name": {
+        "zh-Hans": "殖民计划",
+        "zh-Hant": "殖民計畫",
+        "en": "Colonial plan"
+      },
+      "releaseYear": 1991,
+      "gameFolder": "ZhiMinJiHua",
+      "executable": "'./APS.BAT'",
+      "hasCover": true,
+      "coverFilename": "cover.png"
     }
   }
 }
