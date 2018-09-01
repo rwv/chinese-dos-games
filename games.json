@@ -421,6 +421,19 @@
       "executable": "'./APS.BAT'",
       "hasCover": true,
       "coverFilename": "cover.png"
+    },
+    "炎龙骑士团2黄金城之谜": {
+      "identifier": "炎龙骑士团2黄金城之谜",
+      "name": {
+        "zh-Hans": "炎龙骑士团II‧黄金城之谜",
+        "zh-Hant": "炎龍騎士團II‧黃金城之謎",
+        "en": "Flame Dragon 2: Legend of Golden Castle"
+      },
+      "releaseYear": 1995,
+      "gameFolder": "FlameDragon2",
+      "executable": "'./FD2.EXE'",
+      "hasCover": true,
+      "coverFilename": "cover.png"
     }
   }
 }
