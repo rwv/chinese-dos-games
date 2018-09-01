@@ -200,6 +200,19 @@
       },
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "轩辕剑1": {
+      "identifier": "轩辕剑1",
+      "name": {
+        "zh-Hans": "轩辕剑1",
+        "zh-Hant": "軒轅劍1",
+        "en": "Xuan-Yuan Sword 1"
+      },
+      "releaseYear": 1996,
+      "gameFolder": "XuanYuanJian1",
+      "executable": "'./PLAY.BAT'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
