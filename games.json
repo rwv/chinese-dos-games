@@ -317,6 +317,19 @@
       "executable": "'./Koei.bat'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "三国志3": {
+      "identifier": "三国志3",
+      "name": {
+        "zh-Hans": "三国志III",
+        "zh-Hant": "三國志III",
+        "en": "Romance of the Three Kingdoms III"
+      },
+      "releaseYear": 1993,
+      "gameFolder": "SANGO3",
+      "executable": "'./KOEI.COM'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
