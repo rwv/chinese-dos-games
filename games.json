@@ -252,6 +252,19 @@
       "executable": "'./SWDA.EXE'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "疯狂医院": {
+      "identifier": "疯狂医院",
+      "name": {
+        "zh-Hans": "疯狂医院",
+        "zh-Hant": "瘋狂醫院",
+        "en": "Crazy Doctor"
+      },
+      "releaseYear": 1993,
+      "gameFolder": "CrazyDoctor",
+      "executable": "'./PLAY.BAT'",
+      "hasCover": true,
+      "coverFilename": "cover.png"
     }
   }
 }
