@@ -382,6 +382,19 @@
       "executable": "'./HOSPITAL.EXE'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "三国演义": {
+      "identifier": "三国演义",
+      "name": {
+        "zh-Hans": "三国演义",
+        "zh-Hant": "三國演義",
+        "en": "Romance of the Three Kingdoms"
+      },
+      "releaseYear": 1991,
+      "gameFolder": "SGYY",
+      "executable": "'./AA.EXE'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
