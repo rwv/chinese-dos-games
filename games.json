@@ -304,6 +304,19 @@
       "executable": "'./GIN3.COM'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "三国志2": {
+      "identifier": "三国志2",
+      "name": {
+        "zh-Hans": "三国志II",
+        "zh-Hant": "三國志II",
+        "en": "Romance of the Three Kingdoms II"
+      },
+      "releaseYear": 1991,
+      "gameFolder": "SAN2",
+      "executable": "'./Koei.bat'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
