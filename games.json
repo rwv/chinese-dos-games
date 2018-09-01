@@ -226,6 +226,19 @@
       "executable": "'./SWD2.EXE'",
       "hasCover": true,
       "coverFilename": "cover.png"
+    },
+        "皇帝": {
+      "identifier": "皇帝",
+      "name": {
+        "zh-Hans": "皇帝",
+        "zh-Hant": "皇帝",
+        "en": "Emperor"
+      },
+      "releaseYear": 1996,
+      "gameFolder": "EmperorX",
+      "executable": "'./SKING.EXE'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
