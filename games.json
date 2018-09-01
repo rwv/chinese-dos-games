@@ -447,6 +447,19 @@
       "executable": "'./PLAY.BAT'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "信长之野望天翔记": {
+      "identifier": "信长之野望天翔记",
+      "name": {
+        "zh-Hans": "信长之野望·天翔记",
+        "zh-Hant": "信長之野望·天翔記",
+        "en": "Nobunaga no Yabō: Tenshōki"
+      },
+      "releaseYear": 1994,
+      "gameFolder": "Tenshou",
+      "executable": "'./TENSHOU.COM'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
