@@ -291,6 +291,19 @@
       "executable": "'./KOUKAI2.COM'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "银河英雄传说3SP": {
+      "identifier": "银河英雄传说3SP",
+      "name": {
+        "zh-Hans": "银河英雄传说III SP",
+        "zh-Hant": "銀河英雄傳說III SP",
+        "en": "Legend of the Galactic Heroes III SP"
+      },
+      "releaseYear": 1994,
+      "gameFolder": "GIN3",
+      "executable": "'./GIN3.COM'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
