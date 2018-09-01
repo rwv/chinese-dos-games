@@ -1,0 +1,5 @@
+minmem = 512
+maxmem = 4096
+virtualsize = 4096
+deleteswap
+swapname=emperor.swp
