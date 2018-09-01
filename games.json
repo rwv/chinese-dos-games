@@ -330,6 +330,19 @@
       "executable": "'./KOEI.COM'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "三国志5": {
+      "identifier": "三国志5",
+      "name": {
+        "zh-Hans": "三国志V",
+        "zh-Hant": "三國志V",
+        "en": "Romance of the Three Kingdoms V"
+      },
+      "releaseYear": 1996,
+      "gameFolder": "SAN5",
+      "executable": "'./SAN5.COM'",
+      "hasCover": true,
+      "coverFilename": "cover.png"
     }
   }
 }
