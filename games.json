@@ -369,6 +369,19 @@
       "executable": "'./REKO3.COM'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "主题医院": {
+      "identifier": "主题医院",
+      "name": {
+        "zh-Hans": "主题医院",
+        "zh-Hant": "杏林也瘋狂",
+        "en": "Theme Hospital"
+      },
+      "releaseYear": 1997,
+      "gameFolder": "ThemeHospital",
+      "executable": "'./HOSPITAL.EXE'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
