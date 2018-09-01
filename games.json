@@ -278,6 +278,19 @@
       "executable": "'./KOEI.COM'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "大航海时代2": {
+      "identifier": "大航海时代2",
+      "name": {
+        "zh-Hans": "大航海时代2",
+        "zh-Hant": "大航海時代2",
+        "en": "Uncharted Waters II"
+      },
+      "releaseYear": 1994,
+      "gameFolder": "UnchartedWaters2",
+      "executable": "'./KOUKAI2.COM'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
