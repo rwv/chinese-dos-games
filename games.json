@@ -395,6 +395,19 @@
       "executable": "'./AA.EXE'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "三界谕邦沛之迷": {
+      "identifier": "三界谕邦沛之迷",
+      "name": {
+        "zh-Hans": "三界谕：邦沛之迷",
+        "zh-Hant": "三界諭：邦沛之謎",
+        "en": "Three Realms encyclical: Bangpei Mystery"
+      },
+      "releaseYear": 1991,
+      "gameFolder": "SanJieYu",
+      "executable": "'./3K_CRK.COM'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
