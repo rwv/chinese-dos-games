@@ -227,7 +227,7 @@
       "hasCover": true,
       "coverFilename": "cover.png"
     },
-        "皇帝": {
+    "皇帝": {
       "identifier": "皇帝",
       "name": {
         "zh-Hans": "皇帝",
@@ -237,6 +237,19 @@
       "releaseYear": 1996,
       "gameFolder": "EmperorX",
       "executable": "'./SKING.EXE'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
+    },
+    "轩辕剑外传：枫之舞": {
+      "identifier": "轩辕剑外传：枫之舞",
+      "name": {
+        "zh-Hans": "轩辕剑外传：枫之舞",
+        "zh-Hant": "軒轅劍外傳：楓之舞",
+        "en": "Xuan-Yuan Sword: Dance of Maple"
+      },
+      "releaseYear": 1995,
+      "gameFolder": "XuanYuanJianWaiZhuanFengZhiWu",
+      "executable": "'./SWDA.EXE'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     }
