@@ -21,21 +21,18 @@
         <div class="grid">
         </div>
     </div>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-    <script>
-        var elem = document.querySelector('.grid');
-        var msnry = new Masonry(elem, {
-            // options
-            itemSelector: '.grid-item',
-            columnWidth: 200
-        });
+{% endblock %}
 
-        // element argument can be a selector string
-        //   for an individual element
-        var msnry = new Masonry('.grid', {
-            // options
+{% block footer %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var $container = $(".grid");
+
+            $container.imagesLoaded(function () {
+                $container.masonry();
+            });
         });
     </script>
 {% endblock %}
-
-
