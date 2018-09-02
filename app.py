@@ -28,7 +28,7 @@ def game(identifier):
 @app.route('/games/<identifier>/image')
 def game_image(identifier):
     cover_filename = game_infos["games"][identifier]['coverFilename']
-    return redirect(url_for('static', filename='img/games/{}/{}'.format(identifier, cover_filename), code=301))
+    return redirect(url_for('static', filename='img/games/{}/{}'.format(identifier, cover_filename)), code=301)
 
 
 @app.route('/games/<identifier>/game.data')
