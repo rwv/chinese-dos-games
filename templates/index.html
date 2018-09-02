@@ -29,8 +29,10 @@
     <script>
         $(document).ready(function () {
             var $container = $(".grid");
+            $container.masonry();
 
-            $container.imagesLoaded(function () {
+            $container.imagesLoaded()
+            .progress(function (instance, image) {
                 $container.masonry();
             });
         });
