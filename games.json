@@ -460,6 +460,19 @@
       "executable": "'./TENSHOU.COM'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "信长之野望霸王传": {
+      "identifier": "信长之野望霸王传",
+      "name": {
+        "zh-Hans": "信长之野望·霸王传",
+        "zh-Hant": "信長之野望·霸王傳",
+        "en": "Nobunaga no Yabō: Haouden"
+      },
+      "releaseYear": 1992,
+      "gameFolder": "HAOU",
+      "executable": "'./KOEI.COM'",
+      "hasCover": true,
+      "coverFilename": "cover.jpg"
     }
   }
 }
