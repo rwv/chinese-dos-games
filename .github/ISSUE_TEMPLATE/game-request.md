@@ -1,6 +1,6 @@
 ---
 name: Game request
-about: Requesting new game. 新游戏请求。
+about: "\U0001F3AE Requesting new game. 新游戏请求。"
 
 ---
 
