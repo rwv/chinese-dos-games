@@ -46,7 +46,7 @@ def game_saves(identifier):
 def game_save(identifier, save_number):
     game_info = game_infos["games"][identifier]
     return render_template('game.html',
-                           script_content=generate_script(game_info["executable"].format(save_number),
+                           script_content=generate_script(game_info['sampleSaves']["executable"].format(save_number),
                                                           game_info['script']),
                            game_info=game_info,
                            current_save=game_info['sampleSaves']['descriptions'][int(save_number)])
