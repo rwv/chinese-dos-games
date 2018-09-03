@@ -14,11 +14,12 @@
                         <div>
                             <h5 class="card-title game-title">{{ game_info["name"]["zh-Hans"] }}</h5>
                             <!-- TODO: hide because fullscreen will freeze the game -->
-                            <div id='controls' style="display: none">
-                                <span><input type="checkbox" id="resize">Resize canvas</span>
-                                <span><input type="checkbox" id="pointerLock" checked>锁定/隐藏鼠标指针</span>
-                                <span><input class="btn btn-light" type="button" value="全屏游戏" onclick="Module.requestFullscreen(document.getElementById('pointerLock').checked,
-                                                                                                    document.getElementById('resize').checked)"></span>
+                            <div id='controls'>
+                                <span style="display: none"><input type="checkbox" id="resize">Resize canvas</span>
+                                <span style="display: none"><input type="checkbox" id="pointerLock"
+                                                                   checked>锁定/隐藏鼠标指针</span>
+                                <span><input class="btn btn-light" type="button" value="全屏游戏"
+                                             onclick="Module.requestFullscreen(document.getElementById('pointerLock').checked, document.getElementById('resize').checked);"></span>
                             </div>
                         </div>
                         <div class="spinner" id='spinner'></div>
