@@ -1,0 +1,1 @@
+@stkrun setupcd

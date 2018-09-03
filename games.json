@@ -473,6 +473,19 @@
       "executable": "'./KOEI.COM'",
       "hasCover": true,
       "coverFilename": "cover.jpg"
+    },
+    "金瓶梅": {
+      "identifier": "金瓶梅",
+      "name": {
+        "zh-Hans": "金瓶梅之偷情宝鉴",
+        "zh-Hant": "金瓶梅之偷情寶鑑",
+        "en": "Jin Ping Mei"
+      },
+      "releaseYear": 1997,
+      "gameFolder": "GPM",
+      "executable": "'./PLAY.BAT'",
+      "hasCover": true,
+      "coverFilename": "cover.png"
     }
   }
 }
