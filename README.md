@@ -44,7 +44,6 @@
 
 * 游戏界面在游戏运行时会改变 `<title>`
 * `packager.py` 产生的 Javascript 脚本包含主机的路径信息，需要去除。
-* 全屏功能失效
 
 ## Contributing
 
