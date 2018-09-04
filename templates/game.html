@@ -18,6 +18,8 @@
                                 <span style="display: none"><input type="checkbox" id="resize">Resize canvas</span>
                                 <span style="display: none"><input type="checkbox" id="pointerLock"
                                                                    checked>锁定/隐藏鼠标指针</span>
+                                <span><input class="btn btn-light" type="button" value="网页全屏"
+                                             onclick="htmlFullscreen();"></span>
                                 <span><input class="btn btn-light" type="button" value="全屏游戏"
                                              onclick="Module.requestFullscreen(document.getElementById('pointerLock').checked, document.getElementById('resize').checked);"></span>
                             </div>
@@ -70,6 +72,10 @@
                 {% endif %}
             </div>
         </div>
+    </div>
+
+    <div class="exit_fullscreen" id="exit_button">
+        <input class="btn btn-light" type="button" value="退出" onclick="htmlFullscreen();">
     </div>
 
 
@@ -285,5 +291,6 @@
         document.body.appendChild(script);
 
     </script>
+    <script src="{{ url_for('static', filename='js/game.js') }}"></script>
 {% endblock %}
 
