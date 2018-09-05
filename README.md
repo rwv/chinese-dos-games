@@ -4,7 +4,7 @@
 
 ## 运行
 
-首先编译 `em-dosbox`，编译方法参见 [dreamlayers/em-dosbox: An Emscripten port of DOSBox](https://github.com/dreamlayers/em-dosbox)。将编译出的 `em-dosbox/src/dosbox.js` 和 `em-dosbox/src/dosbox.html.mem` 移动至 `static/dosbox` 文件夹下。然后运行 `generate.py` 生成 `game.data` 文件。最后运行 `app.py`
+（施工中👷）
 
 ## 游戏列表
 
@@ -43,11 +43,12 @@
 ## Known issues
 
 * 游戏界面在游戏运行时会改变 `<title>`
-* `packager.py` 产生的 Javascript 脚本包含主机的路径信息，需要去除。
 
 ## Contributing
 
 欢迎提 Issue 和 Pull request 来增加新的游戏!
 
 ## Credits
-[dreamlayers/em-dosbox: An Emscripten port of DOSBox](https://github.com/dreamlayers/em-dosbox)
+
+* [dreamlayers/em-dosbox: An Emscripten port of DOSBox](https://github.com/dreamlayers/em-dosbox)
+* [db48x/emularity: easily embed emulators](https://github.com/db48x/emularity)
