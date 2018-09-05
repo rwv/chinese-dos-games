@@ -8,7 +8,8 @@
             {% for key, game_info in games.items() %}
                 <div class="card grid-item mb-3 mr-3">
                     <a href="{{ url_for('game', identifier=game_info.identifier) }}">
-                        <img class="card-img-top" src="{{ url_for('game_image', identifier=game_info.identifier) }}"
+                        <img class="card-img-top"
+                             src="{{ url_for('static', filename='img/games/{}/{}'.format(game_info.identifier, game_info.coverFilename)) }}"
                              alt="{{ game_info['name']['zh-Hans'] }}">
                     </a>
                     <div class="card-body">
