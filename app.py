@@ -24,37 +24,16 @@ def game(identifier):
                            script_content=generate_script(game_info["executable"], game_info["script"]),
                            game_info=game_info)
 
+@app.route('/games/<identifier>/logo/emularity_color_small.png')
+def emularity_logo(identifier):
+    return redirect(url_for('static', filename='emularity/emularity_color_small.png'), code=301)
+
 
 @app.route('/games/<identifier>/image')
 def game_image(identifier):
     cover_filename = game_infos["games"][identifier]['coverFilename']
     return redirect(url_for('static', filename='img/games/{}/{}'.format(identifier, cover_filename)), code=301)
 
-
-@app.route('/games/<identifier>/game.data')
-def game_data(identifier):
-    return redirect(url_for('static', filename='gamedata/{}/game.data'.format(identifier)), code=301)
-
-
-@app.route('/games/<identifier>/saves/')
-def game_saves(identifier):
-    game_info = game_infos["games"][identifier]
-    return render_template('saves.html', game_info=game_info)
-
-
-@app.route('/games/<identifier>/saves/<save_number>/')
-def game_save(identifier, save_number):
-    game_info = game_infos["games"][identifier]
-    return render_template('game.html',
-                           script_content=generate_script(game_info['sampleSaves']["executable"].format(save_number),
-                                                          game_info['script']),
-                           game_info=game_info,
-                           current_save=game_info['sampleSaves']['descriptions'][int(save_number)])
-
-
-@app.route('/games/<identifier>/saves/<save_number>/game.data')
-def game_save_data(identifier, save_number):
-    return game_data(identifier)
 
 
 if __name__ == '__main__':

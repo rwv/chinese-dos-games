@@ -13,25 +13,16 @@
                     <div class="card-body">
                         <div>
                             <h5 class="card-title game-title">{{ game_info["name"]["zh-Hans"] }}</h5>
-                            <!-- TODO: hide because fullscreen will freeze the game -->
                             <div id='controls'>
-                                <span style="display: none"><input type="checkbox" id="resize">Resize canvas</span>
-                                <span style="display: none"><input type="checkbox" id="pointerLock"
-                                                                   checked>锁定/隐藏鼠标指针</span>
                                 <span><input class="btn btn-light" type="button" value="网页全屏"
                                              onclick="htmlFullscreen();"></span>
                                 <span><input class="btn btn-light" type="button" value="全屏游戏"
-                                             onclick="Module.requestFullscreen(document.getElementById('pointerLock').checked, document.getElementById('resize').checked);"></span>
+                                             onclick="emulator.requestFullScreen();"></span>
                             </div>
                         </div>
-                        <div class="spinner" id='spinner'></div>
-                        <div class="emscripten" id="status">Downloading...</div>
-                        <div class="emscripten">
-                            <progress value="0" max="100" id="progress" hidden=1></progress>
                         </div>
                     </div>
                 </div>
-            </div>
             <div class="col-sm-4">
                 {% if game_info.keymaps %}
                     <div class="card mb-3">
@@ -41,23 +32,6 @@
                                 <kbd>{{ k }}</kbd> {{ v }}<br>
                             {% endfor %}
                         </div>
-                    </div>
-                {% endif %}
-                {% if game_info.sampleSaves %}
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">存档</h5>
-
-                            <a class="btn btn-light"
-                               href="{{ url_for('game_saves', identifier=game_info['identifier']) }}"
-                               role="button"
-                               target="_blank">经典存档合集</a>
-                        </div>
-                        {% if current_save %}
-                            <div class="card-footer text-muted current_save">
-                                当前存档：{{ current_save }}
-                            </div>
-                        {% endif %}
                     </div>
                 {% endif %}
                 {% if game_info.links %}
@@ -77,219 +51,29 @@
     <div class="exit_fullscreen" id="exit_button">
         <input class="btn btn-light" type="button" value="退出" onclick="htmlFullscreen();">
     </div>
-
-
-    <script type='text/javascript'>
-        var statusElement = document.getElementById('status');
-        var progressElement = document.getElementById('progress');
-        var spinnerElement = document.getElementById('spinner');
-
-        var Module = {
-            preRun: [],
-            postRun: [],
-            print: (function () {
-                var element = document.getElementById('output');
-                if (element) element.value = ''; // clear browser cache
-                return function (text) {
-                    if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
-                    // These replacements are necessary if you render to raw HTML
-                    //text = text.replace(/&/g, "&amp;");
-                    //text = text.replace(/</g, "&lt;");
-                    //text = text.replace(/>/g, "&gt;");
-                    //text = text.replace('\n', '<br>', 'g');
-                    console.log(text);
-                    if (element) {
-                        element.value += text + "\n";
-                        element.scrollTop = element.scrollHeight; // focus on bottom
-                    }
-                };
-            })(),
-            printErr: function (text) {
-                if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
-                if (0) { // XXX disabled for safety typeof dump == 'function') {
-                    dump(text + '\n'); // fast, straight to the real console
-                } else {
-                    console.error(text);
-                }
-            },
-            canvas: (function () {
-                var canvas = document.getElementById('canvas');
-
-                // As a default initial behavior, pop up an alert when webgl context is lost. To make your
-                // application robust, you may want to override this behavior before shipping!
-                // See http://www.khronos.org/registry/webgl/specs/latest/1.0/#5.15.2
-                canvas.addEventListener("webglcontextlost", function (e) {
-                    alert('WebGL context lost. You will need to reload the page.');
-                    e.preventDefault();
-                }, false);
-
-                return canvas;
-            })(),
-            setStatus: function (text) {
-                if (!Module.setStatus.last) Module.setStatus.last = {time: Date.now(), text: ''};
-                if (text === Module.setStatus.last.text) return;
-                var m = text.match(/([^(]+)\((\d+(\.\d+)?)\/(\d+)\)/);
-                var now = Date.now();
-                if (m && now - Module.setStatus.last.time < 30) return; // if this is a progress update, skip it if too soon
-                Module.setStatus.last.time = now;
-                Module.setStatus.last.text = text;
-                if (m) {
-                    text = m[1];
-                    progressElement.value = parseInt(m[2]) * 100;
-                    progressElement.max = parseInt(m[4]) * 100;
-                    progressElement.hidden = false;
-                    spinnerElement.hidden = false;
-                } else {
-                    progressElement.value = null;
-                    progressElement.max = null;
-                    progressElement.hidden = true;
-                    if (!text) spinnerElement.style.display = 'none';
-                }
-                statusElement.innerHTML = text;
-            },
-            totalDependencies: 0,
-            monitorRunDependencies: function (left) {
-                this.totalDependencies = Math.max(this.totalDependencies, left);
-                Module.setStatus(left ? 'Preparing... (' + (this.totalDependencies - left) + '/' + this.totalDependencies + ')' : 'All downloads complete.');
-            }
-        };
-        Module.setStatus('Downloading...');
-        window.onerror = function (event) {
-            // TODO: do not warn on ok events like simulating an infinite loop or exitStatus
-            Module.setStatus('Exception thrown, see JavaScript console');
-            spinnerElement.style.display = 'none';
-            Module.setStatus = function (text) {
-                if (text) Module.printErr('[post-exception status] ' + text);
-            };
-        };
-    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='emularity/es6-promise.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='emularity/browserfs.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='emularity/loader.js') }}"></script>
     <script type="text/javascript">
-        {{ script_content|safe }}
-    </script>
-    <script type="text/javascript">
-        var ASSERTIONS = 0;
-        // Prefix of data URIs emitted by SINGLE_FILE and related options.
-        var dataURIPrefix = 'data:application/octet-stream;base64,';
+        var emulator = new Emulator(document.querySelector("#canvas"),
+            null,
+            new DosBoxLoader(DosBoxLoader.emulatorJS("{{ url_for('static', filename='emularity/dosbox/dosbox-sync.js') }}"),
+                DosBoxLoader.locateAdditionalEmulatorJS(locateAdditionalFiles),
+                DosBoxLoader.nativeResolution(640, 480),
+                DosBoxLoader.mountZip("c",
+                    DosBoxLoader.fetchFile("Game File",
+                        "{{ url_for('static', filename="gamedata/{}.zip".format(game_info["identifier"])) }}")),
+                DosBoxLoader.startExe("{{ game_info["executable"] }}")))
+        emulator.start({waitAfterDownloading: true});
 
-        // Indicates whether filename is a base64 data URI.
-        function isDataURI(filename) {
-            return String.prototype.startsWith ?
-                filename.startsWith(dataURIPrefix) :
-                filename.indexOf(dataURIPrefix) === 0;
-        }
-
-        // Copied from https://github.com/strophe/strophejs/blob/e06d027/src/polyfills.js#L149
-
-        // This code was written by Tyler Akins and has been placed in the
-        // public domain.  It would be nice if you left this header intact.
-        // Base64 code from Tyler Akins -- http://rumkin.com
-
-        /**
-         * Decodes a base64 string.
-         * @param {String} input The string to decode.
-         */
-        var decodeBase64 = typeof atob === 'function' ? atob : function (input) {
-            var keyStr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
-
-            var output = '';
-            var chr1, chr2, chr3;
-            var enc1, enc2, enc3, enc4;
-            var i = 0;
-            // remove all characters that are not A-Z, a-z, 0-9, +, /, or =
-            input = input.replace(/[^A-Za-z0-9\+\/\=]/g, '');
-            do {
-                enc1 = keyStr.indexOf(input.charAt(i++));
-                enc2 = keyStr.indexOf(input.charAt(i++));
-                enc3 = keyStr.indexOf(input.charAt(i++));
-                enc4 = keyStr.indexOf(input.charAt(i++));
-
-                chr1 = (enc1 << 2) | (enc2 >> 4);
-                chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
-                chr3 = ((enc3 & 3) << 6) | enc4;
-
-                output = output + String.fromCharCode(chr1);
-
-                if (enc3 !== 64) {
-                    output = output + String.fromCharCode(chr2);
+        function locateAdditionalFiles(filename) {
+            if (filename === "dosbox.html.mem") {
+                return "{{ url_for('static', filename='emularity/dosbox/dosbox-sync.mem') }}";
                 }
-                if (enc4 !== 64) {
-                    output = output + String.fromCharCode(chr3);
-                }
-            } while (i < input.length);
-            return output;
-        };
-
-        // Converts a string of base64 into a byte array.
-        // Throws error on invalid input.
-        function intArrayFromBase64(s) {
-            if (typeof ENVIRONMENT_IS_NODE === 'boolean' && ENVIRONMENT_IS_NODE) {
-                var buf;
-                try {
-                    buf = Buffer.from(s, 'base64');
-                } catch (_) {
-                    buf = new Buffer(s, 'base64');
-                }
-                return new Uint8Array(buf.buffer, buf.byteOffset, buf.byteLength);
-            }
-
-            try {
-                var decoded = decodeBase64(s);
-                var bytes = new Uint8Array(decoded.length);
-                for (var i = 0; i < decoded.length; ++i) {
-                    bytes[i] = decoded.charCodeAt(i);
-                }
-                return bytes;
-            } catch (_) {
-                throw new Error('Converting base64 string to bytes failed.');
+            else {
+                return "{{ url_for('static', filename='emularity/dosbox/dosbox-sync.mem') }}" + filename;
             }
         }
-
-        // If filename is a base64 data URI, parses and returns data (Buffer on node,
-        // Uint8Array otherwise). If filename is not a base64 data URI, returns undefined.
-        function tryParseAsDataURI(filename) {
-            if (!isDataURI(filename)) {
-                return;
-            }
-
-            return intArrayFromBase64(filename.slice(dataURIPrefix.length));
-        }
-
-        /** @type {function(string, boolean=, number=)} */
-        function intArrayFromString(stringy, dontAddNull, length) {
-            var len = length > 0 ? length : lengthBytesUTF8(stringy) + 1;
-            var u8array = new Array(len);
-            var numBytesWritten = stringToUTF8Array(stringy, u8array, 0, u8array.length);
-            if (dontAddNull) u8array.length = numBytesWritten;
-            return u8array;
-        }
-
-        function intArrayToString(array) {
-            var ret = [];
-            for (var i = 0; i < array.length; i++) {
-                var chr = array[i];
-                if (chr > 0xFF) {
-                    if (ASSERTIONS) {
-                        assert(false, 'Character code ' + chr + ' (' + String.fromCharCode(chr) + ')  at offset ' + i + ' not in 0x00-0xFF.');
-                    }
-                    chr &= 0xFF;
-                }
-                ret.push(String.fromCharCode(chr));
-            }
-            return ret.join('');
-        }
-
-        var memoryInitializer = "{{ url_for('static', filename='dosbox/dosbox.html.mem') }}";
-        memoryInitializer = Module['locateFile'] ? Module['locateFile'](memoryInitializer, '') : memoryInitializer;
-        Module['memoryInitializerRequestURL'] = memoryInitializer;
-        var meminitXHR = Module['memoryInitializerRequest'] = new XMLHttpRequest();
-        meminitXHR.open('GET', memoryInitializer, true);
-        meminitXHR.responseType = 'arraybuffer';
-        meminitXHR.send(null);
-
-        var script = document.createElement('script');
-        script.src = "{{ url_for('static', filename='dosbox/dosbox.js') }}";
-        document.body.appendChild(script);
-
     </script>
     <script src="{{ url_for('static', filename='js/game.js') }}"></script>
 {% endblock %}
