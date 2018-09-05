@@ -21,16 +21,10 @@ def game(identifier):
     game_info = game_infos["games"][identifier]
     return render_template('game.html', game_info=game_info)
 
+
 @app.route('/games/<identifier>/logo/emularity_color_small.png')
 def emularity_logo(identifier):
     return redirect(url_for('static', filename='emularity/emularity_color_small.png'), code=301)
-
-
-@app.route('/games/<identifier>/image')
-def game_image(identifier):
-    cover_filename = game_infos["games"][identifier]['coverFilename']
-    return redirect(url_for('static', filename='img/games/{}/{}'.format(identifier, cover_filename)), code=301)
-
 
 
 if __name__ == '__main__':
