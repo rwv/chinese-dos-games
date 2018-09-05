@@ -368,6 +368,17 @@
       "releaseYear": 1997,
       "executable": "PLAY.BAT",
       "coverFilename": "cover.png"
+    },
+    "江南才子唐伯虎": {
+      "identifier": "江南才子唐伯虎",
+      "name": {
+        "zh-Hans": "江南才子唐伯虎",
+        "zh-Hant": "江南才子唐伯虎",
+        "en": "JiangNan talent TANG BOHU"
+      },
+      "releaseYear": 1999,
+      "executable": "PLAY.BAT",
+      "coverFilename": "cover.jpg"
     }
   }
 }
