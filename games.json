@@ -17,7 +17,6 @@
       "links": {
         "仙劍奇俠傳攻略": "https://chiuinan.github.io/game/game/intro/ch/c11/pal/"
       },
-      "hasCover": true,
       "coverFilename": "cover.png"
     },
     "模拟城市2000": {
@@ -28,7 +27,6 @@
         "en": "SimCity 2000"
       },
       "releaseYear": 1993,
-      "gameFolder": "SimCity2000",
       "executable": "SC2000.EXE",
       "cheats": {
         "cass": "得到金钱250元（15%的概率是灾难）",
@@ -43,7 +41,6 @@
         "模擬城市2000 - Wikipedia": "https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%93%AC%E5%9F%8E%E5%B8%822000",
         "SimCity 2000 Cheats for DOS": "http://patcoston.com/co/cheatdos.aspx"
       },
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "美少女梦工厂2": {
@@ -54,12 +51,10 @@
         "en": "Princess Maker 2"
       },
       "releaseYear": 1988,
-      "gameFolder": "PrincessMaker2",
       "executable": "PM2.COM",
       "links": {
         "Princess Maker 2 - Wikipedia": "https://en.wikipedia.org/wiki/Princess_Maker_2"
       },
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "同级生2": {
@@ -70,12 +65,10 @@
         "en": "Dōkyūsei 2"
       },
       "releaseYear": 1995,
-      "gameFolder": "NANPA2",
       "executable": "START.BAT",
       "links": {
         "同级生2 - Wikipedia": "https://zh.wikipedia.org/wiki/同級生2"
       },
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "大富翁3": {
@@ -86,12 +79,10 @@
         "en": "Rich Man 3"
       },
       "releaseYear": 1996,
-      "gameFolder": "RICH3",
       "executable": "PLAY.BAT",
       "links": {
         "大富翁3 - Wikipedia": "https://zh.wikipedia.org/wiki/大富翁3"
       },
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "明星志愿1": {
@@ -102,12 +93,10 @@
         "en": "Stardom"
       },
       "releaseYear": 1995,
-      "gameFolder": "STAR",
       "executable": "PLAY.BAT",
       "links": {
         "《明星志愿》 - 互动百科": "http://www.baike.com/wiki/《明星志愿》"
       },
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "三国志4": {
@@ -118,12 +107,10 @@
         "en": "Romance of the Three Kingdoms IV: Wall of Fire"
       },
       "releaseYear": 1995,
-      "gameFolder": "SAN4",
       "executable": "SAN486.COM",
       "links": {
         "三国志IV - Wikipedia": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97IV"
       },
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "金庸群侠传": {
@@ -134,12 +121,10 @@
         "en": "Jin Yong Qun Xia Zhuan"
       },
       "releaseYear": 1996,
-      "gameFolder": "JinYongQunXiaZhuan",
       "executable": "PLAY.BAT",
       "links": {
         "金庸群侠传 - Wikipedia": "https://zh.wikipedia.org/wiki/金庸群俠傳"
       },
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "轩辕剑1": {
@@ -150,9 +135,7 @@
         "en": "Xuan-Yuan Sword 1"
       },
       "releaseYear": 1990,
-      "gameFolder": "XuanYuanJian1",
       "executable": "PLAY.BAT",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "轩辕剑2": {
@@ -163,9 +146,7 @@
         "en": "Xuan-Yuan Sword 2"
       },
       "releaseYear": 1994,
-      "gameFolder": "XuanYuanJian2",
       "executable": "SWD2.EXE",
-      "hasCover": true,
       "coverFilename": "cover.png"
     },
     "皇帝": {
@@ -176,9 +157,7 @@
         "en": "Emperor"
       },
       "releaseYear": 1996,
-      "gameFolder": "EmperorX",
       "executable": "SKING.EXE",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "轩辕剑外传：枫之舞": {
@@ -189,9 +168,7 @@
         "en": "Xuan-Yuan Sword: Dance of Maple"
       },
       "releaseYear": 1995,
-      "gameFolder": "XuanYuanJianWaiZhuanFengZhiWu",
       "executable": "SWDA.EXE",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "疯狂医院": {
@@ -202,9 +179,7 @@
         "en": "Crazy Doctor"
       },
       "releaseYear": 1993,
-      "gameFolder": "CrazyDoctor",
       "executable": "PLAY.BAT",
-      "hasCover": true,
       "coverFilename": "cover.png"
     },
     "大航海时代": {
@@ -215,9 +190,7 @@
         "en": "Uncharted Waters"
       },
       "releaseYear": 1991,
-      "gameFolder": "UnchartedWaters",
       "executable": "KOEI.COM",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "大航海时代2": {
@@ -228,9 +201,7 @@
         "en": "Uncharted Waters II"
       },
       "releaseYear": 1994,
-      "gameFolder": "UnchartedWaters2",
       "executable": "KOUKAI2.COM",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "银河英雄传说3SP": {
@@ -241,9 +212,7 @@
         "en": "Legend of the Galactic Heroes III SP"
       },
       "releaseYear": 1994,
-      "gameFolder": "GIN3",
       "executable": "GIN3.COM",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "三国志2": {
@@ -254,9 +223,7 @@
         "en": "Romance of the Three Kingdoms II"
       },
       "releaseYear": 1991,
-      "gameFolder": "SAN2",
       "executable": "Koei.bat",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "三国志3": {
@@ -267,9 +234,7 @@
         "en": "Romance of the Three Kingdoms III"
       },
       "releaseYear": 1993,
-      "gameFolder": "SANGO3",
       "executable": "KOEI.COM",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "三国志5": {
@@ -280,9 +245,7 @@
         "en": "Romance of the Three Kingdoms V"
       },
       "releaseYear": 1996,
-      "gameFolder": "SAN5",
       "executable": "SAN5.COM",
-      "hasCover": true,
       "coverFilename": "cover.png"
     },
     "三国志5X": {
@@ -293,9 +256,7 @@
         "en": "Romance of the Three Kingdoms V X"
       },
       "releaseYear": 1997,
-      "gameFolder": "SAN5X",
       "executable": "PLAY.BAT",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "三国志英杰传": {
@@ -306,9 +267,7 @@
         "en": "Romance of the Three Kingdoms Heroic Legend"
       },
       "releaseYear": 1995,
-      "gameFolder": "REKO3",
       "executable": "REKO3.COM",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "主题医院": {
@@ -319,9 +278,7 @@
         "en": "Theme Hospital"
       },
       "releaseYear": 1997,
-      "gameFolder": "ThemeHospital",
       "executable": "HOSPITAL.EXE",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "三国演义": {
@@ -332,9 +289,7 @@
         "en": "Romance of the Three Kingdoms"
       },
       "releaseYear": 1991,
-      "gameFolder": "SGYY",
       "executable": "AA.EXE",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "三界谕邦沛之迷": {
@@ -345,9 +300,7 @@
         "en": "Three Realms encyclical: Bangpei Mystery"
       },
       "releaseYear": 1991,
-      "gameFolder": "SanJieYu",
       "executable": "3K_CRK.COM",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "殖民计划": {
@@ -358,9 +311,7 @@
         "en": "Colonial plan"
       },
       "releaseYear": 1991,
-      "gameFolder": "ZhiMinJiHua",
       "executable": "APS.BAT",
-      "hasCover": true,
       "coverFilename": "cover.png"
     },
     "炎龙骑士团2黄金城之谜": {
@@ -371,9 +322,7 @@
         "en": "Flame Dragon 2: Legend of Golden Castle"
       },
       "releaseYear": 1995,
-      "gameFolder": "FlameDragon2",
       "executable": "FD2.EXE",
-      "hasCover": true,
       "coverFilename": "cover.png"
     },
     "倚天屠龙记": {
@@ -384,9 +333,7 @@
         "en": "Heavenly Sword Dragon Slaying Sabe"
       },
       "releaseYear": 1994,
-      "gameFolder": "ETIN",
       "executable": "PLAY.BAT",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "信长之野望天翔记": {
@@ -397,9 +344,7 @@
         "en": "Nobunaga no Yabō: Tenshōki"
       },
       "releaseYear": 1994,
-      "gameFolder": "Tenshou",
       "executable": "TENSHOU.COM",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "信长之野望霸王传": {
@@ -410,9 +355,7 @@
         "en": "Nobunaga no Yabō: Haouden"
       },
       "releaseYear": 1992,
-      "gameFolder": "HAOU",
       "executable": "KOEI.COM",
-      "hasCover": true,
       "coverFilename": "cover.jpg"
     },
     "金瓶梅": {
@@ -423,9 +366,7 @@
         "en": "Jin Ping Mei"
       },
       "releaseYear": 1997,
-      "gameFolder": "GPM",
       "executable": "PLAY.BAT",
-      "hasCover": true,
       "coverFilename": "cover.png"
     }
   }
