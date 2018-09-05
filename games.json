@@ -9,65 +9,7 @@
       },
       "releaseYear": 1995,
       "gameFolder": "XianJianQiXiaZhuan",
-      "executable": "'./PAL!.EXE'",
-      "sampleSaves": {
-        "count": 51,
-        "folder": "SAVES",
-        "descriptions": [
-          "遊戲開始",
-          "仙靈島初遇靈兒",
-          "靈兒與逍遙第一夜前留下眼淚",
-          "山神廟與酒劍仙習的劍法",
-          "逍遙與靈兒展開尋母之旅",
-          "逍遙初遇月如",
-          "逍遙初遇劉晉元",
-          "逍遙與月如夜裡見面, 靈兒變身為人蛇",
-          "遇到蛇王",
-          "找到靈兒, 尋找藥材",
-          "治癒靈兒, 前進玉佛寺",
-          "前進黑水鎮",
-          "進入鬼將軍的洞穴",
-          "開始血污池之旅",
-          "斬殺鬼王, 取得土靈珠",
-          "進入鬼陰山",
-          "進入鬼陰壇",
-          "預見石長老",
-          "與月如進入揚州",
-          "拿到紫金葫蘆",
-          "與月如離開揚州",
-          "於巨蛙山發現富商的屍首",
-          "進入蓋羅嬌的臨時旅店",
-          "到達劉晉元拜訪姑媽",
-          "彩依現出原形, 帶劉晉元至蜘蛛精處",
-          "殺掉蜘蛛精, 彩依幻化回一翩翩小蝶",
-          "進入鎖妖塔",
-          "遇見蜀山前輩遺靈",
-          "找到鎖妖塔底的靈兒",
-          "殺掉第七隻地龍, 月如將不久人世......",
-          "啟程尋找鳳凰卵殼",
-          "發現鳳凰巢",
-          "與阿奴進入桃花林",
-          "進入桃源村",
-          "遇到木道長",
-          "進入火麒麟的洞穴",
-          "找到火麒麟",
-          "進入女媧神殿, 逍遙回到十年前",
-          "取得天蛇杖, 與巫後逃離天牢",
-          "靈兒的母親與水魔獸同歸於盡",
-          "慈愛的李大嬸...",
-          "前往試煉窟, 收集傀儡蟲",
-          "進入試煉窟",
-          "進入試煉窟底女媧神殿",
-          "來到試煉窟底女媧靈前",
-          "三人前往大理城",
-          "三人來到巫後靈前, 靈兒得到天蛇仗",
-          "祈雨前",
-          "置入水靈珠前",
-          "遇見假巫王",
-          "最終章, 決戰拜月教主"
-        ],
-        "executable": "'-c', 'mount c .', '-c', 'c:', '-c', 'cd saves', '-c', 'saveplay.bat {}'"
-      },
+      "executable": "PAL!.EXE",
       "keymaps": {
         "←→↑↓": "移动",
         "Alt": "显示菜单、取消操作",
@@ -88,7 +30,7 @@
       },
       "releaseYear": 1993,
       "gameFolder": "SimCity2000",
-      "executable": "'./SC2000.EXE'",
+      "executable": "SC2000.EXE",
       "cheats": {
         "cass": "得到金钱250元（15%的概率是灾难）",
         "vers": "显示版本",
@@ -114,7 +56,7 @@
       },
       "releaseYear": 1988,
       "gameFolder": "PrincessMaker2",
-      "executable": "'./PM2.COM'",
+      "executable": "PM2.COM",
       "links": {
         "Princess Maker 2 - Wikipedia": "https://en.wikipedia.org/wiki/Princess_Maker_2"
       },
@@ -130,7 +72,7 @@
       },
       "releaseYear": 1995,
       "gameFolder": "NANPA2",
-      "executable": "'./START.BAT'",
+      "executable": "START.BAT",
       "links": {
         "同级生2 - Wikipedia": "https://zh.wikipedia.org/wiki/同級生2"
       },
@@ -146,7 +88,7 @@
       },
       "releaseYear": 1996,
       "gameFolder": "RICH3",
-      "executable": "'./PLAY.BAT'",
+      "executable": "PLAY.BAT",
       "links": {
         "大富翁3 - Wikipedia": "https://zh.wikipedia.org/wiki/大富翁3"
       },
@@ -162,7 +104,7 @@
       },
       "releaseYear": 1995,
       "gameFolder": "STAR",
-      "executable": "'./PLAY.BAT'",
+      "executable": "PLAY.BAT",
       "links": {
         "《明星志愿》 - 互动百科": "http://www.baike.com/wiki/《明星志愿》"
       },
@@ -178,7 +120,7 @@
       },
       "releaseYear": 1995,
       "gameFolder": "SAN4",
-      "executable": "'./SAN486.COM'",
+      "executable": "SAN486.COM",
       "links": {
         "三国志IV - Wikipedia": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97IV"
       },
@@ -194,7 +136,7 @@
       },
       "releaseYear": 1996,
       "gameFolder": "JinYongQunXiaZhuan",
-      "executable": "'./PLAY.BAT'",
+      "executable": "PLAY.BAT",
       "links": {
         "金庸群侠传 - Wikipedia": "https://zh.wikipedia.org/wiki/金庸群俠傳"
       },
@@ -210,7 +152,7 @@
       },
       "releaseYear": 1990,
       "gameFolder": "XuanYuanJian1",
-      "executable": "'./PLAY.BAT'",
+      "executable": "PLAY.BAT",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -223,7 +165,7 @@
       },
       "releaseYear": 1994,
       "gameFolder": "XuanYuanJian2",
-      "executable": "'./SWD2.EXE'",
+      "executable": "SWD2.EXE",
       "hasCover": true,
       "coverFilename": "cover.png"
     },
@@ -236,7 +178,7 @@
       },
       "releaseYear": 1996,
       "gameFolder": "EmperorX",
-      "executable": "'./SKING.EXE'",
+      "executable": "SKING.EXE",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -249,7 +191,7 @@
       },
       "releaseYear": 1995,
       "gameFolder": "XuanYuanJianWaiZhuanFengZhiWu",
-      "executable": "'./SWDA.EXE'",
+      "executable": "SWDA.EXE",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -262,7 +204,7 @@
       },
       "releaseYear": 1993,
       "gameFolder": "CrazyDoctor",
-      "executable": "'./PLAY.BAT'",
+      "executable": "PLAY.BAT",
       "hasCover": true,
       "coverFilename": "cover.png"
     },
@@ -275,7 +217,7 @@
       },
       "releaseYear": 1991,
       "gameFolder": "UnchartedWaters",
-      "executable": "'./KOEI.COM'",
+      "executable": "KOEI.COM",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -288,7 +230,7 @@
       },
       "releaseYear": 1994,
       "gameFolder": "UnchartedWaters2",
-      "executable": "'./KOUKAI2.COM'",
+      "executable": "KOUKAI2.COM",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -301,7 +243,7 @@
       },
       "releaseYear": 1994,
       "gameFolder": "GIN3",
-      "executable": "'./GIN3.COM'",
+      "executable": "GIN3.COM",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -314,7 +256,7 @@
       },
       "releaseYear": 1991,
       "gameFolder": "SAN2",
-      "executable": "'./Koei.bat'",
+      "executable": "Koei.bat",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -327,7 +269,7 @@
       },
       "releaseYear": 1993,
       "gameFolder": "SANGO3",
-      "executable": "'./KOEI.COM'",
+      "executable": "KOEI.COM",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -340,7 +282,7 @@
       },
       "releaseYear": 1996,
       "gameFolder": "SAN5",
-      "executable": "'./SAN5.COM'",
+      "executable": "SAN5.COM",
       "hasCover": true,
       "coverFilename": "cover.png"
     },
@@ -353,7 +295,7 @@
       },
       "releaseYear": 1997,
       "gameFolder": "SAN5X",
-      "executable": "'./PLAY.BAT'",
+      "executable": "PLAY.BAT",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -366,7 +308,7 @@
       },
       "releaseYear": 1995,
       "gameFolder": "REKO3",
-      "executable": "'./REKO3.COM'",
+      "executable": "REKO3.COM",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -379,7 +321,7 @@
       },
       "releaseYear": 1997,
       "gameFolder": "ThemeHospital",
-      "executable": "'./HOSPITAL.EXE'",
+      "executable": "HOSPITAL.EXE",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -392,7 +334,7 @@
       },
       "releaseYear": 1991,
       "gameFolder": "SGYY",
-      "executable": "'./AA.EXE'",
+      "executable": "AA.EXE",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -405,7 +347,7 @@
       },
       "releaseYear": 1991,
       "gameFolder": "SanJieYu",
-      "executable": "'./3K_CRK.COM'",
+      "executable": "3K_CRK.COM",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -418,7 +360,7 @@
       },
       "releaseYear": 1991,
       "gameFolder": "ZhiMinJiHua",
-      "executable": "'./APS.BAT'",
+      "executable": "APS.BAT",
       "hasCover": true,
       "coverFilename": "cover.png"
     },
@@ -431,7 +373,7 @@
       },
       "releaseYear": 1995,
       "gameFolder": "FlameDragon2",
-      "executable": "'./FD2.EXE'",
+      "executable": "FD2.EXE",
       "hasCover": true,
       "coverFilename": "cover.png"
     },
@@ -444,7 +386,7 @@
       },
       "releaseYear": 1994,
       "gameFolder": "ETIN",
-      "executable": "'./PLAY.BAT'",
+      "executable": "PLAY.BAT",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -457,7 +399,7 @@
       },
       "releaseYear": 1994,
       "gameFolder": "Tenshou",
-      "executable": "'./TENSHOU.COM'",
+      "executable": "TENSHOU.COM",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -470,7 +412,7 @@
       },
       "releaseYear": 1992,
       "gameFolder": "HAOU",
-      "executable": "'./KOEI.COM'",
+      "executable": "KOEI.COM",
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
@@ -483,7 +425,7 @@
       },
       "releaseYear": 1997,
       "gameFolder": "GPM",
-      "executable": "'./PLAY.BAT'",
+      "executable": "PLAY.BAT",
       "hasCover": true,
       "coverFilename": "cover.png"
     }
