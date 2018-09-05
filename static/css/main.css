@@ -14,6 +14,7 @@ canvas.emscripten {
     border: 0px none;
     background-color: black;
     width: 100%;
+    image-rendering: auto !important;
 }
 
 #emscripten_logo {
