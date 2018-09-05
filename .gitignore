@@ -107,8 +107,5 @@ venv.bak/
 scripts.json
 static/gamedata/
 
-# compiled dosbox file
-static/dosbox/
-
 # PyCharm
 .idea/
