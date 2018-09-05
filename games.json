@@ -20,8 +20,8 @@
       "hasCover": true,
       "coverFilename": "cover.png"
     },
-    "SC2000": {
-      "identifier": "SC2000",
+    "模拟城市2000": {
+      "identifier": "模拟城市2000",
       "name": {
         "zh-Hans": "模拟城市 2000",
         "zh-Hant": "模擬城市 2000",
@@ -46,11 +46,11 @@
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
-    "PrincessMaker2": {
-      "identifier": "PrincessMaker2",
+    "美少女梦工厂2": {
+      "identifier": "美少女梦工厂2",
       "name": {
-        "zh-Hans": "美少女梦工厂",
-        "zh-Hant": "美少女夢工廠",
+        "zh-Hans": "美少女梦工厂 2",
+        "zh-Hant": "美少女夢工廠 2",
         "en": "Princess Maker 2"
       },
       "releaseYear": 1988,
@@ -62,8 +62,8 @@
       "hasCover": true,
       "coverFilename": "cover.jpg"
     },
-    "NANPA2": {
-      "identifier": "NANPA2",
+    "同级生2": {
+      "identifier": "同级生2",
       "name": {
         "zh-Hans": "同级生 2",
         "zh-Hant": "同級生 2",
