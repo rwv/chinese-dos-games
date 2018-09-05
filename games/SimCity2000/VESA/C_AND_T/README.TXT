@@ -1,2 +1,0 @@
-Use VESA452.COM for 82C452.    
-Use VESA451.COM for 82C451.

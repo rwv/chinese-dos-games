@@ -1,7 +1,0 @@
-# PM2 configration file.
-# 1=SB 2=MT-32 3=GM 4=MT-32+SB 5=GM+SB
-# 1=ems all load
-
-MUSIC = 1
-EMS = 0
-
