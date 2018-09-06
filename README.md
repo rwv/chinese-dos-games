@@ -6,7 +6,9 @@
 
 ### 下载游戏文件
 
-在根目录下运行Python 3 脚本`download_data.py`
+在根目录下运行Python 3 脚本 `download_data.py`
+
+若下载出错请参见 [Issue #26](https://github.com/rwv/chinese-dos-games/issues/26)
 
 ### 运行网页
 
