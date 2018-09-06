@@ -17,4 +17,5 @@ if not folder:
 for identifier in game_infos['games'].keys():
     url = PREFIX + urllib.parse.quote(identifier) + '.zip'
     file = os.path.normcase(os.path.join(DESTINATION, identifier + '.zip'))
+    print('Downloading {} game file'.format(identifier))
     urllib.request.urlretrieve(url, file)
