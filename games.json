@@ -390,6 +390,20 @@
       "releaseYear": 1995,
       "executable": "CHESS.EXE",
       "coverFilename": "cover.jpg"
+    },
+    "太阁立志传": {
+      "identifier": "太阁立志传",
+      "name": {
+        "zh-Hans": "太阁立志传",
+        "zh-Hant": "太閤立志傳",
+        "en": "Taikō Risshiden"
+      },
+      "releaseYear": 1992,
+      "executable": "PLAY.BAT",
+      "coverFilename": "cover.jpg",
+      "keymaps": {
+        "Enter": "进入游戏"
+      }
     }
   }
 }
