@@ -20,9 +20,9 @@
                                              onclick="emulator.requestFullScreen();"></span>
                             </div>
                         </div>
-                        </div>
                     </div>
                 </div>
+            </div>
             <div class="col-sm-4">
                 {% if game_info.keymaps %}
                     <div class="card mb-3">
@@ -30,6 +30,16 @@
                             <h5 class="card-title">操作</h5>
                             {% for k,v in game_info.keymaps.items() %}
                                 <kbd>{{ k }}</kbd> {{ v }}<br>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+                {% if game_info.cheats %}
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">作弊</h5>
+                            {% for k,v in game_info.cheats.items() %}
+                                <code>{{ k }}</code> {{ v }}<br>
                             {% endfor %}
                         </div>
                     </div>
@@ -69,7 +79,7 @@
         function locateAdditionalFiles(filename) {
             if (filename === "dosbox.html.mem") {
                 return "{{ url_for('static', filename='emularity/dosbox/dosbox-sync.mem') }}";
-                }
+            }
             else {
                 return "{{ url_for('static', filename='emularity/dosbox/dosbox-sync.mem') }}" + filename;
             }
