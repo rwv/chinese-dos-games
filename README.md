@@ -6,18 +6,7 @@
 
 ### 下载游戏文件
 
-在根目录下运行以下 python 3 代码
-
-``` python
-import urllib.request, os
-from game_infos import game_infos
-
-PREFIX = "https://dos.zczc.cz/static/gamedata/"
-DESTINATION = os.path.normcase('static/gamedata/')
-
-for identifier in game_infos['games'].keys():
-    urllib.request.urlretrieve(PREFIX + identifier + '.zip', os.path.join(DESTINATION, identifier + '.zip'))
-```
+在根目录下运行`download_data.py`
 
 ### 运行网页
 
