@@ -404,6 +404,23 @@
       "keymaps": {
         "Enter": "进入游戏"
       }
+    },
+    "非洲探险2": {
+      "identifier": "非洲探险2",
+      "name": {
+        "zh-Hans": "非洲探险2",
+        "zh-Hant": "非洲探險2",
+        "en": "Crazy Adventure in Africa2"
+      },
+      "releaseYear": 1996,
+      "executable": "PLAY.BAT",
+      "coverFilename": "cover.jpg",
+      "cheats": {
+        "africa-pdmode": "开启作弊模式",
+        "pandaprop": "直接购买道具",
+        "pandamagic": "直接购买法术",
+        "editperson": "修改人物属性"
+      }
     }
   }
 }
