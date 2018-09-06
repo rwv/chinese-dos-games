@@ -6,7 +6,7 @@
 
 ### 下载游戏文件
 
-在根目录下运行`download_data.py`
+在根目录下运行Python 3 脚本`download_data.py`
 
 ### 运行网页
 
