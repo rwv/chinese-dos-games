@@ -379,6 +379,17 @@
       "releaseYear": 1999,
       "executable": "PLAY.BAT",
       "coverFilename": "cover.jpg"
+    },
+    "暗棋圣手": {
+      "identifier": "暗棋圣手",
+      "name": {
+        "zh-Hans": "暗棋圣手",
+        "zh-Hant": "暗棋聖手",
+        "en": "Dark Chess Master"
+      },
+      "releaseYear": 1995,
+      "executable": "CHESS.EXE",
+      "coverFilename": "cover.jpg"
     }
   }
 }
