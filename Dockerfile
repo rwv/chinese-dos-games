@@ -7,7 +7,7 @@ RUN apk add --no-cache --update 'su-exec>=0.2' tzdata && \
     pip install gunicorn flask
 
 COPY . /app
-WORKDIR /APP
+WORKDIR /app
 
 RUN cd /app && python3 download_data.py
 
