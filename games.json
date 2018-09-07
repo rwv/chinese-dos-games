@@ -432,6 +432,20 @@
       "releaseYear": 1997,
       "executable": "HOSPITAL.EXE",
       "coverFilename": "cover.jpg"
+    },
+    "航空霸业2": {
+      "identifier": "航空霸业2",
+      "name": {
+        "zh-Hans": "航空霸业2",
+        "zh-Hant": "航空霸業2",
+        "en": "Aerobiz 2"
+      },
+      "releaseYear": 1995,
+      "executable": "AM2.COM",
+      "coverFilename": "cover.jpg",
+      "keymaps": {
+        "Enter": "进入游戏"
+      }
     }
   }
 }
