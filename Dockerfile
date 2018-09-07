@@ -9,7 +9,7 @@ RUN apk add --no-cache --update 'su-exec>=0.2' tzdata && \
 COPY . /app
 WORKDIR /APP
 
-RUN python3 download_data.py
+RUN cd /app && python3 download_data.py
 
 EXPOSE 8000
 CMD ["gunicorn -w $WORKERS main:app "]
