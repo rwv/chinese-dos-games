@@ -17,7 +17,8 @@
       "links": {
         "仙劍奇俠傳攻略": "https://chiuinan.github.io/game/game/intro/ch/c11/pal/"
       },
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "sha256": "ef209d15734a9e2e533d9a73f2550b3524be5c4cfd5b0ed68c82df6638784adb"
     },
     "模拟城市2000": {
       "identifier": "模拟城市2000",
@@ -41,7 +42,8 @@
         "模擬城市2000 - Wikipedia": "https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%93%AC%E5%9F%8E%E5%B8%822000",
         "SimCity 2000 Cheats for DOS": "http://patcoston.com/co/cheatdos.aspx"
       },
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "4be8560fdbc4663e6715d2d9358f2e1ca61eae73a8704ad315d4dcc818642d8a"
     },
     "美少女梦工厂2": {
       "identifier": "美少女梦工厂2",
@@ -55,7 +57,8 @@
       "links": {
         "Princess Maker 2 - Wikipedia": "https://en.wikipedia.org/wiki/Princess_Maker_2"
       },
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "d05e57cc8204a68263e4c93e09dc24247820181d176ed4f7f336368cc78ebbdd"
     },
     "同级生2": {
       "identifier": "同级生2",
@@ -69,7 +72,8 @@
       "links": {
         "同级生2 - Wikipedia": "https://zh.wikipedia.org/wiki/同級生2"
       },
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "d41a2a8d17ac25714d577da69d74ac24b089664b48955f01e9bb6821a26453be"
     },
     "大富翁3": {
       "identifier": "大富翁3",
@@ -83,7 +87,8 @@
       "links": {
         "大富翁3 - Wikipedia": "https://zh.wikipedia.org/wiki/大富翁3"
       },
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "bcc1220680f7f6d0b13a216145fbc6694d84688009b7a23f69940ce3632024f6"
     },
     "明星志愿1": {
       "identifier": "明星志愿1",
@@ -97,7 +102,8 @@
       "links": {
         "《明星志愿》 - 互动百科": "http://www.baike.com/wiki/《明星志愿》"
       },
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "a5225f10dbbcef85b032f1f4230d69326cbe3ec495cf7b410d6adff6c888a2e3"
     },
     "三国志4": {
       "identifier": "三国志4",
@@ -111,7 +117,8 @@
       "links": {
         "三国志IV - Wikipedia": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97IV"
       },
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "88b7ffc802211d0921eae6c773528a511821c2364bc6ce2c4c175116a3706f21"
     },
     "金庸群侠传": {
       "identifier": "金庸群侠传",
@@ -125,7 +132,8 @@
       "links": {
         "金庸群侠传 - Wikipedia": "https://zh.wikipedia.org/wiki/金庸群俠傳"
       },
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "79dc70ac1c5170c8e7c6df4d3d3fafa4d5134c5e510bf74ce65e3f5e84e6a5a6"
     },
     "轩辕剑1": {
       "identifier": "轩辕剑1",
@@ -136,7 +144,8 @@
       },
       "releaseYear": 1990,
       "executable": "PLAY.BAT",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "d07bd0393aa39ce54bed47750166bcf3a2d7d49d999a48ee96a79b8a710ff569"
     },
     "轩辕剑2": {
       "identifier": "轩辕剑2",
@@ -147,7 +156,8 @@
       },
       "releaseYear": 1994,
       "executable": "SWD2.EXE",
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "sha256": "ebb2716058a3fba999666365d5237161f9dfcfe42b66c645ba222508cfeeae2c"
     },
     "皇帝": {
       "identifier": "皇帝",
@@ -158,7 +168,8 @@
       },
       "releaseYear": 1996,
       "executable": "SKING.EXE",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "41c8c3678d5381561f22bc8a7df2eef15f9e24e10ef2a54801a14a1eb1854923"
     },
     "轩辕剑外传：枫之舞": {
       "identifier": "轩辕剑外传：枫之舞",
@@ -169,7 +180,8 @@
       },
       "releaseYear": 1995,
       "executable": "SWDA.EXE",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "b274bfed1bf19cc1e620b403a513300a5dd3fb065fd8621029891bde762f9e19"
     },
     "疯狂医院": {
       "identifier": "疯狂医院",
@@ -180,7 +192,8 @@
       },
       "releaseYear": 1993,
       "executable": "PLAY.BAT",
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "sha256": "5abedef930e8049081e18d0ce3ea9eec64245ba8642dabece37177dd3a0f81be"
     },
     "大航海时代": {
       "identifier": "大航海时代",
@@ -191,7 +204,8 @@
       },
       "releaseYear": 1991,
       "executable": "KOEI.COM",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "67f93d244498a953bd6f27e33ba7a0a87b061f7418fb08647949fc4ff891c326"
     },
     "大航海时代2": {
       "identifier": "大航海时代2",
@@ -202,7 +216,8 @@
       },
       "releaseYear": 1994,
       "executable": "KOUKAI2.COM",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "789a81ef8011f7765c3540e95e9dd71539182be8acc07dfb8b4fb511d4d9dd61"
     },
     "银河英雄传说3SP": {
       "identifier": "银河英雄传说3SP",
@@ -213,7 +228,8 @@
       },
       "releaseYear": 1994,
       "executable": "GIN3.COM",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "cc71018c920d676d35acf6ac67abc15a00dfcce3d3aad811632c6ce646615f5c"
     },
     "三国志2": {
       "identifier": "三国志2",
@@ -224,7 +240,8 @@
       },
       "releaseYear": 1991,
       "executable": "Koei.bat",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "1f6ffff5f68aae2479b777fc585532bcbdb274d134c1e373ee7a17ecb791100e"
     },
     "三国志3": {
       "identifier": "三国志3",
@@ -235,7 +252,8 @@
       },
       "releaseYear": 1993,
       "executable": "KOEI.COM",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "515ec3ed07caf4948a92923388350ade12df279807c2510b0fdb51bf39f95216"
     },
     "三国志5": {
       "identifier": "三国志5",
@@ -246,7 +264,8 @@
       },
       "releaseYear": 1996,
       "executable": "SAN5.COM",
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "sha256": "48a658d7fc30e3f4b6d8bccaf4479e02db02041f41fc3c9482445be19803ac83"
     },
     "三国志5X": {
       "identifier": "三国志5X",
@@ -257,7 +276,8 @@
       },
       "releaseYear": 1997,
       "executable": "PLAY.BAT",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "a4d9cc30c08fb995da70f9a46a06b76b3b77978f28f4b5c296cfb609a9a28314"
     },
     "三国志英杰传": {
       "identifier": "三国志英杰传",
@@ -268,7 +288,8 @@
       },
       "releaseYear": 1995,
       "executable": "REKO3.COM",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "07bad92d786dbcd90bf27eed6e8473e09374608e21767c68d11cf293b3982999"
     },
     "主题医院": {
       "identifier": "主题医院",
@@ -279,7 +300,8 @@
       },
       "releaseYear": 1997,
       "executable": "HOSPITAL.EXE",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "6df81727261a637851b964f36f4f2cd6c1015e10fa1e03fbac5d91aeea3f6ddd"
     },
     "三国演义": {
       "identifier": "三国演义",
@@ -290,7 +312,8 @@
       },
       "releaseYear": 1991,
       "executable": "AA.EXE",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "077dbc8662e447d9a49c66d0b137c0a42730d93eeceab1caf92e52243211ad84"
     },
     "三界谕邦沛之迷": {
       "identifier": "三界谕邦沛之迷",
@@ -301,7 +324,8 @@
       },
       "releaseYear": 1991,
       "executable": "3K_CRK.COM",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "4f2688c95ce16a23dc1b5fda1b5664b91b676b2e0b9bfb9a12b22e391df280b8"
     },
     "殖民计划": {
       "identifier": "殖民计划",
@@ -312,7 +336,8 @@
       },
       "releaseYear": 1991,
       "executable": "APS.BAT",
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "sha256": "0e7531fc0649405231f849fd165b31633bb7beddfa42c36db257f0eea5599e13"
     },
     "炎龙骑士团2黄金城之谜": {
       "identifier": "炎龙骑士团2黄金城之谜",
@@ -323,7 +348,8 @@
       },
       "releaseYear": 1995,
       "executable": "FD2.EXE",
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "sha256": "bd241b639ad5e122faf6996e4dd000fdd3b2a5d7bd55709df17db517e9962ed1"
     },
     "倚天屠龙记": {
       "identifier": "倚天屠龙记",
@@ -334,7 +360,8 @@
       },
       "releaseYear": 1994,
       "executable": "PLAY.BAT",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "ba2bda2619f5b9a4d477397fb8d1a0f61c59bd6e7ad28e24668f0b55302ae275"
     },
     "信长之野望天翔记": {
       "identifier": "信长之野望天翔记",
@@ -345,7 +372,8 @@
       },
       "releaseYear": 1994,
       "executable": "TENSHOU.COM",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "72e1758187de7120d8e392e667e3d2fa26ef7cb52ac3b0c4f49841b9dbf4c002"
     },
     "信长之野望霸王传": {
       "identifier": "信长之野望霸王传",
@@ -356,7 +384,8 @@
       },
       "releaseYear": 1992,
       "executable": "KOEI.COM",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "562538821780dcd92649ad2f3657606c4484bba8583adca939ff84fac37de1bd"
     },
     "金瓶梅": {
       "identifier": "金瓶梅",
@@ -367,7 +396,8 @@
       },
       "releaseYear": 1997,
       "executable": "PLAY.BAT",
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "sha256": "f3df5ef363c0e6119a012761662485a1a5f729ae15795e235729f940711894d7"
     },
     "江南才子唐伯虎": {
       "identifier": "江南才子唐伯虎",
@@ -378,7 +408,8 @@
       },
       "releaseYear": 1999,
       "executable": "PLAY.BAT",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "a030c106f412698f0daed8c2d6c27333c3b7694a0f5aacfc721a6e696dc550c9"
     },
     "暗棋圣手": {
       "identifier": "暗棋圣手",
@@ -389,7 +420,8 @@
       },
       "releaseYear": 1995,
       "executable": "CHESS.EXE",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "67dd298a2f12f85590a2d5079888a6f482ff260aab6f93ad4beccc7308078a91"
     },
     "太阁立志传": {
       "identifier": "太阁立志传",
@@ -403,7 +435,8 @@
       "coverFilename": "cover.jpg",
       "keymaps": {
         "Enter": "进入游戏"
-      }
+      },
+      "sha256": "1c08aae4105c56500b79e13dad7df8bc9512aa3023cbde1429b1e689a506eb59"
     },
     "非洲探险2": {
       "identifier": "非洲探险2",
@@ -420,7 +453,8 @@
         "pandaprop": "直接购买道具",
         "pandamagic": "直接购买法术",
         "editperson": "修改人物属性"
-      }
+      },
+      "sha256": "85abfeeea9a5fe18539d86f0193244f61067343a9f993b2583230d5938d89c7c"
     },
     "主题医院S": {
       "identifier": "主题医院S",
@@ -431,7 +465,8 @@
       },
       "releaseYear": 1997,
       "executable": "HOSPITAL.EXE",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "53b3e39ab6d57937301fdffe0c6a663d5c4eeb738794778360617e6b0e3ea92b"
     },
     "航空霸业2": {
       "identifier": "航空霸业2",
@@ -445,7 +480,8 @@
       "coverFilename": "cover.jpg",
       "keymaps": {
         "Enter": "进入游戏"
-      }
+      },
+      "sha256": "c42078c96256441cec6b59c50db0348021d2d82da1382803d38741b6e3cf8606"
     },
     "中国球王": {
       "identifier": "中国球王",
@@ -456,7 +492,8 @@
       },
       "releaseYear": 1997,
       "executable": "PLAY.COM",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "sha256": "dda88ef4132f8e091c793db924b112ebcaa366ecd961bd526628e47481a02979"
     }
   }
 }
