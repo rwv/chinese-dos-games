@@ -6,13 +6,25 @@
 
 ### 下载游戏文件
 
-在根目录下运行Python 3 脚本 `download_data.py`
+在根目录下运行 Python 3 脚本 `download_data.py`
 
 若下载出错请参见 [Issue #26](https://github.com/rwv/chinese-dos-games/issues/26)
 
+### 安装 Flask
+
+运行以下命令安装 Flask
+
+``` sh
+$ pip3 install flask
+```
+
 ### 运行网页
 
-使用 python 3 运行 `app.py`
+使用 Python 3 运行 `app.py`
+
+``` sh
+$ python3 app.py
+```
 
 ## 游戏列表
 
