@@ -446,6 +446,17 @@
       "keymaps": {
         "Enter": "进入游戏"
       }
+    },
+    "中国球王": {
+      "identifier": "中国球王",
+      "name": {
+        "zh-Hans": "中国球王",
+        "zh-Hant": "中國球王",
+        "en": "Chinese king of soccer "
+      },
+      "releaseYear": 1997,
+      "executable": "PLAY.COM",
+      "coverFilename": "cover.jpg"
     }
   }
 }
