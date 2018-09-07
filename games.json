@@ -273,7 +273,7 @@
     "主题医院": {
       "identifier": "主题医院",
       "name": {
-        "zh-Hans": "主题医院",
+        "zh-Hans": "主题医院 无声音版",
         "zh-Hant": "杏林也瘋狂",
         "en": "Theme Hospital"
       },
@@ -421,6 +421,17 @@
         "pandamagic": "直接购买法术",
         "editperson": "修改人物属性"
       }
+    },
+    "主题医院S": {
+      "identifier": "主题医院S",
+      "name": {
+        "zh-Hans": "主题医院",
+        "zh-Hant": "杏林也瘋狂",
+        "en": "Theme Hospital"
+      },
+      "releaseYear": 1997,
+      "executable": "HOSPITAL.EXE",
+      "coverFilename": "cover.jpg"
     }
   }
 }
