@@ -12,7 +12,7 @@ WORKDIR /app
 RUN cd /app && python3 download_data.py
 
 EXPOSE 8000
-CMD ["gunicorn -w $WORKERS main:app "]
+CMD ["gunicorn -w $WORKERS -b 0.0.0.0:8000 app:app "]
 
 
 
