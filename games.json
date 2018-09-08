@@ -506,6 +506,18 @@
       "executable": "play.bat",
       "coverFilename": "cover.jpg",
       "sha256": "34b7da1a752e45e2ac8d7da66be854ffa95db2a429c84178ed75a7eea7dc86c0"
+    },
+    "卧龙传": {
+      "identifier": "卧龙传",
+      "name": {
+        "zh-Hans": "卧龙传",
+        "zh-Hant": "臥龍傳",
+        "en": "Biography of wolong"
+      },
+      "releaseYear": 1995,
+      "executable": "PLAY.BAT",
+      "coverFilename": "cover.png",
+      "sha256": "029cf2932286813cbaefb53429aa79322a76b169486d6dddb66a5609066b0428"
     }
   }
 }
