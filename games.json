@@ -494,6 +494,18 @@
       "executable": "PLAY.COM",
       "coverFilename": "cover.jpg",
       "sha256": "dda88ef4132f8e091c793db924b112ebcaa366ecd961bd526628e47481a02979"
+    },
+    "艾蒂丝魔法大冒险": {
+      "identifier": "艾蒂丝魔法大冒险",
+      "name": {
+        "zh-Hans": "艾蒂丝魔法大冒险",
+        "zh-Hant": "艾蒂絲的魔法歷險",
+        "en": "Magic Adventure of Adith"
+      },
+      "releaseYear": 1999,
+      "executable": "play.bat",
+      "coverFilename": "cover.jpg",
+      "sha256": "34b7da1a752e45e2ac8d7da66be854ffa95db2a429c84178ed75a7eea7dc86c0"
     }
   }
 }
