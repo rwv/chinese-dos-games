@@ -530,6 +530,18 @@
       "executable": "U",
       "coverFilename": "cover.jpg",
       "sha256": "8c06fd3d602e0b1b6404769abd9cf21d047ed8546a5af0b516011b0554151e5c"
+    },
+    "魔域传说4波斯战记": {
+      "identifier": "魔域传说4波斯战记",
+      "name": {
+        "zh-Hans": "魔域传说Ⅳ：波斯战记",
+        "zh-Hant": "魔域传说Ⅳ：波斯战记",
+        "en": "First Queen 4"
+      },
+      "releaseYear": 1995,
+      "executable": "PLAY.BAT",
+      "coverFilename": "cover.jpg",
+      "sha256": "8717c71b0a6b1b7cc4d912e1f3f9d7d672580b6b0fdd4cc3779c44396bfa2c8b"
     }
   }
 }
