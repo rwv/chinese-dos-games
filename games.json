@@ -542,6 +542,18 @@
       "executable": "PLAY.BAT",
       "coverFilename": "cover.jpg",
       "sha256": "8717c71b0a6b1b7cc4d912e1f3f9d7d672580b6b0fdd4cc3779c44396bfa2c8b"
+    },
+    "魔法公主": {
+      "identifier": "魔法公主",
+      "name": {
+        "zh-Hans": "魔法公主",
+        "zh-Hant": "魔法公主",
+        "en": "Princess Mononoke Adventure"
+      },
+      "releaseYear": 1995,
+      "executable": "PLAY.BAT",
+      "coverFilename": "cover.png",
+      "sha256": "8717c71b0a6b1b7cc4d912e1f3f9d7d672580b6b0fdd4cc3779c44396bfa2c8b"
     }
   }
 }
