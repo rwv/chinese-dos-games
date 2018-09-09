@@ -26,6 +26,37 @@ $ pip3 install flask
 $ python3 app.py
 ```
 
+### 通过Docker运行
+> 优点: 随便折腾 数据安全
+
+```sh
+# 1. 下载 build.dockerfile文件 到一个空目录下
+
+wget https://raw.githubusercontent.com/Kuangcp/chinese-dos-games/master/build.dockerfile 
+
+# 2. 构建镜像
+docker build -t game -f build.dockerfile .
+
+# 3. 构建容器
+docker run --name game -it -p 8888:5000 game
+
+# 也可以拉取已经构建好的镜像 docker pull hub.baidubce.com/dos-game/dos-game:1.0 
+# 进入容器下载游戏数据(暂时不清楚为什么不能在构建镜像的时候下好)
+docker exec -it game sh 
+cd 
+python3 download_data.py
+
+# 下载好了之后, 就可以退出容器了
+# 以后启动游戏就是
+docker start game
+
+# 关闭游戏
+docker stop game
+
+# 进入游戏
+localhost:8888
+```
+
 ## 游戏列表
 
 * 仙剑奇侠传
