@@ -4,6 +4,10 @@
 
 ## 运行
 
+### 克隆仓库
+
+由于历史原因，git 历史内包含游戏的二进制文件，仓库较大。使用 `git clone --depth=1 https://github.com/rwv/chinese-dos-games.git` 来减少文件大小。
+
 ### 下载游戏文件
 
 在根目录下运行 Python 3 脚本 `download_data.py`
