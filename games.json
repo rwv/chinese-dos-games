@@ -518,6 +518,18 @@
       "executable": "PLAY.BAT",
       "coverFilename": "cover.png",
       "sha256": "029cf2932286813cbaefb53429aa79322a76b169486d6dddb66a5609066b0428"
+    },
+    "天使帝国": {
+      "identifier": "天使帝国",
+      "name": {
+        "zh-Hans": "天使帝国",
+        "zh-Hant": "天使帝國",
+        "en": "Angel Empire"
+      },
+      "releaseYear": 1993,
+      "executable": "U",
+      "coverFilename": "cover.jpg",
+      "sha256": "8c06fd3d602e0b1b6404769abd9cf21d047ed8546a5af0b516011b0554151e5c"
     }
   }
 }
