@@ -3,6 +3,7 @@ import inspect
 import os
 import urllib.request
 
+from concurrent.futures import ThreadPoolExecutor, wait
 from game_infos import game_infos, game_infos_ordered, update_json
 
 root = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
@@ -10,6 +11,7 @@ root = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 PREFIX = "https://dos.zczc.cz/static/gamedata/"
 DESTINATION = os.path.join(root, 'static', 'gamedata')
 BUF_SIZE = 65536
+THREAD_SIZE = 10
 
 
 def generate_sha256(file):
@@ -28,6 +30,9 @@ def generate_sha256(file):
             sha256.update(data)
     return sha256.hexdigest()
 
+def download(identifier, url, file):
+    print('Downloading {} game file'.format(identifier))
+    urllib.request.urlretrieve(url, file)
 
 def main(prefix=PREFIX, destination=DESTINATION):
     """
@@ -40,6 +45,9 @@ def main(prefix=PREFIX, destination=DESTINATION):
     if not folder:
         os.makedirs(destination)
 
+    executor = ThreadPoolExecutor(max_workers=THREAD_SIZE)
+    all_task = list()
+
     downloaded = list()
     for identifier in game_infos['games'].keys():
         file = os.path.normcase(os.path.join(destination, identifier + '.zip'))
@@ -48,10 +56,11 @@ def main(prefix=PREFIX, destination=DESTINATION):
             print('skip {}'.format(identifier))
         else:
             downloaded.append(identifier)
-            print('Downloading {} game file'.format(identifier))
-            urllib.request.urlretrieve(url, file)
-    return downloaded
+            task = executor.submit(download, identifier, url, file)
+            all_task.append(task)
 
+    wait(all_task)
+    return downloaded
 
 def files_sha256():
     """
