@@ -77,9 +77,12 @@ $ python3 app.py
 
 ## Contributing
 
-欢迎提 Issue 和 Pull request 来增加新的游戏!
+欢迎提 [Issue](https://github.com/rwv/chinese-dos-games/issues) 和 [Pull request](https://github.com/rwv/chinese-dos-games/pulls) 来增加新的游戏!
+
+PR 具体参见 [CONTRIBUTING.md](https://github.com/rwv/chinese-dos-games/blob/master/CONTRIBUTING.md)
 
 ## Credits
 
 * [dreamlayers/em-dosbox: An Emscripten port of DOSBox](https://github.com/dreamlayers/em-dosbox)
 * [db48x/emularity: easily embed emulators](https://github.com/db48x/emularity)
+
