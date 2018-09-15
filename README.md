@@ -2,19 +2,39 @@
 
 浏览器游玩中文 DOS 游戏
 
-## 运行
+## Docker部署
 
-### 克隆仓库
+#### 准备环境
+
+```
+docker version > /dev/null || curl -fsSL get.docker.com | bash
+```
+
+#### 开始运行
+
+```
+docker run -d                      \
+           -p 你需要接受访问的端口:80 \
+           --name=dosgame          \
+           --restart=always         \
+           fanvinga/docker-dosgame
+```
+* 镜像内部已经包含游戏二进制文件,无需重复下载
+* 镜像内部使用gunicorn进行flask应用启动并守护,日志可能相对较少.
+
+## 手动运行
+
+#### 克隆仓库
 
 由于历史原因，git 历史内包含游戏的二进制文件，仓库较大。使用 `git clone --depth=1 https://github.com/rwv/chinese-dos-games.git` 来减少文件大小。
 
-### 下载游戏文件
+#### 下载游戏文件
 
 在根目录下运行 Python 3 脚本 `download_data.py`
 
 若下载出错请参见 [Issue #26](https://github.com/rwv/chinese-dos-games/issues/26)
 
-### 安装 Flask
+#### 安装 Flask
 
 运行以下命令安装 Flask
 
@@ -22,7 +42,7 @@
 $ pip3 install flask
 ```
 
-### 运行网页
+#### 运行网页
 
 使用 Python 3 运行 `app.py`
 
