@@ -1,34 +1,14 @@
 # 🎮 中文 DOS 游戏
 
-浏览器游玩中文 DOS 游戏
+中文 DOS 游戏合集
 
-## 运行
+** https://dos.zczc.cz/ 源代码已转移至 https://github.com/rwv/chinese-dos-games-web
 
-### 克隆仓库
-
-由于历史原因，git 历史内包含游戏的二进制文件，仓库较大。使用 `git clone --depth=1 https://github.com/rwv/chinese-dos-games.git` 来减少文件大小。
-
-### 下载游戏文件
+## 下载游戏文件
 
 在根目录下运行 Python 3 脚本 `download_data.py`
 
 若下载出错请参见 [Issue #26](https://github.com/rwv/chinese-dos-games/issues/26)
-
-### 安装 Flask
-
-运行以下命令安装 Flask
-
-``` sh
-$ pip3 install flask
-```
-
-### 运行网页
-
-使用 Python 3 运行 `app.py`
-
-``` sh
-$ python3 app.py
-```
 
 ## 游戏列表
 
@@ -70,10 +50,6 @@ $ python3 app.py
 * 中国球王
 * 艾蒂丝魔法大冒险
 * 卧龙传
-
-## Known issues
-
-* 游戏界面在游戏运行时会改变 `<title>`
 
 ## Contributing
 

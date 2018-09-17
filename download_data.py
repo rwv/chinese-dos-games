@@ -1,17 +1,28 @@
 import hashlib
 import inspect
 import os
+import json
 import urllib.request
 
+from collections import OrderedDict
 from concurrent.futures import ThreadPoolExecutor, wait
-from game_infos import game_infos, game_infos_ordered, update_json
 
 root = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 
 PREFIX = "https://dos.zczc.cz/static/gamedata/"
-DESTINATION = os.path.join(root, 'static', 'gamedata')
+DESTINATION = os.path.join(root, 'bin')
 BUF_SIZE = 65536
 THREAD_SIZE = 10
+
+with open(os.path.join(root, 'games.json'), encoding='utf8') as f:
+    content = f.read()
+    game_infos_ordered = json.loads(content, object_pairs_hook=OrderedDict)
+    game_infos = json.loads(content)
+
+
+def update_json(ordered_dict):
+    with open(os.path.join(root, 'games.json'), encoding='utf8', mode='w') as f:
+        f.write(json.dumps(ordered_dict, indent=2, ensure_ascii=False))
 
 
 def generate_sha256(file):

@@ -47,11 +47,11 @@
 ```
 
 ## 添加游戏
-在 `games.json` 中添加，具体可参考上面 `json` 示例，其中 `identifier`, `releaseYear`, `executable`, `coverFilename`, `sha256` 必需。
+在 `games.json` 中添加，具体可参考上面 `json` 示例，其中 `identifier`, `executable`, `sha256` 必需。
 
-将游戏封面图片拷贝至 `static/img/<identifier>/cover.<suffix>`，将 `<identifier>` 修改为游戏标识符，`<suffix>` 修改为图片后缀名。
+将游戏封面图片拷贝至 `img/<identifier>/cover.<suffix>`，将 `<identifier>` 修改为游戏标识符，`<suffix>` 修改为图片后缀名。
 
-并将游戏文件打包为 `zip` 后缀，计算其 `sha256` 值。将其拷贝至 `static/gamedata/<identifier>.zip` 并测试运行。
+并将游戏文件打包为 `zip` 后缀，计算其 `sha256` 值。将其拷贝至 `bin/<identifier>.zip` 并测试运行。
 
 若运行成功，将 `zip` 文件发布至网上，并提 [Pull Request](https://github.com/rwv/chinese-dos-games/pulls)
 
