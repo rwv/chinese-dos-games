@@ -2,7 +2,7 @@
 
 中文 DOS 游戏合集
 
-** https://dos.zczc.cz/ 源代码已转移至 https://github.com/rwv/chinese-dos-games-web
+**https://dos.zczc.cz/ 源代码已转移至 https://github.com/rwv/chinese-dos-games-web**
 
 ## 下载游戏文件
 
