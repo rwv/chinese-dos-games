@@ -4,6 +4,8 @@
 
 **https://dos.zczc.cz/ 源代码已转移至 https://github.com/rwv/chinese-dos-games-web**
 
+**本人明白此项目存在版权上的侵权，如版权方介意的话，请联系 [chinese.dos.games@outlook.com](mailto:chinese.dos.games@outlook.com)，本人将立刻删除有关文件。**
+
 ## 下载游戏文件
 
 在根目录下运行 Python 3 脚本 `download_data.py`
