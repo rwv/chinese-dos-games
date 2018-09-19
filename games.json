@@ -145,7 +145,7 @@
       "releaseYear": 1990,
       "executable": "PLAY.BAT",
       "coverFilename": "cover.jpg",
-      "sha256": "d07bd0393aa39ce54bed47750166bcf3a2d7d49d999a48ee96a79b8a710ff569"
+      "sha256": "92b6f9f284e297f1342d0362fb5e583f1f9813cf79a6ccc33f32a801e26e94a7"
     },
     "轩辕剑2": {
       "identifier": "轩辕剑2",
@@ -397,7 +397,7 @@
       "releaseYear": 1997,
       "executable": "PLAY.BAT",
       "coverFilename": "cover.png",
-      "sha256": "f3df5ef363c0e6119a012761662485a1a5f729ae15795e235729f940711894d7"
+      "sha256": "2eb18e3a61d8422cb2e1903cc3a03b0a00e8ea1f90aefabbd18cfe1335fa9cef"
     },
     "江南才子唐伯虎": {
       "identifier": "江南才子唐伯虎",
