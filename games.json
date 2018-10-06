@@ -1174,7 +1174,8 @@
       },
       "executable": "tuntown",
       "type": "RPG",
-      "sha256": "4866351535078024f6a78446ddb25ccba1b051ae1473d0d0ee80f4b54e96bd62"
+      "sha256": "4866351535078024f6a78446ddb25ccba1b051ae1473d0d0ee80f4b54e96bd62",
+      "coverFilename": "cover.jpg"
     },
     "阿瓦隆": {
       "identifier": "阿瓦隆",
@@ -11911,7 +11912,8 @@
       },
       "executable": "playv.bat",
       "type": "PUZ",
-      "sha256": "493913e14efdfe5f7eab7026f9d0c8e5d291686cb23b9d7270fa8d9cbf053112"
+      "sha256": "493913e14efdfe5f7eab7026f9d0c8e5d291686cb23b9d7270fa8d9cbf053112",
+      "coverFilename": "cover.jpg"
     },
     "四川省3": {
       "identifier": "四川省3",
@@ -11920,7 +11922,8 @@
       },
       "executable": "TT.EXE",
       "type": "PUZ",
-      "sha256": "28d28a321565f103b26c2aed5cc85a92ab68161a32f6d4fe3966dfde5feb832a"
+      "sha256": "28d28a321565f103b26c2aed5cc85a92ab68161a32f6d4fe3966dfde5feb832a",
+      "coverFilename": "cover.jpg"
     },
     "四海冒险家": {
       "identifier": "四海冒险家",
@@ -17023,7 +17026,8 @@
       },
       "executable": "play.exe",
       "type": "HGA",
-      "sha256": "abcb903b9eca528f6414d705db5100e79e56730a7bf3eec39a15e8ad6ee209f7"
+      "sha256": "abcb903b9eca528f6414d705db5100e79e56730a7bf3eec39a15e8ad6ee209f7",
+      "coverFilename": "cover.jpg"
     },
     "转校生-天使们的午后": {
       "identifier": "转校生-天使们的午后",
@@ -17032,7 +17036,8 @@
       },
       "executable": "play.bat",
       "type": "HGA",
-      "sha256": "f4e2c3c4f393bcd1f997e56dce5cbb198bb190614ca1991a878d8aaea33d9bd2"
+      "sha256": "f4e2c3c4f393bcd1f997e56dce5cbb198bb190614ca1991a878d8aaea33d9bd2",
+      "coverFilename": "cover.jpg"
     },
     "转校生-天使们的午后2": {
       "identifier": "转校生-天使们的午后2",
@@ -17041,7 +17046,8 @@
       },
       "executable": "play.bat",
       "type": "HGA",
-      "sha256": "6a948beff25c47a2aa056e8adc04f5a412cbc9612bc7c30cf4ff1d12eb847856"
+      "sha256": "6a948beff25c47a2aa056e8adc04f5a412cbc9612bc7c30cf4ff1d12eb847856",
+      "coverFilename": "cover.jpg"
     },
     "装甲守护": {
       "identifier": "装甲守护",
@@ -17086,7 +17092,8 @@
       },
       "executable": "play_ad.bat",
       "type": "PUZ",
-      "sha256": "14d3e3ae6438bf06103f3332b7b286760a27f390f09a601e28a5cbeff60a37e7"
+      "sha256": "14d3e3ae6438bf06103f3332b7b286760a27f390f09a601e28a5cbeff60a37e7",
+      "coverFilename": "cover.jpg"
     },
     "捉鬼敢死队2": {
       "identifier": "捉鬼敢死队2",
@@ -17095,7 +17102,8 @@
       },
       "executable": "gb2",
       "type": "ACT",
-      "sha256": "fa0fb85798805f590bbd46c10327010e8658a2ac0ee32835de27e81ce5e60816"
+      "sha256": "fa0fb85798805f590bbd46c10327010e8658a2ac0ee32835de27e81ce5e60816",
+      "coverFilename": "cover.jpg"
     },
     "字符世界历险记": {
       "identifier": "字符世界历险记",
@@ -17113,7 +17121,8 @@
       },
       "executable": "sea.exe",
       "type": "RPG",
-      "sha256": "7117d87292bab4f35c6d9285b0f44c33921b627042ddcca2a4aee0277f3218ed"
+      "sha256": "7117d87292bab4f35c6d9285b0f44c33921b627042ddcca2a4aee0277f3218ed",
+      "coverFilename": "cover.jpg"
     },
     "走廊：异形入侵": {
       "identifier": "走廊：异形入侵",
@@ -17167,7 +17176,8 @@
       },
       "executable": "josi.com",
       "type": "SIM",
-      "sha256": "d21dee62fac9a6cd8d5d2427a7ff4d0437dfda698864445b02ba4400e849cbde"
+      "sha256": "d21dee62fac9a6cd8d5d2427a7ff4d0437dfda698864445b02ba4400e849cbde",
+      "coverFilename": "cover.jpg"
     },
     "卒业旅行": {
       "identifier": "卒业旅行",
@@ -17176,7 +17186,8 @@
       },
       "executable": "ryk",
       "type": "HGA",
-      "sha256": "bde43da0195b2da503303c12852d3f567e6770e3ca8c9818e1f1a0064ea05d54"
+      "sha256": "bde43da0195b2da503303c12852d3f567e6770e3ca8c9818e1f1a0064ea05d54",
+      "coverFilename": "cover.jpg"
     },
     "钻地小精灵": {
       "identifier": "钻地小精灵",
@@ -17239,7 +17250,8 @@
       },
       "executable": "crime.exe",
       "type": "PUZ",
-      "sha256": "02ab67ae0778cdfe7d866ae3ac8208546ec870e393cf2871ed98df80be9fdb4f"
+      "sha256": "02ab67ae0778cdfe7d866ae3ac8208546ec870e393cf2871ed98df80be9fdb4f",
+      "coverFilename": "cover.jpg"
     },
     "佐罗": {
       "identifier": "佐罗",
