@@ -607,7 +607,8 @@
       },
       "executable": "tf",
       "type": "SIM",
-      "sha256": "ff14d38721e39b341b5093200304236332c31b21a31fd873f5273da7293136ac"
+      "sha256": "ff14d38721e39b341b5093200304236332c31b21a31fd873f5273da7293136ac",
+      "img": "cd.iso"
     },
     "2001特遣队": {
       "identifier": "2001特遣队",
@@ -904,7 +905,8 @@
       },
       "executable": "max.bat",
       "type": "SLG",
-      "sha256": "9f62feb985bac8fdfcabaa6e49089f7da301b201a82f3bdafa01bce21acd2487"
+      "sha256": "9f62feb985bac8fdfcabaa6e49089f7da301b201a82f3bdafa01bce21acd2487",
+      "img": "max.iso"
     },
     "NBA嘉年华": {
       "identifier": "NBA嘉年华",
@@ -913,7 +915,8 @@
       },
       "executable": "JAM.COM",
       "type": "SIM",
-      "sha256": "a3e6625edfb8f2bde6df0a12caf11e3184bace832b215b60525150cf4b09b27a"
+      "sha256": "a3e6625edfb8f2bde6df0a12caf11e3184bace832b215b60525150cf4b09b27a",
+      "img": "nbajamte.cue"
     },
     "NBA直播": {
       "identifier": "NBA直播",
@@ -976,7 +979,8 @@
       },
       "executable": "PLAY.BAT",
       "type": "RPG",
-      "sha256": "cbc7fd461bb2b268c632b1bb5fcbfa2e6d86a2f3c778a9de280f221822e409dd"
+      "sha256": "cbc7fd461bb2b268c632b1bb5fcbfa2e6d86a2f3c778a9de280f221822e409dd",
+      "cdrom": "no"
     },
     "QQ三国志": {
       "identifier": "QQ三国志",
@@ -1175,7 +1179,8 @@
       "executable": "tuntown",
       "type": "RPG",
       "sha256": "4866351535078024f6a78446ddb25ccba1b051ae1473d0d0ee80f4b54e96bd62",
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "cdrom": "no"
     },
     "阿瓦隆": {
       "identifier": "阿瓦隆",
@@ -1472,7 +1477,8 @@
       },
       "executable": "worms.bat",
       "type": "ACT",
-      "sha256": "9be0a3cbbff3c303e658ea4100f8603f2fe2ff98ecd5fc324e9bf33c5446f330"
+      "sha256": "9be0a3cbbff3c303e658ea4100f8603f2fe2ff98ecd5fc324e9bf33c5446f330",
+      "img": "cd\\wormsunited.cue"
     },
     "班级99": {
       "identifier": "班级99",
@@ -1616,7 +1622,8 @@
       },
       "executable": "air.exe",
       "type": "ACT",
-      "sha256": "852efc066d6878ffdf5ac5723c7ab2652a40e002ea9dc1e26b213ad031a3db9d"
+      "sha256": "852efc066d6878ffdf5ac5723c7ab2652a40e002ea9dc1e26b213ad031a3db9d",
+      "cdrom": "no"
     },
     "爆笑躲避球": {
       "identifier": "爆笑躲避球",
@@ -1643,7 +1650,8 @@
       },
       "executable": "model",
       "type": "PUZ",
-      "sha256": "822d0fcc74d6e9245f40792b9a599fc9a52971c0dd53602100399a9a703214c3"
+      "sha256": "822d0fcc74d6e9245f40792b9a599fc9a52971c0dd53602100399a9a703214c3",
+      "img": "cd\\bxshz.cue"
     },
     "悲恋湖杀人事件": {
       "identifier": "悲恋湖杀人事件",
@@ -1787,7 +1795,8 @@
       },
       "executable": "runme.bat",
       "type": "ACT",
-      "sha256": "ccc1ce102e18b6b451f5d5c2c286e794323bb298e640f4e633a6a3de9322ae4a"
+      "sha256": "ccc1ce102e18b6b451f5d5c2c286e794323bb298e640f4e633a6a3de9322ae4a",
+      "img": "cdream1.iso"
     },
     "冰球95": {
       "identifier": "冰球95",
@@ -1886,7 +1895,8 @@
       },
       "executable": "tot.exe",
       "type": "AVG",
-      "sha256": "adcd96ee7d69a502737aecd6f46bd2eb1b88c2020625c5c52b81f4132f916331"
+      "sha256": "adcd96ee7d69a502737aecd6f46bd2eb1b88c2020625c5c52b81f4132f916331",
+      "img": "cd\\tot.cue"
     },
     "不可思议的机器": {
       "identifier": "不可思议的机器",
@@ -1976,7 +1986,8 @@
       },
       "executable": "lland.exe",
       "type": "ACT",
-      "sha256": "96694ecd83b1bef7b69ccfa1a9059d3865a9921180ff80b49dc131a390a31b4a"
+      "sha256": "96694ecd83b1bef7b69ccfa1a9059d3865a9921180ff80b49dc131a390a31b4a",
+      "cdrom": "no"
     },
     "钞票强强滚": {
       "identifier": "钞票强强滚",
@@ -2147,7 +2158,8 @@
       },
       "executable": "play.exe",
       "type": "PUZ",
-      "sha256": "2c569ee5378d7a59c2a70ed2fa6df6c3303ea8955016f88db2e587960c399da6"
+      "sha256": "2c569ee5378d7a59c2a70ed2fa6df6c3303ea8955016f88db2e587960c399da6",
+      "cdrom": "no"
     },
     "超级星尘": {
       "identifier": "超级星尘",
@@ -2156,7 +2168,8 @@
       },
       "executable": "go.exe",
       "type": "ACT",
-      "sha256": "1b25d4d48387c8bd266c0c5a8f3cd0ce5cecbbe180001e10cbe626f9611f04c1"
+      "sha256": "1b25d4d48387c8bd266c0c5a8f3cd0ce5cecbbe180001e10cbe626f9611f04c1",
+      "img": "stardust.iso"
     },
     "超级学园麻雀海外版": {
       "identifier": "超级学园麻雀海外版",
@@ -2228,7 +2241,8 @@
       },
       "executable": "play.bat",
       "type": "SPG",
-      "sha256": "e49dbd3b2902d7007f89f08030c4656d7ab63c960f551ea6c48763a343a0fb32"
+      "sha256": "e49dbd3b2902d7007f89f08030c4656d7ab63c960f551ea6c48763a343a0fb32",
+      "img": "cd\\super.cue"
     },
     "超时空英雄传说2": {
       "identifier": "超时空英雄传说2",
@@ -2237,7 +2251,8 @@
       },
       "executable": "play.bat",
       "type": "SPG",
-      "sha256": "906b63af5e668f33eb7a0d0afe3ea3813518f0a6903128d966ea2ac7bd89f48d"
+      "sha256": "906b63af5e668f33eb7a0d0afe3ea3813518f0a6903128d966ea2ac7bd89f48d",
+      "img": "cd\\super2.cue"
     },
     "超时空英雄传说2SP": {
       "identifier": "超时空英雄传说2SP",
@@ -2417,7 +2432,8 @@
       },
       "executable": "play.bat",
       "type": "SPG",
-      "sha256": "c9ac1c3b60b370f975877ee99dea998c5682f3d7fb5f3af4a737154fa7636731"
+      "sha256": "c9ac1c3b60b370f975877ee99dea998c5682f3d7fb5f3af4a737154fa7636731",
+      "cdrom": "no"
     },
     "臭鼬赛车": {
       "identifier": "臭鼬赛车",
@@ -2480,7 +2496,8 @@
       },
       "executable": "bit.bat",
       "type": "SLG",
-      "sha256": "6266050b6a8372916d7cd90b9270f1b8e14c302a7eab4aa8891c0ea2db670b4a"
+      "sha256": "6266050b6a8372916d7cd90b9270f1b8e14c302a7eab4aa8891c0ea2db670b4a",
+      "img": "cd.iso"
     },
     "传说大陆帝王之子": {
       "identifier": "传说大陆帝王之子",
@@ -2498,7 +2515,8 @@
       },
       "executable": "dark.exe",
       "type": "RPG",
-      "sha256": "3dd4c37cd99904f1255e0c80b2945a40bdf4f32d5ec2cb0b534f375a37005968"
+      "sha256": "3dd4c37cd99904f1255e0c80b2945a40bdf4f32d5ec2cb0b534f375a37005968",
+      "cdrom": "no"
     },
     "传说恐惧之夜": {
       "identifier": "传说恐惧之夜",
@@ -2552,7 +2570,8 @@
       },
       "executable": "play.bat",
       "type": "SPG",
-      "sha256": "359dc3dfde673cc3d9bec9295fbfe965d514496025594f1b45ec4e3d6deea7eb"
+      "sha256": "359dc3dfde673cc3d9bec9295fbfe965d514496025594f1b45ec4e3d6deea7eb",
+      "cdrom": "no"
     },
     "创世纪1(1987RM版)": {
       "identifier": "创世纪1(1987RM版)",
@@ -2768,7 +2787,8 @@
       },
       "executable": "rich1.bat",
       "type": "PUZ",
-      "sha256": "bd2a0bc9c9674316dcc4a8b3f629f1ccb6c241d2b9130cb7628b1b3887b1b1b1"
+      "sha256": "bd2a0bc9c9674316dcc4a8b3f629f1ccb6c241d2b9130cb7628b1b3887b1b1b1",
+      "floppy": "a"
     },
     "大富翁2": {
       "identifier": "大富翁2",
@@ -2804,7 +2824,8 @@
       },
       "executable": "crazy.bat",
       "type": "PUZ",
-      "sha256": "8d7a5ed1a98c77364c3ceb5750185d2cd6ff04f2e501fc8dfd1c8a550a5589ab"
+      "sha256": "8d7a5ed1a98c77364c3ceb5750185d2cd6ff04f2e501fc8dfd1c8a550a5589ab",
+      "img": "crazywar_v1.02.cue"
     },
     "大海商": {
       "identifier": "大海商",
@@ -2930,7 +2951,8 @@
       },
       "executable": "play",
       "type": "SPG",
-      "sha256": "78c978741ad03f7b81e561dacbd007fd62197360a546dde1c4f3c38dc2a216e8"
+      "sha256": "78c978741ad03f7b81e561dacbd007fd62197360a546dde1c4f3c38dc2a216e8",
+      "img": "yfz.cue"
     },
     "大唐英雄传": {
       "identifier": "大唐英雄传",
@@ -2939,7 +2961,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "4e3fd381f8257ae30738df2ec8db1ec5a5a462a57d7188247fff254045850bfb"
+      "sha256": "4e3fd381f8257ae30738df2ec8db1ec5a5a462a57d7188247fff254045850bfb",
+      "cdrom": "no"
     },
     "大野风云": {
       "identifier": "大野风云",
@@ -3047,7 +3070,8 @@
       },
       "executable": "PLAY.BAT",
       "type": "SPG",
-      "sha256": "70a00d7b0e567e2cd80e5e8848162f703f69f2e90e25fd879e4ce955ccbf7b8d"
+      "sha256": "70a00d7b0e567e2cd80e5e8848162f703f69f2e90e25fd879e4ce955ccbf7b8d",
+      "img": "dx5.cue"
     },
     "德军总部": {
       "identifier": "德军总部",
@@ -3200,7 +3224,8 @@
       },
       "executable": "hell2pay.bat",
       "type": "ACT",
-      "sha256": "8023f686df1edbdbeee5ff72e8cbbd37c7fb47c44e1ff053c108e7a42bf49f47"
+      "sha256": "8023f686df1edbdbeee5ff72e8cbbd37c7fb47c44e1ff053c108e7a42bf49f47",
+      "img": "helltopay.iso"
     },
     "地狱火": {
       "identifier": "地狱火",
@@ -3218,7 +3243,8 @@
       },
       "executable": "heck.bat",
       "type": "AVG",
-      "sha256": "4b4e527482c195ef6cfdea9691b3622c0bddd31ce647f87098663a711dfcf84c"
+      "sha256": "4b4e527482c195ef6cfdea9691b3622c0bddd31ce647f87098663a711dfcf84c",
+      "img": "cd.iso"
     },
     "地狱也疯狂": {
       "identifier": "地狱也疯狂",
@@ -3407,7 +3433,8 @@
       },
       "executable": "popple",
       "type": "ACT",
-      "sha256": "ce943d1acb238f0b1ce12fe020a532f1ec9ac0bd602af97984035e9314b5c1a5"
+      "sha256": "ce943d1acb238f0b1ce12fe020a532f1ec9ac0bd602af97984035e9314b5c1a5",
+      "cdrom": "no"
     },
     "电子侠": {
       "identifier": "电子侠",
@@ -3704,7 +3731,8 @@
       },
       "executable": "radiaki.exe",
       "type": "ACT",
-      "sha256": "82502ebfc4463249cb6f77890c686a2e462134143338fb7db59baa77672773fb"
+      "sha256": "82502ebfc4463249cb6f77890c686a2e462134143338fb7db59baa77672773fb",
+      "img": "radiaki.cue"
     },
     "飞碟任务": {
       "identifier": "飞碟任务",
@@ -3830,7 +3858,8 @@
       },
       "executable": "chasm.bat",
       "type": "ACT",
-      "sha256": "edc8a1ab9d8406c993c97325370aacde45432ee5b7d0a37025cf4be9d1a6fbeb"
+      "sha256": "edc8a1ab9d8406c993c97325370aacde45432ee5b7d0a37025cf4be9d1a6fbeb",
+      "cdrom": "no"
     },
     "风暴领主": {
       "identifier": "风暴领主",
@@ -4136,7 +4165,8 @@
       },
       "executable": "holmes2.bat",
       "type": "AVG",
-      "sha256": "1fb02db23c5f001b747c863714d8f5fe967dea65edd1dbb2e8c47571d87aaeb4"
+      "sha256": "1fb02db23c5f001b747c863714d8f5fe967dea65edd1dbb2e8c47571d87aaeb4",
+      "cdrom": "no"
     },
     "福尔摩斯失落的文件": {
       "identifier": "福尔摩斯失落的文件",
@@ -4199,7 +4229,8 @@
       },
       "executable": "play.bat",
       "type": "PUZ",
-      "sha256": "b54ed7814aa8c62384c4ef8b5b939cd3e412a82c0d7816a65bdea11ec0397371"
+      "sha256": "b54ed7814aa8c62384c4ef8b5b939cd3e412a82c0d7816a65bdea11ec0397371",
+      "cdrom": "no"
     },
     "盖世龙王": {
       "identifier": "盖世龙王",
@@ -4325,7 +4356,8 @@
       },
       "executable": "steel2",
       "type": "SLG",
-      "sha256": "7d6f5c1b756b6312f58362f0c95e9a5a0e1106980e787bc330be33e2db3c4f37"
+      "sha256": "7d6f5c1b756b6312f58362f0c95e9a5a0e1106980e787bc330be33e2db3c4f37",
+      "cdrom": "no"
     },
     "钢铁之路3": {
       "identifier": "钢铁之路3",
@@ -4361,7 +4393,8 @@
       },
       "executable": "iron.exe",
       "type": "ACT",
-      "sha256": "57a27c645e8180b3ff77f2653d20527d7c1f52b5d5b3976907f596f8e639e92a"
+      "sha256": "57a27c645e8180b3ff77f2653d20527d7c1f52b5d5b3976907f596f8e639e92a",
+      "img": "ironblood.iso"
     },
     "高报酬战将": {
       "identifier": "高报酬战将",
@@ -4550,7 +4583,8 @@
       },
       "executable": "mdk",
       "type": "ACT",
-      "sha256": "249e0694113b9bdce0d8a5f2c50e45b67848ed215c8631951e5edcc67000e435"
+      "sha256": "249e0694113b9bdce0d8a5f2c50e45b67848ed215c8631951e5edcc67000e435",
+      "cdrom": "mdk"
     },
     "古堡之宴": {
       "identifier": "古堡之宴",
@@ -4586,7 +4620,8 @@
       },
       "executable": "fsw.bat",
       "type": "SPG",
-      "sha256": "08e91ac75472c28934303dff705e5426ffd5ee8fffec8ee169e46cf809195e91"
+      "sha256": "08e91ac75472c28934303dff705e5426ffd5ee8fffec8ee169e46cf809195e91",
+      "img": "cd\\fs4.cue"
     },
     "古大陆物语5光盘版": {
       "identifier": "古大陆物语5光盘版",
@@ -4631,7 +4666,8 @@
       },
       "executable": "tomb",
       "type": "ACT",
-      "sha256": "08da92845d80bd3262751c1c9aee8163ee742872fd78b29e1b8bb0aebe4b0f4a"
+      "sha256": "08da92845d80bd3262751c1c9aee8163ee742872fd78b29e1b8bb0aebe4b0f4a",
+      "cdrom": "no"
     },
     "古事记外传(日文)": {
       "identifier": "古事记外传(日文)",
@@ -4784,7 +4820,8 @@
       },
       "executable": "aitd3.exe",
       "type": "AVG",
-      "sha256": "d3da646e49065d6e1e3af906c7adb5dbcddeaa9b96d2d91119db95ef06681e5e"
+      "sha256": "d3da646e49065d6e1e3af906c7adb5dbcddeaa9b96d2d91119db95ef06681e5e",
+      "img": "cd\\aitd3.cue"
     },
     "鬼屋魔影万圣节特别篇": {
       "identifier": "鬼屋魔影万圣节特别篇",
@@ -5108,7 +5145,8 @@
       },
       "executable": "vt",
       "type": "RPG",
-      "sha256": "628f718b687009af984092b9d6a8397be866499074b3f9e4796c52e4c3190272"
+      "sha256": "628f718b687009af984092b9d6a8397be866499074b3f9e4796c52e4c3190272",
+      "img": "img\\vt.cue"
     },
     "撼天神塔2": {
       "identifier": "撼天神塔2",
@@ -5117,7 +5155,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "9a4036de143225158dfe959071b91dc5d64f07d9ee62ecf65563090324193649"
+      "sha256": "9a4036de143225158dfe959071b91dc5d64f07d9ee62ecf65563090324193649",
+      "img": "img\\br2.cue"
     },
     "撼天神塔3": {
       "identifier": "撼天神塔3",
@@ -5126,7 +5165,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "587752cca61188408ee5215e253a40773713868e332d0f7dcfdb460d69cc7ff2"
+      "sha256": "587752cca61188408ee5215e253a40773713868e332d0f7dcfdb460d69cc7ff2",
+      "img": "img\\br3.cue"
     },
     "撼天神塔VT": {
       "identifier": "撼天神塔VT",
@@ -5279,7 +5319,8 @@
       },
       "executable": "PLAY.BAT",
       "type": "SPG",
-      "sha256": "9f08ec217809d2147781119b13b0e81f0b354fbc2f37829e696982543c77ac03"
+      "sha256": "9f08ec217809d2147781119b13b0e81f0b354fbc2f37829e696982543c77ac03",
+      "img": "img\\ttn_slg.cue"
     },
     "黑暗时代三部曲": {
       "identifier": "黑暗时代三部曲",
@@ -5387,7 +5428,8 @@
       },
       "executable": "dsun",
       "type": "RPG",
-      "sha256": "551eef8743d50015a478f37e6161207adc1d051b5020c5a1fd9669f77001d80d"
+      "sha256": "551eef8743d50015a478f37e6161207adc1d051b5020c5a1fd9669f77001d80d",
+      "cdrom": "no"
     },
     "黑色街区": {
       "identifier": "黑色街区",
@@ -5459,7 +5501,8 @@
       },
       "executable": "play.bat",
       "type": "HGA",
-      "sha256": "fc56cfb5f4eddd6209b4e581b766eccc467e59bd843310bf3477590e06c300cb"
+      "sha256": "fc56cfb5f4eddd6209b4e581b766eccc467e59bd843310bf3477590e06c300cb",
+      "img": "hlm.cue"
     },
     "红猫1": {
       "identifier": "红猫1",
@@ -5549,7 +5592,8 @@
       },
       "executable": "rage.bat",
       "type": "ACT",
-      "sha256": "20e809e8dc095e7777360aa54b597c71e570a6088efd98bf92a3853f414f127b"
+      "sha256": "20e809e8dc095e7777360aa54b597c71e570a6088efd98bf92a3853f414f127b",
+      "img": "ragecd.iso"
     },
     "洪流剑客": {
       "identifier": "洪流剑客",
@@ -5648,7 +5692,8 @@
       },
       "executable": "hml.exe",
       "type": "SPG",
-      "sha256": "5fc97bd1c0384da24b53cdee63649f7524629f829358fbb620e1425f2fc07c8e"
+      "sha256": "5fc97bd1c0384da24b53cdee63649f7524629f829358fbb620e1425f2fc07c8e",
+      "cdrom": "no"
     },
     "华丽人生2": {
       "identifier": "华丽人生2",
@@ -5837,7 +5882,8 @@
       },
       "executable": "jhl",
       "type": "RPG",
-      "sha256": "e61f4c612e48acb723381f1d4fb1c123a9a537ddb381efbf28d827e9be821841"
+      "sha256": "e61f4c612e48acb723381f1d4fb1c123a9a537ddb381efbf28d827e9be821841",
+      "img": "cd\\jhl.cue"
     },
     "幻象弹珠台": {
       "identifier": "幻象弹珠台",
@@ -5891,7 +5937,8 @@
       },
       "executable": "play.bat",
       "type": "SIM",
-      "sha256": "940f3715c72486451ce7c154bb8f094f8ec24f321e13173891b108e8f5bb9aa5"
+      "sha256": "940f3715c72486451ce7c154bb8f094f8ec24f321e13173891b108e8f5bb9aa5",
+      "cdrom": "no"
     },
     "黄飞鸿铁公鸡斗蜈蚣": {
       "identifier": "黄飞鸿铁公鸡斗蜈蚣",
@@ -6242,7 +6289,8 @@
       },
       "executable": "bioforge",
       "type": "AVG",
-      "sha256": "71fa1d00e4f4bba97abf0c85b8784c4ea3fad2472e2df03618eb45a9d8c0ee61"
+      "sha256": "71fa1d00e4f4bba97abf0c85b8784c4ea3fad2472e2df03618eb45a9d8c0ee61",
+      "img": "bioforge.iso"
     },
     "基因分裂": {
       "identifier": "基因分裂",
@@ -6368,7 +6416,8 @@
       },
       "executable": "typhoon",
       "type": "ACT",
-      "sha256": "908a6d2628a9a66aa552af6882062379a23721352e1e20778dcf1f4e2511dd39"
+      "sha256": "908a6d2628a9a66aa552af6882062379a23721352e1e20778dcf1f4e2511dd39",
+      "img": "cd\\typhoon.cue"
     },
     "极品飞车": {
       "identifier": "极品飞车",
@@ -6485,7 +6534,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "cd6305ff8816c2802708d14a503b6ae931fcc29610461dcc277d48c62fe69308"
+      "sha256": "cd6305ff8816c2802708d14a503b6ae931fcc29610461dcc277d48c62fe69308",
+      "img": "cd\\jxqy.cue"
     },
     "舰队守护神": {
       "identifier": "舰队守护神",
@@ -6494,7 +6544,8 @@
       },
       "executable": "play.bat",
       "type": "SIM",
-      "sha256": "e4c8e51b6e5037307be9892db8a4718fdf6814a7f578fb2ca5ae7ea68f7bd979"
+      "sha256": "e4c8e51b6e5037307be9892db8a4718fdf6814a7f578fb2ca5ae7ea68f7bd979",
+      "img": "aegis.iso"
     },
     "鉴赏家": {
       "identifier": "鉴赏家",
@@ -6611,7 +6662,8 @@
       },
       "executable": "jammit",
       "type": "SIM",
-      "sha256": "53d24204f43c047ac7a7b118e001848f06f0ea4d71b3ae4ab78ef9d06be4aff7"
+      "sha256": "53d24204f43c047ac7a7b118e001848f06f0ea4d71b3ae4ab78ef9d06be4aff7",
+      "img": "jammit.iso"
     },
     "街头霸王1": {
       "identifier": "街头霸王1",
@@ -6719,7 +6771,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "021dac4f150c62e3b1feed3db8ee6f75dc012dbc2946787b2a3789f7e2ac56ed"
+      "sha256": "021dac4f150c62e3b1feed3db8ee6f75dc012dbc2946787b2a3789f7e2ac56ed",
+      "img": "cd\\jyfy.cue"
     },
     "精灵幻界": {
       "identifier": "精灵幻界",
@@ -6863,7 +6916,8 @@
       },
       "executable": "kknd.exe",
       "type": "RTS",
-      "sha256": "65f45918327c237363ed04291d15134f195f766e36eef2d5f4312e5bc0c7d983"
+      "sha256": "65f45918327c237363ed04291d15134f195f766e36eef2d5f4312e5bc0c7d983",
+      "img": "kknd.iso"
     },
     "绝地-众神的诅咒": {
       "identifier": "绝地-众神的诅咒",
@@ -6872,7 +6926,8 @@
       },
       "executable": "avg.exe",
       "type": "AVG",
-      "sha256": "7536524106973be1ab732750582c8f6b87568f454c58422f190b813bec69b9b3"
+      "sha256": "7536524106973be1ab732750582c8f6b87568f454c58422f190b813bec69b9b3",
+      "cdrom": "no"
     },
     "绝对零度": {
       "identifier": "绝对零度",
@@ -6890,7 +6945,8 @@
       },
       "executable": "hope",
       "type": "RPG",
-      "sha256": "9eee13e6a088ed71066429ca82c6821ffa1af030cb2e379d99df05439c25807a"
+      "sha256": "9eee13e6a088ed71066429ca82c6821ffa1af030cb2e379d99df05439c25807a",
+      "img": "img\\hope.cue"
     },
     "掘金者": {
       "identifier": "掘金者",
@@ -7079,7 +7135,8 @@
       },
       "executable": "ko97",
       "type": "SIM",
-      "sha256": "9853612ee2a6995dd1149848b136e1a856b5fdf423f148b270645033cdf923b2"
+      "sha256": "9853612ee2a6995dd1149848b136e1a856b5fdf423f148b270645033cdf923b2",
+      "cdrom": "no"
     },
     "开膛手杰克": {
       "identifier": "开膛手杰克",
@@ -7097,7 +7154,8 @@
       },
       "executable": "runmain.exe",
       "type": "AVG",
-      "sha256": "16e518b001c7f0775d0bd47d4516e8291b6efed017a3b5324413699b6a8d77e6"
+      "sha256": "16e518b001c7f0775d0bd47d4516e8291b6efed017a3b5324413699b6a8d77e6",
+      "cdrom": "no"
     },
     "凯兰蒂亚传奇": {
       "identifier": "凯兰蒂亚传奇",
@@ -7133,7 +7191,8 @@
       },
       "executable": "C2.bat",
       "type": "SLG",
-      "sha256": "7044e7d62ec88f5b7b71b061e01dc98c2367e6b4160584c52b66675e6b8c3ad4"
+      "sha256": "7044e7d62ec88f5b7b71b061e01dc98c2367e6b4160584c52b66675e6b8c3ad4",
+      "cdrom": "no"
     },
     "凯撒立志传": {
       "identifier": "凯撒立志传",
@@ -7448,7 +7507,8 @@
       },
       "executable": "play.bat",
       "type": "AVG",
-      "sha256": "7324ce7ed97b5aa0ed3212b0a64bd7aa7c7772bd5708acb31b39351d75c00b13"
+      "sha256": "7324ce7ed97b5aa0ed3212b0a64bd7aa7c7772bd5708acb31b39351d75c00b13",
+      "cdrom": "no"
     },
     "蓝精灵": {
       "identifier": "蓝精灵",
@@ -7637,7 +7697,8 @@
       },
       "executable": "quake.exe",
       "type": "ACT",
-      "sha256": "3acfe19898d33eeb8c1b454a67cd3eee82b2d40dfdfe6efca9540c74104b6f08"
+      "sha256": "3acfe19898d33eeb8c1b454a67cd3eee82b2d40dfdfe6efca9540c74104b6f08",
+      "img": "cd\\quake.cue"
     },
     "镭射坦克": {
       "identifier": "镭射坦克",
@@ -7817,7 +7878,8 @@
       },
       "executable": "testimg",
       "type": "SPG",
-      "sha256": "843ea4979ae67d5eca4a4da67f3f774878d23992f1a8edb2ad9922b4b2affdf8"
+      "sha256": "843ea4979ae67d5eca4a4da67f3f774878d23992f1a8edb2ad9922b4b2affdf8",
+      "cdrom": "no"
     },
     "猎户座阴谋": {
       "identifier": "猎户座阴谋",
@@ -7826,7 +7888,8 @@
       },
       "executable": "orion.bat",
       "type": "AVG",
-      "sha256": "904d8267f4dd7c2a04211a7af694c06aab007265570f11b4177e0156f8265dc0"
+      "sha256": "904d8267f4dd7c2a04211a7af694c06aab007265570f11b4177e0156f8265dc0",
+      "img": "orion_cd.cue"
     },
     "猎杀红色十月": {
       "identifier": "猎杀红色十月",
@@ -7844,7 +7907,8 @@
       },
       "executable": "sh",
       "type": "SIM",
-      "sha256": "0e23ba4555644b3c3c7042c8df5cdf02b8c23d8788af0d046bf4bfd7dc7feb84"
+      "sha256": "0e23ba4555644b3c3c7042c8df5cdf02b8c23d8788af0d046bf4bfd7dc7feb84",
+      "cdrom": "no"
     },
     "灵剑传奇": {
       "identifier": "灵剑传奇",
@@ -7871,7 +7935,8 @@
       },
       "executable": "liumain.exe",
       "type": "SLG",
-      "sha256": "c4ceca37bc65ee2577d64b197614d0556a2b66e44f74dd98a4e9a00069eea6f4"
+      "sha256": "c4ceca37bc65ee2577d64b197614d0556a2b66e44f74dd98a4e9a00069eea6f4",
+      "img": "liu2.cue"
     },
     "刘伯温传奇": {
       "identifier": "刘伯温传奇",
@@ -7916,7 +7981,8 @@
       },
       "executable": "kx.bat",
       "type": "HGA",
-      "sha256": "910e8239126960fcf85bd30181cfd0855dda4f0d7f5a412da3ff155ace88e82e"
+      "sha256": "910e8239126960fcf85bd30181cfd0855dda4f0d7f5a412da3ff155ace88e82e",
+      "floppy": "a"
     },
     "龙骑士4": {
       "identifier": "龙骑士4",
@@ -8150,7 +8216,8 @@
       },
       "executable": "play.bat",
       "type": "PUZ",
-      "sha256": "15f210e3e80f1e036a1f60e83aebeb5c14c08e323a36248312fcb00baedf67a4"
+      "sha256": "15f210e3e80f1e036a1f60e83aebeb5c14c08e323a36248312fcb00baedf67a4",
+      "img": "majan.cue"
     },
     "麻雀幻想曲2": {
       "identifier": "麻雀幻想曲2",
@@ -8375,7 +8442,8 @@
       },
       "executable": "pm.bat",
       "type": "SIM",
-      "sha256": "0e2f4ad6016dd450f3c1faaf93244a60f9737ccb33d4a90f51e75a7385b2eebf"
+      "sha256": "0e2f4ad6016dd450f3c1faaf93244a60f9737ccb33d4a90f51e75a7385b2eebf",
+      "floppy": "no"
     },
     "美少女扑克": {
       "identifier": "美少女扑克",
@@ -8582,7 +8650,8 @@
       },
       "executable": "play.bat",
       "type": "SIM",
-      "sha256": "8b4795c69e5771e394fe55ed02ec309e9c03250cdec72752178a778f4a575b56"
+      "sha256": "8b4795c69e5771e394fe55ed02ec309e9c03250cdec72752178a778f4a575b56",
+      "img": "star2.mdf"
     },
     "明星志愿": {
       "identifier": "明星志愿",
@@ -8978,7 +9047,8 @@
       },
       "executable": "heroes2.exe",
       "type": "SLG",
-      "sha256": "d85571a87acdab019c042a0fdec24fd307fed4c5b89d0c3b623da8a275b06eea"
+      "sha256": "d85571a87acdab019c042a0fdec24fd307fed4c5b89d0c3b623da8a275b06eea",
+      "cdrom": "no"
     },
     "魔法门英雄无敌2中文": {
       "identifier": "魔法门英雄无敌2中文",
@@ -8987,7 +9057,8 @@
       },
       "executable": "heroes2.exe",
       "type": "SLG",
-      "sha256": "0a6dd4ba24c54a6442b730f7eb747b2707b6b7980c43471135eb16f5a6325e5a"
+      "sha256": "0a6dd4ba24c54a6442b730f7eb747b2707b6b7980c43471135eb16f5a6325e5a",
+      "img": "cd\\heroes2.cue"
     },
     "魔法门英雄无敌中文": {
       "identifier": "魔法门英雄无敌中文",
@@ -8996,7 +9067,8 @@
       },
       "executable": "heroes",
       "type": "SLG",
-      "sha256": "114b0107f7cec6deeec5b9a9028c4bb8254b3a6ae8389411f5c34d671901295e"
+      "sha256": "114b0107f7cec6deeec5b9a9028c4bb8254b3a6ae8389411f5c34d671901295e",
+      "img": "heroes.iso"
     },
     "魔法少年": {
       "identifier": "魔法少年",
@@ -9041,7 +9113,8 @@
       },
       "executable": "run.bat",
       "type": "ACT",
-      "sha256": "78a896f13c9ff44cdd7c53ddb9959876ad7813be2ea5bf14bf41e69a5222ca86"
+      "sha256": "78a896f13c9ff44cdd7c53ddb9959876ad7813be2ea5bf14bf41e69a5222ca86",
+      "img": "trialbymagic.cue"
     },
     "魔法天师": {
       "identifier": "魔法天师",
@@ -9149,7 +9222,8 @@
       },
       "executable": "play.bat",
       "type": "RTS",
-      "sha256": "bf09660f3741586230c2f715ab3d5c22af87428a682ec8894d2caae459fc1903"
+      "sha256": "bf09660f3741586230c2f715ab3d5c22af87428a682ec8894d2caae459fc1903",
+      "img": "sky.cue"
     },
     "魔龙纪事": {
       "identifier": "魔龙纪事",
@@ -9239,7 +9313,8 @@
       },
       "executable": "war2",
       "type": "RTS",
-      "sha256": "44ad53815cff22ca4b6c6d8c1833e4dec1322e5ef301cd0786f1d58b17687e60"
+      "sha256": "44ad53815cff22ca4b6c6d8c1833e4dec1322e5ef301cd0786f1d58b17687e60",
+      "cdrom": "no"
     },
     "魔兽争霸2资料篇": {
       "identifier": "魔兽争霸2资料篇",
@@ -9392,7 +9467,8 @@
       },
       "executable": "ECSTATIC2.bat",
       "type": "AVG",
-      "sha256": "c504f989e8bc30e949bdf7cd0eb06c74a8ede3a3d27079abb266150965ea9de9"
+      "sha256": "c504f989e8bc30e949bdf7cd0eb06c74a8ede3a3d27079abb266150965ea9de9",
+      "img": "ecstatica2.iso"
     },
     "魔栈": {
       "identifier": "魔栈",
@@ -9509,7 +9585,8 @@
       },
       "executable": "ice640",
       "type": "AVG",
-      "sha256": "9b45beaf944f5ce958d966dd4cbf565f4d24eca3637348cb5372694ff9a0edce"
+      "sha256": "9b45beaf944f5ce958d966dd4cbf565f4d24eca3637348cb5372694ff9a0edce",
+      "cdrom": "no"
     },
     "南极大冒险": {
       "identifier": "南极大冒险",
@@ -9626,7 +9703,8 @@
       },
       "executable": "play.bat",
       "type": "SIM",
-      "sha256": "581fcd90497b92e1fee10397d09834909fb9a32d0ca0d361744a2d862953f15c"
+      "sha256": "581fcd90497b92e1fee10397d09834909fb9a32d0ca0d361744a2d862953f15c",
+      "floppy": "b"
     },
     "女神之翼": {
       "identifier": "女神之翼",
@@ -9671,7 +9749,8 @@
       },
       "executable": "start.bat",
       "type": "SIM",
-      "sha256": "0bf974576bf9c9af5880981dfd67f7f650fb9c8f993c31a2d5845be00dbe4cb9"
+      "sha256": "0bf974576bf9c9af5880981dfd67f7f650fb9c8f993c31a2d5845be00dbe4cb9",
+      "floppy": "a"
     },
     "叛变克朗多": {
       "identifier": "叛变克朗多",
@@ -9752,7 +9831,8 @@
       },
       "executable": "play.bat",
       "type": "HGA",
-      "sha256": "4bfee38538b5b3dec10c64f4b0730bbcebe6ab07b10ba6dcf5828cf60fa6bfa7"
+      "sha256": "4bfee38538b5b3dec10c64f4b0730bbcebe6ab07b10ba6dcf5828cf60fa6bfa7",
+      "cdrom": "no"
     },
     "霹雳幽灵剑": {
       "identifier": "霹雳幽灵剑",
@@ -9761,7 +9841,8 @@
       },
       "executable": "PLAY.BAT",
       "type": "RPG",
-      "sha256": "8a82ee480f7124df21b96d44dc133a60076609ca084127f896e307f24b803479"
+      "sha256": "8a82ee480f7124df21b96d44dc133a60076609ca084127f896e307f24b803479",
+      "img": "cd\\pili.cue"
     },
     "拼图大师": {
       "identifier": "拼图大师",
@@ -9860,7 +9941,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "e7209542aeb40802b2f748a2b50617ffa6bb6cb4ccaa72cc7a370aa5ddd92bf4"
+      "sha256": "e7209542aeb40802b2f748a2b50617ffa6bb6cb4ccaa72cc7a370aa5ddd92bf4",
+      "img": "img\\ttn_seven.cue"
     },
     "七英雄物语": {
       "identifier": "七英雄物语",
@@ -9869,7 +9951,8 @@
       },
       "executable": "play.bat",
       "type": "HGA",
-      "sha256": "b22f86d61eaa5b71905b0a16238521fe262acebe4d5cecea3fc7a3bf7cf17776"
+      "sha256": "b22f86d61eaa5b71905b0a16238521fe262acebe4d5cecea3fc7a3bf7cf17776",
+      "img": "img\\seven.cue"
     },
     "七英雄物语2": {
       "identifier": "七英雄物语2",
@@ -9878,7 +9961,8 @@
       },
       "executable": "play.bat",
       "type": "HGA",
-      "sha256": "b364af1541660c39c232aa875b7e1f7cbbf0a6740eaeea236473b9fc51941acb"
+      "sha256": "b364af1541660c39c232aa875b7e1f7cbbf0a6740eaeea236473b9fc51941acb",
+      "img": "img\\nanaei2.cue"
     },
     "齐天大圣": {
       "identifier": "齐天大圣",
@@ -10040,7 +10124,8 @@
       },
       "executable": "play.bat",
       "type": "SIM",
-      "sha256": "bdf4e84c907a73d6ef4a776e925cb5ec603250f9a1a17cad1e7b67de235bd565"
+      "sha256": "bdf4e84c907a73d6ef4a776e925cb5ec603250f9a1a17cad1e7b67de235bd565",
+      "img": "vrbb_102.mdf"
     },
     "清白无罪": {
       "identifier": "清白无罪",
@@ -10166,7 +10251,8 @@
       },
       "executable": "mandos.exe",
       "type": "SIM",
-      "sha256": "b3bcdecb348c3a959830cd49618c57871e7a5ff6f74dab888775eea4e49d07ad"
+      "sha256": "b3bcdecb348c3a959830cd49618c57871e7a5ff6f74dab888775eea4e49d07ad",
+      "cdrom": "no"
     },
     "热能战机": {
       "identifier": "热能战机",
@@ -10175,7 +10261,8 @@
       },
       "executable": "grav.bat",
       "type": "ACT",
-      "sha256": "fab0d8d941391f1433a47898fa7b8276c17ae34afa66df2849ed3429194bfeb9"
+      "sha256": "fab0d8d941391f1433a47898fa7b8276c17ae34afa66df2849ed3429194bfeb9",
+      "img": "pyrotechnica.cue"
     },
     "热血硬派": {
       "identifier": "热血硬派",
@@ -10319,7 +10406,8 @@
       },
       "executable": "play",
       "type": "RTS",
-      "sha256": "f8dab1477b42ecf124a56f8138a98eb95ead1c0b9b4de6f6d08bf10f0a4fd463"
+      "sha256": "f8dab1477b42ecf124a56f8138a98eb95ead1c0b9b4de6f6d08bf10f0a4fd463",
+      "cdrom": "no"
     },
     "日蚀": {
       "identifier": "日蚀",
@@ -10328,7 +10416,8 @@
       },
       "executable": "ECP",
       "type": "SLG",
-      "sha256": "9cf03fb3642cd5899c06f8a9ba860c8261825b9011648c67d015a109d73b2d9d"
+      "sha256": "9cf03fb3642cd5899c06f8a9ba860c8261825b9011648c67d015a109d73b2d9d",
+      "cdrom": "no"
     },
     "荣耀战场": {
       "identifier": "荣耀战场",
@@ -10472,7 +10561,8 @@
       },
       "executable": "san2",
       "type": "SLG",
-      "sha256": "9b08c0930968b8adef596d5e1d7bac4587bf78c89d417ff9e8a7038a29f4cd95"
+      "sha256": "9b08c0930968b8adef596d5e1d7bac4587bf78c89d417ff9e8a7038a29f4cd95",
+      "img": "cd\\sango2.cue"
     },
     "三国英杰传": {
       "identifier": "三国英杰传",
@@ -10589,7 +10679,8 @@
       },
       "executable": "kx",
       "type": "RPG",
-      "sha256": "1e6cc727236db02474fe13c39bd323e3928159d5fb4d98ce1c3033d30348fb97"
+      "sha256": "1e6cc727236db02474fe13c39bd323e3928159d5fb4d98ce1c3033d30348fb97",
+      "floppy": "no"
     },
     "杀出机械城": {
       "identifier": "杀出机械城",
@@ -10634,7 +10725,8 @@
       },
       "executable": "shakii",
       "type": "ACT",
-      "sha256": "6e339a043fb4e249cdcf6d31ed4ad330fc9000256d7d5ca9b1aca55fb1f5d51c"
+      "sha256": "6e339a043fb4e249cdcf6d31ed4ad330fc9000256d7d5ca9b1aca55fb1f5d51c",
+      "img": "shakii11.cue"
     },
     "沙拉那之剑": {
       "identifier": "沙拉那之剑",
@@ -10679,7 +10771,8 @@
       },
       "executable": "play.bat",
       "type": "RTS",
-      "sha256": "a90d687c8dbc2b145b7d2a726ed5d22db6a4420591a1ee48bc7fb58e3fbf1b85"
+      "sha256": "a90d687c8dbc2b145b7d2a726ed5d22db6a4420591a1ee48bc7fb58e3fbf1b85",
+      "img": "dune2cd.img"
     },
     "沙丘魔堡2加强版": {
       "identifier": "沙丘魔堡2加强版",
@@ -10697,7 +10790,8 @@
       },
       "executable": "dune.bat",
       "type": "AVG",
-      "sha256": "143cca4c3ba1f0e7b332e2cd852c901afb5b6572d98e5eca5a4ca3873ceeadd8"
+      "sha256": "143cca4c3ba1f0e7b332e2cd852c901afb5b6572d98e5eca5a4ca3873ceeadd8",
+      "img": "dunecd.iso"
     },
     "沙之战线": {
       "identifier": "沙之战线",
@@ -10715,7 +10809,8 @@
       },
       "executable": "loom.exe",
       "type": "AVG",
-      "sha256": "a22de97eeb148954e341181143798ae434fec344a0ecda12bdb86f62c2a488da"
+      "sha256": "a22de97eeb148954e341181143798ae434fec344a0ecda12bdb86f62c2a488da",
+      "cdrom": "no"
     },
     "山海经": {
       "identifier": "山海经",
@@ -10769,7 +10864,8 @@
       },
       "executable": "pop.bat",
       "type": "RTS",
-      "sha256": "793e39523cdb8d4cd771f82a8ca4a4ff22f2db67297c9b0445b5ac4ac0ba485d"
+      "sha256": "793e39523cdb8d4cd771f82a8ca4a4ff22f2db67297c9b0445b5ac4ac0ba485d",
+      "cdrom": "no"
     },
     "上帝也疯狂2": {
       "identifier": "上帝也疯狂2",
@@ -10778,7 +10874,8 @@
       },
       "executable": "go.bat",
       "type": "RTS",
-      "sha256": "751efbff6be926e126cf9be71a5cb263352a040913510bd7b1780b1cea431c44"
+      "sha256": "751efbff6be926e126cf9be71a5cb263352a040913510bd7b1780b1cea431c44",
+      "cdrom": "no"
     },
     "上帝之锤": {
       "identifier": "上帝之锤",
@@ -10796,7 +10893,8 @@
       },
       "executable": "arena.bat",
       "type": "RPG",
-      "sha256": "ccea2f44b2b7eb82008c1e9a75cbeb8848bbda3665cffb23ce6c928674d6c2ff"
+      "sha256": "ccea2f44b2b7eb82008c1e9a75cbeb8848bbda3665cffb23ce6c928674d6c2ff",
+      "img": "arena.cue"
     },
     "上古卷轴1竞技场": {
       "identifier": "上古卷轴1竞技场",
@@ -10814,7 +10912,8 @@
       },
       "executable": "dagger",
       "type": "RPG",
-      "sha256": "a2dbcd7b6fa6163a3c30de6c068b5ac8c092a70781d647e8fe96a2d3d05fb976"
+      "sha256": "a2dbcd7b6fa6163a3c30de6c068b5ac8c092a70781d647e8fe96a2d3d05fb976",
+      "img": "dfcd.iso"
     },
     "上古卷轴传奇": {
       "identifier": "上古卷轴传奇",
@@ -10931,7 +11030,8 @@
       },
       "executable": "eagle",
       "type": "RPG",
-      "sha256": "f2df6cdae7c70dc3ab7dc88b60c98b53c3aa7878b20499cfe375dcc5bf911aa3"
+      "sha256": "f2df6cdae7c70dc3ab7dc88b60c98b53c3aa7878b20499cfe375dcc5bf911aa3",
+      "img": "img\\eagle.cue"
     },
     "神剑传说": {
       "identifier": "神剑传说",
@@ -11021,7 +11121,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "abf9a5e1b612292a50962d128e1c74075773874f2dffb605f714c31beeb069ef"
+      "sha256": "abf9a5e1b612292a50962d128e1c74075773874f2dffb605f714c31beeb069ef",
+      "img": "img\\oracle.cue"
     },
     "神州八剑": {
       "identifier": "神州八剑",
@@ -11039,7 +11140,8 @@
       },
       "executable": "cyberia.bat",
       "type": "ACT",
-      "sha256": "a62923f177c60fa960559afd1f277f5f15b848743ffb4f3de60097f633d06b63"
+      "sha256": "a62923f177c60fa960559afd1f277f5f15b848743ffb4f3de60097f633d06b63",
+      "img": "cyberia.iso"
     },
     "生化情人": {
       "identifier": "生化情人",
@@ -11111,7 +11213,8 @@
       },
       "executable": "game.exe",
       "type": "RPG",
-      "sha256": "40cbec9c0eb8b9540a33796e8ed5f45b874626df60d90f49c768f011498f93c7"
+      "sha256": "40cbec9c0eb8b9540a33796e8ed5f45b874626df60d90f49c768f011498f93c7",
+      "img": "cd\\cd.cue"
     },
     "圣经队长": {
       "identifier": "圣经队长",
@@ -11165,7 +11268,8 @@
       },
       "executable": "play.bat",
       "type": "SPG",
-      "sha256": "060e223bcc1dc1ac4d548142e0a08707ff7599a6e441afe77c88b53012a8240e"
+      "sha256": "060e223bcc1dc1ac4d548142e0a08707ff7599a6e441afe77c88b53012a8240e",
+      "img": "szfyl.iso"
     },
     "圣战录": {
       "identifier": "圣战录",
@@ -11201,7 +11305,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "2966286809237bbf4d4cca0213f024b2c505081a990086556ad4885c4f37092f"
+      "sha256": "2966286809237bbf4d4cca0213f024b2c505081a990086556ad4885c4f37092f",
+      "img": "img\\atria.cue"
     },
     "失落的封印": {
       "identifier": "失落的封印",
@@ -11687,7 +11792,8 @@
       },
       "executable": "lba2",
       "type": "AVG",
-      "sha256": "cd11ee5ab1151cb8cbb01c814f0f848744cd6d99599d825e07486581e8dbadc6"
+      "sha256": "cd11ee5ab1151cb8cbb01c814f0f848744cd6d99599d825e07486581e8dbadc6",
+      "img": "lba2.cue"
     },
     "谁陷害了兔子罗杰": {
       "identifier": "谁陷害了兔子罗杰",
@@ -11741,7 +11847,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "131207ca1e1970783588394d1eb17c90fbd2129d8fec8fac76a2b2114a2fcc48"
+      "sha256": "131207ca1e1970783588394d1eb17c90fbd2129d8fec8fac76a2b2114a2fcc48",
+      "img": "img\\ttn_water.cue"
     },
     "水浒传之梁山英雄": {
       "identifier": "水浒传之梁山英雄",
@@ -11759,7 +11866,8 @@
       },
       "executable": "heroes.exe",
       "type": "AVG",
-      "sha256": "e22018f1b6262d056734be8851e368eb4aa6c31d8500dcb969fbff2ef773b53d"
+      "sha256": "e22018f1b6262d056734be8851e368eb4aa6c31d8500dcb969fbff2ef773b53d",
+      "img": "shuihu.iso"
     },
     "水晶迷宫": {
       "identifier": "水晶迷宫",
@@ -11858,7 +11966,8 @@
       },
       "executable": "start",
       "type": "RPG",
-      "sha256": "8ff652f1d7320ee8f7ce50eac36d3cc5da7c012a0d5b36c48319baa5d21f23d9"
+      "sha256": "8ff652f1d7320ee8f7ce50eac36d3cc5da7c012a0d5b36c48319baa5d21f23d9",
+      "floppy": "no"
     },
     "死亡赛车": {
       "identifier": "死亡赛车",
@@ -11932,7 +12041,8 @@
       },
       "executable": "VOD.EXE",
       "type": "RPG",
-      "sha256": "5eb2a8f654ffc3d80e95aae6e1286e552e42580797188357c080c5db3a4e20dd"
+      "sha256": "5eb2a8f654ffc3d80e95aae6e1286e552e42580797188357c080c5db3a4e20dd",
+      "cdrom": "no"
     },
     "四人车赛": {
       "identifier": "四人车赛",
@@ -12085,7 +12195,8 @@
       },
       "executable": "play.bat",
       "type": "SPG",
-      "sha256": "fd85104aea779b31f2db9332caedd33f4064c60764e35fd53ef9f213439fbe01"
+      "sha256": "fd85104aea779b31f2db9332caedd33f4064c60764e35fd53ef9f213439fbe01",
+      "img": "cd\\tb.cue"
     },
     "太平洋公爵": {
       "identifier": "太平洋公爵",
@@ -12211,7 +12322,8 @@
       },
       "executable": "LODERUNN.EXE",
       "type": "PUZ",
-      "sha256": "d36e686ee8e36c2f91a45856daa3d4225917a4510dc8b612ee7344a3564e10e2"
+      "sha256": "d36e686ee8e36c2f91a45856daa3d4225917a4510dc8b612ee7344a3564e10e2",
+      "cdrom": "no"
     },
     "特工盖之毁灭水晶": {
       "identifier": "特工盖之毁灭水晶",
@@ -12400,7 +12512,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "846525e05e8430b581d6d89a8aa7a67b990366e59216069c7f5cc77a880e712c"
+      "sha256": "846525e05e8430b581d6d89a8aa7a67b990366e59216069c7f5cc77a880e712c",
+      "img": "orfd.cue"
     },
     "天师钟馗": {
       "identifier": "天师钟馗",
@@ -12409,7 +12522,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "a9b038f120cb6499f303ed05bb0d50700fab3e09eddf15e052bcec4ca16e0af1"
+      "sha256": "a9b038f120cb6499f303ed05bb0d50700fab3e09eddf15e052bcec4ca16e0af1",
+      "img": "cd\\ttn_ghost.cue"
     },
     "天使Q女学院": {
       "identifier": "天使Q女学院",
@@ -12418,7 +12532,8 @@
       },
       "executable": "play.bat",
       "type": "SPG",
-      "sha256": "7357aebab7be68fb3a85a37f01bd2c0afec2db9dfa205f5c3369f886d34be8a6"
+      "sha256": "7357aebab7be68fb3a85a37f01bd2c0afec2db9dfa205f5c3369f886d34be8a6",
+      "cdrom": "no"
     },
     "天使帝国2": {
       "identifier": "天使帝国2",
@@ -12562,7 +12677,8 @@
       },
       "executable": "play.bat",
       "type": "SLG",
-      "sha256": "a6e2521cb5efec406ad850ea194adb2a2576fb9096787509eceff7cb163e0295"
+      "sha256": "a6e2521cb5efec406ad850ea194adb2a2576fb9096787509eceff7cb163e0295",
+      "img": "img\\schex.cue"
     },
     "铁血橄榄球": {
       "identifier": "铁血橄榄球",
@@ -12706,7 +12822,8 @@
       },
       "executable": "play.bat",
       "type": "SPG",
-      "sha256": "01ee8a5f1d4f5579787e9ddb46a81e61f567ee325214816befd2f80f6274dadc"
+      "sha256": "01ee8a5f1d4f5579787e9ddb46a81e61f567ee325214816befd2f80f6274dadc",
+      "img": "img\\ttn_no1.cue"
     },
     "秃鹰疑案": {
       "identifier": "秃鹰疑案",
@@ -12715,7 +12832,8 @@
       },
       "executable": "play",
       "type": "AVG",
-      "sha256": "57c49f1d66cbe47bdd1ee504f95ec705cce6f87110ee6d5c3b0b3f70d1ba8029"
+      "sha256": "57c49f1d66cbe47bdd1ee504f95ec705cce6f87110ee6d5c3b0b3f70d1ba8029",
+      "img": "cd.img"
     },
     "突击": {
       "identifier": "突击",
@@ -12832,7 +12950,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "55117357362737310f2bd5ef44269b7d88f8763023fb422e659746667b77df38"
+      "sha256": "55117357362737310f2bd5ef44269b7d88f8763023fb422e659746667b77df38",
+      "img": "cd\\ss4.cue"
     },
     "吞食天地青衫版": {
       "identifier": "吞食天地青衫版",
@@ -12949,7 +13068,8 @@
       },
       "executable": "cadaver",
       "type": "ACT",
-      "sha256": "46910a4e182f37b689e260dd9a93cfd884f0af71b06bf9ba31f2397683145f41"
+      "sha256": "46910a4e182f37b689e260dd9a93cfd884f0af71b06bf9ba31f2397683145f41",
+      "floppy": "a"
     },
     "王牌潜艇+资料片": {
       "identifier": "王牌潜艇+资料片",
@@ -13003,7 +13123,8 @@
       },
       "executable": "play.bat",
       "type": "ACT",
-      "sha256": "ca85a3bc846133d08128cc8840638ec25468ace276bb7d463de5b9dead8ef941"
+      "sha256": "ca85a3bc846133d08128cc8840638ec25468ace276bb7d463de5b9dead8ef941",
+      "cdrom": "no"
     },
     "危险丛林": {
       "identifier": "危险丛林",
@@ -13354,7 +13475,8 @@
       },
       "executable": "crusader",
       "type": "ACT",
-      "sha256": "70b7593455d5416cfa0b58458288592d18905e53c883dec43f1afa8694a687ac"
+      "sha256": "70b7593455d5416cfa0b58458288592d18905e53c883dec43f1afa8694a687ac",
+      "cdrom": "no"
     },
     "无悔的十字军2": {
       "identifier": "无悔的十字军2",
@@ -13363,7 +13485,8 @@
       },
       "executable": "regret",
       "type": "ACT",
-      "sha256": "5df89ffca3f16b782f0eb9a3c3e47cf5d50ea0cd07686118d323c4e4c8d20474"
+      "sha256": "5df89ffca3f16b782f0eb9a3c3e47cf5d50ea0cd07686118d323c4e4c8d20474",
+      "cdrom": "no"
     },
     "无尽的黑暗": {
       "identifier": "无尽的黑暗",
@@ -13408,7 +13531,8 @@
       },
       "executable": "ultimate.bat",
       "type": "SLG",
-      "sha256": "03f369acc27ed45fe4c41141c48bce8bb7fa45dc21bfd576ceb21d8d3f4d2402"
+      "sha256": "03f369acc27ed45fe4c41141c48bce8bb7fa45dc21bfd576ceb21d8d3f4d2402",
+      "img": "gen_cd.cue"
     },
     "无名指的教科书": {
       "identifier": "无名指的教科书",
@@ -13633,7 +13757,8 @@
       },
       "executable": "play.bat",
       "type": "ACT",
-      "sha256": "1d7240c129e4359bb83b006fb82aa3c172e6bfdd8f5193ba25f124aceba8afd0"
+      "sha256": "1d7240c129e4359bb83b006fb82aa3c172e6bfdd8f5193ba25f124aceba8afd0",
+      "img": "cd\\gta.cue"
     },
     "侠客英雄传": {
       "identifier": "侠客英雄传",
@@ -13696,7 +13821,8 @@
       },
       "executable": "pal",
       "type": "RPG",
-      "sha256": "46b1d04db83cc64019ef48c8576fbd7f9080079faad4c8510f6f19e299e5f724"
+      "sha256": "46b1d04db83cc64019ef48c8576fbd7f9080079faad4c8510f6f19e299e5f724",
+      "img": "paldos.cue"
     },
     "仙剑奇侠传加强版": {
       "identifier": "仙剑奇侠传加强版",
@@ -13777,7 +13903,8 @@
       },
       "executable": "play.bat",
       "type": "HGA",
-      "sha256": "59620a6d7bd4ca39a62cb322cc1f7bfb08c09a37130e27e4158de473a287572f"
+      "sha256": "59620a6d7bd4ca39a62cb322cc1f7bfb08c09a37130e27e4158de473a287572f",
+      "cdrom": "no"
     },
     "项刘记": {
       "identifier": "项刘记",
@@ -13840,7 +13967,8 @@
       },
       "executable": "divil.bat",
       "type": "AVG",
-      "sha256": "69f347f3faf57afaffbed8a2fccc71840c3a25de5b9c2894ba223519e15e35f0"
+      "sha256": "69f347f3faf57afaffbed8a2fccc71840c3a25de5b9c2894ba223519e15e35f0",
+      "img": "cd\\litil_divil.cue"
     },
     "小飞侠": {
       "identifier": "小飞侠",
@@ -13876,7 +14004,8 @@
       },
       "executable": "sex",
       "type": "HGA",
-      "sha256": "0c34b82780abb2dba8205e9bdfc2298e7a30403fef4863b5b4f66a7f7eb1c485"
+      "sha256": "0c34b82780abb2dba8205e9bdfc2298e7a30403fef4863b5b4f66a7f7eb1c485",
+      "floppy": "b"
     },
     "小精灵历险": {
       "identifier": "小精灵历险",
@@ -14002,7 +14131,8 @@
       },
       "executable": "play",
       "type": "RPG",
-      "sha256": "3a992a7beb2673742385feb20df722d48b6d50505ce91b5804557014ba62813e"
+      "sha256": "3a992a7beb2673742385feb20df722d48b6d50505ce91b5804557014ba62813e",
+      "img": "ttn_vampire.cue"
     },
     "邪神": {
       "identifier": "邪神",
@@ -14083,7 +14213,8 @@
       },
       "executable": "play",
       "type": "ACT",
-      "sha256": "f4ab4f8f800e18da3d671bf5e7819a1c529a2e9a9f2b96fb604370a41f9ab709"
+      "sha256": "f4ab4f8f800e18da3d671bf5e7819a1c529a2e9a9f2b96fb604370a41f9ab709",
+      "cdrom": "no"
     },
     "新美女拳": {
       "identifier": "新美女拳",
@@ -14272,7 +14403,8 @@
       },
       "executable": "srangers.bat",
       "type": "SIM",
-      "sha256": "23523aec665a18fcbbf010ff39340510089f344512c5e6d64fa25b5316625fca"
+      "sha256": "23523aec665a18fcbbf010ff39340510089f344512c5e6d64fa25b5316625fca",
+      "img": "star_rangers.cue"
     },
     "星际之锤": {
       "identifier": "星际之锤",
@@ -14290,7 +14422,8 @@
       },
       "executable": "bwing",
       "type": "SIM",
-      "sha256": "711905169a4a25d4293277bab0a8542675d7fa9476a3d9d779cb92763dcc0c8d"
+      "sha256": "711905169a4a25d4293277bab0a8542675d7fa9476a3d9d779cb92763dcc0c8d",
+      "img": "swxwcd.cue"
     },
     "星球大战暗影力量": {
       "identifier": "星球大战暗影力量",
@@ -14380,7 +14513,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "16eff0f8c7dc4a58f77c58c5a984b601e8337c2bc9012c8a34ad0eb8198e423f"
+      "sha256": "16eff0f8c7dc4a58f77c58c5a984b601e8337c2bc9012c8a34ad0eb8198e423f",
+      "img": "img\\ttn_moon.cue"
     },
     "杏林也疯狂(主题医院台版)": {
       "identifier": "杏林也疯狂(主题医院台版)",
@@ -14416,7 +14550,8 @@
       },
       "executable": "gw.bat",
       "type": "SLG",
-      "sha256": "a93343c17728859d46828519ac4db39a1f4df8a5395d498f05e7a78c19b97f10"
+      "sha256": "a93343c17728859d46828519ac4db39a1f4df8a5395d498f05e7a78c19b97f10",
+      "cdrom": "no"
     },
     "性感俄罗斯": {
       "identifier": "性感俄罗斯",
@@ -14497,7 +14632,8 @@
       },
       "executable": "map.exe",
       "type": "SPG",
-      "sha256": "caea860b092c8fd27952c357df96f4ecfb2755a5bdb8d078b2f64a62eeabdf00"
+      "sha256": "caea860b092c8fd27952c357df96f4ecfb2755a5bdb8d078b2f64a62eeabdf00",
+      "img": "cd\\shenwen.cue"
     },
     "选举风云": {
       "identifier": "选举风云",
@@ -14560,7 +14696,8 @@
       },
       "executable": "blood.bat",
       "type": "RPG",
-      "sha256": "9bcf26a1c553d681a0fc557828f164c3886c7cb7b9e109a4ae2653d62e27c3cf"
+      "sha256": "9bcf26a1c553d681a0fc557828f164c3886c7cb7b9e109a4ae2653d62e27c3cf",
+      "img": "bloodstone.cue"
     },
     "血巫": {
       "identifier": "血巫",
@@ -14578,7 +14715,8 @@
       },
       "executable": "bam",
       "type": "RTS",
-      "sha256": "3a751f6ccf43bdf18064189ccc78e85b28761909a5eb9f71c5404d72d090aaca"
+      "sha256": "3a751f6ccf43bdf18064189ccc78e85b28761909a5eb9f71c5404d72d090aaca",
+      "cdrom": "no"
     },
     "寻找激流博士": {
       "identifier": "寻找激流博士",
@@ -14974,7 +15112,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "37697cf4e8f67fce3d38e6897d140ee5673661ee3afb5f06a26ec88ddd00f0f7"
+      "sha256": "37697cf4e8f67fce3d38e6897d140ee5673661ee3afb5f06a26ec88ddd00f0f7",
+      "cdrom": "no"
     },
     "异次元之旅武者传说": {
       "identifier": "异次元之旅武者传说",
@@ -15037,7 +15176,8 @@
       },
       "executable": "ALIEN.EXE",
       "type": "RPG",
-      "sha256": "e18356ffb9b87f2ff734dee2646409ce519359eb5a28d77180c43c4c1ebe91ee"
+      "sha256": "e18356ffb9b87f2ff734dee2646409ce519359eb5a28d77180c43c4c1ebe91ee",
+      "img": "alienlogic.cue"
     },
     "异星搜奇": {
       "identifier": "异星搜奇",
@@ -15046,7 +15186,8 @@
       },
       "executable": "play.bat",
       "type": "AVG",
-      "sha256": "1b16f7d35eb6b28b834e782aabfe60131b6e2747b01986e70f7511de47045e9b"
+      "sha256": "1b16f7d35eb6b28b834e782aabfe60131b6e2747b01986e70f7511de47045e9b",
+      "img": "digchn.iso"
     },
     "异星突击": {
       "identifier": "异星突击",
@@ -15109,7 +15250,8 @@
       },
       "executable": "TA.EXE",
       "type": "ACT",
-      "sha256": "187e2cd71b80bd611deeefa7c61b969b420128cd00d5d5b7329510dd81ecc8a8"
+      "sha256": "187e2cd71b80bd611deeefa7c61b969b420128cd00d5d5b7329510dd81ecc8a8",
+      "floppy": "a"
     },
     "异形方块": {
       "identifier": "异形方块",
@@ -15145,7 +15287,8 @@
       },
       "executable": "ai.com",
       "type": "AVG",
-      "sha256": "3a49dcec39d769a7ede5b6a466969dc08405bed785ba7e96c51687f4f37ed3ec"
+      "sha256": "3a49dcec39d769a7ede5b6a466969dc08405bed785ba7e96c51687f4f37ed3ec",
+      "cdrom": "no"
     },
     "异形阴谋": {
       "identifier": "异形阴谋",
@@ -15343,7 +15486,8 @@
       },
       "executable": "run.bat",
       "type": "RPG",
-      "sha256": "55f2f79736e9be030a55d1669a1e09745566cf0b5c7729c28b081c63349da6a5"
+      "sha256": "55f2f79736e9be030a55d1669a1e09745566cf0b5c7729c28b081c63349da6a5",
+      "img": "wind.iso"
     },
     "银河英雄": {
       "identifier": "银河英雄",
@@ -15352,7 +15496,8 @@
       },
       "executable": "play.bat",
       "type": "SPG",
-      "sha256": "27088cab29b44cf4f19ae8b0f9feb4867c01310e0cc4142bcf35aa191bc03338"
+      "sha256": "27088cab29b44cf4f19ae8b0f9feb4867c01310e0cc4142bcf35aa191bc03338",
+      "img": "img\\bounty.cue"
     },
     "银河英雄传说3": {
       "identifier": "银河英雄传说3",
@@ -15370,7 +15515,8 @@
       },
       "executable": "g4x",
       "type": "SLG",
-      "sha256": "b1f7ad9e3bab69ba890e05658a22b12f62f1801ae543e41683f4e75c826d2bae"
+      "sha256": "b1f7ad9e3bab69ba890e05658a22b12f62f1801ae543e41683f4e75c826d2bae",
+      "img": "g4x.iso"
     },
     "银河战士": {
       "identifier": "银河战士",
@@ -15442,7 +15588,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "dad56f881f2ddd341479e0983e7e15fa07da2ac43b94c98df6dd4a88f36a7a45"
+      "sha256": "dad56f881f2ddd341479e0983e7e15fa07da2ac43b94c98df6dd4a88f36a7a45",
+      "img": "cd\\ed1.cue"
     },
     "英雄传说2": {
       "identifier": "英雄传说2",
@@ -15451,7 +15598,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "9df1f2f49e88386dbfd9003d2047ced204bd42c9d2f9c3d32b850ed6e9cf0ca0"
+      "sha256": "9df1f2f49e88386dbfd9003d2047ced204bd42c9d2f9c3d32b850ed6e9cf0ca0",
+      "img": "cd\\ed2.cue"
     },
     "英雄传说3": {
       "identifier": "英雄传说3",
@@ -15460,7 +15608,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "fecd28f7dde983911e4618827f095c2e3619ecf41d9405a007d1710280c258f5"
+      "sha256": "fecd28f7dde983911e4618827f095c2e3619ecf41d9405a007d1710280c258f5",
+      "img": "cd\\ed3.cue"
     },
     "英雄传说4": {
       "identifier": "英雄传说4",
@@ -15469,7 +15618,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "43d3a1676bb74bdb05ee1be015419267155528107d34406182dd1c4075f5dd7c"
+      "sha256": "43d3a1676bb74bdb05ee1be015419267155528107d34406182dd1c4075f5dd7c",
+      "img": "cd\\ed4.cue"
     },
     "英雄圣战": {
       "identifier": "英雄圣战",
@@ -15496,7 +15646,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "9cc8aee133f4e47e385a281fbc97fc34645c0489f9fd23b545b8fbbd4882089a"
+      "sha256": "9cc8aee133f4e47e385a281fbc97fc34645c0489f9fd23b545b8fbbd4882089a",
+      "cdrom": "no"
     },
     "樱花的季节": {
       "identifier": "樱花的季节",
@@ -15568,7 +15719,8 @@
       },
       "executable": "batman.exe",
       "type": "ACT",
-      "sha256": "8789d8779f726c26161d057a82db92c5d3da97a3f78d86d01b642449b587954b"
+      "sha256": "8789d8779f726c26161d057a82db92c5d3da97a3f78d86d01b642449b587954b",
+      "cdrom": "no"
     },
     "永远的雷曼": {
       "identifier": "永远的雷曼",
@@ -15577,7 +15729,8 @@
       },
       "executable": "rayman",
       "type": "ACT",
-      "sha256": "62a96efa92bcc0c251562d5fe207c7030436863d86be0d49e8ca535a5c472331"
+      "sha256": "62a96efa92bcc0c251562d5fe207c7030436863d86be0d49e8ca535a5c472331",
+      "img": "rayman.cue"
     },
     "永远的雷曼自制关": {
       "identifier": "永远的雷曼自制关",
@@ -15586,7 +15739,8 @@
       },
       "executable": "rayman.bat",
       "type": "ACT",
-      "sha256": "62a96efa92bcc0c251562d5fe207c7030436863d86be0d49e8ca535a5c472331"
+      "sha256": "62a96efa92bcc0c251562d5fe207c7030436863d86be0d49e8ca535a5c472331",
+      "img": "rayman.cue"
     },
     "勇士传奇": {
       "identifier": "勇士传奇",
@@ -15676,7 +15830,8 @@
       },
       "executable": "xcomapoc.exe",
       "type": "SLG",
-      "sha256": "08b02c35cc9ea2545bafdab0efda3a69b290cab161b2f7e76a7a305f94e315ae"
+      "sha256": "08b02c35cc9ea2545bafdab0efda3a69b290cab161b2f7e76a7a305f94e315ae",
+      "img": "xcom.iso"
     },
     "幽灵馆": {
       "identifier": "幽灵馆",
@@ -16189,7 +16344,8 @@
       },
       "executable": "start.bat",
       "type": "SLG",
-      "sha256": "b0b6644f8434654ff2fa3902df5cc3c4e628770c053ae973f096b046fed9e822"
+      "sha256": "b0b6644f8434654ff2fa3902df5cc3c4e628770c053ae973f096b046fed9e822",
+      "floppy": "a"
     },
     "战棋1-国际象棋": {
       "identifier": "战棋1-国际象棋",
@@ -16468,7 +16624,8 @@
       },
       "executable": "PLAY.BAT",
       "type": "SLG",
-      "sha256": "78978565da83785f6cc382a7f20a9e4427ced93be17e9844f42a488d44b15692"
+      "sha256": "78978565da83785f6cc382a7f20a9e4427ced93be17e9844f42a488d44b15692",
+      "img": "cd2.cue"
     },
     "争分夺秒": {
       "identifier": "争分夺秒",
@@ -16801,7 +16958,8 @@
       },
       "executable": "cwar",
       "type": "SPG",
-      "sha256": "b9d798b01818656b53fab24cbe45892acf0787e146f4ed92fd2333171fb415ba"
+      "sha256": "b9d798b01818656b53fab24cbe45892acf0787e146f4ed92fd2333171fb415ba",
+      "cdrom": "no"
     },
     "终端恐惧": {
       "identifier": "终端恐惧",
@@ -16846,7 +17004,8 @@
       },
       "executable": "mars",
       "type": "ACT",
-      "sha256": "e7c0d5c0b43bb0414bf59129e66a5c39fd9219ddcb086d2717c1ce2ffc6cf756"
+      "sha256": "e7c0d5c0b43bb0414bf59129e66a5c39fd9219ddcb086d2717c1ce2ffc6cf756",
+      "img": "mars3d.iso"
     },
     "终结者2029": {
       "identifier": "终结者2029",
@@ -16927,7 +17086,8 @@
       },
       "executable": "spelcros",
       "type": "SPG",
-      "sha256": "d76a16bcf1d6d6d3cd692fd06b1b7a8a6a8402c141d729b23a5a6fb07b8d26d7"
+      "sha256": "d76a16bcf1d6d6d3cd692fd06b1b7a8a6a8402c141d729b23a5a6fb07b8d26d7",
+      "cdrom": "no"
     },
     "侏罗纪公园": {
       "identifier": "侏罗纪公园",
@@ -16963,7 +17123,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "8c28baf54580891be310616e5da3a42639738f7ca2a4414ca3f968d8592b098f"
+      "sha256": "8c28baf54580891be310616e5da3a42639738f7ca2a4414ca3f968d8592b098f",
+      "cdrom": "no"
     },
     "主题公园磁碟版": {
       "identifier": "主题公园磁碟版",
@@ -16981,7 +17142,8 @@
       },
       "executable": "theme.bat",
       "type": "SIM",
-      "sha256": "7f7beb081ee8816c1aa86a366f361eb849d469f07d0518546b9ad6c0093088b9"
+      "sha256": "7f7beb081ee8816c1aa86a366f361eb849d469f07d0518546b9ad6c0093088b9",
+      "img": "theme.iso"
     },
     "筑城大师": {
       "identifier": "筑城大师",
@@ -17214,7 +17376,8 @@
       },
       "executable": "goblins.exe",
       "type": "ACT",
-      "sha256": "58643bff8840503f9e285bfdcc1706d3255a29a8af090f8a97a394d987dcbf53"
+      "sha256": "58643bff8840503f9e285bfdcc1706d3255a29a8af090f8a97a394d987dcbf53",
+      "img": "lastknight.iso"
     },
     "最后期限": {
       "identifier": "最后期限",
