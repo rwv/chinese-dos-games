@@ -14806,7 +14806,8 @@
       },
       "executable": "fdps",
       "type": "SPG",
-      "sha256": "c3e84095967946841fa32a243e6f7baeac3ee3dd12aca512895a5a2f5e899db1"
+      "sha256": "c3e84095967946841fa32a243e6f7baeac3ee3dd12aca512895a5a2f5e899db1",
+      "cdrom": "no"
     },
     "眼镜蛇任务": {
       "identifier": "眼镜蛇任务",
