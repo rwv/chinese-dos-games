@@ -1,48 +1,68 @@
 import hashlib
 import json
-# import os
-import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from collections import namedtuple
 from pathlib import Path
 from urllib.parse import quote, urljoin
-from urllib.request import urlretrieve
+from urllib.request import urlopen
 
 ROOT = Path(__name__).resolve().parent
-BASE = 'https://dos.zczc.cz/static/games/bin/'
+INFO = ROOT.joinpath('games.json')
 DESTINATION = ROOT.joinpath('bin')
-BUF_SIZE = 65535
-# WORKERS = len(os.sched_getaffinity(0)) * 2 + 1
+BASE = 'https://dos.zczc.cz/static/games/bin/'
 WORKERS = 5
+GAME_INFO = namedtuple('GAME_INFO', 'name', 'file_location', 'url')
 
 
-def generate_sha256(file, buffer_size=BUF_SIZE):
-    """
-    generate file's sha256 checksum
+def check_integrity(name, location, hash_value):
+    if location.is_file():
+        sha256 = hashlib.sha256()
+        with open(location, 'rb') as f:
+            sha256.update(f.read())
+        return sha256.hexdigest() == hash_value, name, location
+    else:
+        return False, name, location
 
-    :param file: file's location
-    :return: sha256 string
-    """
-    sha256 = hashlib.sha256()
-    with open(file, 'rb') as f:
-        while True:
-            data = f.read(buffer_size)
-            if data:
-                sha256.update(data)
+
+def validate(game_name_locations, game_info, workers):
+    print('Checking integrity')
+    skipped_games = set()
+    total_count = len(game_name_locations)
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        tasks = [executor.submit(check_integrity, name, location, game_info['games'][name]['sha256'])
+                 for name, location in game_name_locations]
+        for count, result in enumerate(as_completed(tasks), start=1):
+            print('%(now)5d / %(all)5d' % {'now': count, 'all': total_count}, end='\r')
+            is_in_good_piece, name, location = result.result()
+            if is_in_good_piece:
+                skipped_games.add((name, location))
+    print('')
+    return skipped_games
+
+
+def download_(url, location):
+    response = urlopen(url)
+    with open(location, 'wb') as file:
+        file.write(response.read())
+    return location.stem
+
+
+def download(games_to_download, url, workers):
+    print('Downloading')
+    total_count = len(games_to_download)
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        tasks = [executor.submit(download_, urljoin(url, quote(str(Path(name).with_suffix('.zip')))), location)
+                 for name, location in games_to_download]
+        for count, result in enumerate(as_completed(tasks), start=1):
+            try:
+                name = result.result()
+            except Exception as e:
+                type_ = type(e)
+                print(f'Error {type_}: {e}')
             else:
-                break
-    return sha256.hexdigest()
-
-
-def check_integrity(game_info, name, location):
-    result = location.is_file() and generate_sha256(location) == game_info['games'][name]['sha256']
-    return result, name, location
-
-
-def download(url, game_name, to):
-    game_name_ = Path(game_name).with_suffix('.zip')
-    from_ = urljoin(url, quote(str(game_name_)))
-    urlretrieve(from_, to)
-    return game_name
+                print('%(now)5d / %(all)5d <= %(name)20s downloaded' %
+                      {'now': count, 'all': total_count, 'name': name}, end='\r')
+    print('')
 
 
 def main(url_root, destination, game_info, workers):
@@ -57,82 +77,20 @@ def main(url_root, destination, game_info, workers):
     game_name_locations = set((name, destination.joinpath(name).with_suffix('.zip'))
                               for name in game_info['games'])
 
-    total_count = len(game_name_locations)
-    print(f'Checking integrity for {total_count} games')
-    skipped_games = set()
-    with ThreadPoolExecutor(max_workers=workers) as executor:
-        tasks = [executor.submit(check_integrity, game_info, name, location)
-                 for name, location in game_name_locations]
-        for count, result in enumerate(as_completed(tasks), start=2):
-            percent = (count / total_count) * 100
-            sys.stdout.write('\r%(percent).2f%%' % {'percent': percent})
-            sys.stdout.flush()
-            is_in_good_piece, name, location = result.result()
-            if is_in_good_piece:
-                skipped_games.add((name, location))
-    print('')
+    skipped_games = validate(game_name_locations, game_info, workers)
     if skipped_games:
         skipped_games_count = len(skipped_games)
         print(f'{skipped_games_count} games are good')
 
     games_to_download = game_name_locations - skipped_games
     if games_to_download:
-        total_download_count = len(games_to_download)
-        print(f'Downloading {total_download_count} games')
-    with ThreadPoolExecutor(max_workers=workers) as executor:
-        tasks = [executor.submit(download, url_root, name, location)
-                 for name, location in games_to_download]
-        for count, result in enumerate(as_completed(tasks)):
-            try:
-                name = result.result()
-            except Exception as e:
-                type_ = type(e)
-                print(f'Error {type_}: {e}')
-            else:
-                print(f'{name} downloaded')
-                percent = (1 - count / total_count) * 100
-                sys.stdout.write('\r%(percent).2f%%' % {'percent': percent})
-                sys.stdout.flush()
-    print('')
-
-
-# from collections import OrderedDict
-# def files_sha256():
-#     """
-#     print existing game archives' sha256
-
-#     :return: a dict of sha256 string
-#     """
-#     result = {}
-#     for identifier in game_infos_ordered['games']:
-#         file = os.path.normcase(os.path.join(DESTINATION, identifier + '.zip'))
-#         if os.path.isfile(file):
-#             result[identifier] = generate_sha256(file)
-#     return result
-
-
-# def update_json(ordered_dict):
-#     with open(os.path.join(root, 'games.json'), encoding='utf8', mode='w') as f:
-#         f.write(json.dumps(ordered_dict, indent=2, ensure_ascii=False))
-
-
-# def update_sha256():
-#     """
-#     update sha256 to the json
-
-#     :return: the updated json
-#     """
-#     sha256_dict = files_sha256()
-#     for identifier, sha256 in sha256_dict.items():
-#         game_infos_ordered['games'][identifier]['sha256'] = sha256
-#     update_json(game_infos_ordered)
-#     return
+        download(games_to_download, url_root, workers)
+    else:
+        print('No need to download')
+    print('Game on!')
 
 
 if __name__ == '__main__':
-    with open(ROOT.joinpath('games.json'), encoding='utf8') as f:
-        # content = f.read()
-        # game_infos_ordered = json.loads(content, object_pairs_hook=OrderedDict)
-        # game_infos = json.loads(content)
-        game_infos = json.load(f)
-    main(BASE, DESTINATION, game_infos, WORKERS)
+    with open(INFO, encoding='utf8') as f:
+        game_info = json.load(f)
+    main(BASE, DESTINATION, game_info, WORKERS)
