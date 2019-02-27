@@ -14958,7 +14958,7 @@
       "name": {
         "zh-Hans": "伊甸风暴"
       },
-      "executable": "play.bat",
+      "executable": "setup1.bat",
       "type": "RTS",
       "sha256": "44deb7531efa17ac2e9e065485b5175c11e4dff91a01d2f63aeeb1c509dba55c"
     },
