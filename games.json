@@ -989,7 +989,8 @@
       },
       "executable": "play.bat",
       "type": "RPG",
-      "sha256": "3a0691552f5f2abc3ec1c461b354e351570fbe63afa65545123c54678ab3a71d"
+      "sha256": "3a0691552f5f2abc3ec1c461b354e351570fbe63afa65545123c54678ab3a71d",
+      "coverFilename": "cover.jpg"
     },
     "RS2": {
       "identifier": "RS2",
@@ -1061,7 +1062,8 @@
       },
       "executable": "play.bat",
       "type": "HGA",
-      "sha256": "278d7f2e5be7abde13698ab8d3580a4b6251ce09cddb6a2072fcabf92deb2f9b"
+      "sha256": "278d7f2e5be7abde13698ab8d3580a4b6251ce09cddb6a2072fcabf92deb2f9b",
+      "coverFilename": "cover.jpg"
     },
     "Z字特工队": {
       "identifier": "Z字特工队",
@@ -1288,7 +1290,8 @@
       },
       "executable": "play.bat",
       "type": "PUZ",
-      "sha256": "d26c38954064a749f4ae6a83d3824258310aa987e593d0cb90d456b4f4808ba8"
+      "sha256": "d26c38954064a749f4ae6a83d3824258310aa987e593d0cb90d456b4f4808ba8",
+      "coverFilename": "cover.png"
     },
     "暗色": {
       "identifier": "暗色",
@@ -2023,7 +2026,8 @@
       },
       "executable": "play.bat",
       "type": "PUZ",
-      "sha256": "f7b6f09c418a257446a5436a292825988902dafeb1e4f9218f9e82cb06f16f7d"
+      "sha256": "f7b6f09c418a257446a5436a292825988902dafeb1e4f9218f9e82cb06f16f7d",
+      "coverFilename": "cover.png"
     },
     "超级大战略": {
       "identifier": "超级大战略",
@@ -4220,7 +4224,8 @@
       },
       "executable": "play.bat",
       "type": "PUZ",
-      "sha256": "4242cb0f7b55a192444474195efbedd5033feed57751d3bffb4cf55c106e0e1e"
+      "sha256": "4242cb0f7b55a192444474195efbedd5033feed57751d3bffb4cf55c106e0e1e",
+      "coverFilename": "cover.jpg"
     },
     "富甲天下2": {
       "identifier": "富甲天下2",
@@ -4230,7 +4235,8 @@
       "executable": "play.bat",
       "type": "PUZ",
       "sha256": "b54ed7814aa8c62384c4ef8b5b939cd3e412a82c0d7816a65bdea11ec0397371",
-      "cdrom": "no"
+      "cdrom": "no",
+      "coverFilename": "cover.png"
     },
     "盖世龙王": {
       "identifier": "盖世龙王",
@@ -4712,7 +4718,8 @@
       },
       "executable": "PLAY.BAT",
       "type": "HGA",
-      "sha256": "b9943f5997545768ed4549c02638c29c1e228e718ad60964f0145c205b01cd79"
+      "sha256": "b9943f5997545768ed4549c02638c29c1e228e718ad60964f0145c205b01cd79",
+      "coverFilename": "cover.jpg"
     },
     "管状世界": {
       "identifier": "管状世界",
@@ -5502,7 +5509,8 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "fc56cfb5f4eddd6209b4e581b766eccc467e59bd843310bf3477590e06c300cb",
-      "img": "HLM.cue"
+      "img": "HLM.cue",
+      "coverFilename": "cover.jpg"
     },
     "红猫1": {
       "identifier": "红猫1",
@@ -5702,7 +5710,8 @@
       },
       "executable": "play.bat",
       "type": "HGA",
-      "sha256": "acc987fd09d2145d559024c326af2189495c8fd23d425e875f5c37e1b601e0f8"
+      "sha256": "acc987fd09d2145d559024c326af2189495c8fd23d425e875f5c37e1b601e0f8",
+      "coverFilename": "cover.jpg"
     },
     "滑溜小赛车": {
       "identifier": "滑溜小赛车",
@@ -6525,7 +6534,8 @@
       },
       "executable": "play.bat",
       "type": "HGA",
-      "sha256": "38c31e152464156c9d3e4028f848104339650cad65542c928e67e2dc93606986"
+      "sha256": "38c31e152464156c9d3e4028f848104339650cad65542c928e67e2dc93606986",
+      "coverFilename": "cover.png"
     },
     "剑侠情缘": {
       "identifier": "剑侠情缘",
@@ -7991,7 +8001,8 @@
       },
       "executable": "play.bat",
       "type": "HGA",
-      "sha256": "7c8e1279938a255356306d60600fe692a09e23970cb8a83997c55422b8ffc3c8"
+      "sha256": "7c8e1279938a255356306d60600fe692a09e23970cb8a83997c55422b8ffc3c8",
+      "coverFilename": "cover.png"
     },
     "龙腾三国": {
       "identifier": "龙腾三国",
@@ -8235,7 +8246,8 @@
       },
       "executable": "play.bat",
       "type": "HGA",
-      "sha256": "53a8937ea10096e25fb87b23d62a07894ef9f14096503532638e188719611976"
+      "sha256": "53a8937ea10096e25fb87b23d62a07894ef9f14096503532638e188719611976",
+      "coverFilename": "cover.jpg"
     },
     "马玻的料理": {
       "identifier": "马玻的料理",
@@ -8858,7 +8870,8 @@
       },
       "executable": "money.exe",
       "type": "PUZ",
-      "sha256": "316a1734b1c288bfdd2910f903ca1f4c933933cd6d88743158c8cf823cfb7159"
+      "sha256": "316a1734b1c288bfdd2910f903ca1f4c933933cd6d88743158c8cf823cfb7159",
+      "coverFilename": "cover.jpg"
     },
     "魔道子": {
       "identifier": "魔道子",
@@ -9640,7 +9653,8 @@
       },
       "executable": "play.bat",
       "type": "HGA",
-      "sha256": "2394441793bbaf6d285f5709e8be3363b0852c82f4c2ea75467a61b86e946d6c"
+      "sha256": "2394441793bbaf6d285f5709e8be3363b0852c82f4c2ea75467a61b86e946d6c",
+      "coverFilename": "cover.jpg"
     },
     "农奴城市": {
       "identifier": "农奴城市",
@@ -11031,7 +11045,8 @@
       "executable": "eagle",
       "type": "RPG",
       "sha256": "f2df6cdae7c70dc3ab7dc88b60c98b53c3aa7878b20499cfe375dcc5bf911aa3",
-      "img": "IMG/EAGLE.CUE"
+      "img": "IMG/EAGLE.CUE",
+      "coverFilename": "cover.jpg"
     },
     "神剑传说": {
       "identifier": "神剑传说",
@@ -12542,7 +12557,8 @@
       },
       "executable": "play",
       "type": "SPG",
-      "sha256": "2267322752ae580e957b64620052c8460ab096041266ecb3d8d6a757e9832e1a"
+      "sha256": "2267322752ae580e957b64620052c8460ab096041266ecb3d8d6a757e9832e1a",
+      "coverFilename": "cover.png"
     },
     "天使任务": {
       "identifier": "天使任务",
@@ -16662,7 +16678,8 @@
       },
       "executable": "play",
       "type": "PUZ",
-      "sha256": "e296190aed949eb737b902da93ef60459d47ddcc36ee6e5d0a3aafc60d948f16"
+      "sha256": "e296190aed949eb737b902da93ef60459d47ddcc36ee6e5d0a3aafc60d948f16",
+      "coverFilename": "cover.jpg"
     },
     "支配力量": {
       "identifier": "支配力量",
