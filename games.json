@@ -17221,7 +17221,8 @@
       "type": "SLG",
       "sha256": "b1f7ad9e3bab69ba890e05658a22b12f62f1801ae543e41683f4e75c826d2bae",
       "img": "G4X.iso",
-      "filesize": 11980784
+      "filesize": 11980784,
+      "coverFilename": "cover.jpg"
     },
     "银河战士": {
       "identifier": "银河战士",
