@@ -3090,7 +3090,8 @@
       "executable": "ss.exe",
       "type": "PUZ",
       "sha256": "c573658ad32820b644a72b2f4e732486ca4f399eb4792714b4a6c61dbcd79d3f",
-      "filesize": 1518377
+      "filesize": 1518377,
+      "coverFilename": "cover.jpg"
     },
     "大富翁城市英雄": {
       "identifier": "大富翁城市英雄",
@@ -6147,7 +6148,8 @@
       "executable": "ra.exe",
       "type": "RTS",
       "sha256": "af1756e694fd320fd10fc1b430f206e81e8c33451efe5357b6677767a2780a1c",
-      "filesize": 52917839
+      "filesize": 52917839,
+      "coverFilename": "cover.jpg"
     },
     "红色男爵": {
       "identifier": "红色男爵",
@@ -9093,7 +9095,8 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "588b426a8053475a4142ce07b4087d85771c1499482142b9370cca93973bbebd",
-      "filesize": 3654382
+      "filesize": 3654382,
+      "coverFilename": "cover.jpg"
     },
     "麻将情趣屋2": {
       "identifier": "麻将情趣屋2",
@@ -9103,7 +9106,8 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "3715f9646279f48d7d644c17d5822b409b696d415271a2784ee1a4217fd97eec",
-      "filesize": 6824054
+      "filesize": 6824054,
+      "coverFilename": "cover.png"
     },
     "麻将争霸": {
       "identifier": "麻将争霸",
@@ -9124,7 +9128,8 @@
       "executable": "main",
       "type": "HGA",
       "sha256": "ed87670435abe3f6e3898da14220da1bfaf54a98072769ef37d67add5bd155b6",
-      "filesize": 4356036
+      "filesize": 4356036,
+      "coverFilename": "cover.jpg"
     },
     "麻雀幻想曲3": {
       "identifier": "麻雀幻想曲3",
