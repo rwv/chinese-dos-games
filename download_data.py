@@ -2,17 +2,21 @@ import hashlib
 import inspect
 import os
 import json
-import urllib.request
+import asyncio
+import aiohttp
+import aiofiles
+import urllib
 
 from collections import OrderedDict
-from concurrent.futures import ThreadPoolExecutor, wait
+
 
 root = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 
 PREFIX = "https://dos.zczc.cz/static/games/bin/"
 DESTINATION = os.path.join(root, 'bin')
 BUF_SIZE = 65536
-THREAD_SIZE = 10
+MAX_CONCURRENT = 10
+MAX_SIZE = 10
 
 with open(os.path.join(root, 'games.json'), encoding='utf8') as f:
     content = f.read()
@@ -41,9 +45,19 @@ def generate_sha256(file):
             sha256.update(data)
     return sha256.hexdigest()
 
-def download(identifier, url, file):
-    print('Downloading {} game file'.format(identifier))
-    urllib.request.urlretrieve(url, file)
+
+async def download(semaphore, url, file, identifier):
+    async with semaphore, aiohttp.ClientSession(
+        connector=aiohttp.TCPConnector(
+            verify_ssl=False
+        )
+    ) as session:
+        async with session.get(url) as response:
+            contents = await response.read()
+            print('Downloading {} game file'.format(identifier))
+            async with aiofiles.open(file, 'wb') as f:
+                await f.write(contents)
+
 
 def main(prefix=PREFIX, destination=DESTINATION):
     """
@@ -56,22 +70,24 @@ def main(prefix=PREFIX, destination=DESTINATION):
     if not folder:
         os.makedirs(destination)
 
-    executor = ThreadPoolExecutor(max_workers=THREAD_SIZE)
-    all_task = list()
-
     downloaded = list()
+    semaphore = asyncio.Semaphore(MAX_CONCURRENT)
+
     for identifier in game_infos['games'].keys():
         file = os.path.normcase(os.path.join(destination, identifier + '.zip'))
         url = prefix + urllib.parse.quote(identifier) + '.zip'
         if os.path.isfile(file) and generate_sha256(file) == game_infos['games'][identifier]['sha256']:
             print('skip {}'.format(identifier))
         else:
-            downloaded.append(identifier)
-            task = executor.submit(download, identifier, url, file)
-            all_task.append(task)
+            downloaded.append([semaphore, url, file, identifier])
 
-    wait(all_task)
+    loop = asyncio.get_event_loop()
+    tasks = [loop.create_task(download(*para)) for para in downloaded]
+    loop.run_until_complete(asyncio.wait(tasks))
+    loop.close()
+
     return downloaded
+
 
 def files_sha256():
     """
