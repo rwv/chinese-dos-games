@@ -2585,7 +2585,8 @@
       "executable": "play.bat",
       "type": "SLG",
       "sha256": "9ba611cddea2149c98b7bc95fd5a7cf471fb5761c20bb16c22e74b9fed860bf1",
-      "filesize": 2146019
+      "filesize": 2146019,
+      "coverFilename": "cover.jpg"
     },
     "成吉思汗英版": {
       "identifier": "成吉思汗英版",
@@ -4560,7 +4561,8 @@
       "executable": "dr2.EXE",
       "type": "SIM",
       "sha256": "3fa64e0fc1a21dc85e18f951ee038725ff977272e71e2de312b0c5beb5949d75",
-      "filesize": 7288173
+      "filesize": 7288173,
+      "coverFilename": "cover.png"
     },
     "疯子": {
       "identifier": "疯子",
@@ -9431,7 +9433,8 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "5cb2d4d0e8db4cbd1422d8e0e3ba9a45226bde3880c6484f247badd2c029bcae",
-      "filesize": 7435359
+      "filesize": 7435359,
+      "coverFilename": "cover.jpg"
     },
     "猛鬼街": {
       "identifier": "猛鬼街",
@@ -9481,7 +9484,8 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "995b1d9a8c8bbc577865ff48d58c73772766d987eea08e0b6b5dd07e83e2d3dc",
-      "filesize": 6458420
+      "filesize": 6458420,
+      "coverFilename": "cover.png"
     },
     "梦网": {
       "identifier": "梦网",
@@ -10055,7 +10059,8 @@
       "type": "SLG",
       "sha256": "0a6dd4ba24c54a6442b730f7eb747b2707b6b7980c43471135eb16f5a6325e5a",
       "img": "CD/HEROES2.cue",
-      "filesize": 241597650
+      "filesize": 241597650,
+      "coverFilename": "cover.png"
     },
     "魔法门英雄无敌中文": {
       "identifier": "魔法门英雄无敌中文",
@@ -11765,7 +11770,8 @@
       "executable": "san4.com",
       "type": "SLG",
       "sha256": "3ed61f0bc656a757d7363b0dfd00867b1e94f9f98059c98d090d1757dc433e01",
-      "filesize": 6033367
+      "filesize": 6033367,
+      "coverFilename": "cover.jpg"
     },
     "三国志5加强版": {
       "identifier": "三国志5加强版",
@@ -14347,7 +14353,8 @@
       "executable": "sango.bat",
       "type": "RPG",
       "sha256": "df9a392fe41a717de2b4b19a5ec947f437f27fc59e9a34a789662b2a831a1583",
-      "filesize": 2963121
+      "filesize": 2963121,
+      "coverFilename": "cover.jpg"
     },
     "吞食天地2": {
       "identifier": "吞食天地2",
@@ -14367,7 +14374,8 @@
       "executable": "play.bat",
       "type": "SPG",
       "sha256": "4f6708bdbc1c1fa170e074abf8c932b622207de920b52fc06d3625a64bc05bb1",
-      "filesize": 108850349
+      "filesize": 108850349,
+      "coverFilename": "cover.jpg"
     },
     "吞食天地4": {
       "identifier": "吞食天地4",
@@ -15294,7 +15302,8 @@
       "executable": "play.bat",
       "type": "RPG",
       "sha256": "31859911daf08159c12528f91cdbba0c461bedf2e03dd254f8f35ffe4a4f7354",
-      "filesize": 263202944
+      "filesize": 263202944,
+      "coverFilename": "cover.jpg"
     },
     "侠客游2": {
       "identifier": "侠客游2",
@@ -15456,7 +15465,8 @@
       "executable": "cch.exe",
       "type": "PUZ",
       "sha256": "2cbca9062ae43b2535c93e1dd4784ea17be0698b8e29f4adf2986c7b11010f78",
-      "filesize": 925378
+      "filesize": 925378,
+      "coverFilename": "cover.png"
     },
     "象棋俄罗斯": {
       "identifier": "象棋俄罗斯",
@@ -16427,7 +16437,8 @@
       "executable": "fd2",
       "type": "SPG",
       "sha256": "3e1de276379d959e5ee9cce4a423aa635feb75f682a4646de499bd41709c76a2",
-      "filesize": 8403227
+      "filesize": 8403227,
+      "coverFilename": "cover.jpg"
     },
     "炎龙骑士团外传": {
       "identifier": "炎龙骑士团外传",
@@ -17756,7 +17767,8 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "56b95b34ade190042669c5f4e55bf25d6b59f0e822deb32e66e544c7804d6330",
-      "filesize": 19612917
+      "filesize": 19612917,
+      "coverFilename": "cover.png"
     },
     "预言": {
       "identifier": "预言",
