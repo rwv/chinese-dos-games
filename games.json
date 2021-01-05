@@ -2251,7 +2251,8 @@
       "executable": "supertet",
       "type": "PUZ",
       "sha256": "8d4ccbe424e2f5162f2bff48121177a8b651fb1ce288f47e7d44af02f3d76392",
-      "filesize": 572852
+      "filesize": 572852,
+      "coverFilename": "cover.png"
     },
     "超级国际象棋2": {
       "identifier": "超级国际象棋2",
@@ -6313,7 +6314,8 @@
       "type": "SPG",
       "sha256": "5fc97bd1c0384da24b53cdee63649f7524629f829358fbb620e1425f2fc07c8e",
       "cdrom": "no",
-      "filesize": 39820811
+      "filesize": 39820811,
+      "coverFilename": "cover.png"
     },
     "华丽人生2": {
       "identifier": "华丽人生2",
@@ -13836,7 +13838,8 @@
       "executable": "silk.exe",
       "type": "HGA",
       "sha256": "724c09d237bc82a2aa7aab72a69657900c765aaa0613ae7e400d5098fc18c918",
-      "filesize": 800436
+      "filesize": 800436,
+      "coverFilename": "cover.png"
     },
     "天地无用": {
       "identifier": "天地无用",
@@ -14364,7 +14367,8 @@
       "executable": "main.exe",
       "type": "RPG",
       "sha256": "16e928262f00821f7688a7cd2491fdddd57c4ba2fe8252c0b319db981a17a802",
-      "filesize": 2578582
+      "filesize": 2578582,
+      "coverFilename": "cover.jpg"
     },
     "吞食天地3": {
       "identifier": "吞食天地3",
@@ -16449,7 +16453,8 @@
       "type": "SPG",
       "sha256": "c3e84095967946841fa32a243e6f7baeac3ee3dd12aca512895a5a2f5e899db1",
       "cdrom": "no",
-      "filesize": 402136287
+      "filesize": 402136287,
+      "coverFilename": "cover.jpg"
     },
     "眼镜蛇任务": {
       "identifier": "眼镜蛇任务",
@@ -17958,7 +17963,8 @@
       "executable": "play.bat",
       "type": "PUZ",
       "sha256": "b459b726eddc8eafdefcdc155bb55d272d981224e952b654d11025656de7f042",
-      "filesize": 369796
+      "filesize": 369796,
+      "coverFilename": "cover.png"
     },
     "炸弹队长": {
       "identifier": "炸弹队长",
@@ -18791,7 +18797,8 @@
       "executable": "china.exe",
       "type": "SIM",
       "sha256": "a11228077c988b5e2e66695ca725a99fff6346e4d7848504c3ca0b533c019e3c",
-      "filesize": 5597639
+      "filesize": 5597639,
+      "coverFilename": "cover.png"
     },
     "中国民航": {
       "identifier": "中国民航",
