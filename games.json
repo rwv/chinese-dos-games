@@ -386,7 +386,7 @@
       },
       "releaseYear": 1994,
       "executable": "PLAY.BAT",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "sha256": "ba2bda2619f5b9a4d477397fb8d1a0f61c59bd6e7ad28e24668f0b55302ae275",
       "filesize": 10300998
     },
@@ -438,7 +438,7 @@
       },
       "releaseYear": 1999,
       "executable": "PLAY.BAT",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "sha256": "a030c106f412698f0daed8c2d6c27333c3b7694a0f5aacfc721a6e696dc550c9",
       "filesize": 74390830
     },
@@ -451,7 +451,7 @@
       },
       "releaseYear": 1995,
       "executable": "CHESS.EXE",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "sha256": "67dd298a2f12f85590a2d5079888a6f482ff260aab6f93ad4beccc7308078a91",
       "filesize": 9991424
     },
@@ -480,7 +480,7 @@
       },
       "releaseYear": 1996,
       "executable": "PLAY.BAT",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "cheats": {
         "africa-pdmode": "开启作弊模式",
         "pandaprop": "直接购买道具",
@@ -567,7 +567,7 @@
       },
       "releaseYear": 1993,
       "executable": "U",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "sha256": "8c06fd3d602e0b1b6404769abd9cf21d047ed8546a5af0b516011b0554151e5c",
       "filesize": 4144790
     },
@@ -1110,7 +1110,7 @@
       "executable": "play.bat",
       "type": "RPG",
       "sha256": "3a0691552f5f2abc3ec1c461b354e351570fbe63afa65545123c54678ab3a71d",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "filesize": 12951875
     },
     "RS2": {
@@ -5471,7 +5471,7 @@
       "executable": "PLAY.BAT",
       "type": "HGA",
       "sha256": "b9943f5997545768ed4549c02638c29c1e228e718ad60964f0145c205b01cd79",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "filesize": 8323064
     },
     "管状世界": {
@@ -10332,7 +10332,7 @@
       "executable": "money.exe",
       "type": "PUZ",
       "sha256": "316a1734b1c288bfdd2910f903ca1f4c933933cd6d88743158c8cf823cfb7159",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "filesize": 12971251
     },
     "魔道子": {
@@ -14031,7 +14031,7 @@
       "executable": "playv.bat",
       "type": "PUZ",
       "sha256": "493913e14efdfe5f7eab7026f9d0c8e5d291686cb23b9d7270fa8d9cbf053112",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "filesize": 1546451
     },
     "四川省3": {
@@ -20263,7 +20263,7 @@
       "executable": "ryk",
       "type": "HGA",
       "sha256": "bde43da0195b2da503303c12852d3f567e6770e3ca8c9818e1f1a0064ea05d54",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "filesize": 6187178
     },
     "钻地小精灵": {
