@@ -529,7 +529,7 @@
       "releaseYear": 1997,
       "executable": "PLAY.COM",
       "coverFilename": "cover.jpg",
-      "sha256": "dda88ef4132f8e091c793db924b112ebcaa366ecd961bd526628e47481a02979",
+      "sha256": "4e50109f346d58d67ea11a74ab4584b0508d907475fa1dcf9db4c7a044b7af15",
       "filesize": 7517503
     },
     "艾蒂丝魔法大冒险": {
@@ -12623,7 +12623,7 @@
       },
       "executable": "dosbox.bat",
       "type": "SPG",
-      "sha256": "5e39127fbf2bb9c120443c50243d5f7dc0ca3ce33ee2f0e664e5235da0c59c70",
+      "sha256": "a6533b77f2126affae4bc1162d0395801f3b925c28c96296ad7b15b9a93ac19e",
       "filesize": 23962468
     },
     "山姆和马克思": {
@@ -18366,7 +18366,7 @@
       },
       "executable": "rayman",
       "type": "ACT",
-      "sha256": "62a96efa92bcc0c251562d5fe207c7030436863d86be0d49e8ca535a5c472331",
+      "sha256": "4483c25928a99af922cb565d513d705464ab49503ad8656a10e0311cd75f61d2",
       "img": "RAYMAN.cue",
       "filesize": 545145674,
       "coverFilename": "cover.png"
@@ -19445,7 +19445,7 @@
       },
       "executable": "conquer",
       "type": "SLG",
-      "sha256": "767c2170b70798c125cd1b2880b13ab403c8adce1b6f7559ae6b3b306ebce9f1",
+      "sha256": "b0a8fb68383fc196ed9f310d1950c7a604f6dd8e0b6e75fe47721570c01ed846",
       "filesize": 205990578,
       "coverFilename": "cover.png"
     },
@@ -19542,7 +19542,7 @@
       },
       "executable": "lord.exe",
       "type": "AVG",
-      "sha256": "23f95ad4d4c02347cce1f1fd55b762cf26be77b8b96d9882abd691c89956770e",
+      "sha256": "8239a0a303152032f3886ffcd454a38472d7e45c906b1b5119160f4546b7eada",
       "filesize": 1340969
     },
     "指环王2": {
@@ -19563,7 +19563,7 @@
       },
       "executable": "keen1",
       "type": "ACT",
-      "sha256": "6418b5c9738c8ede402f79417f7ea05404b7013d0bafeeec5b6db3b72e9dce13",
+      "sha256": "2065dad1992ed11e2fbe504edbd15bc02975a3014135277967341b02d4403108",
       "filesize": 239993
     },
     "指挥官基恩10民间版": {
