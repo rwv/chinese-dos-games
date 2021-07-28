@@ -4,6 +4,8 @@ import os
 import json
 import urllib.request
 
+import ssl
+
 from concurrent.futures import ThreadPoolExecutor, wait
 
 root = os.path.dirname(os.path.abspath(
@@ -29,10 +31,16 @@ def generate_sha256(file):
             sha256.update(data)
     return sha256.hexdigest()
 
+ssl._create_default_https_context = ssl._create_unverified_context
 
 def download(identifier, url, file):
-    print(f'Downloading {identifier} game file')
-    urllib.request.urlretrieve(url, file)
+    try:
+        print(f'Downloading {identifier} game file')
+        result = urllib.request.urlretrieve(url, file)
+        print(result)
+        print(f'DownloadSuccess')
+    except urllib.error.HTTPError as e:
+        print("Fail:"+str(e))
 
 
 def main(prefix=PREFIX, destination=DESTINATION):
