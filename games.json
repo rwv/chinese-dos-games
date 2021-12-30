@@ -1582,6 +1582,9 @@
       "name": {
         "zh-Hans": "巴士帝国"
       },
+      "links": {
+        "巴士帝国密码": "https://github.com/Xunius/bus_empire_passwords"
+      },
       "executable": "bus.bat",
       "type": "SIM",
       "sha256": "03839acab4ad1e65c9a6e2c37cb78d497ab276cdd90d6c7b2b65acf35dbcde35",
