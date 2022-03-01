@@ -713,7 +713,8 @@
       "executable": "a3dsw",
       "type": "ACT",
       "sha256": "5e657759b26b657fae71df68762dfc30350b6f3cb4dc1ae2c9e10fc7570046b2",
-      "filesize": 2416915
+      "filesize": 2416915,
+      "coverFilename": "cover.png"
     },
     "3D炸弹人": {
       "identifier": "3D炸弹人",
@@ -808,7 +809,8 @@
       "executable": "super97.exe",
       "type": "HGA",
       "sha256": "19826d70bb144f503a3c518a18061f5af219d1a3ebc0b0610b072b7e522f2e19",
-      "filesize": 1357194
+      "filesize": 1357194,
+      "coverFilename": "cover.png"
     },
     "A320空中客机": {
       "identifier": "A320空中客机",
@@ -851,7 +853,8 @@
       "executable": "BOPPIN",
       "type": "PUZ",
       "sha256": "b594236fc2e2a5482c2ead2ee92b21cc49af5d19459130e295d40f32a397000b",
-      "filesize": 1480748
+      "filesize": 1480748,
+      "coverFilename": "cover.png"
     },
     "CBA嘉年华": {
       "identifier": "CBA嘉年华",
@@ -1165,7 +1168,8 @@
       "executable": "x.exe",
       "type": "ACT",
       "sha256": "beafc4651719ab9fb8247f71aed5b13e446d2d44a8b44e92927feef019d098cc",
-      "filesize": 1980803
+      "filesize": 1980803,
+      "coverFilename": "cover.png"
     },
     "X任务": {
       "identifier": "X任务",
@@ -1325,7 +1329,8 @@
       "executable": "play.bat",
       "type": "RPG",
       "sha256": "d71ce841c790f9697d46bdd95bd5c8695d27c949a872a8aa96c314013a8ef844",
-      "filesize": 4685907
+      "filesize": 4685907,
+      "coverFilename": "cover.png"
     },
     "阿猫阿狗": {
       "identifier": "阿猫阿狗",
@@ -1411,7 +1416,8 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "256b01f88d86b8bf171f1dd0f15a2d08df0b10383a28ca76ba00188cc69ec564",
-      "filesize": 4815741
+      "filesize": 4815741,
+      "coverFilename": "cover.png"
     },
     "爱之物语2": {
       "identifier": "爱之物语2",
@@ -1431,7 +1437,8 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "55323167806ba70f1e31a17e412a3a09af097269735e00118eba08c964bde585",
-      "filesize": 4811999
+      "filesize": 4811999,
+      "coverFilename": "cover.png"
     },
     "安雅战机": {
       "identifier": "安雅战机",
@@ -1548,7 +1555,8 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "e0473653505c479cd307cd4f0e7675c80393e63617fd66698f50a967de203649",
-      "filesize": 11620047
+      "filesize": 11620047,
+      "coverFilename": "cover.png"
     },
     "八女神物语2": {
       "identifier": "八女神物语2",
@@ -1871,7 +1879,8 @@
       "executable": "cdodge.exe",
       "type": "ACT",
       "sha256": "c72293e595d07236a3fe2a6d5b23bc8ce0878ebeddca34b893eaef8d40e1942f",
-      "filesize": 2085541
+      "filesize": 2085541,
+      "coverFilename": "cover.png"
     },
     "爆笑三国志": {
       "identifier": "爆笑三国志",
@@ -2446,7 +2455,8 @@
       "executable": "kart.exe",
       "type": "SIM",
       "sha256": "38204c61d8c041896acf2f17b429bda10febd3b51aae15ee02704a9809c3409b",
-      "filesize": 1306246
+      "filesize": 1306246,
+      "coverFilename": "cover.png"
     },
     "超级科曼奇": {
       "identifier": "超级科曼奇",
@@ -2641,7 +2651,8 @@
       "executable": "play.bat",
       "type": "RPG",
       "sha256": "e732565818d51566b1753a2d4f2b18f29f768e1a13dfb4525587c5f639196c6a",
-      "filesize": 5032638
+      "filesize": 5032638,
+      "coverFilename": "cover.png"
     },
     "超越Void星": {
       "identifier": "超越Void星",
@@ -2754,7 +2765,8 @@
       "executable": "PACEM.BAT",
       "type": "ACT",
       "sha256": "bf5726fc174dc4989b9377288ceedd6e43331a5dbf957b7bdf05ae746bab8d96",
-      "filesize": 669622
+      "filesize": 669622,
+      "coverFilename": "cover.png"
     },
     "吃豆人初代": {
       "identifier": "吃豆人初代",
@@ -2819,7 +2831,8 @@
       "type": "SPG",
       "sha256": "c9ac1c3b60b370f975877ee99dea998c5682f3d7fb5f3af4a737154fa7636731",
       "cdrom": "no",
-      "filesize": 17513842
+      "filesize": 17513842,
+      "coverFilename": "cover.png"
     },
     "臭鼬赛车": {
       "identifier": "臭鼬赛车",
@@ -3171,7 +3184,8 @@
       "executable": "drwho",
       "type": "ACT",
       "sha256": "c54c17e28d11c6cee34804a56f36c3919b38710b2f15684e45d7dbad9a61edfe",
-      "filesize": 1021879
+      "filesize": 1021879,
+      "coverFilename": "cover.png"
     },
     "打砖块": {
       "identifier": "打砖块",
@@ -3192,7 +3206,8 @@
       "executable": "ark.com",
       "type": "ACT",
       "sha256": "014e69d01c6e56ac5ab1b7f4031bf8d5259445c475685b47f27dc3fbcd0d284a",
-      "filesize": 184920
+      "filesize": 184920,
+      "coverFilename": "cover.png"
     },
     "大兵日记": {
       "identifier": "大兵日记",
@@ -3300,7 +3315,8 @@
       "executable": "battlesh.exe",
       "type": "PUZ",
       "sha256": "01fa0828e041b17f1e521911353c37000def66f87c32d11972cf2c9b016f2ba1",
-      "filesize": 125572
+      "filesize": 125572,
+      "coverFilename": "cover.png"
     },
     "大海战13": {
       "identifier": "大海战13",
@@ -3386,7 +3402,8 @@
       "executable": "play.bat",
       "type": "SLG",
       "sha256": "9b057bb737566e4fd689f8cb463882e96a359fd05efbee1074bcd45e16d8b5e4",
-      "filesize": 2361432
+      "filesize": 2361432,
+      "coverFilename": "cover.png"
     },
     "大魔王物语": {
       "identifier": "大魔王物语",
@@ -3516,7 +3533,8 @@
       "executable": "debut.exe",
       "type": "SIM",
       "sha256": "0b408c3f40b8efa6428c2ecf0de7852854abd826bcf2d874d075d6ff2bc2ae23",
-      "filesize": 10523755
+      "filesize": 10523755,
+      "coverFilename": "cover.png"
     },
     "弹震坦克": {
       "identifier": "弹震坦克",
@@ -3673,7 +3691,8 @@
       "executable": "play.bat",
       "type": "SIM",
       "sha256": "16c8e33e67f9730c0b27176d9699b864e5a0b85cd2038dcc52cfa5d4c04ce18d",
-      "filesize": 5354702
+      "filesize": 5354702,
+      "coverFilename": "cover.png"
     },
     "地动山摇": {
       "identifier": "地动山摇",
@@ -3878,7 +3897,8 @@
       "executable": "dragon",
       "type": "ACT",
       "sha256": "6ba21e7d63e31956f6e720759449ac746cad2070656dd4c3f77c8bc20a0a2240",
-      "filesize": 5751585
+      "filesize": 5751585,
+      "coverFilename": "cover.png"
     },
     "第十瓶-保龄": {
       "identifier": "第十瓶-保龄",
@@ -4005,7 +4025,8 @@
       "executable": "em",
       "type": "ACT",
       "sha256": "10e8a74d74dbd4d74b9d1a309edfd0ff3780ae5f83071811a4a81668dba03e73",
-      "filesize": 956943
+      "filesize": 956943,
+      "coverFilename": "cover.png"
     },
     "喋血赛车": {
       "identifier": "喋血赛车",
@@ -4080,7 +4101,8 @@
       "executable": "cave.bat",
       "type": "RTS",
       "sha256": "c173faaef1d09e225615ee2ab933c55a428f8cd2cd680eb7acc53b86b6501ae5",
-      "filesize": 12262675
+      "filesize": 12262675,
+      "coverFilename": "cover.png"
     },
     "都市飞鸭": {
       "identifier": "都市飞鸭",
@@ -4462,7 +4484,8 @@
       "executable": "play.bat",
       "type": "PUZ",
       "sha256": "338b9b4d719f3ace2ef6b22589e3902eef86d54bff8aa2bfa082905018096585",
-      "filesize": 2461247
+      "filesize": 2461247,
+      "coverFilename": "cover.png"
     },
     "绯王传2": {
       "identifier": "绯王传2",
@@ -4472,7 +4495,8 @@
       "executable": "play.bat",
       "type": "RPG",
       "sha256": "48e61ac36b0668fc1fc982e408ec4a92c94e4ae91d5848e745e32b44fd1c97db",
-      "filesize": 3823523
+      "filesize": 3823523,
+      "coverFilename": "cover.png"
     },
     "废土": {
       "identifier": "废土",
@@ -4515,7 +4539,8 @@
       "executable": "eos.bat",
       "type": "SIM",
       "sha256": "e69228f11de189ab9f06028303740d8e9365df5d19e755c40840fd9789b8184c",
-      "filesize": 1572846
+      "filesize": 1572846,
+      "coverFilename": "cover.png"
     },
     "风尘三侠之金剑使者": {
       "identifier": "风尘三侠之金剑使者",
@@ -5048,7 +5073,8 @@
       "executable": "start.bat",
       "type": "RPG",
       "sha256": "1ee8681765927115d4ff622954b9cf840aff865e1662b4ac9465c6889fba729c",
-      "filesize": 5081514
+      "filesize": 5081514,
+      "coverFilename": "cover.png"
     },
     "钢铁意志": {
       "identifier": "钢铁意志",
@@ -5253,7 +5279,8 @@
       "executable": "tough.exe",
       "type": "ACT",
       "sha256": "589ebbe654a2c4b54fafbd3a0ccf9fba97ebafba8a9fffc8a047d3df2a05b3e6",
-      "filesize": 7683894
+      "filesize": 7683894,
+      "coverFilename": "cover.png"
     },
     "格斗拳王": {
       "identifier": "格斗拳王",
@@ -5510,7 +5537,8 @@
       "executable": "play.bat",
       "type": "ACT",
       "sha256": "72fa4e31f3fe1a5519c3de5a3b1ea0733a095ba74f9e18b79ba2c43f23846488",
-      "filesize": 1120295
+      "filesize": 1120295,
+      "coverFilename": "cover.png"
     },
     "冠军拉力赛": {
       "identifier": "冠军拉力赛",
@@ -5564,7 +5592,8 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "fae08b7c74546b6e2c063688d24688a69f79e2a79c6eb507e71049b7a3e95d32",
-      "filesize": 5641018
+      "filesize": 5641018,
+      "coverFilename": "cover.png"
     },
     "光明战史": {
       "identifier": "光明战史",
@@ -5574,7 +5603,8 @@
       "executable": "dforce.exe",
       "type": "SPG",
       "sha256": "22b11740e7a700329f005e9d7d48a65b8d5fa760efef483b6b87fc3a590fcfb6",
-      "filesize": 5982813
+      "filesize": 5982813,
+      "coverFilename": "cover.png"
     },
     "光头大战": {
       "identifier": "光头大战",
@@ -6084,7 +6114,8 @@
       "executable": "deluxe",
       "type": "PUZ",
       "sha256": "61cab389ea48b737189d8cbc81cd3a7d4e03443a2fda0d33453f145b960a7994",
-      "filesize": 23563781
+      "filesize": 23563781,
+      "coverFilename": "cover.png"
     },
     "好莱坞谋杀案": {
       "identifier": "好莱坞谋杀案",
@@ -6210,7 +6241,8 @@
       "executable": "darkspyr",
       "type": "RPG",
       "sha256": "1e5e101c28fb0c1938e0ed635ce2fbc796ea8f9471d0dcd0a4953f028d810617",
-      "filesize": 403019
+      "filesize": 403019,
+      "coverFilename": "cover.png"
     },
     "黑暗圣战录": {
       "identifier": "黑暗圣战录",
@@ -6358,7 +6390,8 @@
       "executable": "bs.bat",
       "type": "AVG",
       "sha256": "4233f36d7a60afe861c4d04d1f7965638368a3e7a04eafba8785da7bf0740fcb",
-      "filesize": 3292015
+      "filesize": 3292015,
+      "coverFilename": "cover.png"
     },
     "黑武士": {
       "identifier": "黑武士",
@@ -6519,7 +6552,8 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "06699df70085402a92e7fa28fa1da9c06429bbca2053a765cd8f988d4e1b1bbb",
-      "filesize": 5781851
+      "filesize": 5781851,
+      "coverFilename": "cover.png"
     },
     "红色越野拉力赛": {
       "identifier": "红色越野拉力赛",
@@ -6574,7 +6608,8 @@
       "executable": "monkey2",
       "type": "AVG",
       "sha256": "c0447ed0f33ce007e3ad0ffd602958db46e314eb40751a253fd0dbc2c82e9281",
-      "filesize": 6760779
+      "filesize": 6760779,
+      "coverFilename": "cover.png"
     },
     "呼啸拉力赛": {
       "identifier": "呼啸拉力赛",
@@ -6927,7 +6962,8 @@
       "executable": "war.com",
       "type": "ACT",
       "sha256": "8a208742e2cfbcc9b64efdf2bc4865b1998c4ae3fd5d660d45cdb5550db374b3",
-      "filesize": 14529632
+      "filesize": 14529632,
+      "coverFilename": "cover.png"
     },
     "皇冠": {
       "identifier": "皇冠",
@@ -7405,7 +7441,8 @@
       "executable": "fighter.bat",
       "type": "ACT",
       "sha256": "b7f3e9934b073bf86728a71e84962455ce26462317bf0f655b7dfcd56af34a23",
-      "filesize": 2635299
+      "filesize": 2635299,
+      "coverFilename": "cover.png"
     },
     "激光部队": {
       "identifier": "激光部队",
@@ -7555,7 +7592,8 @@
       "executable": "speed",
       "type": "SIM",
       "sha256": "9a3f79578594d57a6d1f3758b944c7a29549355794e86dd9a6c9b867712b1c89",
-      "filesize": 2903445
+      "filesize": 2903445,
+      "coverFilename": "cover.png"
     },
     "急速挑战": {
       "identifier": "急速挑战",
@@ -8049,7 +8087,8 @@
       "executable": "cyclones.exe",
       "type": "ACT",
       "sha256": "54fa61b3a3c7156bade77423dcbf2e2e98611de6fa1eb1ba962000b35fc807ab",
-      "filesize": 6743080
+      "filesize": 6743080,
+      "coverFilename": "cover.png"
     },
     "决战俄罗斯": {
       "identifier": "决战俄罗斯",
@@ -8434,7 +8473,8 @@
       "executable": "kaiser",
       "type": "SLG",
       "sha256": "beef608e66efc0ebb329986583a680fe23a11316756ab27696154a8b06238d08",
-      "filesize": 2283922
+      "filesize": 2283922,
+      "coverFilename": "cover.png"
     },
     "科罗拉多": {
       "identifier": "科罗拉多",
@@ -8476,7 +8516,8 @@
       "executable": "play.bat",
       "type": "AVG",
       "sha256": "31b0de32cfb8a158e2b62e605c4037f84ad3e8acd0355f28b8baea32683d9063",
-      "filesize": 1950364
+      "filesize": 1950364,
+      "coverFilename": "cover.png"
     },
     "克莱德复仇": {
       "identifier": "克莱德复仇",
@@ -8700,7 +8741,8 @@
       "executable": "star.bat",
       "type": "SIM",
       "sha256": "5b05c3f54e9ea116ef27113f8c9422222e8012cae4e6080c54b0d60710e3b315",
-      "filesize": 4309857
+      "filesize": 4309857,
+      "coverFilename": "cover.png"
     },
     "快打至尊": {
       "identifier": "快打至尊",
@@ -8762,7 +8804,8 @@
       "executable": "start.bat",
       "type": "HGA",
       "sha256": "26fe742453d54780892e6d5305994986a2ce715b89f14a47fbcc4f6eb6ca2cd0",
-      "filesize": 3097397
+      "filesize": 3097397,
+      "coverFilename": "cover.png"
     },
     "狂野西部": {
       "identifier": "狂野西部",
@@ -8803,7 +8846,8 @@
       "executable": "smurfs",
       "type": "ACT",
       "sha256": "3c63e1175eebbabfc6158bd2c042821153039c1dc64b5c46e480bf546ec2d4be",
-      "filesize": 10690662
+      "filesize": 10690662,
+      "coverFilename": "cover.png"
     },
     "蓝莫吉尼巡回赛": {
       "identifier": "蓝莫吉尼巡回赛",
@@ -9039,7 +9083,8 @@
       "executable": "play",
       "type": "SIM",
       "sha256": "9d3ad58e2788ba57d447f2c1be17a715c6a1ad4e62306cd818fa35bcaa7f36b8",
-      "filesize": 1662264
+      "filesize": 1662264,
+      "coverFilename": "cover.png"
     },
     "擂台美少女3／天使摔角3": {
       "identifier": "擂台美少女3／天使摔角3",
@@ -9082,7 +9127,8 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "1e1d4d09ec26ee8225107c4e652f464c8ca2611f113815fc3f79c021a4b3a892",
-      "filesize": 4466089
+      "filesize": 4466089,
+      "coverFilename": "cover.png"
     },
     "里世界／狼女": {
       "identifier": "里世界／狼女",
@@ -9351,7 +9397,8 @@
       "type": "HGA",
       "sha256": "ddc444a0e7aace209ebc03900cf3dc95678bdb3e1c0c9eb86608c3e81a50bfd4",
       "floppy": "a",
-      "filesize": 5322759
+      "filesize": 5322759,
+      "coverFilename": "cover.png"
     },
     "龙骑士4": {
       "identifier": "龙骑士4",
@@ -9477,7 +9524,8 @@
       "executable": "play.bat",
       "type": "RPG",
       "sha256": "a532867691897c9e87a4ee90c4a3239787f5d87b93199d0827730a90b2729eb6",
-      "filesize": 7388352
+      "filesize": 7388352,
+      "coverFilename": "cover.png"
     },
     "乱世伏魔录": {
       "identifier": "乱世伏魔录",
@@ -9925,7 +9973,8 @@
       "executable": "girl",
       "type": "PUZ",
       "sha256": "21d5e79cfae2a4de4d1d2e659c18ab897d2fa0b5419c7af70791ec05226f9345",
-      "filesize": 7585192
+      "filesize": 7585192,
+      "coverFilename": "cover.png"
     },
     "魅力游戏": {
       "identifier": "魅力游戏",
@@ -10375,7 +10424,8 @@
       "executable": "IDMAS.EXE",
       "type": "SIM",
       "sha256": "c2fc7e8dae92dd4a71b744a0df5c61d80c27da1002987bf50d0f53c745b2d1e6",
-      "filesize": 15518937
+      "filesize": 15518937,
+      "coverFilename": "cover.png"
     },
     "魔岛大富翁": {
       "identifier": "魔岛大富翁",
@@ -10679,7 +10729,8 @@
       "executable": "mg2.exe",
       "type": "SPG",
       "sha256": "0f885151f702723cf91f4d997dee8a33cce236e3a3a0ddc88e2f2a35e1699820",
-      "filesize": 2940092
+      "filesize": 2940092,
+      "coverFilename": "cover.png"
     },
     "魔法试炼": {
       "identifier": "魔法试炼",
@@ -10765,7 +10816,8 @@
       "executable": "play",
       "type": "HGA",
       "sha256": "a482993e2450db3e2e305403dbb5ab536f237a142bdd5c7dfefbf4f0ce7524ce",
-      "filesize": 1738384
+      "filesize": 1738384,
+      "coverFilename": "cover.png"
     },
     "魔界召唤": {
       "identifier": "魔界召唤",
@@ -10861,7 +10913,8 @@
       "executable": "mg1.exe",
       "type": "RPG",
       "sha256": "7e427d07181c8c2ae807a08d07b041d83cb578e03a3841a3e0bcc73dfc35e2ab",
-      "filesize": 1297375
+      "filesize": 1297375,
+      "coverFilename": "cover.png"
     },
     "魔神战记2": {
       "identifier": "魔神战记2",
@@ -10881,7 +10934,8 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "ff2703bb1be6394f6e0827c1142d8fd12319738f27d10fbddc47e7e41102835b",
-      "filesize": 4768082
+      "filesize": 4768082,
+      "coverFilename": "cover.png"
     },
     "魔兽大战略": {
       "identifier": "魔兽大战略",
@@ -10967,7 +11021,8 @@
       "executable": "play.bat",
       "type": "AVG",
       "sha256": "cd2f110b741470219ade96011c24b3455300f7108f2dc5c52ecd40711d87c58b",
-      "filesize": 6455465
+      "filesize": 6455465,
+      "coverFilename": "cover.png"
     },
     "魔武王": {
       "identifier": "魔武王",
@@ -11288,7 +11343,8 @@
       "executable": "sierra.bat",
       "type": "AVG",
       "sha256": "fb9472bd7d67fe8d1684780c55becf6341587dd821d8c06dbd9314cab64f4732",
-      "filesize": 3380303
+      "filesize": 3380303,
+      "coverFilename": "cover.png"
     },
     "尼旁事务所": {
       "identifier": "尼旁事务所",
@@ -11513,7 +11569,8 @@
       "executable": "PLAY.BAT",
       "type": "PUZ",
       "sha256": "820a0094e34901a322a68a2dc71c9dd56464599a3c2927e4454bb24ba6f40dc2",
-      "filesize": 4152480
+      "filesize": 4152480,
+      "coverFilename": "cover.png"
     },
     "披萨大亨": {
       "identifier": "披萨大亨",
@@ -11601,7 +11658,8 @@
       "executable": "play.bat",
       "type": "PUZ",
       "sha256": "ad3219467be783360234be4ec669b62031f276d81b936a07a77a9d1580251012",
-      "filesize": 1365934
+      "filesize": 1365934,
+      "coverFilename": "cover.png"
     },
     "噗噗闯通关": {
       "identifier": "噗噗闯通关",
@@ -11655,7 +11713,8 @@
       "executable": "sierra",
       "type": "ACT",
       "sha256": "a33972bfa23513f146f69c52e13dd44564c811968ec1dc0d123d334cbd74c6df",
-      "filesize": 1325018
+      "filesize": 1325018,
+      "coverFilename": "cover.png"
     },
     "七英雄外传王者之师": {
       "identifier": "七英雄外传王者之师",
@@ -11999,7 +12058,8 @@
       "executable": "TOMJ.EXE",
       "type": "PUZ",
       "sha256": "eedc3281da49a595fbcbd59a7331c5a39b842472b8c636f5b81c4622dcb6a3c7",
-      "filesize": 391182
+      "filesize": 391182,
+      "coverFilename": "cover.png"
     },
     "燃烧时刻": {
       "identifier": "燃烧时刻",
@@ -12043,7 +12103,8 @@
       "type": "ACT",
       "sha256": "fab0d8d941391f1433a47898fa7b8276c17ae34afa66df2849ed3429194bfeb9",
       "img": "Pyrotechnica.cue",
-      "filesize": 15209674
+      "filesize": 15209674,
+      "coverFilename": "cover.png"
     },
     "热血硬派": {
       "identifier": "热血硬派",
@@ -12343,7 +12404,8 @@
       "executable": "zelda",
       "type": "ACT",
       "sha256": "a1bc060bf9d7694897cd56bda79654a37d78d2b931eeb002f8fb5106ad16187f",
-      "filesize": 5279219
+      "filesize": 5279219,
+      "coverFilename": "cover.png"
     },
     "赛马": {
       "identifier": "赛马",
@@ -12968,7 +13030,8 @@
       "executable": "zeliard.exe",
       "type": "RPG",
       "sha256": "12de2916e3ef09e6cb7bfccd7822780d94adc6ac0712739bd80a5c4239f76e8f",
-      "filesize": 2090513
+      "filesize": 2090513,
+      "coverFilename": "cover.png"
     },
     "神剑游侠传": {
       "identifier": "神剑游侠传",
@@ -12978,7 +13041,8 @@
       "executable": "play.bat",
       "type": "RPG",
       "sha256": "e64f1df115428779b8c6799af4a5a8da62ecdef263f62929622c35d3f1cbb847",
-      "filesize": 21032090
+      "filesize": 21032090,
+      "coverFilename": "cover.png"
     },
     "神经弹珠台": {
       "identifier": "神经弹珠台",
@@ -13125,7 +13189,8 @@
       "executable": "drago.bat",
       "type": "RPG",
       "sha256": "8529e39b211a117f6f9a1bb76a24a405ec4c2c16bbefc997825612833a07ba81",
-      "filesize": 522094
+      "filesize": 522094,
+      "coverFilename": "cover.png"
     },
     "圣诞残杀": {
       "identifier": "圣诞残杀",
@@ -13531,7 +13596,8 @@
       "executable": "epic",
       "type": "SIM",
       "sha256": "002206b3a376068bc0aad771588fce04b1431278b94ae14ab4021241d0e9580e",
-      "filesize": 6135165
+      "filesize": 6135165,
+      "coverFilename": "cover.png"
     },
     "世纪末商业革命": {
       "identifier": "世纪末商业革命",
@@ -13723,7 +13789,8 @@
       "executable": "play.bat",
       "type": "RPG",
       "sha256": "e3b5a66ba445ed841f07f350bc9e69f624c7c9ba830778891a81449e7171b806",
-      "filesize": 16107224
+      "filesize": 16107224,
+      "coverFilename": "cover.png"
     },
     "束缚之馆": {
       "identifier": "束缚之馆",
@@ -14281,7 +14348,8 @@
       "executable": "start.exe",
       "type": "RPG",
       "sha256": "df3f9108c88e147aed242393342f0933aacc2ae9fe11dce2b34c55c77a4562a6",
-      "filesize": 5782359
+      "filesize": 5782359,
+      "coverFilename": "cover.png"
     },
     "太空女妖": {
       "identifier": "太空女妖",
@@ -14421,7 +14489,8 @@
       "executable": "crack",
       "type": "SIM",
       "sha256": "b5e712760fc87c281e7b5be6fdaea2d64358e1851290ad19efb3c06c3cb51e2e",
-      "filesize": 14127251
+      "filesize": 14127251,
+      "coverFilename": "cover.png"
     },
     "逃离地狱": {
       "identifier": "逃离地狱",
@@ -14713,7 +14782,8 @@
       "type": "SPG",
       "sha256": "7357aebab7be68fb3a85a37f01bd2c0afec2db9dfa205f5c3369f886d34be8a6",
       "cdrom": "no",
-      "filesize": 12598806
+      "filesize": 12598806,
+      "coverFilename": "cover.png"
     },
     "天使帝国2": {
       "identifier": "天使帝国2",
@@ -14766,7 +14836,8 @@
       "executable": "start",
       "type": "ACT",
       "sha256": "a037b78a937912c0fc4f09cd66e66ed8f871f7da38a8221435a8f26fb21e37f4",
-      "filesize": 2514610
+      "filesize": 2514610,
+      "coverFilename": "cover.png"
     },
     "天下一统": {
       "identifier": "天下一统",
@@ -15085,7 +15156,8 @@
       "executable": "tmix.com",
       "type": "ACT",
       "sha256": "2d5e939abe85e9ff0c7356a933bad65cfa3c49b8249707bbdf0e31e8eed0dcd5",
-      "filesize": 2619181
+      "filesize": 2619181,
+      "coverFilename": "cover.png"
     },
     "突击士兵": {
       "identifier": "突击士兵",
@@ -15138,7 +15210,8 @@
       "executable": "sc",
       "type": "SIM",
       "sha256": "c14fc37278555732d04c92dd229d2870acb199be2489b374657a86d10607d401",
-      "filesize": 21665721
+      "filesize": 21665721,
+      "coverFilename": "cover.png"
     },
     "团聚": {
       "identifier": "团聚",
@@ -15900,7 +15973,8 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "8125326d8626c8337f8c93875f296f84048a1ab4f43766742c25fbf763b46226",
-      "filesize": 3283286
+      "filesize": 3283286,
+      "coverFilename": "cover.png"
     },
     "无声狂啸": {
       "identifier": "无声狂啸",
@@ -16125,7 +16199,8 @@
       "executable": "lm.exe",
       "type": "PUZ",
       "sha256": "8474b2d853596bebdb5bdca3494ce7ed25db3af2750a0585693ea7b41e5d58bf",
-      "filesize": 18481371
+      "filesize": 18481371,
+      "coverFilename": "cover.png"
     },
     "嬉笑春秋": {
       "identifier": "嬉笑春秋",
@@ -16587,7 +16662,8 @@
       "executable": "SA",
       "type": "RPG",
       "sha256": "69dab897164fc82efff5a1c58f5c347890b19932322fef3d3db225d215506737",
-      "filesize": 8248295
+      "filesize": 8248295,
+      "coverFilename": "cover.png"
     },
     "邪灵世纪": {
       "identifier": "邪灵世纪",
@@ -16649,7 +16725,8 @@
       "executable": "simpsons.bat",
       "type": "ACT",
       "sha256": "27281c5b37fbb14a8fd438a67c392855433a384d5ce664abbbc992ac8aebe8aa",
-      "filesize": 1054742
+      "filesize": 1054742,
+      "coverFilename": "cover.png"
     },
     "辛普森小丑屋": {
       "identifier": "辛普森小丑屋",
@@ -16785,7 +16862,8 @@
       "executable": "tenshou.com",
       "type": "SLG",
       "sha256": "74caea8f0274b68537d0824ba47d804f1a893bbcfeb4b81bc550da47216a5a24",
-      "filesize": 3437060
+      "filesize": 3437060,
+      "coverFilename": "cover.png"
     },
     "星尘": {
       "identifier": "星尘",
@@ -16860,7 +16938,8 @@
       "executable": "rites.exe",
       "type": "AVG",
       "sha256": "ef86a2ced9b283fac52100fa2f02845c6b50eb3584c70de40446958420b5cdf8",
-      "filesize": 25141537
+      "filesize": 25141537,
+      "coverFilename": "cover.png"
     },
     "星际炮手": {
       "identifier": "星际炮手",
@@ -17034,7 +17113,8 @@
       "executable": "play.bat",
       "type": "ACT",
       "sha256": "6998facbe2a0f4820dbca901732b40f4175918cd7cbe853a68c46a92d686831c",
-      "filesize": 3155373
+      "filesize": 3155373,
+      "coverFilename": "cover.png"
     },
     "星月奇缘": {
       "identifier": "星月奇缘",
@@ -17194,7 +17274,8 @@
       "executable": "VOTE.EXE",
       "type": "SLG",
       "sha256": "94046a94628c9bf744f68ae4f1211526020f7079f1d2355f5037beac2a1a4155",
-      "filesize": 146861
+      "filesize": 146861,
+      "coverFilename": "cover.png"
     },
     "学园退魔传": {
       "identifier": "学园退魔传",
@@ -17402,7 +17483,8 @@
       "executable": "CM.EXE",
       "type": "HGA",
       "sha256": "391682317ead54122ae5d32d701d75c29f3e9654a69467670a646dfaf4a621b0",
-      "filesize": 6958713
+      "filesize": 6958713,
+      "coverFilename": "cover.png"
     },
     "妖击队": {
       "identifier": "妖击队",
@@ -17496,7 +17578,8 @@
       "executable": "clonk",
       "type": "SIM",
       "sha256": "676a642521c2aae20c1fb8ebec77c51cbaaaa92865c34c481842eed754a914bc",
-      "filesize": 206328
+      "filesize": 206328,
+      "coverFilename": "cover.png"
     },
     "野人生存3": {
       "identifier": "野人生存3",
@@ -17558,7 +17641,8 @@
       "executable": "danger.bat",
       "type": "SLG",
       "sha256": "54e8748c4cf23c7b1af72d422535061ed72981d8c09503deaab488b6960373c4",
-      "filesize": 6391130
+      "filesize": 6391130,
+      "coverFilename": "cover.png"
     },
     "伊甸风暴": {
       "identifier": "伊甸风暴",
@@ -17663,7 +17747,8 @@
       "executable": "begin",
       "type": "RPG",
       "sha256": "e912d046e9161ddda752bf7a0d75162ef130af6ed945c7cef96e7963dbc4ea2f",
-      "filesize": 1032349
+      "filesize": 1032349,
+      "coverFilename": "cover.png"
     },
     "遗作(日）": {
       "identifier": "遗作(日）",
@@ -18180,7 +18265,8 @@
       "executable": "play",
       "type": "SLG",
       "sha256": "6493de7dbcef516588769abc027d278b6aa0156dc938111bd67b4962b57cb09b",
-      "filesize": 1581067
+      "filesize": 1581067,
+      "coverFilename": "cover.png"
     },
     "银河太阳风": {
       "identifier": "银河太阳风",
@@ -18234,7 +18320,8 @@
       "executable": "MACHINES.BAT",
       "type": "ACT",
       "sha256": "99d1822ea8a502d08977ed1baf6daaf7284ead9f6ea9d4731d6767a0587c244c",
-      "filesize": 3636540
+      "filesize": 3636540,
+      "coverFilename": "cover.png"
     },
     "银色弹球95": {
       "identifier": "银色弹球95",
@@ -18498,7 +18585,8 @@
       "executable": "lov.bat",
       "type": "RPG",
       "sha256": "ac0d197b16304e7ea804152bf1241bddfc03b98ec8f0ae17b1a5267496b404bb",
-      "filesize": 4498403
+      "filesize": 4498403,
+      "coverFilename": "cover.png"
     },
     "勇者传说": {
       "identifier": "勇者传说",
@@ -18627,7 +18715,8 @@
       "executable": "cruise.exe",
       "type": "AVG",
       "sha256": "916111a160c47afd69cae5240db7c094b2dcc1dda68d48ecd55755311d4c8965",
-      "filesize": 10585278
+      "filesize": 10585278,
+      "coverFilename": "cover.png"
     },
     "诱惑": {
       "identifier": "诱惑",
@@ -18969,7 +19058,8 @@
       "executable": "XANTH.EXE",
       "type": "AVG",
       "sha256": "fbe3a3c95fb389d8f9082ac623ad47675c197491d99416d5180eba8824205289",
-      "filesize": 18446138
+      "filesize": 18446138,
+      "coverFilename": "cover.png"
     },
     "扎克宇宙历险记": {
       "identifier": "扎克宇宙历险记",
@@ -19000,7 +19090,8 @@
       "executable": "dynamo.com",
       "type": "ACT",
       "sha256": "e89c25a79c551efcbc1502d409632266f8845111895c01f24eeeaf609edd3123",
-      "filesize": 210998
+      "filesize": 210998,
+      "coverFilename": "cover.png"
     },
     "炸弹人X": {
       "identifier": "炸弹人X",
@@ -19453,7 +19544,8 @@
       "executable": "start",
       "type": "ACT",
       "sha256": "d2786ad124cc8e4ed230b242c6bab798e7cde60a6e9df16fb69025c283d4242c",
-      "filesize": 997879
+      "filesize": 997879,
+      "coverFilename": "cover.png"
     },
     "珍宝珠小子2": {
       "identifier": "珍宝珠小子2",
@@ -19463,7 +19555,8 @@
       "executable": "play.bat",
       "type": "ACT",
       "sha256": "f832ec4721666fec76481f1a86891acbbc61d7789821c78ddc5d60a29005d653",
-      "filesize": 1148052
+      "filesize": 1148052,
+      "coverFilename": "cover.png"
     },
     "真红的杀意": {
       "identifier": "真红的杀意",
@@ -19473,7 +19566,8 @@
       "executable": "play.bat",
       "type": "AVG",
       "sha256": "4802f775a03ea69e127b672da354a2f03c16d709fe38a621e05029a657fb1d9c",
-      "filesize": 1379841
+      "filesize": 1379841,
+      "coverFilename": "cover.png"
     },
     "真人快打": {
       "identifier": "真人快打",
@@ -19548,7 +19642,8 @@
       "executable": "clock.bat",
       "type": "PUZ",
       "sha256": "419aced9c6c2b5d827ccecfd779dd46ec2ac7380442e1736eb071679bcb11d17",
-      "filesize": 1032712
+      "filesize": 1032712,
+      "coverFilename": "cover.png"
     },
     "征服：AD1086": {
       "identifier": "征服：AD1086",
@@ -19569,7 +19664,8 @@
       "executable": "play.bat",
       "type": "PUZ",
       "sha256": "ac93be54f4b3db157ff19010d0767e65f6a8bb90648bd38da734b4405eaee3ca",
-      "filesize": 3449162
+      "filesize": 3449162,
+      "coverFilename": "cover.png"
     },
     "正宗台湾16张麻将2": {
       "identifier": "正宗台湾16张麻将2",
@@ -19579,7 +19675,7 @@
       "executable": "play",
       "type": "PUZ",
       "sha256": "e296190aed949eb737b902da93ef60459d47ddcc36ee6e5d0a3aafc60d948f16",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "filesize": 11821735
     },
     "支配力量": {
@@ -19906,7 +20002,8 @@
       "executable": "cpb.bat",
       "type": "SIM",
       "sha256": "e20188af320b87e94d47efacafb6cc424a3f56dab100bb6caa396981413b9440",
-      "filesize": 8582360
+      "filesize": 8582360,
+      "coverFilename": "cover.png"
     },
     "中央情报局": {
       "identifier": "中央情报局",
@@ -19961,7 +20058,8 @@
       "executable": "um",
       "type": "SPG",
       "sha256": "6b381bdcf7cf48700e5c8021087401e636735fa6b609134ca48e3eb85f5ae46e",
-      "filesize": 4527403
+      "filesize": 4527403,
+      "coverFilename": "cover.png"
     },
     "终极速度": {
       "identifier": "终极速度",
@@ -20015,7 +20113,8 @@
       "executable": "genocide",
       "type": "SLG",
       "sha256": "38de30c620e72ca1f5a4caea3b17a96ab1964e2181e8d4dcedfb3f197d1ea75c",
-      "filesize": 724846
+      "filesize": 724846,
+      "coverFilename": "cover.png"
     },
     "仲裁者": {
       "identifier": "仲裁者",
@@ -20361,7 +20460,8 @@
       "executable": "kid.exe",
       "type": "ACT",
       "sha256": "c712f304b2a229eb382dab55a72667439b2e99921f814275cc50dda6a0ab416b",
-      "filesize": 2577908
+      "filesize": 2577908,
+      "coverFilename": "cover.png"
     },
     "卒业": {
       "identifier": "卒业",
@@ -20415,7 +20515,8 @@
       "type": "ACT",
       "sha256": "58643bff8840503f9e285bfdcc1706d3255a29a8af090f8a97a394d987dcbf53",
       "img": "lastknight.iso",
-      "filesize": 4262162
+      "filesize": 4262162,
+      "coverFilename": "cover.png"
     },
     "最后期限": {
       "identifier": "最后期限",
