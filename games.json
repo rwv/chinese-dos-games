@@ -4939,7 +4939,8 @@
       "executable": "dlord.exe",
       "type": "SLG",
       "sha256": "b3ba4d24b2c5e3572bf4528681f9cd4b6c6e741d08a3d34786117f1c2818fe46",
-      "filesize": 1023531
+      "filesize": 1023531,
+      "coverFilename": "cover.png"
     },
     "感官足球": {
       "identifier": "感官足球",
@@ -6464,7 +6465,8 @@
       "executable": "redhell",
       "type": "AVG",
       "sha256": "b196a69a428655bb575d308ef6982cdb93ede7aa8fb6c677f3b3a3fb5077e157",
-      "filesize": 24415688
+      "filesize": 24415688,
+      "coverFilename": "cover.png"
     },
     "红色风暴": {
       "identifier": "红色风暴",
@@ -8590,7 +8592,8 @@
       "executable": "fd.exe",
       "type": "SIM",
       "sha256": "a7441b3025f61d7eeaf36257d14d178c12cb104af37f070c0e963631455dd2dd",
-      "filesize": 7118256
+      "filesize": 7118256,
+      "coverFilename": "cover.png"
     },
     "空中突击18": {
       "identifier": "空中突击18",
@@ -10772,7 +10775,8 @@
       "executable": "summon",
       "type": "RPG",
       "sha256": "311bfce0836b33fba6fda2c36ae124a973856d10e034fc361d86d06be8cb9e54",
-      "filesize": 2566990
+      "filesize": 2566990,
+      "coverFilename": "cover.png"
     },
     "魔界之泉动乱魔都": {
       "identifier": "魔界之泉动乱魔都",
@@ -12155,7 +12159,8 @@
       "executable": "go",
       "type": "ACT",
       "sha256": "60a2cd15e57ab276c946e45db8b4d6f0e3d8051009e8c749445c1c60cbfd446d",
-      "filesize": 725895
+      "filesize": 725895,
+      "coverFilename": "cover.png"
     },
     "忍者神龟2曼哈顿之战": {
       "identifier": "忍者神龟2曼哈顿之战",
@@ -15359,7 +15364,8 @@
       "executable": "start.exe",
       "type": "SLG",
       "sha256": "aae210f056ff80066ed8049b44fdd411792dc0e9b254dbcf4abea4448ea757e8",
-      "filesize": 2641046
+      "filesize": 2641046,
+      "coverFilename": "cover.png"
     },
     "王子传奇": {
       "identifier": "王子传奇",
