@@ -107,7 +107,7 @@
       "links": {
         "《明星志愿》 - 互动百科": "http://www.baike.com/wiki/《明星志愿》"
       },
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "sha256": "a5225f10dbbcef85b032f1f4230d69326cbe3ec495cf7b410d6adff6c888a2e3",
       "filesize": 6256250
     },
@@ -178,7 +178,7 @@
       },
       "releaseYear": 1996,
       "executable": "SKING.EXE",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "sha256": "41c8c3678d5381561f22bc8a7df2eef15f9e24e10ef2a54801a14a1eb1854923",
       "filesize": 11231841
     },
@@ -512,7 +512,7 @@
       },
       "releaseYear": 1995,
       "executable": "AM2.COM",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "keymaps": {
         "Enter": "进入游戏"
       },
@@ -541,7 +541,7 @@
       },
       "releaseYear": 1999,
       "executable": "play.bat",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "sha256": "34b7da1a752e45e2ac8d7da66be854ffa95db2a429c84178ed75a7eea7dc86c0",
       "filesize": 85842909
     },
@@ -580,7 +580,7 @@
       },
       "releaseYear": 1995,
       "executable": "PLAY.BAT",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "sha256": "8717c71b0a6b1b7cc4d912e1f3f9d7d672580b6b0fdd4cc3779c44396bfa2c8b",
       "filesize": 2930177
     },
@@ -4941,7 +4941,7 @@
       "executable": "play.bat",
       "type": "PUZ",
       "sha256": "4242cb0f7b55a192444474195efbedd5033feed57751d3bffb4cf55c106e0e1e",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "filesize": 1771484
     },
     "富甲天下2": {
@@ -6707,7 +6707,7 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "acc987fd09d2145d559024c326af2189495c8fd23d425e875f5c37e1b601e0f8",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "filesize": 2758146
     },
     "滑溜小赛车": {
@@ -9651,7 +9651,7 @@
       "type": "HGA",
       "sha256": "588b426a8053475a4142ce07b4087d85771c1499482142b9370cca93973bbebd",
       "filesize": 3654382,
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.png"
     },
     "麻将情趣屋2": {
       "identifier": "麻将情趣屋2",
@@ -10005,7 +10005,7 @@
       "type": "HGA",
       "sha256": "5cb2d4d0e8db4cbd1422d8e0e3ba9a45226bde3880c6484f247badd2c029bcae",
       "filesize": 7435359,
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.png"
     },
     "猛鬼街": {
       "identifier": "猛鬼街",
@@ -13009,7 +13009,7 @@
       "type": "RPG",
       "sha256": "f2df6cdae7c70dc3ab7dc88b60c98b53c3aa7878b20499cfe375dcc5bf911aa3",
       "img": "IMG/EAGLE.CUE",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "filesize": 92608250
     },
     "神剑传说": {
@@ -14185,7 +14185,7 @@
       "executable": "TT.EXE",
       "type": "PUZ",
       "sha256": "28d28a321565f103b26c2aed5cc85a92ab68161a32f6d4fe3966dfde5feb832a",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "filesize": 2005071
     },
     "四海冒险家": {
@@ -15244,7 +15244,7 @@
       "type": "RPG",
       "sha256": "df9a392fe41a717de2b4b19a5ec947f437f27fc59e9a34a789662b2a831a1583",
       "filesize": 2963121,
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.png"
     },
     "吞食天地2": {
       "identifier": "吞食天地2",
@@ -20374,7 +20374,7 @@
       "executable": "play_ad.bat",
       "type": "PUZ",
       "sha256": "14d3e3ae6438bf06103f3332b7b286760a27f390f09a601e28a5cbeff60a37e7",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "filesize": 190546
     },
     "捉鬼敢死队2": {
@@ -20385,7 +20385,7 @@
       "executable": "gb2",
       "type": "ACT",
       "sha256": "fa0fb85798805f590bbd46c10327010e8658a2ac0ee32835de27e81ce5e60816",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "filesize": 1082753
     },
     "字符世界历险记": {
@@ -20471,7 +20471,7 @@
       "executable": "josi.com",
       "type": "SIM",
       "sha256": "d21dee62fac9a6cd8d5d2427a7ff4d0437dfda698864445b02ba4400e849cbde",
-      "coverFilename": "cover.jpg",
+      "coverFilename": "cover.png",
       "filesize": 5373382
     },
     "卒业旅行": {
