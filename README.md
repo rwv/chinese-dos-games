@@ -14,7 +14,7 @@ python download_data.py
 
 ## 游戏列表
 
-参见 https://dos.zczc.cz/games
+参见 https://dos.lol/games
 
 ## IPFS
 
