@@ -7,10 +7,18 @@
 
 ## 下载游戏文件
 
+
 在根目录下运行 Python 3 脚本
 
 ``` python
+pip install retrying requests[socks]
 python download_data.py
+```
+
+为`DOWNLOAD_PROXY`环境变量赋值可以启用代理，替代方法是修改`BASE_URL`为反代地址。
+
+``` python
+env DOWNLOAD_PROXY="socks5://127.0.0.1:1080" python download_data.py
 ```
 
 若下载出错请参见 [Issue #26](https://github.com/rwv/chinese-dos-games/issues/26)
