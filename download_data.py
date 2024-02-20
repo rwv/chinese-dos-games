@@ -22,7 +22,7 @@ class Config:
 
     GAMES_JSON_PATH: Path = (
         Path(__file__).resolve().parent / "games.json"
-    )  #J SON数据文件，包含有关游戏的信息。
+    )  # JSON数据文件，包含有关游戏的信息。
 
     PROXY: str = os.getenv(
         "DOWNLOAD_PROXY"
