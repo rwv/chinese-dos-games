@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* emscripten canvas 不能有 border/padding，否则鼠标坐标会偏移 */
+canvas.emscripten {
+  border: 0;
+  background-color: black;
+  image-rendering: auto;
+}
