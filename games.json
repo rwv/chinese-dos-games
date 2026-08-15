@@ -1104,7 +1104,7 @@
       "executable": "PLAY.BAT",
       "type": "RPG",
       "sha256": "cbc7fd461bb2b268c632b1bb5fcbfa2e6d86a2f3c778a9de280f221822e409dd",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 12048493
     },
     "QQ三国志": {
@@ -1341,7 +1341,7 @@
       "type": "RPG",
       "sha256": "4866351535078024f6a78446ddb25ccba1b051ae1473d0d0ee80f4b54e96bd62",
       "coverFilename": "cover.jpg",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 176421078
     },
     "阿瓦隆": {
@@ -1868,7 +1868,7 @@
       "executable": "air.exe",
       "type": "ACT",
       "sha256": "852efc066d6878ffdf5ac5723c7ab2652a40e002ea9dc1e26b213ad031a3db9d",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 2054609
     },
     "爆笑躲避球": {
@@ -2303,7 +2303,7 @@
       "executable": "lland.exe",
       "type": "ACT",
       "sha256": "96694ecd83b1bef7b69ccfa1a9059d3865a9921180ff80b49dc131a390a31b4a",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 24295509,
       "coverFilename": "cover.png"
     },
@@ -2508,7 +2508,7 @@
       "executable": "play.exe",
       "type": "PUZ",
       "sha256": "2c569ee5378d7a59c2a70ed2fa6df6c3303ea8955016f88db2e587960c399da6",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 12004100,
       "coverFilename": "cover.png"
     },
@@ -2609,7 +2609,8 @@
       "type": "SPG",
       "sha256": "e49dbd3b2902d7007f89f08030c4656d7ab63c960f551ea6c48763a343a0fb32",
       "img": "CD/SUPER.cue",
-      "filesize": 208736280
+      "filesize": 208736280,
+      "cdImage": "CD/Track01.iso"
     },
     "超时空英雄传说2": {
       "identifier": "超时空英雄传说2",
@@ -2830,7 +2831,7 @@
       "executable": "play.bat",
       "type": "SPG",
       "sha256": "c9ac1c3b60b370f975877ee99dea998c5682f3d7fb5f3af4a737154fa7636731",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 17513842,
       "coverFilename": "cover.png"
     },
@@ -2927,7 +2928,7 @@
       "executable": "dark.exe",
       "type": "RPG",
       "sha256": "3dd4c37cd99904f1255e0c80b2945a40bdf4f32d5ec2cb0b534f375a37005968",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 4073617,
       "coverFilename": "cover.png"
     },
@@ -2992,7 +2993,7 @@
       "executable": "play.bat",
       "type": "SPG",
       "sha256": "359dc3dfde673cc3d9bec9295fbfe965d514496025594f1b45ec4e3d6deea7eb",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 9000555,
       "coverFilename": "cover.png"
     },
@@ -3457,7 +3458,7 @@
       "executable": "play.bat",
       "type": "RPG",
       "sha256": "4e3fd381f8257ae30738df2ec8db1ec5a5a462a57d7188247fff254045850bfb",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 9429597,
       "coverFilename": "cover.png"
     },
@@ -4013,7 +4014,7 @@
       "executable": "popple",
       "type": "ACT",
       "sha256": "ce943d1acb238f0b1ce12fe020a532f1ec9ac0bd602af97984035e9314b5c1a5",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 28385759,
       "coverFilename": "cover.png"
     },
@@ -4517,7 +4518,7 @@
       "executable": "chasm.bat",
       "type": "ACT",
       "sha256": "edc8a1ab9d8406c993c97325370aacde45432ee5b7d0a37025cf4be9d1a6fbeb",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 19692660,
       "coverFilename": "cover.png"
     },
@@ -4875,7 +4876,7 @@
       "executable": "holmes2.bat",
       "type": "AVG",
       "sha256": "1fb02db23c5f001b747c863714d8f5fe967dea65edd1dbb2e8c47571d87aaeb4",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 275097716
     },
     "福尔摩斯失落的文件": {
@@ -4952,7 +4953,7 @@
       "executable": "play.bat",
       "type": "PUZ",
       "sha256": "b54ed7814aa8c62384c4ef8b5b939cd3e412a82c0d7816a65bdea11ec0397371",
-      "cdrom": "no",
+      "cdrom": false,
       "coverFilename": "cover.png",
       "filesize": 16534770
     },
@@ -5105,7 +5106,7 @@
       "executable": "steel2",
       "type": "SLG",
       "sha256": "7d6f5c1b756b6312f58362f0c95e9a5a0e1106980e787bc330be33e2db3c4f37",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 54140263,
       "coverFilename": "cover.png"
     },
@@ -5376,7 +5377,7 @@
       "executable": "mdk",
       "type": "ACT",
       "sha256": "249e0694113b9bdce0d8a5f2c50e45b67848ed215c8631951e5edcc67000e435",
-      "cdrom": "mdk",
+      "cdrom": true,
       "filesize": 114189148
     },
     "古堡之宴": {
@@ -5472,7 +5473,7 @@
       "executable": "tomb",
       "type": "ACT",
       "sha256": "08da92845d80bd3262751c1c9aee8163ee742872fd78b29e1b8bb0aebe4b0f4a",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 34422403,
       "coverFilename": "cover.png"
     },
@@ -6379,7 +6380,7 @@
       "executable": "dsun",
       "type": "RPG",
       "sha256": "551eef8743d50015a478f37e6161207adc1d051b5020c5a1fd9669f77001d80d",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 12373673
     },
     "黑色街区": {
@@ -6695,7 +6696,7 @@
       "executable": "hml.exe",
       "type": "SPG",
       "sha256": "5fc97bd1c0384da24b53cdee63649f7524629f829358fbb620e1425f2fc07c8e",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 39820811,
       "coverFilename": "cover.png"
     },
@@ -6983,7 +6984,7 @@
       "executable": "play.bat",
       "type": "SIM",
       "sha256": "940f3715c72486451ce7c154bb8f094f8ec24f321e13173891b108e8f5bb9aa5",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 18111173,
       "coverFilename": "cover.png"
     },
@@ -7972,7 +7973,8 @@
       "type": "RPG",
       "sha256": "021dac4f150c62e3b1feed3db8ee6f75dc012dbc2946787b2a3789f7e2ac56ed",
       "img": "CD/JYFY.cue",
-      "filesize": 95504828
+      "filesize": 95504828,
+      "cdImage": "CD/Track01.iso"
     },
     "精灵幻界": {
       "identifier": "精灵幻界",
@@ -8152,7 +8154,7 @@
       "executable": "avg.exe",
       "type": "AVG",
       "sha256": "7536524106973be1ab732750582c8f6b87568f454c58422f190b813bec69b9b3",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 60109020
     },
     "绝对零度": {
@@ -8398,7 +8400,7 @@
       "executable": "ko97",
       "type": "SIM",
       "sha256": "9853612ee2a6995dd1149848b136e1a856b5fdf423f148b270645033cdf923b2",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 16839015
     },
     "开膛手杰克": {
@@ -8420,7 +8422,7 @@
       "executable": "runmain.exe",
       "type": "AVG",
       "sha256": "16e518b001c7f0775d0bd47d4516e8291b6efed017a3b5324413699b6a8d77e6",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 32331741
     },
     "凯兰蒂亚传奇": {
@@ -8462,7 +8464,7 @@
       "executable": "C2.bat",
       "type": "SLG",
       "sha256": "7044e7d62ec88f5b7b71b061e01dc98c2367e6b4160584c52b66675e6b8c3ad4",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 32600345
     },
     "凯撒立志传": {
@@ -8835,7 +8837,7 @@
       "executable": "play.bat",
       "type": "AVG",
       "sha256": "7324ce7ed97b5aa0ed3212b0a64bd7aa7c7772bd5708acb31b39351d75c00b13",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 48360156
     },
     "蓝精灵": {
@@ -9277,7 +9279,7 @@
       "executable": "testimg",
       "type": "SPG",
       "sha256": "843ea4979ae67d5eca4a4da67f3f774878d23992f1a8edb2ad9922b4b2affdf8",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 12119917,
       "coverFilename": "cover.png"
     },
@@ -9311,7 +9313,7 @@
       "executable": "sh",
       "type": "SIM",
       "sha256": "0e23ba4555644b3c3c7042c8df5cdf02b8c23d8788af0d046bf4bfd7dc7feb84",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 68579942
     },
     "灵剑传奇": {
@@ -9942,7 +9944,7 @@
       "executable": "pm.bat",
       "type": "SIM",
       "sha256": "0e2f4ad6016dd450f3c1faaf93244a60f9737ccb33d4a90f51e75a7385b2eebf",
-      "floppy": "no",
+      "floppy": false,
       "filesize": 5855184
     },
     "美少女扑克": {
@@ -10661,7 +10663,7 @@
       "executable": "heroes2.exe",
       "type": "SLG",
       "sha256": "d85571a87acdab019c042a0fdec24fd307fed4c5b89d0c3b623da8a275b06eea",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 115687741,
       "coverFilename": "cover.png"
     },
@@ -10977,7 +10979,7 @@
       "executable": "war2",
       "type": "RTS",
       "sha256": "44ad53815cff22ca4b6c6d8c1833e4dec1322e5ef301cd0786f1d58b17687e60",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 79561927
     },
     "魔兽争霸2资料篇": {
@@ -11300,7 +11302,7 @@
       "executable": "ice640",
       "type": "AVG",
       "sha256": "9b45beaf944f5ce958d966dd4cbf565f4d24eca3637348cb5372694ff9a0edce",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 193812389
     },
     "南极大冒险": {
@@ -11591,7 +11593,7 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "4bfee38538b5b3dec10c64f4b0730bbcebe6ab07b10ba6dcf5828cf60fa6bfa7",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 5697203,
       "coverFilename": "cover.png"
     },
@@ -12091,7 +12093,7 @@
       "executable": "mandos.exe",
       "type": "SIM",
       "sha256": "b3bcdecb348c3a959830cd49618c57871e7a5ff6f74dab888775eea4e49d07ad",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 18346980
     },
     "热能战机": {
@@ -12272,7 +12274,7 @@
       "executable": "play",
       "type": "RTS",
       "sha256": "f8dab1477b42ecf124a56f8138a98eb95ead1c0b9b4de6f6d08bf10f0a4fd463",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 6755899,
       "coverFilename": "cover.png"
     },
@@ -12284,7 +12286,7 @@
       "executable": "ECP",
       "type": "SLG",
       "sha256": "9cf03fb3642cd5899c06f8a9ba860c8261825b9011648c67d015a109d73b2d9d",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 107730281
     },
     "荣耀战场": {
@@ -12596,7 +12598,7 @@
       "executable": "kx",
       "type": "RPG",
       "sha256": "1e6cc727236db02474fe13c39bd323e3928159d5fb4d98ce1c3033d30348fb97",
-      "floppy": "no",
+      "floppy": false,
       "filesize": 5335763
     },
     "杀出机械城": {
@@ -12746,7 +12748,7 @@
       "executable": "loom.exe",
       "type": "AVG",
       "sha256": "a22de97eeb148954e341181143798ae434fec344a0ecda12bdb86f62c2a488da",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 4029847
     },
     "山海经": {
@@ -12810,7 +12812,7 @@
       "executable": "pop.bat",
       "type": "RTS",
       "sha256": "793e39523cdb8d4cd771f82a8ca4a4ff22f2db67297c9b0445b5ac4ac0ba485d",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 176245,
       "coverFilename": "cover.png"
     },
@@ -12822,7 +12824,7 @@
       "executable": "go.bat",
       "type": "RTS",
       "sha256": "751efbff6be926e126cf9be71a5cb263352a040913510bd7b1780b1cea431c44",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 5589748,
       "coverFilename": "cover.png"
     },
@@ -14110,7 +14112,7 @@
       "executable": "start",
       "type": "RPG",
       "sha256": "8ff652f1d7320ee8f7ce50eac36d3cc5da7c012a0d5b36c48319baa5d21f23d9",
-      "floppy": "no",
+      "floppy": false,
       "filesize": 7929335,
       "coverFilename": "cover.png"
     },
@@ -14196,7 +14198,7 @@
       "executable": "VOD.EXE",
       "type": "RPG",
       "sha256": "5eb2a8f654ffc3d80e95aae6e1286e552e42580797188357c080c5db3a4e20dd",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 2508623,
       "coverFilename": "cover.png"
     },
@@ -14532,7 +14534,7 @@
       "executable": "LODERUNN.EXE",
       "type": "PUZ",
       "sha256": "d36e686ee8e36c2f91a45856daa3d4225917a4510dc8b612ee7344a3564e10e2",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 5166057,
       "coverFilename": "cover.png"
     },
@@ -14781,7 +14783,7 @@
       "executable": "play.bat",
       "type": "SPG",
       "sha256": "7357aebab7be68fb3a85a37f01bd2c0afec2db9dfa205f5c3369f886d34be8a6",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 12598806,
       "coverFilename": "cover.png"
     },
@@ -15481,7 +15483,7 @@
       "executable": "play.bat",
       "type": "ACT",
       "sha256": "ca85a3bc846133d08128cc8840638ec25468ace276bb7d463de5b9dead8ef941",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 5912860
     },
     "危险丛林": {
@@ -15897,7 +15899,7 @@
       "executable": "crusader",
       "type": "ACT",
       "sha256": "70b7593455d5416cfa0b58458288592d18905e53c883dec43f1afa8694a687ac",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 29817459
     },
     "无悔的十字军2": {
@@ -15908,7 +15910,7 @@
       "executable": "regret",
       "type": "ACT",
       "sha256": "5df89ffca3f16b782f0eb9a3c3e47cf5d50ea0cd07686118d323c4e4c8d20474",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 42726138
     },
     "无尽的黑暗": {
@@ -16402,7 +16404,7 @@
       "executable": "play.bat",
       "type": "HGA",
       "sha256": "59620a6d7bd4ca39a62cb322cc1f7bfb08c09a37130e27e4158de473a287572f",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 2236478,
       "coverFilename": "cover.png"
     },
@@ -16767,7 +16769,7 @@
       "executable": "play",
       "type": "ACT",
       "sha256": "f4ab4f8f800e18da3d671bf5e7819a1c529a2e9a9f2b96fb604370a41f9ab709",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 4210020
     },
     "新美女拳": {
@@ -17168,7 +17170,7 @@
       "executable": "gw.bat",
       "type": "SLG",
       "sha256": "a93343c17728859d46828519ac4db39a1f4df8a5395d498f05e7a78c19b97f10",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 30052895
     },
     "性感俄罗斯": {
@@ -17264,7 +17266,8 @@
       "type": "SPG",
       "sha256": "caea860b092c8fd27952c357df96f4ecfb2755a5bdb8d078b2f64a62eeabdf00",
       "img": "cd/SHENWEN.CUE",
-      "filesize": 135537230
+      "filesize": 135537230,
+      "cdImage": "cd/SHENWEN.iso"
     },
     "选举风云": {
       "identifier": "选举风云",
@@ -17360,7 +17363,7 @@
       "executable": "bam",
       "type": "RTS",
       "sha256": "3a751f6ccf43bdf18064189ccc78e85b28761909a5eb9f71c5404d72d090aaca",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 45344225,
       "coverFilename": "cover.png"
     },
@@ -17471,9 +17474,10 @@
       "executable": "fdps",
       "type": "SPG",
       "sha256": "c3e84095967946841fa32a243e6f7baeac3ee3dd12aca512895a5a2f5e899db1",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 402136287,
-      "coverFilename": "cover.jpg"
+      "coverFilename": "cover.jpg",
+      "cdImage": "CD/FDPS_1.iso"
     },
     "眼镜蛇任务": {
       "identifier": "眼镜蛇任务",
@@ -17832,7 +17836,7 @@
       "executable": "play.bat",
       "type": "RPG",
       "sha256": "37697cf4e8f67fce3d38e6897d140ee5673661ee3afb5f06a26ec88ddd00f0f7",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 5639488
     },
     "异次元之旅武者传说": {
@@ -18038,7 +18042,7 @@
       "executable": "ai.com",
       "type": "AVG",
       "sha256": "3a49dcec39d769a7ede5b6a466969dc08405bed785ba7e96c51687f4f37ed3ec",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 10729270
     },
     "异形阴谋": {
@@ -18462,7 +18466,7 @@
       "executable": "play.bat",
       "type": "RPG",
       "sha256": "9cc8aee133f4e47e385a281fbc97fc34645c0489f9fd23b545b8fbbd4882089a",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 53437740
     },
     "樱花的季节": {
@@ -18549,7 +18553,7 @@
       "executable": "batman.exe",
       "type": "ACT",
       "sha256": "8789d8779f726c26161d057a82db92c5d3da97a3f78d86d01b642449b587954b",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 8521266,
       "coverFilename": "cover.png"
     },
@@ -20024,7 +20028,7 @@
       "executable": "cwar",
       "type": "SPG",
       "sha256": "b9d798b01818656b53fab24cbe45892acf0787e146f4ed92fd2333171fb415ba",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 5755486,
       "coverFilename": "cover.png"
     },
@@ -20178,7 +20182,7 @@
       "executable": "spelcros",
       "type": "SPG",
       "sha256": "d76a16bcf1d6d6d3cd692fd06b1b7a8a6a8402c141d729b23a5a6fb07b8d26d7",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 58007452,
       "coverFilename": "cover.png"
     },
@@ -20223,7 +20227,7 @@
       "executable": "play.bat",
       "type": "RPG",
       "sha256": "8c28baf54580891be310616e5da3a42639738f7ca2a4414ca3f968d8592b098f",
-      "cdrom": "no",
+      "cdrom": false,
       "filesize": 21668397,
       "coverFilename": "cover.png"
     },
