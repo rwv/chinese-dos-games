@@ -18,6 +18,7 @@ export interface GameInfo {
   cdrom?: boolean
   floppy?: 'a' | 'b'
   cdImage?: string
+  dosboxArgs?: string[]
   type?: string
   img?: string
 }

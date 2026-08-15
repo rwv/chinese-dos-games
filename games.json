@@ -530,7 +530,7 @@
       "executable": "PLAY.COM",
       "coverFilename": "cover.jpg",
       "sha256": "4e50109f346d58d67ea11a74ab4584b0508d907475fa1dcf9db4c7a044b7af15",
-      "filesize": 7517503
+      "filesize": 7045824
     },
     "艾蒂丝魔法大冒险": {
       "identifier": "艾蒂丝魔法大冒险",
@@ -6032,7 +6032,13 @@
       "executable": "play.bat",
       "type": "PUZ",
       "sha256": "fdb7423011a8ac46464e16089a7a96c5f33abaf83ab6d402cd9ac13736b2328e",
-      "filesize": 10712292
+      "filesize": 10712292,
+      "dosboxArgs": [
+        "-c",
+        "config -set dosbox xms=false",
+        "-c",
+        "config -set dosbox ems=false"
+      ]
     },
     "汉尼拔": {
       "identifier": "汉尼拔",
@@ -20542,7 +20548,11 @@
       "type": "ACT",
       "sha256": "c712f304b2a229eb382dab55a72667439b2e99921f814275cc50dda6a0ab416b",
       "filesize": 2577908,
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "dosboxArgs": [
+        "-c",
+        "config -set dosbox ems=false"
+      ]
     },
     "卒业": {
       "identifier": "卒业",

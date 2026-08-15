@@ -71,6 +71,7 @@ export default function GamePage() {
         mountZip: (drive: string, config: unknown, type: string) => unknown
         fetchFile: (label: string, url: string) => unknown
         startExe: (s: string) => unknown
+        extraArgs: (args: string[]) => unknown
       }
 
       // 挂载策略（与 dos.lol 线上已验证的配置一致）：
@@ -105,6 +106,11 @@ export default function GamePage() {
       } else {
         loaderArgs.push(DL.mountZip('c', DL.fetchFile('Game File', gameUrl), 'hdd'))
         loaderArgs.push(DL.startExe(game!.executable))
+      }
+
+      // per-game DOSBox 配置（如 xms=false, ems=false）
+      if (game!.dosboxArgs) {
+        loaderArgs.push(DL.extraArgs(game!.dosboxArgs))
       }
 
       const loader = new window.DosBoxLoader(...loaderArgs)
@@ -222,6 +228,11 @@ export default function GamePage() {
               ))}
             </div>
           )}
+
+          <div className="rounded-lg border border-gray-200 p-4 text-sm text-gray-500">
+            <p>游戏存档保存在浏览器本地（IndexedDB），清除浏览器数据会导致存档丢失。</p>
+            <p className="mt-2">加速：<kbd className="rounded bg-gray-100 px-1 font-mono text-xs">Ctrl+F12</kbd> 加速 / <kbd className="rounded bg-gray-100 px-1 font-mono text-xs">Ctrl+F11</kbd> 减速</p>
+          </div>
         </div>
       </div>
 
