@@ -25,7 +25,10 @@ IPNS Hash: [`k2k4r8oyknzob8jjqpj6toer4dw3jc6srsbqlbsalktnw1fopb7iyqd2`](https://
 
 ## 网站源代码
 
-请参见 [rwv/chinese-dos-games-web: 🌐 Source code of https://dos.zczc.cz](https://github.com/rwv/chinese-dos-games-web)
+前后端分离架构：
+
+- 后端 API（Flask）：[`backend/`](backend/)，详见 [`backend/README.md`](backend/README.md)
+- 前端（React + Vite）：[`frontend/`](frontend/)，详见 [`frontend/README.md`](frontend/README.md)
 
 ## 版权问题
 
