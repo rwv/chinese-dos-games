@@ -3,7 +3,8 @@
 检查项：
   1. 文件是否存在
   2. SHA-256 是否匹配
-  3. ZIP 结构是否完整（testzip）
+  3. 文件大小是否与 games.json 记录一致
+  4. ZIP 结构是否完整（testzip）
 
 用法：
   python verify_data.py              # 全量校验
@@ -135,7 +136,7 @@ def main():
         for name, detail in zip_corrupt:
             print(f'  {name}: {detail}')
 
-    has_issues = missing or sha_mismatch or zip_corrupt
+    has_issues = missing or sha_mismatch or size_mismatch or zip_corrupt
     return 1 if has_issues else 0
 
 

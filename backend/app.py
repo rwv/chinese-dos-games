@@ -8,6 +8,14 @@ number_to_show_on_index = 42
 
 app = Flask(__name__)
 
+# js-dos 使用 Web Worker (SharedArrayBuffer)，需要 COOP/COEP 安全头。
+# Firefox 等浏览器要求页面设置这些头才允许使用 SharedArrayBuffer。
+@app.after_request
+def set_security_headers(resp):
+    resp.headers['Cross-Origin-Opener-Policy'] = 'same-origin'
+    resp.headers['Cross-Origin-Embedder-Policy'] = 'require-corp'
+    return resp
+
 # 开发环境 CORS：允许前端 dev server 跨域访问 API
 ALLOWED_ORIGINS = {'http://localhost:5173'}
 

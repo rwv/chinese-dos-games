@@ -68,9 +68,10 @@ export default function EmularityPlayer({ game }: { game: GameInfo }) {
       ]
 
       const extraArgs = [...(game.dosboxArgs ?? [])]
-      if (game.cdImage) {
+      const cdImage = game.cdImage ?? game.img
+      if (cdImage) {
         loaderArgs.push(DL.mountZip('c', DL.fetchFile('Game File', gameUrl), 'hdd'))
-        loaderArgs.push(DL.mountImage('d', `/c/${game.cdImage}`, 'iso', 'iso'))
+        loaderArgs.push(DL.mountImage('d', `/c/${cdImage}`, 'iso', 'iso'))
         loaderArgs.push(DL.startExe(game.executable))
       } else if (game.cdrom) {
         loaderArgs.push(DL.mountZip('c', DL.fetchFile('Game File', gameUrl), 'hdd'))

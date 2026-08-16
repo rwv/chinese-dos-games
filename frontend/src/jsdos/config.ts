@@ -44,8 +44,9 @@ export function buildDosboxConf(game: GameInfo): string {
     autoexec.push('c:')
   }
 
-  if (game.cdImage) {
-    autoexec.push(`imgmount d "./${game.cdImage}" -t iso`)
+  const cdImage = game.cdImage ?? game.img
+  if (cdImage) {
+    autoexec.push(`imgmount d "./${cdImage}" -t iso`)
   } else if (game.cdrom) {
     autoexec.push(`mount d "./${game.cdromPath ?? ''}" -t cdrom`)
   }

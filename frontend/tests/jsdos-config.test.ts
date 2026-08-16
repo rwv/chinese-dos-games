@@ -32,6 +32,12 @@ describe('buildDosboxConf', () => {
     expect(config).toContain('imgmount d "./GAME.iso" -t iso')
   })
 
+  test('falls back to img field when cdImage is absent', () => {
+    const config = buildDosboxConf(game({ img: 'GAME.cue' }))
+
+    expect(config).toContain('imgmount d "./GAME.cue" -t iso')
+  })
+
   test('mounts a ZIP as both hard disk and CD-ROM', () => {
     const config = buildDosboxConf(game({ cdrom: true }))
 
