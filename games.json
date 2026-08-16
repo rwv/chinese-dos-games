@@ -180,7 +180,8 @@
       "executable": "SKING.EXE",
       "coverFilename": "cover.png",
       "sha256": "41c8c3678d5381561f22bc8a7df2eef15f9e24e10ef2a54801a14a1eb1854923",
-      "filesize": 11231841
+      "filesize": 11231841,
+      "dosboxArgs": ["-c", "set dos4gvm=@emperor.vmc"]
     },
     "轩辕剑外传：枫之舞": {
       "identifier": "轩辕剑外传：枫之舞",
@@ -2888,7 +2889,8 @@
       "executable": "play.bat",
       "type": "SLG",
       "sha256": "b1eec9909fab59bd2d5e86855e6e7f3c60a8536ec292902021daf16d474d943f",
-      "filesize": 195654
+      "filesize": 195654,
+      "dosboxArgs": ["-c", "echo @echo off>PLAY.BAT", "-c", "echo han>>PLAY.BAT"]
     },
     "楚汉之争2": {
       "identifier": "楚汉之争2",
