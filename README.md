@@ -44,4 +44,5 @@ PR 具体参见 [CONTRIBUTING.md](https://github.com/rwv/chinese-dos-games/blob/
 
 * [dreamlayers/em-dosbox: An Emscripten port of DOSBox](https://github.com/dreamlayers/em-dosbox)
 * [db48x/emularity: easily embed emulators](https://github.com/db48x/emularity)
+* [caiiiycuk/js-dos: DOS emulator for the browser](https://github.com/caiiiycuk/js-dos)
 * [衡兰若芷制作的DOS游戏合集](https://tieba.baidu.com/p/3962261741)

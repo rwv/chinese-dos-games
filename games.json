@@ -5392,7 +5392,42 @@
       "type": "ACT",
       "sha256": "249e0694113b9bdce0d8a5f2c50e45b67848ed215c8631951e5edcc67000e435",
       "cdrom": true,
-      "filesize": 114189148
+      "filesize": 114189148,
+      "cdromPath": "CDROM",
+      "dosboxArgs": [
+        "-c",
+        "echo cddata = D:\\>C:\\MDK.CFG",
+        "-c",
+        "echo hddata = C:\\>>C:\\MDK.CFG",
+        "-c",
+        "echo hduse = 2>>C:\\MDK.CFG",
+        "-c",
+        "echo SoundIDX = 7>>C:\\MDK.CFG",
+        "-c",
+        "echo SoundID = 0xE024>>C:\\MDK.CFG",
+        "-c",
+        "echo SoundIRQ = 7>>C:\\MDK.CFG",
+        "-c",
+        "echo SoundDMA = 1>>C:\\MDK.CFG",
+        "-c",
+        "echo SoundPort = 0x220>>C:\\MDK.CFG",
+        "-c",
+        "echo SoundFX = 50>>C:\\MDK.CFG",
+        "-c",
+        "echo SoundMusic = 50>>C:\\MDK.CFG",
+        "-c",
+        "echo MouseDAxesMap = A0G>>C:\\MDK.CFG",
+        "-c",
+        "echo MouseOn = FALSE>>C:\\MDK.CFG",
+        "-c",
+        "echo MouseYReversed = 1.4013e-045>>C:\\MDK.CFG",
+        "-c",
+        "echo KeySide = 42>>C:\\MDK.CFG",
+        "-c",
+        "echo KeyTurbo = 45>>C:\\MDK.CFG",
+        "-c",
+        "echo ForcePCorrect = TRUE>>C:\\MDK.CFG"
+      ]
     },
     "古堡之宴": {
       "identifier": "古堡之宴",
@@ -6035,9 +6070,9 @@
       "filesize": 10712292,
       "dosboxArgs": [
         "-c",
-        "config -set dosbox xms=false",
+        "config -set dos xms=false",
         "-c",
-        "config -set dosbox ems=false"
+        "config -set dos ems=false"
       ]
     },
     "汉尼拔": {
@@ -9349,7 +9384,7 @@
       "executable": "sh",
       "type": "SIM",
       "sha256": "0e23ba4555644b3c3c7042c8df5cdf02b8c23d8788af0d046bf4bfd7dc7feb84",
-      "cdrom": false,
+      "cdrom": true,
       "filesize": 68579942
     },
     "灵剑传奇": {
@@ -20551,7 +20586,7 @@
       "coverFilename": "cover.png",
       "dosboxArgs": [
         "-c",
-        "config -set dosbox ems=false"
+        "config -set dos ems=false"
       ]
     },
     "卒业": {

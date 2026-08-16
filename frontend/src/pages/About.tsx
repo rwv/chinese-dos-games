@@ -27,6 +27,11 @@ export default function About() {
             db48x/emularity: easily embed emulators
           </a>
         </li>
+        <li>
+          <a href="https://github.com/caiiiycuk/js-dos" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+            caiiiycuk/js-dos: DOS emulator for the browser
+          </a>
+        </li>
       </ul>
 
       <h3 className="mt-6 text-lg font-semibold text-gray-800">许可</h3>

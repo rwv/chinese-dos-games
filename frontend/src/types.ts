@@ -16,6 +16,7 @@ export interface GameInfo {
   sha256: string
   filesize?: number
   cdrom?: boolean
+  cdromPath?: string
   floppy?: 'a' | 'b'
   cdImage?: string
   dosboxArgs?: string[]
