@@ -5504,9 +5504,11 @@
         "-c",
         "echo KeyTurbo = 45>>C:\\MDK.CFG",
         "-c",
-        "echo ForcePCorrect = TRUE>>C:\\MDK.CFG"
+        "echo ForcePCorrect = TRUE>>C:\\MDK.CFG",
+        "-c",
+        "config -set cpu cycles=max"
       ],
-      "notes": "游戏在 emularity 和 js-dos 8 引擎下都报 DOS/4GW error Z001: divide by zero，疑似 MDK 自身的 HMI 音频驱动初始化问题，需 1997 时代声卡环境。",
+      "notes": "游戏需要正确的 MDK.CFG 配置 + cycles=max；已通过 dosboxArgs 生成。若仍黑屏请等待 20-30 秒（游戏加载慢）。",
       "memsize": 32
     },
     "古堡之宴": {
@@ -8154,8 +8156,12 @@
       "img": "CD/JYFY.cue",
       "filesize": 95504828,
       "cdImage": "CD/Track01.iso",
-      "notes": "游戏自带 CD 校验，dosbox 模拟不完整；可能需原版 CD 数据。",
-      "cdrom": true
+      "notes": "游戏自带 CD 校验（JYFY.EXE 检查 D:\\npc\\wangyou），已尝试 ISO/CDROM 目录挂载/卷标修改均失败；dosbox 0.74-3 下无法绕过。",
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "精灵幻界": {
       "identifier": "精灵幻界",
@@ -8327,30 +8333,14 @@
       "img": "kknd.iso",
       "filesize": 395941826,
       "cdImage": "kknd.iso",
-      "notes": "游戏在 emularity (dosbox 0.74-3) 和 js-dos 8 (DOSBox-X) 引擎下都报 LUL_SysInit failed，KKND 1997 的私有 LUL 引擎需要未公开的 VESA 接口。",
-      "dosboxArgs": [
-        "-c",
-        "echo ;Kknd config >KKND.CFG",
-        "-c",
-        "echo ;Setup File for K.K.N.D>>KKND.CFG",
-        "-c",
-        "echo ;Version 1.0>>KKND.CFG",
-        "-c",
-        "echo [Screen Setup]>>KKND.CFG",
-        "-c",
-        "echo ScreenMode      0>>KKND.CFG",
-        "-c",
-        "echo ScreenLinear    No>>KKND.CFG",
-        "-c",
-        "echo DisableVBE      Yes>>KKND.CFG",
-        "-c",
-        "echo ScreenWidth     320>>KKND.CFG",
-        "-c",
-        "echo ScreenHeight    240>>KKND.CFG"
-      ],
+      "notes": "游戏需要 cycles=max 才能启动 LUL 引擎；已配置。若仍黑屏请等待 15-30 秒（游戏加载慢）。",
       "machine": "svga_s3",
       "memsize": 32,
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "绝地-众神的诅咒": {
       "identifier": "绝地-众神的诅咒",
@@ -17050,8 +17040,12 @@
       "sha256": "3a992a7beb2673742385feb20df722d48b6d50505ce91b5804557014ba62813e",
       "filesize": 197559358,
       "cdImage": "TTN_VAMPIRE.iso",
-      "notes": "游戏检查 MSCDEX/音轨 TOC，超出 dosbox 模拟能力，可能需原版 CD。",
-      "cdrom": true
+      "notes": "CDDRV.COM 通过自定义 MSCDEX 调 raw sector 校验，dosbox 0.74-3 无法模拟；已尝试 cycles=max 无效。",
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "邪神": {
       "identifier": "邪神",
