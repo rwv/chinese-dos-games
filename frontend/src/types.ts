@@ -22,6 +22,7 @@ export interface GameInfo {
   cdImages?: string[]
   bootImage?: string
   dosboxArgs?: string[]
+  notes?: string
   type?: string
   img?: string
 }

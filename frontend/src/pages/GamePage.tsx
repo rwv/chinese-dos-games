@@ -74,6 +74,13 @@ export default function GamePage() {
             </div>
           )}
 
+          {game.notes && (
+            <div className="rounded-lg border border-amber-200 bg-amber-50 p-4">
+              <h4 className="mb-2 font-semibold text-gray-800">备注</h4>
+              <p className="text-sm text-gray-600">{game.notes}</p>
+            </div>
+          )}
+
           {game.cheats && (
             <div className="rounded-lg border border-gray-200 p-4">
               <h4 className="mb-2 font-semibold text-gray-800">作弊</h4>

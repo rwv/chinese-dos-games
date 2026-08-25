@@ -1378,7 +1378,8 @@
       "dosboxArgs": [
         "-c",
         "boot -l c"
-      ]
+      ],
+      "notes": "需要挂 hdd10.img + hdd50.img 双硬盘镜像 + boot from boot.img，超出当前前端单镜像能力。"
     },
     "埃及统治者": {
       "identifier": "埃及统治者",
@@ -1930,7 +1931,8 @@
       "executable": "SADLAKE.EXE",
       "type": "AVG",
       "sha256": "af38378cbd9cc761e5551641c630f64f5fe41b5e35754070b3b3f500c24e5db8",
-      "filesize": 2224593
+      "filesize": 2224593,
+      "notes": "游戏内问密码，需查原版手册。"
     },
     "北极行动": {
       "identifier": "北极行动",
@@ -2662,7 +2664,8 @@
       "cdImages": [
         "CD/SUPERSP_1.iso",
         "CD/SUPERSP_2.iso"
-      ]
+      ],
+      "notes": "两张 CD 已同时挂载；Ctrl-F4 切换光碟。"
     },
     "超速驾驶": {
       "identifier": "超速驾驶",
@@ -3816,7 +3819,8 @@
         "cd ENG"
       ],
       "cdImage": "CD/podzem_kr.cue",
-      "cdrom": true
+      "cdrom": true,
+      "notes": "游戏位于 CD 内 ENG 子目录；autoexec 包含 imgmount + cd ENG + PKE。"
     },
     "地狱付费之旅": {
       "identifier": "地狱付费之旅",
@@ -5535,7 +5539,8 @@
         "cd TGL",
         "-c",
         "cd FS5"
-      ]
+      ],
+      "notes": "启动器在 TGL/FS5/ 子目录，autoexec 包含 cd 命令。"
     },
     "古怪小搭档": {
       "identifier": "古怪小搭档",
@@ -5605,7 +5610,8 @@
       "cdImages": [
         "CD/LOAK_1.iso",
         "CD/LOAK_2.iso"
-      ]
+      ],
+      "notes": "游戏到第二章可能自动退出；本仓库测试为第一片可启动。"
     },
     "雇佣之枪": {
       "identifier": "雇佣之枪",
@@ -7673,7 +7679,6 @@
       "executable": "TYPHOON.EXE",
       "type": "ACT",
       "sha256": "908a6d2628a9a66aa552af6882062379a23721352e1e20778dcf1f4e2511dd39",
-      "img": "CD/TYPHOON.CUE",
       "filesize": 77482561,
       "cdImage": "CD/TYPHOON.iso"
     },
@@ -8102,7 +8107,8 @@
       "sha256": "021dac4f150c62e3b1feed3db8ee6f75dc012dbc2946787b2a3789f7e2ac56ed",
       "img": "CD/JYFY.cue",
       "filesize": 95504828,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "notes": "游戏自带 CD 校验，dosbox 模拟不完整；可能需原版 CD 数据。"
     },
     "精灵幻界": {
       "identifier": "精灵幻界",
@@ -8487,7 +8493,8 @@
       "type": "ACT",
       "sha256": "1a7630f7515bf90b42a3b8f97d4ac7cd2a599aa2719048c59dad0d7ce3298e3a",
       "filesize": 1938378,
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "notes": "executable PEE.EXE 2 含命令行参数 \"2\"。"
     },
     "卡通快打SP": {
       "identifier": "卡通快打SP",
@@ -8574,7 +8581,8 @@
       "executable": "MAIN.EXE",
       "type": "AVG",
       "sha256": "0c7d548aef0adbd0b17776a3d2c4e42e1a98c247388e24651ca56d077fc56608",
-      "filesize": 12128044
+      "filesize": 12128044,
+      "notes": "需先跑 SETUP.EXE 写 HOF.CFG 配置；直接 main.exe/HOF.EXE 启动会白屏。"
     },
     "凯撒大帝": {
       "identifier": "凯撒大帝",
@@ -10032,7 +10040,8 @@
       "executable": "ALOG.EXE",
       "type": "SLG",
       "sha256": "3cdfb369f91d1be664900007305f29be9f762fd43e3e079545fa8b091d82a493",
-      "filesize": 1541943
+      "filesize": 1541943,
+      "notes": "游戏要求输入手册密码（第05页第08行第04列）；需查原版手册。"
     },
     "美国海军战机": {
       "identifier": "美国海军战机",
@@ -12617,7 +12626,8 @@
       "sha256": "9b08c0930968b8adef596d5e1d7bac4587bf78c89d417ff9e8a7038a29f4cd95",
       "img": "CD/SANGO2.cue",
       "filesize": 132024328,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "notes": "需要 CD 光盘支持，已配 cdImage；若仍报 \"Please insert CD\" 检查 zip 完整性。"
     },
     "三国英杰传": {
       "identifier": "三国英杰传",
@@ -12850,7 +12860,8 @@
         "-c",
         "cd Sandwar"
       ],
-      "cdrom": true
+      "cdrom": true,
+      "notes": "启动器在 games/Sandwar/ 子目录，autoexec 包含 cd 命令。"
     },
     "沙丘魔堡": {
       "identifier": "沙丘魔堡",
@@ -14340,7 +14351,8 @@
         "-c",
         "cd dgate"
       ],
-      "cdrom": true
+      "cdrom": true,
+      "notes": "启动器在 dgate/ 子目录，autoexec 包含 cd 命令。"
     },
     "死亡之夜": {
       "identifier": "死亡之夜",
@@ -15142,7 +15154,8 @@
       "executable": "PLAY.BAT",
       "type": "SIM",
       "sha256": "e2d25992e9c8abed9dad494b4c4b6d51e660e0c4c25911cecf9aef7ddbe8506e",
-      "filesize": 2237737
+      "filesize": 2237737,
+      "notes": "请运行资料片（包含原版内容）；不要运行原版。"
     },
     "铁路大亨豪华版": {
       "identifier": "铁路大亨豪华版",
@@ -15169,7 +15182,8 @@
       "dosboxArgs": [
         "-c",
         "cd game"
-      ]
+      ],
+      "notes": "启动器在 game/ 子目录，autoexec 包含 cd 命令。"
     },
     "铁血橄榄球": {
       "identifier": "铁血橄榄球",
@@ -16349,7 +16363,8 @@
       "dosboxArgs": [
         "-c",
         "cd PANDA"
-      ]
+      ],
+      "notes": "启动器在 PANDA/ 子目录，autoexec 包含 cd 命令。"
     },
     "西洋封神榜": {
       "identifier": "西洋封神榜",
@@ -16485,7 +16500,8 @@
       "cdImages": [
         "CD/SHK3_1.iso",
         "CD/SHK3_2.iso"
-      ]
+      ],
+      "notes": "两张 CD 已同时挂载；Ctrl-F4 切换光碟。"
     },
     "侠客游2": {
       "identifier": "侠客游2",
@@ -16757,7 +16773,8 @@
       "sha256": "0c34b82780abb2dba8205e9bdfc2298e7a30403fef4863b5b4f66a7f7eb1c485",
       "floppy": "b",
       "filesize": 8583157,
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "notes": "游戏内问密码，需查原版手册。"
     },
     "小精灵历险": {
       "identifier": "小精灵历险",
@@ -16907,9 +16924,9 @@
       "executable": "PLAY.BAT",
       "type": "RPG",
       "sha256": "3a992a7beb2673742385feb20df722d48b6d50505ce91b5804557014ba62813e",
-      "img": "TTN_VAMPIRE.CUE",
       "filesize": 197559358,
-      "cdImage": "TTN_VAMPIRE.iso"
+      "cdImage": "TTN_VAMPIRE.iso",
+      "notes": "游戏检查 MSCDEX/音轨 TOC，超出 dosbox 模拟能力，可能需原版 CD。"
     },
     "邪神": {
       "identifier": "邪神",
@@ -16924,7 +16941,8 @@
       "dosboxArgs": [
         "-c",
         "cd XSHEN"
-      ]
+      ],
+      "notes": "启动器在 XSHEN/ 子目录，autoexec 包含 cd 命令。"
     },
     "邪神传说": {
       "identifier": "邪神传说",
@@ -17233,9 +17251,8 @@
       "executable": "SRANGERS.BAT",
       "type": "SIM",
       "sha256": "23523aec665a18fcbbf010ff39340510089f344512c5e6d64fa25b5316625fca",
-      "img": "STAR_RANGERS.CUE",
       "filesize": 113768751,
-      "cdImage": "STAR_RANGERS.CUE"
+      "cdImage": "STAR_RANGERS.cue"
     },
     "星际之锤": {
       "identifier": "星际之锤",
@@ -17256,9 +17273,9 @@
       "executable": "BWING.EXE",
       "type": "SIM",
       "sha256": "711905169a4a25d4293277bab0a8542675d7fa9476a3d9d779cb92763dcc0c8d",
-      "img": "SWXWCD.CUE",
       "filesize": 55357459,
-      "cdImage": "SWXWCD.CUE"
+      "cdImage": "SWXWCD.cue",
+      "notes": "CUE 引用 SWXWCD.BIN，但 zip 内仅含 CUE；游戏数据缺失。"
     },
     "星球大战暗影力量": {
       "identifier": "星球大战暗影力量",
@@ -17508,7 +17525,8 @@
       "sha256": "caea860b092c8fd27952c357df96f4ecfb2755a5bdb8d078b2f64a62eeabdf00",
       "img": "cd/SHENWEN.CUE",
       "filesize": 135537230,
-      "cdImage": "cd/SHENWEN.iso"
+      "cdImage": "cd/SHENWEN.iso",
+      "notes": "启动时按任意键跳过 UniVBE 模式分析。"
     },
     "选举风云": {
       "identifier": "选举风云",
@@ -17582,10 +17600,9 @@
       "executable": "BLOOD.BAT",
       "type": "RPG",
       "sha256": "9bcf26a1c553d681a0fc557828f164c3886c7cb7b9e109a4ae2653d62e27c3cf",
-      "img": "BLOODSTONE.CUE",
       "filesize": 5266052,
       "coverFilename": "cover.png",
-      "cdImage": "BLOODSTONE.CUE"
+      "cdImage": "BLOODSTONE.cue"
     },
     "血巫": {
       "identifier": "血巫",
@@ -17723,7 +17740,8 @@
       "cdImages": [
         "CD/FDPS_1.iso",
         "CD/FDPS_2.iso"
-      ]
+      ],
+      "notes": "两张 CD 已同时挂载；Ctrl-F4 切换光碟。"
     },
     "眼镜蛇任务": {
       "identifier": "眼镜蛇任务",
@@ -18823,7 +18841,8 @@
       "img": "RAYMAN.cue",
       "filesize": 444979486,
       "coverFilename": "cover.png",
-      "cdImage": "RAYMAN.cue"
+      "cdImage": "RAYMAN.cue",
+      "notes": "游戏文件被截断（见 #279）。"
     },
     "永远的雷曼自制关": {
       "identifier": "永远的雷曼自制关",
@@ -19917,7 +19936,8 @@
       "type": "SLG",
       "sha256": "b0a8fb68383fc196ed9f310d1950c7a604f6dd8e0b6e75fe47721570c01ed846",
       "filesize": 100493907,
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "notes": "游戏文件被截断（见 #279）。"
     },
     "正宗台湾16张麻将": {
       "identifier": "正宗台湾16张麻将",
@@ -20025,7 +20045,8 @@
       "type": "AVG",
       "sha256": "e80e6b87317ac059ab296b7603e386fc5d51d5a2f1de1aa4fc8594cdcb388f8e",
       "filesize": 3117080,
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "notes": "游戏文件被截断（见 #279）。"
     },
     "指挥官基恩1": {
       "identifier": "指挥官基恩1",
@@ -20035,7 +20056,8 @@
       "executable": "keen1",
       "type": "ACT",
       "sha256": "2065dad1992ed11e2fbe504edbd15bc02975a3014135277967341b02d4403108",
-      "filesize": 104720
+      "filesize": 104720,
+      "notes": "游戏文件被截断（见 #279）。"
     },
     "指挥官基恩10民间版": {
       "identifier": "指挥官基恩10民间版",
