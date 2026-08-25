@@ -670,7 +670,11 @@
       "filesize": 19563094,
       "coverFilename": "cover.png",
       "cdImage": "cd.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "2001特遣队": {
       "identifier": "2001特遣队",
@@ -1028,7 +1032,11 @@
       "img": "MAX.iso",
       "filesize": 545702361,
       "cdImage": "MAX.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "NBA嘉年华": {
       "identifier": "NBA嘉年华",
@@ -1042,7 +1050,11 @@
       "filesize": 364950426,
       "coverFilename": "cover.png",
       "cdImage": "NBAJamTE.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "NBA直播": {
       "identifier": "NBA直播",
@@ -1357,7 +1369,11 @@
       "sha256": "4866351535078024f6a78446ddb25ccba1b051ae1473d0d0ee80f4b54e96bd62",
       "coverFilename": "cover.jpg",
       "cdrom": true,
-      "filesize": 176421078
+      "filesize": 176421078,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "阿瓦隆": {
       "identifier": "阿瓦隆",
@@ -1719,7 +1735,11 @@
       "img": "cd/WORMSUNITED.cue",
       "filesize": 574238727,
       "cdImage": "cd/WORMSUNITED.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "班级99": {
       "identifier": "班级99",
@@ -1830,7 +1850,11 @@
       "filesize": 106022947,
       "coverFilename": "cover.png",
       "cdImage": "retrib.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "鲍勃逃离地狱": {
       "identifier": "鲍勃逃离地狱",
@@ -1928,7 +1952,11 @@
       "img": "CD/BXSHZ.cue",
       "filesize": 95541626,
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "悲恋湖杀人事件": {
       "identifier": "悲恋湖杀人事件",
@@ -2103,7 +2131,11 @@
       "img": "CDREAM1.ISO",
       "filesize": 3206171,
       "cdImage": "CDREAM1.ISO",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "冰球95": {
       "identifier": "冰球95",
@@ -2226,7 +2258,11 @@
       "filesize": 26327660,
       "coverFilename": "cover.png",
       "cdImage": "cd/tot.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "不可思议的机器": {
       "identifier": "不可思议的机器",
@@ -2544,6 +2580,8 @@
       "coverFilename": "cover.png",
       "dosboxArgs": [
         "-c",
+        "config -set cpu cycles=max",
+        "-c",
         "cdx ."
       ]
     },
@@ -2559,7 +2597,11 @@
       "filesize": 70585204,
       "coverFilename": "cover.png",
       "cdImage": "Stardust.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "超级学园麻雀海外版": {
       "identifier": "超级学园麻雀海外版",
@@ -2648,7 +2690,11 @@
       "img": "CD/SUPER.cue",
       "filesize": 208736280,
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "超时空英雄传说2": {
       "identifier": "超时空英雄传说2",
@@ -2661,7 +2707,11 @@
       "img": "CD/SUPER2.cue",
       "filesize": 182593186,
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "超时空英雄传说2SP": {
       "identifier": "超时空英雄传说2SP",
@@ -2678,7 +2728,11 @@
         "CD/SUPERSP_2.iso"
       ],
       "notes": "两张 CD 已同时挂载；Ctrl-F4 切换光碟。",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "超速驾驶": {
       "identifier": "超速驾驶",
@@ -2963,7 +3017,11 @@
       "filesize": 16684229,
       "coverFilename": "cover.png",
       "cdImage": "cd.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "传说大陆帝王之子": {
       "identifier": "传说大陆帝王之子",
@@ -3360,7 +3418,11 @@
       "img": "CrazyWar_v1.02.cue",
       "filesize": 167605949,
       "cdImage": "CrazyWar_v1.02.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "大海商": {
       "identifier": "大海商",
@@ -3481,7 +3543,11 @@
       "sha256": "c43146da0089e37c4ecae5313637874996bf8f899ee5d85535b657a6a200768b",
       "filesize": 88508130,
       "cdImage": "img/Beelze.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "大企业家": {
       "identifier": "大企业家",
@@ -3517,7 +3583,11 @@
       "filesize": 490512036,
       "coverFilename": "cover.png",
       "cdImage": "YFZ.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "大唐英雄传": {
       "identifier": "大唐英雄传",
@@ -3660,7 +3730,11 @@
       "img": "DX5.cue",
       "filesize": 214663274,
       "cdImage": "DX5.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "德军总部": {
       "identifier": "德军总部",
@@ -3832,6 +3906,8 @@
       "filesize": 464834960,
       "dosboxArgs": [
         "-c",
+        "config -set cpu cycles=max",
+        "-c",
         "imgmount d \"./CD/podzem_kr.cue\" -t iso",
         "-c",
         "D:",
@@ -3853,7 +3929,11 @@
       "img": "HellToPay.iso",
       "filesize": 48654536,
       "cdImage": "HellToPay.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "地狱火": {
       "identifier": "地狱火",
@@ -3876,7 +3956,11 @@
       "img": "cd.iso",
       "filesize": 390748242,
       "cdImage": "cd.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "地狱也疯狂": {
       "identifier": "地狱也疯狂",
@@ -4458,7 +4542,11 @@
       "filesize": 42541556,
       "coverFilename": "cover.png",
       "cdImage": "RADIAKI.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "飞碟任务": {
       "identifier": "飞碟任务",
@@ -5242,7 +5330,11 @@
       "filesize": 46276520,
       "coverFilename": "cover.png",
       "cdImage": "IRONBLOOD.ISO",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "高报酬战将": {
       "identifier": "高报酬战将",
@@ -5554,7 +5646,11 @@
       "img": "CD/FS4.cue",
       "filesize": 41474770,
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "古大陆物语5光盘版": {
       "identifier": "古大陆物语5光盘版",
@@ -5643,7 +5739,11 @@
         "CD/LOAK_2.iso"
       ],
       "notes": "游戏到第二章可能自动退出；本仓库测试为第一片可启动。",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "雇佣之枪": {
       "identifier": "雇佣之枪",
@@ -5808,7 +5908,11 @@
       "img": "CD/AITD3.cue",
       "filesize": 66628445,
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "鬼屋魔影万圣节特别篇": {
       "identifier": "鬼屋魔影万圣节特别篇",
@@ -6205,7 +6309,11 @@
       "img": "img/VT.cue",
       "filesize": 94902236,
       "cdImage": "img/VT.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "撼天神塔2": {
       "identifier": "撼天神塔2",
@@ -6219,7 +6327,11 @@
       "filesize": 108281708,
       "coverFilename": "cover.png",
       "cdImage": "img/BR2.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "撼天神塔3": {
       "identifier": "撼天神塔3",
@@ -6233,7 +6345,11 @@
       "filesize": 113882796,
       "coverFilename": "cover.png",
       "cdImage": "img/BR3.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "撼天神塔VT": {
       "identifier": "撼天神塔VT",
@@ -6417,7 +6533,11 @@
       "img": "IMG/TTN_SLG.CUE",
       "filesize": 134643385,
       "cdImage": "IMG/TTN_SLG.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "黑暗时代三部曲": {
       "identifier": "黑暗时代三部曲",
@@ -6634,7 +6754,11 @@
       "cdImage": "HLM.cue",
       "notes": "C:\\HLM\\AUDIO\\MARK.DVD 文件缺失，zip 内未含完整 AUDIO 数据。",
       "memsize": 32,
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "红猫1": {
       "identifier": "红猫1",
@@ -6746,7 +6870,11 @@
       "filesize": 99238144,
       "coverFilename": "cover.png",
       "cdImage": "RAGECD.ISO",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "洪流剑客": {
       "identifier": "洪流剑客",
@@ -6867,7 +6995,11 @@
       "sha256": "5fc97bd1c0384da24b53cdee63649f7524629f829358fbb620e1425f2fc07c8e",
       "cdrom": true,
       "filesize": 39820811,
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "华丽人生2": {
       "identifier": "华丽人生2",
@@ -7094,7 +7226,11 @@
       "img": "CD/JHL.cue",
       "filesize": 51698207,
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "幻象弹珠台": {
       "identifier": "幻象弹珠台",
@@ -7574,7 +7710,11 @@
       "img": "Bioforge.iso",
       "filesize": 123108761,
       "cdImage": "Bioforge.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "基因分裂": {
       "identifier": "基因分裂",
@@ -7724,7 +7864,11 @@
       "sha256": "908a6d2628a9a66aa552af6882062379a23721352e1e20778dcf1f4e2511dd39",
       "filesize": 77482561,
       "cdImage": "CD/TYPHOON.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "极品飞车": {
       "identifier": "极品飞车",
@@ -7869,7 +8013,11 @@
       "filesize": 78443429,
       "cdImage": "CD/JXQY.cue",
       "notes": "zip 仅含 1 张光碟（CD/JXQY.cue），游戏后期需二号碟。",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "舰队守护神": {
       "identifier": "舰队守护神",
@@ -7883,7 +8031,11 @@
       "filesize": 66319421,
       "coverFilename": "cover.png",
       "cdImage": "aegis.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "鉴赏家": {
       "identifier": "鉴赏家",
@@ -8026,7 +8178,11 @@
       "filesize": 2282055,
       "coverFilename": "cover.png",
       "cdImage": "Jammit.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "街头霸王1": {
       "identifier": "街头霸王1",
@@ -8375,7 +8531,11 @@
       "filesize": 60264122,
       "coverFilename": "cover.png",
       "cdImage": "IMG/HOPE.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "掘金者": {
       "identifier": "掘金者",
@@ -9266,7 +9426,11 @@
       "filesize": 70876674,
       "coverFilename": "cover.png",
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "镭射坦克": {
       "identifier": "镭射坦克",
@@ -9496,7 +9660,11 @@
       "img": "ORION_CD.cue",
       "filesize": 243875722,
       "cdImage": "ORION_CD.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "猎杀红色十月": {
       "identifier": "猎杀红色十月",
@@ -9518,7 +9686,11 @@
       "type": "SIM",
       "sha256": "0e23ba4555644b3c3c7042c8df5cdf02b8c23d8788af0d046bf4bfd7dc7feb84",
       "cdrom": true,
-      "filesize": 68579942
+      "filesize": 68579942,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "灵剑传奇": {
       "identifier": "灵剑传奇",
@@ -9552,7 +9724,11 @@
       "img": "liu2.cue",
       "filesize": 565491099,
       "cdImage": "liu2.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "刘伯温传奇": {
       "identifier": "刘伯温传奇",
@@ -9888,7 +10064,11 @@
       "img": "MAJAN.cue",
       "filesize": 52723415,
       "cdImage": "MAJAN.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "麻雀幻想曲2": {
       "identifier": "麻雀幻想曲2",
@@ -10086,7 +10266,11 @@
       "filesize": 88905063,
       "coverFilename": "cover.png",
       "cdImage": "IMG/ROSE.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "美杜莎归来": {
       "identifier": "美杜莎归来",
@@ -10406,7 +10590,11 @@
       "img": "STAR2.mdf",
       "filesize": 553289881,
       "cdImage": "STAR2.mdf",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "明星志愿": {
       "identifier": "明星志愿",
@@ -10774,7 +10962,11 @@
       "sha256": "c8669059530b1718b7f097cf8f1dacf607bb9738e5f0f310ffdb3bd5be7189be",
       "filesize": 218809110,
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "魔法门": {
       "identifier": "魔法门",
@@ -10899,7 +11091,11 @@
       "filesize": 241597650,
       "coverFilename": "cover.png",
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "魔法门英雄无敌中文": {
       "identifier": "魔法门英雄无敌中文",
@@ -10913,7 +11109,11 @@
       "filesize": 763601305,
       "coverFilename": "cover.png",
       "cdImage": "HEROES.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "魔法少年": {
       "identifier": "魔法少年",
@@ -10969,7 +11169,11 @@
       "img": "TRIALBYMAGIC.cue",
       "filesize": 62141003,
       "cdImage": "TRIALBYMAGIC.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "魔法天师": {
       "identifier": "魔法天师",
@@ -11102,7 +11306,11 @@
       "filesize": 516664147,
       "coverFilename": "cover.png",
       "cdImage": "Sky.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "魔龙纪事": {
       "identifier": "魔龙纪事",
@@ -11397,7 +11605,11 @@
       "filesize": 848739686,
       "coverFilename": "cover.png",
       "cdImage": "Ecstatica2.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "魔栈": {
       "identifier": "魔栈",
@@ -11840,7 +12052,11 @@
       "img": "CD/PILI.cue",
       "filesize": 166065356,
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "拼图大师": {
       "identifier": "拼图大师",
@@ -11964,7 +12180,11 @@
       "filesize": 132911604,
       "coverFilename": "cover.png",
       "cdImage": "IMG/TTN_SEVEN.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "七英雄物语": {
       "identifier": "七英雄物语",
@@ -11977,7 +12197,11 @@
       "img": "img/SEVEN.cue",
       "filesize": 86872813,
       "cdImage": "img/SEVEN.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "七英雄物语2": {
       "identifier": "七英雄物语2",
@@ -11990,7 +12214,11 @@
       "img": "img/NANAEI2.cue",
       "filesize": 84523189,
       "cdImage": "img/NANAEI2.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "齐天大圣": {
       "identifier": "齐天大圣",
@@ -12186,7 +12414,11 @@
       "filesize": 244418243,
       "coverFilename": "cover.png",
       "cdImage": "VRBB_102.mdf",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "清白无罪": {
       "identifier": "清白无罪",
@@ -12351,7 +12583,11 @@
       "filesize": 15209674,
       "coverFilename": "cover.png",
       "cdImage": "Pyrotechnica.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "热血硬派": {
       "identifier": "热血硬派",
@@ -12406,7 +12642,11 @@
       "sha256": "c22dcd98403bc78f94fa982e5624976bb6ffda30b4c30773e624caafbc613cd3",
       "filesize": 60262747,
       "cdImage": "IMG/MOTH.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "人生剧场": {
       "identifier": "人生剧场",
@@ -12711,7 +12951,11 @@
       "filesize": 132024328,
       "cdImage": "CD/Track01.iso",
       "notes": "需要 CD 光盘支持，已配 cdImage；若仍报 \"Please insert CD\" 检查 zip 完整性。",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "三国英杰传": {
       "identifier": "三国英杰传",
@@ -12904,7 +13148,11 @@
       "img": "SHAKII11.CUE",
       "filesize": 96163345,
       "cdImage": "SHAKII11.CUE",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "沙拉那之剑": {
       "identifier": "沙拉那之剑",
@@ -12940,6 +13188,8 @@
       "sha256": "422d556a41a2040a1de4caf354bafc7dc91a793cfbfbd5484dd302dfc8c3836d",
       "filesize": 36525262,
       "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max",
         "-c",
         "cd games",
         "-c",
@@ -12982,7 +13232,11 @@
       "filesize": 27496316,
       "coverFilename": "cover.png",
       "cdImage": "DUNE2CD.img",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "沙丘魔堡2加强版": {
       "identifier": "沙丘魔堡2加强版",
@@ -13006,7 +13260,11 @@
       "filesize": 237981408,
       "coverFilename": "cover.png",
       "cdImage": "dunecd.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "沙之战线": {
       "identifier": "沙之战线",
@@ -13129,7 +13387,11 @@
       "filesize": 85454867,
       "coverFilename": "cover.png",
       "cdImage": "Arena.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "上古卷轴1竞技场": {
       "identifier": "上古卷轴1竞技场",
@@ -13154,7 +13416,11 @@
       "filesize": 184023350,
       "coverFilename": "cover.png",
       "cdImage": "DFCD.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "上古卷轴传奇": {
       "identifier": "上古卷轴传奇",
@@ -13296,7 +13562,11 @@
       "coverFilename": "cover.png",
       "filesize": 92608250,
       "cdImage": "IMG/EAGLE.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "神剑传说": {
       "identifier": "神剑传说",
@@ -13405,7 +13675,11 @@
       "img": "IMG/ORACLE.cue",
       "filesize": 161329850,
       "cdImage": "IMG/ORACLE.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "神州八剑": {
       "identifier": "神州八剑",
@@ -13428,7 +13702,11 @@
       "img": "CYBERIA.iso",
       "filesize": 259862269,
       "cdImage": "CYBERIA.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "生化情人": {
       "identifier": "生化情人",
@@ -13513,7 +13791,11 @@
       "img": "cd/cd.cue",
       "filesize": 155277566,
       "cdImage": "cd/cd.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "圣经队长": {
       "identifier": "圣经队长",
@@ -13589,7 +13871,11 @@
       "img": "szfyl.iso",
       "filesize": 169967185,
       "cdImage": "szfyl.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "圣战录": {
       "identifier": "圣战录",
@@ -13635,7 +13921,11 @@
       "filesize": 37308356,
       "coverFilename": "cover.png",
       "cdImage": "IMG/atria.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "失落的封印": {
       "identifier": "失落的封印",
@@ -14214,7 +14504,11 @@
       "img": "LBA2.cue",
       "filesize": 722811031,
       "cdImage": "LBA2.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "谁陷害了兔子罗杰": {
       "identifier": "谁陷害了兔子罗杰",
@@ -14280,7 +14574,11 @@
       "img": "IMG/TTN_WATER.cue",
       "filesize": 72861300,
       "cdImage": "IMG/TTN_WATER.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "水浒传之梁山英雄": {
       "identifier": "水浒传之梁山英雄",
@@ -14304,7 +14602,11 @@
       "filesize": 99498758,
       "coverFilename": "cover.png",
       "cdImage": "shuihu.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "水晶迷宫": {
       "identifier": "水晶迷宫",
@@ -14412,7 +14714,11 @@
       "sha256": "a21220a43ec7459594c860a1703509742e585bcf6e0852607fee9205ff2022ff",
       "filesize": 56008248,
       "cdImage": "cd.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "死亡骑士": {
       "identifier": "死亡骑士",
@@ -14447,6 +14753,8 @@
       "sha256": "eb92ca51dadf6e34c09589a9ebfb7fb637ee0ff9b03fccc3e86251be69d435cd",
       "filesize": 22690407,
       "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max",
         "-c",
         "cd dgate"
       ],
@@ -14702,7 +15010,11 @@
       "filesize": 117233275,
       "coverFilename": "cover.png",
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "太平洋公爵": {
       "identifier": "太平洋公爵",
@@ -15082,7 +15394,11 @@
       "img": "ORFD.cue",
       "filesize": 586112257,
       "cdImage": "ORFD.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "天师钟馗": {
       "identifier": "天师钟馗",
@@ -15095,7 +15411,11 @@
       "img": "cd/TTN_GHOST.cue",
       "filesize": 73905793,
       "cdImage": "cd/TTN_GHOST.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "天使Q女学院": {
       "identifier": "天使Q女学院",
@@ -15283,6 +15603,8 @@
       "cdImage": "img/schex.iso",
       "dosboxArgs": [
         "-c",
+        "config -set cpu cycles=max",
+        "-c",
         "cd game"
       ],
       "notes": "启动器在 game/ 子目录，autoexec 包含 cd 命令。",
@@ -15457,7 +15779,11 @@
       "img": "IMG/TTN_NO1.cue",
       "filesize": 82107208,
       "cdImage": "IMG/TTN_NO1.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "秃鹰疑案": {
       "identifier": "秃鹰疑案",
@@ -15471,7 +15797,11 @@
       "filesize": 296328510,
       "coverFilename": "cover.png",
       "cdImage": "cd.img",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "突击": {
       "identifier": "突击",
@@ -15615,7 +15945,11 @@
       "img": "CD/SS4.cue",
       "filesize": 296178498,
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "吞食天地青衫版": {
       "identifier": "吞食天地青衫版",
@@ -15691,7 +16025,11 @@
       "sha256": "f15d49331c75b97be9ce5379eb275579ad1836b42a4edd109e3992973f00fd31",
       "filesize": 60039783,
       "cdImage": "TPG2.ISO",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "顽皮猫": {
       "identifier": "顽皮猫",
@@ -16305,7 +16643,11 @@
       "filesize": 65519189,
       "coverFilename": "cover.png",
       "cdImage": "GEN_CD.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "无名指的教科书": {
       "identifier": "无名指的教科书",
@@ -16371,7 +16713,11 @@
       "filesize": 51947273,
       "coverFilename": "cover.png",
       "cdImage": "WZX.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "武道馆": {
       "identifier": "武道馆",
@@ -16584,7 +16930,11 @@
       "img": "CD/GTA.cue",
       "filesize": 160658178,
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "侠客英雄传": {
       "identifier": "侠客英雄传",
@@ -16612,7 +16962,11 @@
         "CD/SHK3_2.iso"
       ],
       "notes": "两张 CD 已同时挂载；Ctrl-F4 切换光碟。",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "侠客游2": {
       "identifier": "侠客游2",
@@ -16668,7 +17022,11 @@
       "filesize": 245368414,
       "coverFilename": "cover.png",
       "cdImage": "paldos.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "仙剑奇侠传加强版": {
       "identifier": "仙剑奇侠传加强版",
@@ -16713,7 +17071,11 @@
       "sha256": "98d01797cc7f59bb5f22de8a1165d1a5615c9811be11302059d092d9d3bc1608",
       "filesize": 312238288,
       "cdImage": "CD.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "氙星异形": {
       "identifier": "氙星异形",
@@ -16843,7 +17205,11 @@
       "img": "cd/Litil_Divil.cue",
       "filesize": 17045737,
       "cdImage": "cd/Litil_Divil.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "小飞侠": {
       "identifier": "小飞侠",
@@ -17058,6 +17424,8 @@
       "filesize": 103643375,
       "cdImage": "IMG/TTN_T2.iso",
       "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max",
         "-c",
         "cd XSHEN"
       ],
@@ -17373,7 +17741,11 @@
       "sha256": "23523aec665a18fcbbf010ff39340510089f344512c5e6d64fa25b5316625fca",
       "filesize": 113768751,
       "cdImage": "STAR_RANGERS.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "星际之锤": {
       "identifier": "星际之锤",
@@ -17397,7 +17769,11 @@
       "filesize": 55357459,
       "cdImage": "SWXWCD.cue",
       "notes": "CUE 引用 SWXWCD.BIN，但 zip 内仅含 CUE；游戏数据缺失。",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "星球大战暗影力量": {
       "identifier": "星球大战暗影力量",
@@ -17508,7 +17884,11 @@
       "img": "IMG/TTN_MOON.cue",
       "filesize": 175648729,
       "cdImage": "IMG/TTN_MOON.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "杏林也疯狂(主题医院台版)": {
       "identifier": "杏林也疯狂(主题医院台版)",
@@ -17650,7 +18030,11 @@
       "filesize": 135537230,
       "cdImage": "cd/SHENWEN.iso",
       "notes": "启动时按任意键跳过 UniVBE 模式分析。",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "选举风云": {
       "identifier": "选举风云",
@@ -17727,7 +18111,11 @@
       "filesize": 5266052,
       "coverFilename": "cover.png",
       "cdImage": "BLOODSTONE.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "血巫": {
       "identifier": "血巫",
@@ -17866,7 +18254,11 @@
         "CD/FDPS_1.iso",
         "CD/FDPS_2.iso"
       ],
-      "notes": "两张 CD 已同时挂载；Ctrl-F4 切换光碟。"
+      "notes": "两张 CD 已同时挂载；Ctrl-F4 切换光碟。",
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "眼镜蛇任务": {
       "identifier": "眼镜蛇任务",
@@ -18305,7 +18697,11 @@
       "filesize": 205700861,
       "coverFilename": "cover.png",
       "cdImage": "AlienLogic.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "异星搜奇": {
       "identifier": "异星搜奇",
@@ -18319,7 +18715,11 @@
       "filesize": 517730031,
       "coverFilename": "cover.png",
       "cdImage": "DIGCHN.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "异星突击": {
       "identifier": "异星突击",
@@ -18676,7 +19076,11 @@
       "img": "wind.iso",
       "filesize": 6348351,
       "cdImage": "wind.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "银河英雄": {
       "identifier": "银河英雄",
@@ -18689,7 +19093,11 @@
       "img": "img/BOUNTY.cue",
       "filesize": 113096080,
       "cdImage": "img/BOUNTY.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "银河英雄传说3": {
       "identifier": "银河英雄传说3",
@@ -18713,7 +19121,11 @@
       "filesize": 11980784,
       "coverFilename": "cover.jpg",
       "cdImage": "G4X.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "银河战士": {
       "identifier": "银河战士",
@@ -18803,7 +19215,11 @@
       "img": "CD/ED1.cue",
       "filesize": 62839149,
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "英雄传说2": {
       "identifier": "英雄传说2",
@@ -18816,7 +19232,11 @@
       "img": "CD/ED2.cue",
       "filesize": 71721264,
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "英雄传说3": {
       "identifier": "英雄传说3",
@@ -18829,7 +19249,11 @@
       "img": "CD/ED3.cue",
       "filesize": 91285292,
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "英雄传说4": {
       "identifier": "英雄传说4",
@@ -18842,7 +19266,11 @@
       "img": "CD/ED4.cue",
       "filesize": 75526138,
       "cdImage": "CD/Track01.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "英雄圣战": {
       "identifier": "英雄圣战",
@@ -18977,7 +19405,11 @@
       "coverFilename": "cover.png",
       "cdImage": "RAYMAN.cue",
       "notes": "游戏文件被截断（见 #279）。",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "永远的雷曼自制关": {
       "identifier": "永远的雷曼自制关",
@@ -18991,7 +19423,11 @@
       "filesize": 545145674,
       "coverFilename": "cover.png",
       "cdImage": "RAYMAN.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "勇士传奇": {
       "identifier": "勇士传奇",
@@ -19101,7 +19537,11 @@
       "filesize": 428253206,
       "coverFilename": "cover.png",
       "cdImage": "XCOM.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "幽灵馆": {
       "identifier": "幽灵馆",
@@ -20052,7 +20492,11 @@
       "img": "cd2.cue",
       "filesize": 316525402,
       "cdImage": "cd2.cue",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "争分夺秒": {
       "identifier": "争分夺秒",
@@ -20515,7 +20959,11 @@
       "filesize": 137330932,
       "coverFilename": "cover.png",
       "cdImage": "mars3d.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "终结者2029": {
       "identifier": "终结者2029",
@@ -20683,6 +21131,8 @@
       "filesize": 93658900,
       "cdImage": "theme.iso",
       "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max",
         "-c",
         "echo @D:^>THEME.BAT",
         "-c",
@@ -20973,7 +21423,11 @@
       "filesize": 4262162,
       "coverFilename": "cover.png",
       "cdImage": "lastknight.iso",
-      "cdrom": true
+      "cdrom": true,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "最后期限": {
       "identifier": "最后期限",
