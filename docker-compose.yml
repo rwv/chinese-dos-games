@@ -1,0 +1,70 @@
+# Docker Compose 部署中文 DOS 游戏
+#
+# 用法:
+#   # 默认 (生产)
+#   docker compose up -d
+#
+#   # 自定义 bin / games.json 路径
+#   DATA_DIR=/data/dosgames docker compose up -d
+#
+#   # 自定义端口
+#   NGINX_PORT=8080 docker compose up -d
+#
+# 数据要求:
+#   - bin/        ~36 GB: 1898 个游戏 ZIP
+#   - games.json  628 KB: 游戏元数据
+#
+# 准备:
+#   mkdir -p ./data/bin
+#   rsync -avz server:chinese-dos-games/bin/* ./data/bin/
+#   rsync -avz server:chinese-dos-games/games.json ./data/
+#
+# 服务默认:  http://localhost:8080
+
+services:
+  web:
+    image: docker.io/solitudealma/chinese-dos-games:latest
+    container_name: dosgames-web
+    restart: unless-stopped
+    ports:
+      - "${NGINX_PORT:-8080}:80"
+    volumes:
+      # 游戏 zip 库 (~36GB). 改为你的实际路径或保留默认 ./data/bin
+      - ${DATA_DIR:-./data}/bin:/app/bin:ro
+      # games.json. 改为你自己的, 或 ./data/games.json
+      - ${GAMES_JSON:-./data/games.json}:/app/games.json:ro
+    environment:
+      - NGINX_PORT=80
+      - GUNICORN_WORKERS=${GUNICORN_WORKERS:-2}
+      - GUNICORN_TIMEOUT=${GUNICORN_TIMEOUT:-120}
+    # 单容器已含 nginx + gunicorn. 不需要单独 backend
+    # 如需 scale, 把 nginx + backend 拆开 (见 README)
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 256M
+    # 限日志体积
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:80/api/games || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+  # 可选: 单独的反代 + 缓存层
+  # 如果担心单容器 nginx cache 性能, 加上 varnish 或 squid
+  # 这里保持简单, 镜像内已含 nginx
+
+# 顶层网络 (跨服务用)
+# networks:
+#   web:
+#     driver: bridge

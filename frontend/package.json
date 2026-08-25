@@ -1,0 +1,29 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "sync:js-dos": "node scripts/sync-js-dos.mjs",
+    "dev": "bun run sync:js-dos && vite",
+    "build": "bun run sync:js-dos && tsc -b && vite build",
+    "test": "bun test",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "js-dos": "8.4.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "@tailwindcss/vite": "^4.1.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0"
+  }
+}
