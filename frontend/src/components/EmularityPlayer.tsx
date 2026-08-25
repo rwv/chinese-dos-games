@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import type { GameInfo } from '../types'
+import { exportAllSaves, downloadJson } from '../jsdos/exportSaves'
 
 const SCRIPTS = [
   '/static/emularity/es6-promise.js',
@@ -160,6 +161,20 @@ export default function EmularityPlayer({ game }: { game: GameInfo }) {
           className="rounded border border-gray-300 px-3 py-1 text-sm hover:bg-gray-100"
         >
           全屏游戏
+        </button>
+        <button
+          onClick={async () => {
+            try {
+              const json = await exportAllSaves()
+              downloadJson(json, `chinese-dos-games-saves-${Date.now()}.json`)
+            } catch (e) {
+              setError(e instanceof Error ? e.message : String(e))
+            }
+          }}
+          className="rounded border border-gray-300 px-3 py-1 text-sm hover:bg-gray-100"
+          title="下载所有 IndexedDB 存档到本地"
+        >
+          导出全部存档
         </button>
         <button
           onClick={() => sendDosboxKey('F11', 'F11')}

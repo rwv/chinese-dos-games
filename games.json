@@ -669,7 +669,8 @@
       "img": "cd.iso",
       "filesize": 19563094,
       "coverFilename": "cover.png",
-      "cdImage": "cd.iso"
+      "cdImage": "cd.iso",
+      "cdrom": true
     },
     "2001特遣队": {
       "identifier": "2001特遣队",
@@ -1026,7 +1027,8 @@
       "sha256": "9f62feb985bac8fdfcabaa6e49089f7da301b201a82f3bdafa01bce21acd2487",
       "img": "MAX.iso",
       "filesize": 545702361,
-      "cdImage": "MAX.iso"
+      "cdImage": "MAX.iso",
+      "cdrom": true
     },
     "NBA嘉年华": {
       "identifier": "NBA嘉年华",
@@ -1039,7 +1041,8 @@
       "img": "NBAJamTE.cue",
       "filesize": 364950426,
       "coverFilename": "cover.png",
-      "cdImage": "NBAJamTE.cue"
+      "cdImage": "NBAJamTE.cue",
+      "cdrom": true
     },
     "NBA直播": {
       "identifier": "NBA直播",
@@ -1714,7 +1717,8 @@
       "sha256": "9be0a3cbbff3c303e658ea4100f8603f2fe2ff98ecd5fc324e9bf33c5446f330",
       "img": "cd/WORMSUNITED.cue",
       "filesize": 574238727,
-      "cdImage": "cd/WORMSUNITED.cue"
+      "cdImage": "cd/WORMSUNITED.cue",
+      "cdrom": true
     },
     "班级99": {
       "identifier": "班级99",
@@ -1824,7 +1828,8 @@
       "sha256": "48cc8ae6c799425deeacc316e1b16438639880f0830ff23657a4c0c737891a30",
       "filesize": 106022947,
       "coverFilename": "cover.png",
-      "cdImage": "retrib.iso"
+      "cdImage": "retrib.iso",
+      "cdrom": true
     },
     "鲍勃逃离地狱": {
       "identifier": "鲍勃逃离地狱",
@@ -1921,7 +1926,8 @@
       "sha256": "822d0fcc74d6e9245f40792b9a599fc9a52971c0dd53602100399a9a703214c3",
       "img": "CD/BXSHZ.cue",
       "filesize": 95541626,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "悲恋湖杀人事件": {
       "identifier": "悲恋湖杀人事件",
@@ -2095,7 +2101,8 @@
       "sha256": "ccc1ce102e18b6b451f5d5c2c286e794323bb298e640f4e633a6a3de9322ae4a",
       "img": "CDREAM1.ISO",
       "filesize": 3206171,
-      "cdImage": "CDREAM1.ISO"
+      "cdImage": "CDREAM1.ISO",
+      "cdrom": true
     },
     "冰球95": {
       "identifier": "冰球95",
@@ -2217,7 +2224,8 @@
       "img": "cd/tot.cue",
       "filesize": 26327660,
       "coverFilename": "cover.png",
-      "cdImage": "cd/tot.cue"
+      "cdImage": "cd/tot.cue",
+      "cdrom": true
     },
     "不可思议的机器": {
       "identifier": "不可思议的机器",
@@ -2549,7 +2557,8 @@
       "img": "Stardust.iso",
       "filesize": 70585204,
       "coverFilename": "cover.png",
-      "cdImage": "Stardust.iso"
+      "cdImage": "Stardust.iso",
+      "cdrom": true
     },
     "超级学园麻雀海外版": {
       "identifier": "超级学园麻雀海外版",
@@ -2637,7 +2646,8 @@
       "sha256": "e49dbd3b2902d7007f89f08030c4656d7ab63c960f551ea6c48763a343a0fb32",
       "img": "CD/SUPER.cue",
       "filesize": 208736280,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "超时空英雄传说2": {
       "identifier": "超时空英雄传说2",
@@ -2649,7 +2659,8 @@
       "sha256": "906b63af5e668f33eb7a0d0afe3ea3813518f0a6903128d966ea2ac7bd89f48d",
       "img": "CD/SUPER2.cue",
       "filesize": 182593186,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "超时空英雄传说2SP": {
       "identifier": "超时空英雄传说2SP",
@@ -2665,7 +2676,8 @@
         "CD/SUPERSP_1.iso",
         "CD/SUPERSP_2.iso"
       ],
-      "notes": "两张 CD 已同时挂载；Ctrl-F4 切换光碟。"
+      "notes": "两张 CD 已同时挂载；Ctrl-F4 切换光碟。",
+      "cdrom": true
     },
     "超速驾驶": {
       "identifier": "超速驾驶",
@@ -2949,7 +2961,8 @@
       "img": "cd.iso",
       "filesize": 16684229,
       "coverFilename": "cover.png",
-      "cdImage": "cd.iso"
+      "cdImage": "cd.iso",
+      "cdrom": true
     },
     "传说大陆帝王之子": {
       "identifier": "传说大陆帝王之子",
@@ -3229,7 +3242,7 @@
       "name": {
         "zh-Hans": "达兰科出击"
       },
-      "executable": "DRWHO",
+      "executable": "DRWHO.EXE",
       "type": "ACT",
       "sha256": "c54c17e28d11c6cee34804a56f36c3919b38710b2f15684e45d7dbad9a61edfe",
       "filesize": 1021879,
@@ -3343,7 +3356,8 @@
       "sha256": "8d7a5ed1a98c77364c3ceb5750185d2cd6ff04f2e501fc8dfd1c8a550a5589ab",
       "img": "CrazyWar_v1.02.cue",
       "filesize": 167605949,
-      "cdImage": "CrazyWar_v1.02.iso"
+      "cdImage": "CrazyWar_v1.02.iso",
+      "cdrom": true
     },
     "大海商": {
       "identifier": "大海商",
@@ -3463,7 +3477,8 @@
       "type": "SPG",
       "sha256": "c43146da0089e37c4ecae5313637874996bf8f899ee5d85535b657a6a200768b",
       "filesize": 88508130,
-      "cdImage": "img/Beelze.iso"
+      "cdImage": "img/Beelze.iso",
+      "cdrom": true
     },
     "大企业家": {
       "identifier": "大企业家",
@@ -3498,7 +3513,8 @@
       "img": "YFZ.cue",
       "filesize": 490512036,
       "coverFilename": "cover.png",
-      "cdImage": "YFZ.cue"
+      "cdImage": "YFZ.cue",
+      "cdrom": true
     },
     "大唐英雄传": {
       "identifier": "大唐英雄传",
@@ -3640,7 +3656,8 @@
       "sha256": "70a00d7b0e567e2cd80e5e8848162f703f69f2e90e25fd879e4ce955ccbf7b8d",
       "img": "DX5.cue",
       "filesize": 214663274,
-      "cdImage": "DX5.cue"
+      "cdImage": "DX5.cue",
+      "cdrom": true
     },
     "德军总部": {
       "identifier": "德军总部",
@@ -3832,7 +3849,8 @@
       "sha256": "8023f686df1edbdbeee5ff72e8cbbd37c7fb47c44e1ff053c108e7a42bf49f47",
       "img": "HellToPay.iso",
       "filesize": 48654536,
-      "cdImage": "HellToPay.iso"
+      "cdImage": "HellToPay.iso",
+      "cdrom": true
     },
     "地狱火": {
       "identifier": "地狱火",
@@ -3854,7 +3872,8 @@
       "sha256": "4b4e527482c195ef6cfdea9691b3622c0bddd31ce647f87098663a711dfcf84c",
       "img": "cd.iso",
       "filesize": 390748242,
-      "cdImage": "cd.iso"
+      "cdImage": "cd.iso",
+      "cdrom": true
     },
     "地狱也疯狂": {
       "identifier": "地狱也疯狂",
@@ -4435,7 +4454,8 @@
       "img": "RADIAKI.cue",
       "filesize": 42541556,
       "coverFilename": "cover.png",
-      "cdImage": "RADIAKI.cue"
+      "cdImage": "RADIAKI.cue",
+      "cdrom": true
     },
     "飞碟任务": {
       "identifier": "飞碟任务",
@@ -5218,7 +5238,8 @@
       "img": "IRONBLOOD.ISO",
       "filesize": 46276520,
       "coverFilename": "cover.png",
-      "cdImage": "IRONBLOOD.ISO"
+      "cdImage": "IRONBLOOD.ISO",
+      "cdrom": true
     },
     "高报酬战将": {
       "identifier": "高报酬战将",
@@ -5527,7 +5548,8 @@
       "sha256": "08e91ac75472c28934303dff705e5426ffd5ee8fffec8ee169e46cf809195e91",
       "img": "CD/FS4.cue",
       "filesize": 41474770,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "古大陆物语5光盘版": {
       "identifier": "古大陆物语5光盘版",
@@ -5615,7 +5637,8 @@
         "CD/LOAK_1.iso",
         "CD/LOAK_2.iso"
       ],
-      "notes": "游戏到第二章可能自动退出；本仓库测试为第一片可启动。"
+      "notes": "游戏到第二章可能自动退出；本仓库测试为第一片可启动。",
+      "cdrom": true
     },
     "雇佣之枪": {
       "identifier": "雇佣之枪",
@@ -5779,7 +5802,8 @@
       "sha256": "d3da646e49065d6e1e3af906c7adb5dbcddeaa9b96d2d91119db95ef06681e5e",
       "img": "CD/AITD3.cue",
       "filesize": 66628445,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "鬼屋魔影万圣节特别篇": {
       "identifier": "鬼屋魔影万圣节特别篇",
@@ -6175,7 +6199,8 @@
       "sha256": "628f718b687009af984092b9d6a8397be866499074b3f9e4796c52e4c3190272",
       "img": "img/VT.cue",
       "filesize": 94902236,
-      "cdImage": "img/VT.iso"
+      "cdImage": "img/VT.iso",
+      "cdrom": true
     },
     "撼天神塔2": {
       "identifier": "撼天神塔2",
@@ -6188,7 +6213,8 @@
       "img": "img/BR2.cue",
       "filesize": 108281708,
       "coverFilename": "cover.png",
-      "cdImage": "img/BR2.iso"
+      "cdImage": "img/BR2.iso",
+      "cdrom": true
     },
     "撼天神塔3": {
       "identifier": "撼天神塔3",
@@ -6201,7 +6227,8 @@
       "img": "img/BR3.cue",
       "filesize": 113882796,
       "coverFilename": "cover.png",
-      "cdImage": "img/BR3.iso"
+      "cdImage": "img/BR3.iso",
+      "cdrom": true
     },
     "撼天神塔VT": {
       "identifier": "撼天神塔VT",
@@ -6384,7 +6411,8 @@
       "sha256": "9f08ec217809d2147781119b13b0e81f0b354fbc2f37829e696982543c77ac03",
       "img": "IMG/TTN_SLG.CUE",
       "filesize": 134643385,
-      "cdImage": "IMG/TTN_SLG.iso"
+      "cdImage": "IMG/TTN_SLG.iso",
+      "cdrom": true
     },
     "黑暗时代三部曲": {
       "identifier": "黑暗时代三部曲",
@@ -6411,7 +6439,7 @@
       "name": {
         "zh-Hans": "黑暗元素"
       },
-      "executable": "OBITUS",
+      "executable": "OBITUS.EXE",
       "type": "RPG",
       "sha256": "1a5b51f73847eb743773dc093a01725f23c0380c0a6af4b628be9b6bec7e27fe",
       "filesize": 1894307
@@ -6600,7 +6628,8 @@
       "filesize": 409866498,
       "cdImage": "HLM.cue",
       "notes": "C:\\HLM\\AUDIO\\MARK.DVD 文件缺失，zip 内未含完整 AUDIO 数据。",
-      "memsize": 32
+      "memsize": 32,
+      "cdrom": true
     },
     "红猫1": {
       "identifier": "红猫1",
@@ -6711,7 +6740,8 @@
       "img": "RAGECD.ISO",
       "filesize": 99238144,
       "coverFilename": "cover.png",
-      "cdImage": "RAGECD.ISO"
+      "cdImage": "RAGECD.ISO",
+      "cdrom": true
     },
     "洪流剑客": {
       "identifier": "洪流剑客",
@@ -7058,7 +7088,8 @@
       "sha256": "e61f4c612e48acb723381f1d4fb1c123a9a537ddb381efbf28d827e9be821841",
       "img": "CD/JHL.cue",
       "filesize": 51698207,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "幻象弹珠台": {
       "identifier": "幻象弹珠台",
@@ -7537,7 +7568,8 @@
       "sha256": "71fa1d00e4f4bba97abf0c85b8784c4ea3fad2472e2df03618eb45a9d8c0ee61",
       "img": "Bioforge.iso",
       "filesize": 123108761,
-      "cdImage": "Bioforge.iso"
+      "cdImage": "Bioforge.iso",
+      "cdrom": true
     },
     "基因分裂": {
       "identifier": "基因分裂",
@@ -7686,7 +7718,8 @@
       "type": "ACT",
       "sha256": "908a6d2628a9a66aa552af6882062379a23721352e1e20778dcf1f4e2511dd39",
       "filesize": 77482561,
-      "cdImage": "CD/TYPHOON.iso"
+      "cdImage": "CD/TYPHOON.iso",
+      "cdrom": true
     },
     "极品飞车": {
       "identifier": "极品飞车",
@@ -7830,7 +7863,8 @@
       "img": "CD/JXQY.cue",
       "filesize": 78443429,
       "cdImage": "CD/JXQY.cue",
-      "notes": "zip 仅含 1 张光碟（CD/JXQY.cue），游戏后期需二号碟。"
+      "notes": "zip 仅含 1 张光碟（CD/JXQY.cue），游戏后期需二号碟。",
+      "cdrom": true
     },
     "舰队守护神": {
       "identifier": "舰队守护神",
@@ -7843,7 +7877,8 @@
       "img": "aegis.iso",
       "filesize": 66319421,
       "coverFilename": "cover.png",
-      "cdImage": "aegis.iso"
+      "cdImage": "aegis.iso",
+      "cdrom": true
     },
     "鉴赏家": {
       "identifier": "鉴赏家",
@@ -7985,7 +8020,8 @@
       "img": "Jammit.iso",
       "filesize": 2282055,
       "coverFilename": "cover.png",
-      "cdImage": "Jammit.iso"
+      "cdImage": "Jammit.iso",
+      "cdrom": true
     },
     "街头霸王1": {
       "identifier": "街头霸王1",
@@ -8115,7 +8151,8 @@
       "img": "CD/JYFY.cue",
       "filesize": 95504828,
       "cdImage": "CD/Track01.iso",
-      "notes": "游戏自带 CD 校验，dosbox 模拟不完整；可能需原版 CD 数据。"
+      "notes": "游戏自带 CD 校验，dosbox 模拟不完整；可能需原版 CD 数据。",
+      "cdrom": true
     },
     "精灵幻界": {
       "identifier": "精灵幻界",
@@ -8309,7 +8346,8 @@
         "echo ScreenHeight    240>>KKND.CFG"
       ],
       "machine": "svga_s3",
-      "memsize": 32
+      "memsize": 32,
+      "cdrom": true
     },
     "绝地-众神的诅咒": {
       "identifier": "绝地-众神的诅咒",
@@ -8343,7 +8381,8 @@
       "img": "IMG/HOPE.cue",
       "filesize": 60264122,
       "coverFilename": "cover.png",
-      "cdImage": "IMG/HOPE.iso"
+      "cdImage": "IMG/HOPE.iso",
+      "cdrom": true
     },
     "掘金者": {
       "identifier": "掘金者",
@@ -9233,7 +9272,8 @@
       "img": "CD/QUAKE.cue",
       "filesize": 70876674,
       "coverFilename": "cover.png",
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "镭射坦克": {
       "identifier": "镭射坦克",
@@ -9462,7 +9502,8 @@
       "sha256": "904d8267f4dd7c2a04211a7af694c06aab007265570f11b4177e0156f8265dc0",
       "img": "ORION_CD.cue",
       "filesize": 243875722,
-      "cdImage": "ORION_CD.cue"
+      "cdImage": "ORION_CD.cue",
+      "cdrom": true
     },
     "猎杀红色十月": {
       "identifier": "猎杀红色十月",
@@ -9517,7 +9558,8 @@
       "sha256": "c4ceca37bc65ee2577d64b197614d0556a2b66e44f74dd98a4e9a00069eea6f4",
       "img": "liu2.cue",
       "filesize": 565491099,
-      "cdImage": "liu2.cue"
+      "cdImage": "liu2.cue",
+      "cdrom": true
     },
     "刘伯温传奇": {
       "identifier": "刘伯温传奇",
@@ -9852,7 +9894,8 @@
       "sha256": "15f210e3e80f1e036a1f60e83aebeb5c14c08e323a36248312fcb00baedf67a4",
       "img": "MAJAN.cue",
       "filesize": 52723415,
-      "cdImage": "MAJAN.iso"
+      "cdImage": "MAJAN.iso",
+      "cdrom": true
     },
     "麻雀幻想曲2": {
       "identifier": "麻雀幻想曲2",
@@ -10049,7 +10092,8 @@
       "sha256": "5129a7f0b2b23c57fd29e2f563efb2275a6fa6e70c49e9b39bb1939e13ce044f",
       "filesize": 88905063,
       "coverFilename": "cover.png",
-      "cdImage": "IMG/ROSE.iso"
+      "cdImage": "IMG/ROSE.iso",
+      "cdrom": true
     },
     "美杜莎归来": {
       "identifier": "美杜莎归来",
@@ -10368,7 +10412,8 @@
       "sha256": "8b4795c69e5771e394fe55ed02ec309e9c03250cdec72752178a778f4a575b56",
       "img": "STAR2.mdf",
       "filesize": 553289881,
-      "cdImage": "STAR2.mdf"
+      "cdImage": "STAR2.mdf",
+      "cdrom": true
     },
     "明星志愿": {
       "identifier": "明星志愿",
@@ -10735,7 +10780,8 @@
       "type": "SPG",
       "sha256": "c8669059530b1718b7f097cf8f1dacf607bb9738e5f0f310ffdb3bd5be7189be",
       "filesize": 218809110,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "魔法门": {
       "identifier": "魔法门",
@@ -10859,7 +10905,8 @@
       "img": "CD/HEROES2.cue",
       "filesize": 241597650,
       "coverFilename": "cover.png",
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "魔法门英雄无敌中文": {
       "identifier": "魔法门英雄无敌中文",
@@ -10872,7 +10919,8 @@
       "img": "HEROES.iso",
       "filesize": 763601305,
       "coverFilename": "cover.png",
-      "cdImage": "HEROES.iso"
+      "cdImage": "HEROES.iso",
+      "cdrom": true
     },
     "魔法少年": {
       "identifier": "魔法少年",
@@ -10927,7 +10975,8 @@
       "sha256": "78a896f13c9ff44cdd7c53ddb9959876ad7813be2ea5bf14bf41e69a5222ca86",
       "img": "TRIALBYMAGIC.cue",
       "filesize": 62141003,
-      "cdImage": "TRIALBYMAGIC.cue"
+      "cdImage": "TRIALBYMAGIC.cue",
+      "cdrom": true
     },
     "魔法天师": {
       "identifier": "魔法天师",
@@ -11059,7 +11108,8 @@
       "img": "Sky.cue",
       "filesize": 516664147,
       "coverFilename": "cover.png",
-      "cdImage": "Sky.cue"
+      "cdImage": "Sky.cue",
+      "cdrom": true
     },
     "魔龙纪事": {
       "identifier": "魔龙纪事",
@@ -11353,7 +11403,8 @@
       "img": "Ecstatica2.iso",
       "filesize": 848739686,
       "coverFilename": "cover.png",
-      "cdImage": "Ecstatica2.iso"
+      "cdImage": "Ecstatica2.iso",
+      "cdrom": true
     },
     "魔栈": {
       "identifier": "魔栈",
@@ -11795,7 +11846,8 @@
       "sha256": "8a82ee480f7124df21b96d44dc133a60076609ca084127f896e307f24b803479",
       "img": "CD/PILI.cue",
       "filesize": 166065356,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "拼图大师": {
       "identifier": "拼图大师",
@@ -11918,7 +11970,8 @@
       "img": "IMG/TTN_SEVEN.cue",
       "filesize": 132911604,
       "coverFilename": "cover.png",
-      "cdImage": "IMG/TTN_SEVEN.iso"
+      "cdImage": "IMG/TTN_SEVEN.iso",
+      "cdrom": true
     },
     "七英雄物语": {
       "identifier": "七英雄物语",
@@ -11930,7 +11983,8 @@
       "sha256": "b22f86d61eaa5b71905b0a16238521fe262acebe4d5cecea3fc7a3bf7cf17776",
       "img": "img/SEVEN.cue",
       "filesize": 86872813,
-      "cdImage": "img/SEVEN.iso"
+      "cdImage": "img/SEVEN.iso",
+      "cdrom": true
     },
     "七英雄物语2": {
       "identifier": "七英雄物语2",
@@ -11942,7 +11996,8 @@
       "sha256": "b364af1541660c39c232aa875b7e1f7cbbf0a6740eaeea236473b9fc51941acb",
       "img": "img/NANAEI2.cue",
       "filesize": 84523189,
-      "cdImage": "img/NANAEI2.iso"
+      "cdImage": "img/NANAEI2.iso",
+      "cdrom": true
     },
     "齐天大圣": {
       "identifier": "齐天大圣",
@@ -12137,7 +12192,8 @@
       "img": "VRBB_102.mdf",
       "filesize": 244418243,
       "coverFilename": "cover.png",
-      "cdImage": "VRBB_102.mdf"
+      "cdImage": "VRBB_102.mdf",
+      "cdrom": true
     },
     "清白无罪": {
       "identifier": "清白无罪",
@@ -12301,7 +12357,8 @@
       "img": "Pyrotechnica.cue",
       "filesize": 15209674,
       "coverFilename": "cover.png",
-      "cdImage": "Pyrotechnica.cue"
+      "cdImage": "Pyrotechnica.cue",
+      "cdrom": true
     },
     "热血硬派": {
       "identifier": "热血硬派",
@@ -12355,7 +12412,8 @@
       "type": "AVG",
       "sha256": "c22dcd98403bc78f94fa982e5624976bb6ffda30b4c30773e624caafbc613cd3",
       "filesize": 60262747,
-      "cdImage": "IMG/MOTH.iso"
+      "cdImage": "IMG/MOTH.iso",
+      "cdrom": true
     },
     "人生剧场": {
       "identifier": "人生剧场",
@@ -12659,7 +12717,8 @@
       "img": "CD/SANGO2.cue",
       "filesize": 132024328,
       "cdImage": "CD/Track01.iso",
-      "notes": "需要 CD 光盘支持，已配 cdImage；若仍报 \"Please insert CD\" 检查 zip 完整性。"
+      "notes": "需要 CD 光盘支持，已配 cdImage；若仍报 \"Please insert CD\" 检查 zip 完整性。",
+      "cdrom": true
     },
     "三国英杰传": {
       "identifier": "三国英杰传",
@@ -12851,7 +12910,8 @@
       "sha256": "6e339a043fb4e249cdcf6d31ed4ad330fc9000256d7d5ca9b1aca55fb1f5d51c",
       "img": "SHAKII11.CUE",
       "filesize": 96163345,
-      "cdImage": "SHAKII11.CUE"
+      "cdImage": "SHAKII11.CUE",
+      "cdrom": true
     },
     "沙拉那之剑": {
       "identifier": "沙拉那之剑",
@@ -12928,7 +12988,8 @@
       "img": "DUNE2CD.img",
       "filesize": 27496316,
       "coverFilename": "cover.png",
-      "cdImage": "DUNE2CD.img"
+      "cdImage": "DUNE2CD.img",
+      "cdrom": true
     },
     "沙丘魔堡2加强版": {
       "identifier": "沙丘魔堡2加强版",
@@ -12951,7 +13012,8 @@
       "img": "dunecd.iso",
       "filesize": 237981408,
       "coverFilename": "cover.png",
-      "cdImage": "dunecd.iso"
+      "cdImage": "dunecd.iso",
+      "cdrom": true
     },
     "沙之战线": {
       "identifier": "沙之战线",
@@ -13073,7 +13135,8 @@
       "img": "Arena.cue",
       "filesize": 85454867,
       "coverFilename": "cover.png",
-      "cdImage": "Arena.cue"
+      "cdImage": "Arena.cue",
+      "cdrom": true
     },
     "上古卷轴1竞技场": {
       "identifier": "上古卷轴1竞技场",
@@ -13097,7 +13160,8 @@
       "img": "DFCD.iso",
       "filesize": 184023350,
       "coverFilename": "cover.png",
-      "cdImage": "DFCD.iso"
+      "cdImage": "DFCD.iso",
+      "cdrom": true
     },
     "上古卷轴传奇": {
       "identifier": "上古卷轴传奇",
@@ -13238,7 +13302,8 @@
       "img": "IMG/EAGLE.CUE",
       "coverFilename": "cover.png",
       "filesize": 92608250,
-      "cdImage": "IMG/EAGLE.iso"
+      "cdImage": "IMG/EAGLE.iso",
+      "cdrom": true
     },
     "神剑传说": {
       "identifier": "神剑传说",
@@ -13346,7 +13411,8 @@
       "sha256": "abf9a5e1b612292a50962d128e1c74075773874f2dffb605f714c31beeb069ef",
       "img": "IMG/ORACLE.cue",
       "filesize": 161329850,
-      "cdImage": "IMG/ORACLE.iso"
+      "cdImage": "IMG/ORACLE.iso",
+      "cdrom": true
     },
     "神州八剑": {
       "identifier": "神州八剑",
@@ -13368,7 +13434,8 @@
       "sha256": "a62923f177c60fa960559afd1f277f5f15b848743ffb4f3de60097f633d06b63",
       "img": "CYBERIA.iso",
       "filesize": 259862269,
-      "cdImage": "CYBERIA.iso"
+      "cdImage": "CYBERIA.iso",
+      "cdrom": true
     },
     "生化情人": {
       "identifier": "生化情人",
@@ -13452,7 +13519,8 @@
       "sha256": "40cbec9c0eb8b9540a33796e8ed5f45b874626df60d90f49c768f011498f93c7",
       "img": "cd/cd.cue",
       "filesize": 155277566,
-      "cdImage": "cd/cd.iso"
+      "cdImage": "cd/cd.iso",
+      "cdrom": true
     },
     "圣经队长": {
       "identifier": "圣经队长",
@@ -13527,7 +13595,8 @@
       "sha256": "060e223bcc1dc1ac4d548142e0a08707ff7599a6e441afe77c88b53012a8240e",
       "img": "szfyl.iso",
       "filesize": 169967185,
-      "cdImage": "szfyl.iso"
+      "cdImage": "szfyl.iso",
+      "cdrom": true
     },
     "圣战录": {
       "identifier": "圣战录",
@@ -13572,7 +13641,8 @@
       "img": "IMG/atria.CUE",
       "filesize": 37308356,
       "coverFilename": "cover.png",
-      "cdImage": "IMG/atria.iso"
+      "cdImage": "IMG/atria.iso",
+      "cdrom": true
     },
     "失落的封印": {
       "identifier": "失落的封印",
@@ -14150,7 +14220,8 @@
       "sha256": "cd11ee5ab1151cb8cbb01c814f0f848744cd6d99599d825e07486581e8dbadc6",
       "img": "LBA2.cue",
       "filesize": 722811031,
-      "cdImage": "LBA2.cue"
+      "cdImage": "LBA2.cue",
+      "cdrom": true
     },
     "谁陷害了兔子罗杰": {
       "identifier": "谁陷害了兔子罗杰",
@@ -14215,7 +14286,8 @@
       "sha256": "131207ca1e1970783588394d1eb17c90fbd2129d8fec8fac76a2b2114a2fcc48",
       "img": "IMG/TTN_WATER.cue",
       "filesize": 72861300,
-      "cdImage": "IMG/TTN_WATER.iso"
+      "cdImage": "IMG/TTN_WATER.iso",
+      "cdrom": true
     },
     "水浒传之梁山英雄": {
       "identifier": "水浒传之梁山英雄",
@@ -14238,7 +14310,8 @@
       "img": "shuihu.iso",
       "filesize": 99498758,
       "coverFilename": "cover.png",
-      "cdImage": "shuihu.iso"
+      "cdImage": "shuihu.iso",
+      "cdrom": true
     },
     "水晶迷宫": {
       "identifier": "水晶迷宫",
@@ -14345,7 +14418,8 @@
       "type": "SIM",
       "sha256": "a21220a43ec7459594c860a1703509742e585bcf6e0852607fee9205ff2022ff",
       "filesize": 56008248,
-      "cdImage": "cd.iso"
+      "cdImage": "cd.iso",
+      "cdrom": true
     },
     "死亡骑士": {
       "identifier": "死亡骑士",
@@ -14634,7 +14708,8 @@
       "img": "CD/TB.cue",
       "filesize": 117233275,
       "coverFilename": "cover.png",
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "太平洋公爵": {
       "identifier": "太平洋公爵",
@@ -15013,7 +15088,8 @@
       "sha256": "846525e05e8430b581d6d89a8aa7a67b990366e59216069c7f5cc77a880e712c",
       "img": "ORFD.cue",
       "filesize": 586112257,
-      "cdImage": "ORFD.cue"
+      "cdImage": "ORFD.cue",
+      "cdrom": true
     },
     "天师钟馗": {
       "identifier": "天师钟馗",
@@ -15025,7 +15101,8 @@
       "sha256": "a9b038f120cb6499f303ed05bb0d50700fab3e09eddf15e052bcec4ca16e0af1",
       "img": "cd/TTN_GHOST.cue",
       "filesize": 73905793,
-      "cdImage": "cd/TTN_GHOST.iso"
+      "cdImage": "cd/TTN_GHOST.iso",
+      "cdrom": true
     },
     "天使Q女学院": {
       "identifier": "天使Q女学院",
@@ -15215,7 +15292,8 @@
         "-c",
         "cd game"
       ],
-      "notes": "启动器在 game/ 子目录，autoexec 包含 cd 命令。"
+      "notes": "启动器在 game/ 子目录，autoexec 包含 cd 命令。",
+      "cdrom": true
     },
     "铁血橄榄球": {
       "identifier": "铁血橄榄球",
@@ -15385,7 +15463,8 @@
       "sha256": "01ee8a5f1d4f5579787e9ddb46a81e61f567ee325214816befd2f80f6274dadc",
       "img": "IMG/TTN_NO1.cue",
       "filesize": 82107208,
-      "cdImage": "IMG/TTN_NO1.iso"
+      "cdImage": "IMG/TTN_NO1.iso",
+      "cdrom": true
     },
     "秃鹰疑案": {
       "identifier": "秃鹰疑案",
@@ -15398,7 +15477,8 @@
       "img": "cd.img",
       "filesize": 296328510,
       "coverFilename": "cover.png",
-      "cdImage": "cd.img"
+      "cdImage": "cd.img",
+      "cdrom": true
     },
     "突击": {
       "identifier": "突击",
@@ -15541,7 +15621,8 @@
       "sha256": "55117357362737310f2bd5ef44269b7d88f8763023fb422e659746667b77df38",
       "img": "CD/SS4.cue",
       "filesize": 296178498,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "吞食天地青衫版": {
       "identifier": "吞食天地青衫版",
@@ -15616,7 +15697,8 @@
       "type": "SLG",
       "sha256": "f15d49331c75b97be9ce5379eb275579ad1836b42a4edd109e3992973f00fd31",
       "filesize": 60039783,
-      "cdImage": "TPG2.ISO"
+      "cdImage": "TPG2.ISO",
+      "cdrom": true
     },
     "顽皮猫": {
       "identifier": "顽皮猫",
@@ -16229,7 +16311,8 @@
       "img": "GEN_CD.cue",
       "filesize": 65519189,
       "coverFilename": "cover.png",
-      "cdImage": "GEN_CD.cue"
+      "cdImage": "GEN_CD.cue",
+      "cdrom": true
     },
     "无名指的教科书": {
       "identifier": "无名指的教科书",
@@ -16294,7 +16377,8 @@
       "sha256": "27fbb99acf1cbff2394ea0743e74bc65444eb90f1a3ee0d1b5764258c93d8bb9",
       "filesize": 51947273,
       "coverFilename": "cover.png",
-      "cdImage": "WZX.iso"
+      "cdImage": "WZX.iso",
+      "cdrom": true
     },
     "武道馆": {
       "identifier": "武道馆",
@@ -16506,7 +16590,8 @@
       "sha256": "1d7240c129e4359bb83b006fb82aa3c172e6bfdd8f5193ba25f124aceba8afd0",
       "img": "CD/GTA.cue",
       "filesize": 160658178,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "侠客英雄传": {
       "identifier": "侠客英雄传",
@@ -16533,7 +16618,8 @@
         "CD/SHK3_1.iso",
         "CD/SHK3_2.iso"
       ],
-      "notes": "两张 CD 已同时挂载；Ctrl-F4 切换光碟。"
+      "notes": "两张 CD 已同时挂载；Ctrl-F4 切换光碟。",
+      "cdrom": true
     },
     "侠客游2": {
       "identifier": "侠客游2",
@@ -16588,7 +16674,8 @@
       "img": "paldos.cue",
       "filesize": 245368414,
       "coverFilename": "cover.png",
-      "cdImage": "paldos.cue"
+      "cdImage": "paldos.cue",
+      "cdrom": true
     },
     "仙剑奇侠传加强版": {
       "identifier": "仙剑奇侠传加强版",
@@ -16632,7 +16719,8 @@
       "type": "RPG",
       "sha256": "98d01797cc7f59bb5f22de8a1165d1a5615c9811be11302059d092d9d3bc1608",
       "filesize": 312238288,
-      "cdImage": "CD.iso"
+      "cdImage": "CD.iso",
+      "cdrom": true
     },
     "氙星异形": {
       "identifier": "氙星异形",
@@ -16761,7 +16849,8 @@
       "sha256": "69f347f3faf57afaffbed8a2fccc71840c3a25de5b9c2894ba223519e15e35f0",
       "img": "cd/Litil_Divil.cue",
       "filesize": 17045737,
-      "cdImage": "cd/Litil_Divil.cue"
+      "cdImage": "cd/Litil_Divil.cue",
+      "cdrom": true
     },
     "小飞侠": {
       "identifier": "小飞侠",
@@ -16958,7 +17047,8 @@
       "sha256": "3a992a7beb2673742385feb20df722d48b6d50505ce91b5804557014ba62813e",
       "filesize": 197559358,
       "cdImage": "TTN_VAMPIRE.iso",
-      "notes": "游戏检查 MSCDEX/音轨 TOC，超出 dosbox 模拟能力，可能需原版 CD。"
+      "notes": "游戏检查 MSCDEX/音轨 TOC，超出 dosbox 模拟能力，可能需原版 CD。",
+      "cdrom": true
     },
     "邪神": {
       "identifier": "邪神",
@@ -16974,7 +17064,8 @@
         "-c",
         "cd XSHEN"
       ],
-      "notes": "启动器在 XSHEN/ 子目录，autoexec 包含 cd 命令。"
+      "notes": "启动器在 XSHEN/ 子目录，autoexec 包含 cd 命令。",
+      "cdrom": true
     },
     "邪神传说": {
       "identifier": "邪神传说",
@@ -17284,7 +17375,8 @@
       "type": "SIM",
       "sha256": "23523aec665a18fcbbf010ff39340510089f344512c5e6d64fa25b5316625fca",
       "filesize": 113768751,
-      "cdImage": "STAR_RANGERS.cue"
+      "cdImage": "STAR_RANGERS.cue",
+      "cdrom": true
     },
     "星际之锤": {
       "identifier": "星际之锤",
@@ -17307,7 +17399,8 @@
       "sha256": "711905169a4a25d4293277bab0a8542675d7fa9476a3d9d779cb92763dcc0c8d",
       "filesize": 55357459,
       "cdImage": "SWXWCD.cue",
-      "notes": "CUE 引用 SWXWCD.BIN，但 zip 内仅含 CUE；游戏数据缺失。"
+      "notes": "CUE 引用 SWXWCD.BIN，但 zip 内仅含 CUE；游戏数据缺失。",
+      "cdrom": true
     },
     "星球大战暗影力量": {
       "identifier": "星球大战暗影力量",
@@ -17417,7 +17510,8 @@
       "sha256": "16eff0f8c7dc4a58f77c58c5a984b601e8337c2bc9012c8a34ad0eb8198e423f",
       "img": "IMG/TTN_MOON.cue",
       "filesize": 175648729,
-      "cdImage": "IMG/TTN_MOON.iso"
+      "cdImage": "IMG/TTN_MOON.iso",
+      "cdrom": true
     },
     "杏林也疯狂(主题医院台版)": {
       "identifier": "杏林也疯狂(主题医院台版)",
@@ -17558,7 +17652,8 @@
       "img": "cd/SHENWEN.CUE",
       "filesize": 135537230,
       "cdImage": "cd/SHENWEN.iso",
-      "notes": "启动时按任意键跳过 UniVBE 模式分析。"
+      "notes": "启动时按任意键跳过 UniVBE 模式分析。",
+      "cdrom": true
     },
     "选举风云": {
       "identifier": "选举风云",
@@ -17634,7 +17729,8 @@
       "sha256": "9bcf26a1c553d681a0fc557828f164c3886c7cb7b9e109a4ae2653d62e27c3cf",
       "filesize": 5266052,
       "coverFilename": "cover.png",
-      "cdImage": "BLOODSTONE.cue"
+      "cdImage": "BLOODSTONE.cue",
+      "cdrom": true
     },
     "血巫": {
       "identifier": "血巫",
@@ -18211,7 +18307,8 @@
       "img": "AlienLogic.cue",
       "filesize": 205700861,
       "coverFilename": "cover.png",
-      "cdImage": "AlienLogic.cue"
+      "cdImage": "AlienLogic.cue",
+      "cdrom": true
     },
     "异星搜奇": {
       "identifier": "异星搜奇",
@@ -18224,7 +18321,8 @@
       "img": "DIGCHN.iso",
       "filesize": 517730031,
       "coverFilename": "cover.png",
-      "cdImage": "DIGCHN.iso"
+      "cdImage": "DIGCHN.iso",
+      "cdrom": true
     },
     "异星突击": {
       "identifier": "异星突击",
@@ -18580,7 +18678,8 @@
       "sha256": "55f2f79736e9be030a55d1669a1e09745566cf0b5c7729c28b081c63349da6a5",
       "img": "wind.iso",
       "filesize": 6348351,
-      "cdImage": "wind.iso"
+      "cdImage": "wind.iso",
+      "cdrom": true
     },
     "银河英雄": {
       "identifier": "银河英雄",
@@ -18592,7 +18691,8 @@
       "sha256": "27088cab29b44cf4f19ae8b0f9feb4867c01310e0cc4142bcf35aa191bc03338",
       "img": "img/BOUNTY.cue",
       "filesize": 113096080,
-      "cdImage": "img/BOUNTY.iso"
+      "cdImage": "img/BOUNTY.iso",
+      "cdrom": true
     },
     "银河英雄传说3": {
       "identifier": "银河英雄传说3",
@@ -18615,7 +18715,8 @@
       "img": "G4X.iso",
       "filesize": 11980784,
       "coverFilename": "cover.jpg",
-      "cdImage": "G4X.iso"
+      "cdImage": "G4X.iso",
+      "cdrom": true
     },
     "银河战士": {
       "identifier": "银河战士",
@@ -18704,7 +18805,8 @@
       "sha256": "dad56f881f2ddd341479e0983e7e15fa07da2ac43b94c98df6dd4a88f36a7a45",
       "img": "CD/ED1.cue",
       "filesize": 62839149,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "英雄传说2": {
       "identifier": "英雄传说2",
@@ -18716,7 +18818,8 @@
       "sha256": "9df1f2f49e88386dbfd9003d2047ced204bd42c9d2f9c3d32b850ed6e9cf0ca0",
       "img": "CD/ED2.cue",
       "filesize": 71721264,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "英雄传说3": {
       "identifier": "英雄传说3",
@@ -18728,7 +18831,8 @@
       "sha256": "fecd28f7dde983911e4618827f095c2e3619ecf41d9405a007d1710280c258f5",
       "img": "CD/ED3.cue",
       "filesize": 91285292,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "英雄传说4": {
       "identifier": "英雄传说4",
@@ -18740,7 +18844,8 @@
       "sha256": "43d3a1676bb74bdb05ee1be015419267155528107d34406182dd1c4075f5dd7c",
       "img": "CD/ED4.cue",
       "filesize": 75526138,
-      "cdImage": "CD/Track01.iso"
+      "cdImage": "CD/Track01.iso",
+      "cdrom": true
     },
     "英雄圣战": {
       "identifier": "英雄圣战",
@@ -18874,7 +18979,8 @@
       "filesize": 444979486,
       "coverFilename": "cover.png",
       "cdImage": "RAYMAN.cue",
-      "notes": "游戏文件被截断（见 #279）。"
+      "notes": "游戏文件被截断（见 #279）。",
+      "cdrom": true
     },
     "永远的雷曼自制关": {
       "identifier": "永远的雷曼自制关",
@@ -18887,7 +18993,8 @@
       "img": "RAYMAN.cue",
       "filesize": 545145674,
       "coverFilename": "cover.png",
-      "cdImage": "RAYMAN.cue"
+      "cdImage": "RAYMAN.cue",
+      "cdrom": true
     },
     "勇士传奇": {
       "identifier": "勇士传奇",
@@ -18996,7 +19103,8 @@
       "img": "XCOM.iso",
       "filesize": 428253206,
       "coverFilename": "cover.png",
-      "cdImage": "XCOM.iso"
+      "cdImage": "XCOM.iso",
+      "cdrom": true
     },
     "幽灵馆": {
       "identifier": "幽灵馆",
@@ -19946,7 +20054,8 @@
       "sha256": "78978565da83785f6cc382a7f20a9e4427ced93be17e9844f42a488d44b15692",
       "img": "cd2.cue",
       "filesize": 316525402,
-      "cdImage": "cd2.cue"
+      "cdImage": "cd2.cue",
+      "cdrom": true
     },
     "争分夺秒": {
       "identifier": "争分夺秒",
@@ -20408,7 +20517,8 @@
       "img": "mars3d.iso",
       "filesize": 137330932,
       "coverFilename": "cover.png",
-      "cdImage": "mars3d.iso"
+      "cdImage": "mars3d.iso",
+      "cdrom": true
     },
     "终结者2029": {
       "identifier": "终结者2029",
@@ -20590,7 +20700,8 @@
         "echo @IF ERRORLEVEL 10 GOTO START^>^>THEME.BAT",
         "-c",
         "echo @cd \\^>^>THEME.BAT"
-      ]
+      ],
+      "cdrom": true
     },
     "筑城大师": {
       "identifier": "筑城大师",
@@ -20864,7 +20975,8 @@
       "img": "lastknight.iso",
       "filesize": 4262162,
       "coverFilename": "cover.png",
-      "cdImage": "lastknight.iso"
+      "cdImage": "lastknight.iso",
+      "cdrom": true
     },
     "最后期限": {
       "identifier": "最后期限",

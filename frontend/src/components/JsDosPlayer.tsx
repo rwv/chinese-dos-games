@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import type { GameInfo } from '../types'
 import { buildDosboxConf } from '../jsdos/config'
 import { loadJsDos } from '../jsdos/runtime'
-import { loadSave, storeSave } from '../jsdos/saves'
+import { loadSave, storeSave, exportSave, importSave } from '../jsdos/saves'
 import type { CommandInterface, DosProps } from '../jsdos/types'
 
 interface Props {
@@ -156,6 +156,35 @@ export default function JsDosPlayer({ game }: Props) {
         >
           全屏游戏
         </button>
+        <button
+          onClick={() => exportSave(game.identifier).then(
+            () => setStatus('已导出存档'),
+            (e) => setStatus(`导出失败: ${e.message}`),
+          ).finally(() => window.setTimeout(() => setStatus(''), 2000))}
+          className="rounded border border-gray-300 px-3 py-1 text-sm hover:bg-gray-100"
+          title="下载存档到本地 (迁移/备份)"
+        >
+          导出存档
+        </button>
+        <label className="rounded border border-gray-300 px-3 py-1 text-sm hover:bg-gray-100 cursor-pointer">
+          导入存档
+          <input
+            type="file"
+            accept=".zip,application/octet-stream"
+            className="hidden"
+            onChange={(e) => {
+              const f = e.target.files?.[0]
+              if (!f) return
+              importSave(game.identifier, f).then(
+                () => setStatus('已导入,刷新页面加载'),
+                (err) => setStatus(`导入失败: ${err.message}`),
+              ).finally(() => {
+                window.setTimeout(() => setStatus(''), 2000)
+                e.target.value = ''
+              })
+            }}
+          />
+        </label>
         <button
           onClick={() => sendDosboxKey('F11')}
           className="rounded border border-gray-300 px-3 py-1 text-sm hover:bg-gray-100"

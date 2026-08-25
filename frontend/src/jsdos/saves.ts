@@ -45,3 +45,26 @@ export async function storeSave(identifier: string, changes: Uint8Array): Promis
     tx.onerror = () => reject(tx.error)
   })
 }
+
+/** 导出指定游戏的存档为可下载文件 (.zip) */
+export async function exportSave(identifier: string): Promise<void> {
+  const changes = await loadSave(identifier)
+  if (!changes || changes.length === 0) {
+    throw new Error('该游戏还没有存档')
+  }
+  const blob = new Blob([new Uint8Array(changes)], { type: 'application/octet-stream' })
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = `${identifier}.save.zip`
+  document.body.append(a)
+  a.click()
+  a.remove()
+  URL.revokeObjectURL(url)
+}
+
+/** 从用户选择的文件恢复存档 */
+export async function importSave(identifier: string, file: File): Promise<void> {
+  const buffer = await file.arrayBuffer()
+  await storeSave(identifier, new Uint8Array(buffer))
+}
