@@ -13866,7 +13866,9 @@
       "coverFilename": "cover.png",
       "dosboxArgs": [
         "-c",
-        "config -set midi mididevice=auto"
+        "config -set midi mididevice=auto",
+        "-c",
+        "config -set cpu cycles=max"
       ]
     },
     "圣少女战队3": {
@@ -13878,7 +13880,13 @@
       "type": "SPG",
       "sha256": "91c5aea984dcd49dd9e0fcf574183d5fe1456018fd0e6d131af480a7a8d835e7",
       "filesize": 10734518,
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "dosboxArgs": [
+        "-c",
+        "config -set midi mididevice=auto",
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "圣域传说": {
       "identifier": "圣域传说",
