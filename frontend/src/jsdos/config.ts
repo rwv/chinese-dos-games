@@ -36,23 +36,28 @@ export function buildDosboxConf(game: GameInfo): string {
   const dos = readDosSettings(game.dosboxArgs)
   const autoexec = ['echo off']
 
-  if (game.floppy) {
-    autoexec.push(`mount ${game.floppy} . -t floppy`)
-    autoexec.push(`${game.floppy}:`)
+  if (game.bootImage) {
+    autoexec.push(`imgmount c "./${game.bootImage}"`)
+    autoexec.push('boot -l c')
   } else {
-    autoexec.push('mount c .')
-    autoexec.push('c:')
-  }
+    if (game.floppy) {
+      autoexec.push(`mount ${game.floppy} . -t floppy`)
+      autoexec.push(`${game.floppy}:`)
+    } else {
+      autoexec.push('mount c .')
+      autoexec.push('c:')
+    }
 
-  const cdImage = game.cdImage ?? game.img
-  if (cdImage) {
-    autoexec.push(`imgmount d "./${cdImage}" -t iso`)
-  } else if (game.cdrom) {
-    autoexec.push(`mount d "./${game.cdromPath ?? ''}" -t cdrom`)
-  }
+    const cdImage = game.cdImage ?? game.img
+    if (cdImage) {
+      autoexec.push(`imgmount d "./${cdImage}" -t iso`)
+    } else if (game.cdrom) {
+      autoexec.push(`mount d "./${game.cdromPath ?? ''}" -t cdrom`)
+    }
 
-  autoexec.push(...extraCommands(game.dosboxArgs))
-  autoexec.push(game.executable)
+    autoexec.push(...extraCommands(game.dosboxArgs))
+    autoexec.push(game.executable)
+  }
 
   return `[sdl]
 autolock=false

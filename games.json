@@ -1348,7 +1348,7 @@
       "type": "RPG",
       "sha256": "4866351535078024f6a78446ddb25ccba1b051ae1473d0d0ee80f4b54e96bd62",
       "coverFilename": "cover.jpg",
-      "cdrom": false,
+      "cdrom": true,
       "filesize": 176421078
     },
     "阿瓦隆": {
@@ -3150,7 +3150,13 @@
       "executable": "play.bat",
       "type": "SLG",
       "sha256": "4013255fb41f07f3ea1183c5919e324728bab59ce8102f4fda0666fd91fc2907",
-      "filesize": 7252180
+      "filesize": 7252180,
+      "dosboxArgs": [
+        "-c",
+        "echo @echo off>PLAY.BAT",
+        "-c",
+        "echo OPEN.EXE>>PLAY.BAT"
+      ]
     },
     "从前有片林": {
       "identifier": "从前有片林",
@@ -4799,7 +4805,7 @@
     "疯狂小旅鼠": {
       "identifier": "疯狂小旅鼠",
       "name": {
-        "zh-Hans": "疯狂小旅鼠"
+        "zh-Hans": "疯狂小旅鼠3光盘版"
       },
       "executable": "l3cd.exe",
       "type": "PUZ",
@@ -8524,7 +8530,7 @@
       "name": {
         "zh-Hans": "凯兰蒂亚传奇2"
       },
-      "executable": "main.exe",
+      "executable": "hof.exe",
       "type": "AVG",
       "sha256": "0c7d548aef0adbd0b17776a3d2c4e42e1a98c247388e24651ca56d077fc56608",
       "filesize": 12128044
@@ -8532,7 +8538,7 @@
     "凯撒大帝": {
       "identifier": "凯撒大帝",
       "name": {
-        "zh-Hans": "凯撒大帝"
+        "zh-Hans": "百夫长：保卫罗马"
       },
       "executable": "centurio.exe",
       "type": "SLG",
@@ -12036,7 +12042,8 @@
       "executable": "marry",
       "type": "PUZ",
       "sha256": "0509de4a541663a5030e671ed1be30b66549fc1f5eb7980763d59aea206be707",
-      "filesize": 12815343
+      "filesize": 12815343,
+      "bootImage": "c.img"
     },
     "青少棒扬威记": {
       "identifier": "青少棒扬威记",
@@ -20432,7 +20439,23 @@
       "sha256": "7f7beb081ee8816c1aa86a366f361eb849d469f07d0518546b9ad6c0093088b9",
       "img": "theme.iso",
       "filesize": 93658900,
-      "cdImage": "theme.iso"
+      "cdImage": "theme.iso",
+      "dosboxArgs": [
+        "-c",
+        "echo @D:^>THEME.BAT",
+        "-c",
+        "echo @cd D:\\game^>^>THEME.BAT",
+        "-c",
+        "echo :START^>^>THEME.BAT",
+        "-c",
+        "echo @intro -C:/^>^>THEME.BAT",
+        "-c",
+        "echo @main -cD:/game/ -dC:/ -l0^>^>THEME.BAT",
+        "-c",
+        "echo @IF ERRORLEVEL 10 GOTO START^>^>THEME.BAT",
+        "-c",
+        "echo @cd \\^>^>THEME.BAT"
+      ]
     },
     "筑城大师": {
       "identifier": "筑城大师",

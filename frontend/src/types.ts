@@ -19,6 +19,7 @@ export interface GameInfo {
   cdromPath?: string
   floppy?: 'a' | 'b'
   cdImage?: string
+  bootImage?: string
   dosboxArgs?: string[]
   type?: string
   img?: string

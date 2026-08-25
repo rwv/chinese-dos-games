@@ -1,10 +1,10 @@
-import { defineConfig } from 'vite'
+import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 // js-dos 使用 Web Worker (SharedArrayBuffer)，需要 COOP/COEP 安全头。
 // Firefox 等浏览器要求页面设置这些头才允许使用 SharedArrayBuffer。
-function crossOriginIsolation() {
+function crossOriginIsolation(): Plugin {
   return {
     name: 'cross-origin-isolation',
     configureServer(server) {

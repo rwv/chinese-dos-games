@@ -26,6 +26,14 @@ describe('buildDosboxConf', () => {
     expect(config).not.toContain('mount c .')
   })
 
+  test('boots a hard disk image directly', () => {
+    const config = buildDosboxConf(game({ bootImage: 'c.img' }))
+
+    expect(config).toContain('imgmount c "./c.img"\nboot -l c')
+    expect(config).not.toContain('mount c .')
+    expect(config).not.toContain('GAME.EXE')
+  })
+
   test('mounts an embedded ISO on D', () => {
     const config = buildDosboxConf(game({ cdImage: 'GAME.iso' }))
 
