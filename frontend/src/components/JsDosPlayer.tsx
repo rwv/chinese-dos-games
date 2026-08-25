@@ -120,6 +120,14 @@ export default function JsDosPlayer({ game }: Props) {
     playerRef.current?.setFullScreen(true)
   }
 
+  function sendDosboxKey(key: string): void {
+    // js-dos dosbox 后端支持 simulateKeyPress
+    // 5=ctrl, 0x57=F11, 0x58=F12 (dosbox scan codes)
+    const scancode = key === 'F11' ? 0x57 : 0x58
+    ;(commandRef.current as { simulateKeyPress?: (s: number, c: number) => void } | null)
+      ?.simulateKeyPress?.(5, scancode)
+  }
+
   return (
     <div>
       <div className="relative h-[min(70vh,720px)] min-h-96 overflow-hidden rounded-lg bg-black">
@@ -147,6 +155,20 @@ export default function JsDosPlayer({ game }: Props) {
           className="rounded border border-gray-300 px-3 py-1 text-sm hover:bg-gray-100"
         >
           全屏游戏
+        </button>
+        <button
+          onClick={() => sendDosboxKey('F11')}
+          className="rounded border border-gray-300 px-3 py-1 text-sm hover:bg-gray-100"
+          title="降低 CPU 速度 (Ctrl+F11)"
+        >
+          减速
+        </button>
+        <button
+          onClick={() => sendDosboxKey('F12')}
+          className="rounded border border-gray-300 px-3 py-1 text-sm hover:bg-gray-100"
+          title="提高 CPU 速度 (Ctrl+F12)"
+        >
+          加速
         </button>
       </div>
     </div>

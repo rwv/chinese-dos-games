@@ -4,6 +4,7 @@ import { fetchGame } from '../api'
 import EmularityPlayer from '../components/EmularityPlayer'
 import JsDosPlayer from '../components/JsDosPlayer'
 import type { GameInfo } from '../types'
+import { useNameLocale } from '../hooks/useNameLocale'
 
 type Engine = 'emularity' | 'js-dos'
 
@@ -17,6 +18,7 @@ export default function GamePage() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [engine, setEngine] = useState<Engine>(initialEngine)
+  const [locale] = useNameLocale()
 
   useEffect(() => {
     if (!identifier) return
@@ -40,7 +42,9 @@ export default function GamePage() {
       <div className="flex flex-col gap-6 lg:flex-row">
         <div className="min-w-0 flex-1">
           <div className="mb-3 flex flex-wrap items-center gap-2">
-            <h3 className="mr-auto text-lg font-semibold text-gray-800">{game.name['zh-Hans']}</h3>
+            <h3 className="mr-auto text-lg font-semibold text-gray-800">
+              {locale === 'en' && game.name.en ? game.name.en : game.name['zh-Hans']}
+            </h3>
             <span className="text-sm text-gray-500">模拟器：</span>
             <button
               onClick={() => selectEngine('emularity')}

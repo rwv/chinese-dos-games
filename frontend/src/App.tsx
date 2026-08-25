@@ -5,6 +5,7 @@ import GamesList from './pages/GamesList'
 import Search from './pages/Search'
 import GamePage from './pages/GamePage'
 import About from './pages/About'
+import FAQ from './pages/FAQ'
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/games/:identifier" element={<GamePage />} />
         <Route path="/search" element={<Search />} />
         <Route path="/about" element={<About />} />
+        <Route path="/faq" element={<FAQ />} />
       </Routes>
     </BrowserRouter>
   )

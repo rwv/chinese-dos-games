@@ -120,6 +120,19 @@ export default function EmularityPlayer({ game }: { game: GameInfo }) {
     emulator?.requestFullScreen?.()
   }
 
+  // 向 canvas 派发合成键盘事件, 触发 dosbox 内置快捷键
+  // Ctrl+F11 减速 / Ctrl+F12 加速 (dosbox cycles 调节)
+  function sendDosboxKey(key: string, code: string): void {
+    const canvas = canvasRef.current
+    if (!canvas) return
+    canvas.focus()
+    for (const type of ['keydown', 'keyup'] as const) {
+      canvas.dispatchEvent(new KeyboardEvent(type, {
+        key, code, ctrlKey: true, bubbles: true, cancelable: true,
+      }))
+    }
+  }
+
   return (
     <div>
       <div className="rounded-lg border border-gray-200 bg-black">
@@ -147,6 +160,20 @@ export default function EmularityPlayer({ game }: { game: GameInfo }) {
           className="rounded border border-gray-300 px-3 py-1 text-sm hover:bg-gray-100"
         >
           全屏游戏
+        </button>
+        <button
+          onClick={() => sendDosboxKey('F11', 'F11')}
+          className="rounded border border-gray-300 px-3 py-1 text-sm hover:bg-gray-100"
+          title="降低 CPU 速度 (Ctrl+F11)"
+        >
+          减速
+        </button>
+        <button
+          onClick={() => sendDosboxKey('F12', 'F12')}
+          className="rounded border border-gray-300 px-3 py-1 text-sm hover:bg-gray-100"
+          title="提高 CPU 速度 (Ctrl+F12)"
+        >
+          加速
         </button>
       </div>
       {htmlFullscreen && (

@@ -1,12 +1,16 @@
 import { Link } from 'react-router-dom'
 import type { GameInfo } from '../types'
+import { useNameLocale } from '../hooks/useNameLocale'
 
 interface Props {
   game: GameInfo
 }
 
 export default function GameCard({ game }: Props) {
+  const [locale] = useNameLocale()
   if (!game.coverFilename) return null
+
+  const displayName = locale === 'en' && game.name.en ? game.name.en : game.name['zh-Hans']
 
   return (
     <Link
@@ -15,12 +19,12 @@ export default function GameCard({ game }: Props) {
     >
       <img
         src={`/files/img/${encodeURIComponent(game.identifier)}/${game.coverFilename}`}
-        alt={game.name['zh-Hans']}
+        alt={displayName}
         loading="lazy"
         className="w-full"
       />
       <div className="p-3">
-        <h3 className="text-sm font-medium text-gray-800 truncate">{game.name['zh-Hans']}</h3>
+        <h3 className="text-sm font-medium text-gray-800 truncate">{displayName}</h3>
       </div>
     </Link>
   )

@@ -20,6 +20,7 @@ export default function Navbar() {
           <Link to="/" className="text-gray-700 hover:text-gray-900">首页</Link>
           <Link to="/games" className="text-gray-700 hover:text-gray-900">游戏列表</Link>
           <Link to="/about" className="text-gray-700 hover:text-gray-900">关于</Link>
+          <Link to="/faq" className="text-gray-700 hover:text-gray-900">FAQ</Link>
         </div>
         <form onSubmit={handleSearch} className="ml-auto flex gap-2">
           <input
