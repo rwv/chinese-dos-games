@@ -1226,7 +1226,8 @@
       "executable": "PLAY.BAT",
       "type": "RTS",
       "sha256": "71126081619cb4036b933c18f26e0d2ca77a854b8cf17bdac45ff09d877383be",
-      "filesize": 12053130
+      "filesize": 12053130,
+      "notes": "游戏在 dosbox 0.74-3 下黑屏，疑似 VESA/视频模式兼容问题。"
     },
     "阿尔比恩": {
       "identifier": "阿尔比恩",
@@ -3177,7 +3178,8 @@
       "type": "SLG",
       "sha256": "cbc7e54a223bf12356d1e722d5f73926d85bec2a723dcb78015f69a4f34badcc",
       "filesize": 2332007,
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "notes": "游戏在 dosbox 0.74-3 下可启动（蓝色飞剑片头）。"
     },
     "春秋争霸传2": {
       "identifier": "春秋争霸传2",
@@ -3193,7 +3195,8 @@
         "echo @echo off>PLAY.BAT",
         "-c",
         "echo OPEN.EXE>>PLAY.BAT"
-      ]
+      ],
+      "notes": "游戏在 dosbox 0.74-3 下黑屏。"
     },
     "从前有片林": {
       "identifier": "从前有片林",
