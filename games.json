@@ -2523,10 +2523,7 @@
       "cdrom": true,
       "filesize": 12004100,
       "coverFilename": "cover.png",
-      "dosboxArgs": [
-        "-c",
-        "cdx ."
-      ]
+      "dosboxArgs": ["-c", "cdx ."]
     },
     "超级星尘": {
       "identifier": "超级星尘",
@@ -9987,16 +9984,10 @@
       "name": {
         "zh-Hans": "美国噩梦"
       },
-      "executable": "ALOG",
+      "executable": "ALOG.EXE",
       "type": "SLG",
       "sha256": "3cdfb369f91d1be664900007305f29be9f762fd43e3e079545fa8b091d82a493",
-      "filesize": 1541943,
-      "dosboxArgs": [
-        "-c",
-        "config -set dos xms=false",
-        "-c",
-        "config -set dos ems=false"
-      ]
+      "filesize": 1541943
     },
     "美国海军战机": {
       "identifier": "美国海军战机",
@@ -10667,7 +10658,7 @@
       "name": {
         "zh-Hans": "魔法门"
       },
-      "executable": "mm",
+      "executable": "MM.EXE",
       "type": "RPG",
       "sha256": "2a3576cdfb197a72a2b0c4a93c5ba37f3a5bd0d962d6f7bda9038a172ed99ac8",
       "filesize": 253781,
@@ -12785,12 +12776,18 @@
       "sha256": "f8ec212ae313529d83d794efd7f8d029ab6e43926b75f8de34ebf7d9cf000c34",
       "filesize": 38153881,
       "dosboxArgs": [
-        "-c", "echo KEYBOARD=NORMAL>LEGEND.INI",
-        "-c", "echo MOUSE=MOUSE>>LEGEND.INI",
-        "-c", "echo FLCDATA=c:\\>>LEGEND.INI",
-        "-c", "echo PICDATA=c:\\>>LEGEND.INI",
-        "-c", "echo VOCDATA=c:\\>>LEGEND.INI",
-        "-c", "echo SAVEDATA=c:\\>>LEGEND.INI"
+        "-c",
+        "echo KEYBOARD=NORMAL>LEGEND.INI",
+        "-c",
+        "echo MOUSE=MOUSE>>LEGEND.INI",
+        "-c",
+        "echo FLCDATA=c:\\>>LEGEND.INI",
+        "-c",
+        "echo PICDATA=c:\\>>LEGEND.INI",
+        "-c",
+        "echo VOCDATA=c:\\>>LEGEND.INI",
+        "-c",
+        "echo SAVEDATA=c:\\>>LEGEND.INI"
       ]
     },
     "沙漠勇士": {
@@ -16827,7 +16824,7 @@
       "name": {
         "zh-Hans": "笑傲江湖"
       },
-      "executable": "SA",
+      "executable": "SA.BAT",
       "type": "RPG",
       "sha256": "69dab897164fc82efff5a1c58f5c347890b19932322fef3d3db225d215506737",
       "filesize": 8248295,
@@ -20150,9 +20147,12 @@
       "sha256": "9dfad8b43dcd5d805806778a545fe88dd3b0f23d3451a6e1ed91810056b0b6ee",
       "filesize": 5089874,
       "dosboxArgs": [
-        "-c", "echo @echo off>PLAY.BAT",
-        "-c", "echo runqbj>>PLAY.BAT",
-        "-c", "echo go>>PLAY.BAT"
+        "-c",
+        "echo @echo off>PLAY.BAT",
+        "-c",
+        "echo runqbj>>PLAY.BAT",
+        "-c",
+        "echo go>>PLAY.BAT"
       ]
     },
     "中国": {
