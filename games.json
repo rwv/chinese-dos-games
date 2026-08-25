@@ -2658,7 +2658,11 @@
       "type": "SPG",
       "sha256": "7b7ec97986d3862b31d713c914f33c45325edfda84a8d4b88b1f3944e4a73b5e",
       "filesize": 293818348,
-      "cdImage": "CD/SUPERSP_1.iso"
+      "cdImage": "CD/SUPERSP_1.iso",
+      "cdImages": [
+        "CD/SUPERSP_1.iso",
+        "CD/SUPERSP_2.iso"
+      ]
     },
     "超速驾驶": {
       "identifier": "超速驾驶",
@@ -5597,7 +5601,11 @@
       "type": "SPG",
       "sha256": "f1e1909e199661664649021ca12f4c7b096a23fab5505258d1f034b043feb4bb",
       "filesize": 371279888,
-      "cdImage": "CD/LOAK_1.iso"
+      "cdImage": "CD/LOAK_1.iso",
+      "cdImages": [
+        "CD/LOAK_1.iso",
+        "CD/LOAK_2.iso"
+      ]
     },
     "雇佣之枪": {
       "identifier": "雇佣之枪",
@@ -16473,7 +16481,11 @@
       "sha256": "31859911daf08159c12528f91cdbba0c461bedf2e03dd254f8f35ffe4a4f7354",
       "filesize": 263202944,
       "coverFilename": "cover.jpg",
-      "cdImage": "CD/SHK3_1.iso"
+      "cdImage": "CD/SHK3_1.iso",
+      "cdImages": [
+        "CD/SHK3_1.iso",
+        "CD/SHK3_2.iso"
+      ]
     },
     "侠客游2": {
       "identifier": "侠客游2",
@@ -17707,7 +17719,11 @@
       "cdrom": true,
       "filesize": 402136287,
       "coverFilename": "cover.jpg",
-      "cdImage": "CD/FDPS_1.iso"
+      "cdImage": "CD/FDPS_1.iso",
+      "cdImages": [
+        "CD/FDPS_1.iso",
+        "CD/FDPS_2.iso"
+      ]
     },
     "眼镜蛇任务": {
       "identifier": "眼镜蛇任务",

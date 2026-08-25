@@ -67,6 +67,22 @@ describe('buildDosboxConf', () => {
     expect(config).toContain('mount c .\nc:\necho patched>C:\\GAME.CFG\nGAME.EXE')
   })
 
+  test('mounts multiple CD images for disk swap', () => {
+    const config = buildDosboxConf(game({ cdImages: ['CD/D1.iso', 'CD/D2.iso'] }))
+
+    expect(config).toContain('imgmount d "./CD/D1.iso" "./CD/D2.iso" -t iso')
+  })
+
+  test('cdImages takes precedence over cdImage', () => {
+    const config = buildDosboxConf(game({
+      cdImage: 'CD/old.iso',
+      cdImages: ['CD/new1.iso', 'CD/new2.iso'],
+    }))
+
+    expect(config).toContain('imgmount d "./CD/new1.iso" "./CD/new2.iso" -t iso')
+    expect(config).not.toContain('old.iso')
+  })
+
   test('applies per-game DOS memory settings', () => {
     const config = buildDosboxConf(game({
       dosboxArgs: [
