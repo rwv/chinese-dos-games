@@ -2520,9 +2520,13 @@
       "executable": "play.exe",
       "type": "PUZ",
       "sha256": "2c569ee5378d7a59c2a70ed2fa6df6c3303ea8955016f88db2e587960c399da6",
-      "cdrom": false,
+      "cdrom": true,
       "filesize": 12004100,
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "dosboxArgs": [
+        "-c",
+        "cdx ."
+      ]
     },
     "超级星尘": {
       "identifier": "超级星尘",
@@ -6777,7 +6781,7 @@
       "executable": "hml.exe",
       "type": "SPG",
       "sha256": "5fc97bd1c0384da24b53cdee63649f7524629f829358fbb620e1425f2fc07c8e",
-      "cdrom": false,
+      "cdrom": true,
       "filesize": 39820811,
       "coverFilename": "cover.png"
     },
@@ -17642,7 +17646,7 @@
       "executable": "fdps",
       "type": "SPG",
       "sha256": "c3e84095967946841fa32a243e6f7baeac3ee3dd12aca512895a5a2f5e899db1",
-      "cdrom": false,
+      "cdrom": true,
       "filesize": 402136287,
       "coverFilename": "cover.jpg",
       "cdImage": "CD/FDPS_1.iso"
