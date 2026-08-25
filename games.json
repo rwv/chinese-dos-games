@@ -181,7 +181,10 @@
       "coverFilename": "cover.png",
       "sha256": "41c8c3678d5381561f22bc8a7df2eef15f9e24e10ef2a54801a14a1eb1854923",
       "filesize": 11231841,
-      "dosboxArgs": ["-c", "set dos4gvm=@emperor.vmc"]
+      "dosboxArgs": [
+        "-c",
+        "set dos4gvm=@emperor.vmc"
+      ]
     },
     "轩辕剑外传：枫之舞": {
       "identifier": "轩辕剑外传：枫之舞",
@@ -520,7 +523,8 @@
       "sha256": "c42078c96256441cec6b59c50db0348021d2d82da1382803d38741b6e3cf8606",
       "filesize": 1769326,
       "dosboxArgs": [
-        "-c", "config -set cpu cycles=max"
+        "-c",
+        "config -set cpu cycles=max"
       ]
     },
     "中国球王": {
@@ -2523,7 +2527,10 @@
       "cdrom": true,
       "filesize": 12004100,
       "coverFilename": "cover.png",
-      "dosboxArgs": ["-c", "cdx ."]
+      "dosboxArgs": [
+        "-c",
+        "cdx ."
+      ]
     },
     "超级星尘": {
       "identifier": "超级星尘",
@@ -2891,7 +2898,12 @@
       "type": "SLG",
       "sha256": "b1eec9909fab59bd2d5e86855e6e7f3c60a8536ec292902021daf16d474d943f",
       "filesize": 195654,
-      "dosboxArgs": ["-c", "echo @echo off>PLAY.BAT", "-c", "echo han>>PLAY.BAT"]
+      "dosboxArgs": [
+        "-c",
+        "echo @echo off>PLAY.BAT",
+        "-c",
+        "echo han>>PLAY.BAT"
+      ]
     },
     "楚汉之争2": {
       "identifier": "楚汉之争2",
@@ -8531,7 +8543,7 @@
       "name": {
         "zh-Hans": "凯兰蒂亚传奇2"
       },
-      "executable": "hof.exe",
+      "executable": "main.exe",
       "type": "AVG",
       "sha256": "0c7d548aef0adbd0b17776a3d2c4e42e1a98c247388e24651ca56d077fc56608",
       "filesize": 12128044
