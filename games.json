@@ -2955,7 +2955,7 @@
       "name": {
         "zh-Hans": "传说纪元黑暗之屋"
       },
-      "executable": "dark.exe",
+      "executable": "SIRON.BAT",
       "type": "RPG",
       "sha256": "3dd4c37cd99904f1255e0c80b2945a40bdf4f32d5ec2cb0b534f375a37005968",
       "cdrom": false,
