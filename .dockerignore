@@ -1,0 +1,14 @@
+# Docker context 根 (仓库根)
+# 不打包: 大数据/开发产物
+bin/
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.zcode/
+.vite/
+__pycache__/
+*.pyc
+.git/
+.zcode/
+frontend/.zcode/
+bin.backup/
