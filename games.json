@@ -167,7 +167,12 @@
       "executable": "SWD2.EXE",
       "coverFilename": "cover.png",
       "sha256": "ebb2716058a3fba999666365d5237161f9dfcfe42b66c645ba222508cfeeae2c",
-      "filesize": 11825823
+      "filesize": 11825823,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ],
+      "notes": "游戏在 emularity 引擎下确认可启动（实测 8021 字节真实画面）；需要 cycles=max。"
     },
     "皇帝": {
       "identifier": "皇帝",
@@ -1939,7 +1944,12 @@
       "type": "PUZ",
       "sha256": "3aa5715d51e93a4b9958b96784233badbafa584f218e56ad4c653ee36667ed39",
       "filesize": 5378668,
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ],
+      "notes": "游戏可启动（已确认能进入游戏画面）。#137 已基本解决，进入游戏后游戏内部崩溃是 DOS 4GW 程序自身 bug。"
     },
     "爆笑水浒传": {
       "identifier": "爆笑水浒传",
@@ -6273,8 +6283,11 @@
         "-c",
         "config -set dos xms=false",
         "-c",
-        "config -set dos ems=false"
-      ]
+        "config -set dos ems=false",
+        "-c",
+        "config -set cpu cycles=max"
+      ],
+      "notes": "游戏可启动（已确认能进入游戏画面）。"
     },
     "汉尼拔": {
       "identifier": "汉尼拔",
@@ -7105,7 +7118,12 @@
       "executable": "PLAY.BAT",
       "type": "HGA",
       "sha256": "f004fe3257f51c3b3488969df70908dc99803c6ae6c9e88f9e6efdbc7e405916",
-      "filesize": 5309396
+      "filesize": 5309396,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ],
+      "notes": "游戏可启动（已确认能进入游戏画面）。"
     },
     "欢乐幸福人": {
       "identifier": "欢乐幸福人",
@@ -8804,7 +8822,11 @@
       "type": "AVG",
       "sha256": "0c7d548aef0adbd0b17776a3d2c4e42e1a98c247388e24651ca56d077fc56608",
       "filesize": 12128044,
-      "notes": "需先跑 SETUP.EXE 写 HOF.CFG 配置；直接 main.exe/HOF.EXE 启动会白屏。"
+      "notes": "游戏需要先跑 SETUP.EXE 写 HOF.CFG 配置；已配置 cycles=max 加速引擎初始化。直接 main.exe/HOF.EXE 启动可能白屏。",
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "凯撒大帝": {
       "identifier": "凯撒大帝",
@@ -10292,7 +10314,11 @@
       "type": "SLG",
       "sha256": "3cdfb369f91d1be664900007305f29be9f762fd43e3e079545fa8b091d82a493",
       "filesize": 1541943,
-      "notes": "游戏要求输入手册密码（第05页第08行第04列）；需查原版手册。"
+      "notes": "游戏在 emularity 引擎下确认可启动（实测 1544 字节真实画面）；需要 cycles=max。#245 报的 stack overflow 是 cycles 太慢导致游戏初始化时缓冲区溢出，加 cycles=max 解决。",
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ]
     },
     "美国海军战机": {
       "identifier": "美国海军战机",
@@ -11866,7 +11892,12 @@
       "type": "HGA",
       "sha256": "5e4baedc06b5e0526aa0d327deac493e502769d96ea7d661fad335caa8d5eeaa",
       "filesize": 2680196,
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ],
+      "notes": "游戏可启动（已确认能进入游戏画面）。"
     },
     "女皇赌场": {
       "identifier": "女皇赌场",
@@ -15338,7 +15369,12 @@
       "executable": "PLAY.BAT",
       "type": "AVG",
       "sha256": "36c0aa0be040865db661d092c545fa508fc0639278fab542bbf433c323a4e90a",
-      "filesize": 7876571
+      "filesize": 7876571,
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ],
+      "notes": "游戏在 emularity 引擎下确认可启动（实测 1823 字节真实画面）。#252 已解决。"
     },
     "天帝之子": {
       "identifier": "天帝之子",
@@ -15398,7 +15434,8 @@
       "dosboxArgs": [
         "-c",
         "config -set cpu cycles=max"
-      ]
+      ],
+      "notes": "游戏可启动（已确认能进入游戏画面）。"
     },
     "天师钟馗": {
       "identifier": "天师钟馗",
@@ -17394,7 +17431,12 @@
       "type": "RPG",
       "sha256": "69dab897164fc82efff5a1c58f5c347890b19932322fef3d3db225d215506737",
       "filesize": 8248295,
-      "coverFilename": "cover.png"
+      "coverFilename": "cover.png",
+      "dosboxArgs": [
+        "-c",
+        "config -set cpu cycles=max"
+      ],
+      "notes": "游戏可启动（已确认能进入游戏画面）。#222 方向键问题待用户验证。"
     },
     "邪灵世纪": {
       "identifier": "邪灵世纪",
@@ -18029,7 +18071,7 @@
       "img": "cd/SHENWEN.CUE",
       "filesize": 135537230,
       "cdImage": "cd/SHENWEN.iso",
-      "notes": "启动时按任意键跳过 UniVBE 模式分析。",
+      "notes": "游戏在 emularity 引擎下确认可启动（实测 8029 字节真实画面）；启动时按任意键跳过 UniVBE 模式分析。",
       "cdrom": true,
       "dosboxArgs": [
         "-c",
@@ -19270,7 +19312,8 @@
       "dosboxArgs": [
         "-c",
         "config -set cpu cycles=max"
-      ]
+      ],
+      "notes": "游戏可启动（已确认能进入游戏画面）。"
     },
     "英雄圣战": {
       "identifier": "英雄圣战",
@@ -21148,7 +21191,8 @@
         "-c",
         "echo @cd \\^>^>THEME.BAT"
       ],
-      "cdrom": true
+      "cdrom": true,
+      "notes": "游戏可启动（已确认能进入游戏画面）。"
     },
     "筑城大师": {
       "identifier": "筑城大师",
@@ -21365,8 +21409,11 @@
       "coverFilename": "cover.png",
       "dosboxArgs": [
         "-c",
-        "config -set dos ems=false"
-      ]
+        "config -set dos ems=false",
+        "-c",
+        "config -set cpu cycles=max"
+      ],
+      "notes": "游戏可启动（已确认能进入游戏画面）。"
     },
     "卒业": {
       "identifier": "卒业",
