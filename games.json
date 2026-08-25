@@ -5450,9 +5450,9 @@
         "-c",
         "echo ; MDK Config >C:\\MDK.CFG",
         "-c",
-        "echo cddata = D:\\CDROM\\>>C:\\MDK.CFG",
+        "echo cddata = D:\\\\>>C:\\MDK.CFG",
         "-c",
-        "echo hddata = C:\\MDK>>C:\\MDK.CFG",
+        "echo hddata = C:\\\\>>C:\\MDK.CFG",
         "-c",
         "echo hduse = 2>>C:\\MDK.CFG",
         "-c",
@@ -5482,8 +5482,7 @@
         "-c",
         "echo ForcePCorrect = TRUE>>C:\\MDK.CFG"
       ],
-      "notes": "游戏在 dosbox 0.74-3 下报 DOS/4GW error Z001: divide by zero；emularity/js-dos 引擎下表现可能不同。",
-      "engine": "js-dos",
+      "notes": "游戏在 emularity 和 js-dos 8 引擎下都报 DOS/4GW error Z001: divide by zero，疑似 MDK 自身的 HMI 音频驱动初始化问题，需 1997 时代声卡环境。",
       "memsize": 32
     },
     "古堡之宴": {
@@ -6601,7 +6600,6 @@
       "filesize": 409866498,
       "cdImage": "HLM.cue",
       "notes": "C:\\HLM\\AUDIO\\MARK.DVD 文件缺失，zip 内未含完整 AUDIO 数据。",
-      "engine": "js-dos",
       "memsize": 32
     },
     "红猫1": {
@@ -8289,7 +8287,7 @@
       "img": "kknd.iso",
       "filesize": 395941826,
       "cdImage": "kknd.iso",
-      "notes": "KKND 的 LUL 引擎在 dosbox 0.74-3 S3 ViRGE 下初始化失败 (LUL_SysInit failed)，emularity/js-dos 引擎下表现可能不同。",
+      "notes": "游戏在 emularity (dosbox 0.74-3) 和 js-dos 8 (DOSBox-X) 引擎下都报 LUL_SysInit failed，KKND 1997 的私有 LUL 引擎需要未公开的 VESA 接口。",
       "dosboxArgs": [
         "-c",
         "echo ;Kknd config >KKND.CFG",
@@ -8310,8 +8308,7 @@
         "-c",
         "echo ScreenHeight    240>>KKND.CFG"
       ],
-      "engine": "js-dos",
-      "machine": "svga_et4000",
+      "machine": "svga_s3",
       "memsize": 32
     },
     "绝地-众神的诅咒": {
@@ -11029,7 +11026,6 @@
       "sha256": "d46e386719d02c44fc1b2e48406b0de1c827c875b1e20177556735597e020ba2",
       "filesize": 7332916,
       "notes": "PC-98 平台游戏，本项目仅支持 IBM PC 兼容 DOS。",
-      "engine": "js-dos",
       "machine": "svga_s3"
     },
     "魔界之泉灰石传奇": {
