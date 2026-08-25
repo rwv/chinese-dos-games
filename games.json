@@ -5479,7 +5479,8 @@
         "echo KeyTurbo = 45>>C:\\MDK.CFG",
         "-c",
         "echo ForcePCorrect = TRUE>>C:\\MDK.CFG"
-      ]
+      ],
+      "notes": "游戏在 dosbox 0.74-3 下报 DOS/4GW error Z001: divide by zero；emularity/js-dos 引擎下表现可能不同。"
     },
     "古堡之宴": {
       "identifier": "古堡之宴",
@@ -6594,7 +6595,8 @@
       "img": "HLM.cue",
       "coverFilename": "cover.jpg",
       "filesize": 409866498,
-      "cdImage": "HLM.cue"
+      "cdImage": "HLM.cue",
+      "notes": "C:\\HLM\\AUDIO\\MARK.DVD 文件缺失，zip 内未含完整 AUDIO 数据。"
     },
     "红猫1": {
       "identifier": "红猫1",
@@ -7823,7 +7825,8 @@
       "sha256": "cd6305ff8816c2802708d14a503b6ae931fcc29610461dcc277d48c62fe69308",
       "img": "CD/JXQY.cue",
       "filesize": 78443429,
-      "cdImage": "CD/JXQY.cue"
+      "cdImage": "CD/JXQY.cue",
+      "notes": "游戏多盘（需要二号碟），zip 可能仅含第一张。"
     },
     "舰队守护神": {
       "identifier": "舰队守护神",
@@ -8279,7 +8282,8 @@
       "sha256": "65f45918327c237363ed04291d15134f195f766e36eef2d5f4312e5bc0c7d983",
       "img": "kknd.iso",
       "filesize": 395941826,
-      "cdImage": "kknd.iso"
+      "cdImage": "kknd.iso",
+      "notes": "游戏在 dosbox 0.74-3 下卡在 LUL_SysInit failed (S3 ViRGE 视频驱动兼容性)；emularity/js-dos 引擎下表现可能不同。"
     },
     "绝地-众神的诅咒": {
       "identifier": "绝地-众神的诅咒",
@@ -10994,7 +10998,8 @@
       "executable": "PLAY.BAT",
       "type": "SPG",
       "sha256": "d46e386719d02c44fc1b2e48406b0de1c827c875b1e20177556735597e020ba2",
-      "filesize": 7332916
+      "filesize": 7332916,
+      "notes": "游戏在 dosbox 0.74-3 下文本乱码/黑屏，疑似字体或视频模式兼容问题。"
     },
     "魔界之泉灰石传奇": {
       "identifier": "魔界之泉灰石传奇",
