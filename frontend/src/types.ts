@@ -23,6 +23,9 @@ export interface GameInfo {
   bootImage?: string
   dosboxArgs?: string[]
   notes?: string
+  machine?: string
+  memsize?: number
+  engine?: 'emularity' | 'js-dos'
   type?: string
   img?: string
 }

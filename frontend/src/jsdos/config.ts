@@ -66,8 +66,8 @@ autolock=false
 fullscreen=false
 
 [dosbox]
-machine=svga_s3
-memsize=16
+machine=${game.machine ?? 'svga_s3'}
+memsize=${game.memsize ?? 16}
 
 [cpu]
 core=auto

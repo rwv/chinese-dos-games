@@ -8,7 +8,11 @@ import { useNameLocale } from '../hooks/useNameLocale'
 
 type Engine = 'emularity' | 'js-dos'
 
-function initialEngine(): Engine {
+function initialEngine(game?: GameInfo | null): Engine {
+  // per-game 优先设置 > 用户选择 > emularity 默认
+  if (game?.engine === 'js-dos' || game?.engine === 'emularity') {
+    return game.engine
+  }
   return localStorage.getItem('dos-engine') === 'js-dos' ? 'js-dos' : 'emularity'
 }
 
@@ -23,7 +27,13 @@ export default function GamePage() {
   useEffect(() => {
     if (!identifier) return
     fetchGame(decodeURIComponent(identifier))
-      .then(setGame)
+      .then((g) => {
+        setGame(g)
+        // per-game engine 偏好比 localStorage 优先
+        if (g.engine === 'js-dos' || g.engine === 'emularity') {
+          setEngine(g.engine)
+        }
+      })
       .catch((reason) => setError(reason instanceof Error ? reason.message : String(reason)))
       .finally(() => setLoading(false))
   }, [identifier])
@@ -32,6 +42,10 @@ export default function GamePage() {
     localStorage.setItem('dos-engine', next)
     setEngine(next)
   }
+
+  // per-game 偏好被用户手动覆盖后, 提示可重置
+  const isForcedEngine = game?.engine === 'js-dos' || game?.engine === 'emularity'
+  const engineOverridden = isForcedEngine && engine !== game?.engine
 
   if (loading) return <div className="p-8 text-center text-gray-500">加载中…</div>
   if (error) return <div className="p-8 text-center text-red-500">{error}</div>
@@ -50,14 +64,22 @@ export default function GamePage() {
               onClick={() => selectEngine('emularity')}
               className={`rounded border px-3 py-1 text-sm ${engine === 'emularity' ? 'border-blue-500 bg-blue-50 text-blue-700' : 'border-gray-300 hover:bg-gray-100'}`}
             >
-              emularity（稳定）
+              emularity{game.engine === 'emularity' ? '（推荐）' : '（稳定）'}
             </button>
             <button
               onClick={() => selectEngine('js-dos')}
               className={`rounded border px-3 py-1 text-sm ${engine === 'js-dos' ? 'border-blue-500 bg-blue-50 text-blue-700' : 'border-gray-300 hover:bg-gray-100'}`}
             >
-              js-dos（试用）
+              js-dos{game.engine === 'js-dos' ? '（推荐）' : '（试用）'}
             </button>
+            {engineOverridden && (
+              <button
+                onClick={() => setEngine(game?.engine ?? 'emularity')}
+                className="rounded border border-amber-300 bg-amber-50 px-3 py-1 text-sm text-amber-700 hover:bg-amber-100"
+              >
+                恢复推荐
+              </button>
+            )}
           </div>
 
           {engine === 'js-dos'
