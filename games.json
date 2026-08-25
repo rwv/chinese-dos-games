@@ -5448,13 +5448,15 @@
       "cdromPath": "CDROM",
       "dosboxArgs": [
         "-c",
-        "echo cddata = D:\\>C:\\MDK.CFG",
+        "echo ; MDK Config >C:\\MDK.CFG",
         "-c",
-        "echo hddata = C:\\>>C:\\MDK.CFG",
+        "echo cddata = D:\\CDROM\\>>C:\\MDK.CFG",
+        "-c",
+        "echo hddata = C:\\MDK>>C:\\MDK.CFG",
         "-c",
         "echo hduse = 2>>C:\\MDK.CFG",
         "-c",
-        "echo SoundIDX = 7>>C:\\MDK.CFG",
+        "echo SoundIDX = 6>>C:\\MDK.CFG",
         "-c",
         "echo SoundID = 0xE024>>C:\\MDK.CFG",
         "-c",
@@ -7826,7 +7828,7 @@
       "img": "CD/JXQY.cue",
       "filesize": 78443429,
       "cdImage": "CD/JXQY.cue",
-      "notes": "游戏多盘（需要二号碟），zip 可能仅含第一张。"
+      "notes": "zip 仅含 1 张光碟（CD/JXQY.cue），游戏后期需二号碟。"
     },
     "舰队守护神": {
       "identifier": "舰队守护神",
@@ -8283,7 +8285,27 @@
       "img": "kknd.iso",
       "filesize": 395941826,
       "cdImage": "kknd.iso",
-      "notes": "游戏在 dosbox 0.74-3 下卡在 LUL_SysInit failed (S3 ViRGE 视频驱动兼容性)；emularity/js-dos 引擎下表现可能不同。"
+      "notes": "KKND 的 LUL 引擎在 dosbox 0.74-3 S3 ViRGE 下初始化失败 (LUL_SysInit failed)，emularity/js-dos 引擎下表现可能不同。",
+      "dosboxArgs": [
+        "-c",
+        "echo ;Kknd config >KKND.CFG",
+        "-c",
+        "echo ;Setup File for K.K.N.D>>KKND.CFG",
+        "-c",
+        "echo ;Version 1.0>>KKND.CFG",
+        "-c",
+        "echo [Screen Setup]>>KKND.CFG",
+        "-c",
+        "echo ScreenMode      0>>KKND.CFG",
+        "-c",
+        "echo ScreenLinear    No>>KKND.CFG",
+        "-c",
+        "echo DisableVBE      Yes>>KKND.CFG",
+        "-c",
+        "echo ScreenWidth     320>>KKND.CFG",
+        "-c",
+        "echo ScreenHeight    240>>KKND.CFG"
+      ]
     },
     "绝地-众神的诅咒": {
       "identifier": "绝地-众神的诅咒",
@@ -10999,7 +11021,7 @@
       "type": "SPG",
       "sha256": "d46e386719d02c44fc1b2e48406b0de1c827c875b1e20177556735597e020ba2",
       "filesize": 7332916,
-      "notes": "游戏在 dosbox 0.74-3 下文本乱码/黑屏，疑似字体或视频模式兼容问题。"
+      "notes": "PC-98 平台游戏，本项目仅支持 IBM PC 兼容 DOS。"
     },
     "魔界之泉灰石传奇": {
       "identifier": "魔界之泉灰石传奇",
